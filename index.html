@@ -3,29 +3,59 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lớp 2 Mastery — Hệ thống học tăng tốc Toán + Tiếng Việt</title>
-<meta name="description" content="Bộ dữ liệu kỹ năng, mastery model và đặc tả sản phẩm cho hệ thống học tập thông minh lớp 2 (Toán + Tiếng Việt), xây dựng từ 4 bộ SGK chương trình mới.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%230e7490'/><text x='50' y='66' font-size='46' text-anchor='middle' fill='white' font-family='Arial'>2</text></svg>">
+<title>Lớp 2 Mastery — Học ít hơn · Hiểu sâu hơn · Nhớ lâu hơn</title>
+<meta name="description" content="Ứng dụng học online cho học sinh lớp 2: Toán và Tiếng Việt theo năng lực, mastery learning, spaced repetition, bản đồ kiến thức và phân tích lỗi — xây dựng từ 4 bộ SGK chương trình mới.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Baloo+2:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%232563eb'/><text x='50' y='66' font-size='46' text-anchor='middle' fill='white' font-family='Arial'>2</text></svg>">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="topbar">
-  <div class="brand" data-route="home">
-    <span class="logo">2</span>
-    <span class="brand-text"><b>Lớp 2 Mastery</b><small>Toán + Tiếng Việt · Học theo năng lực</small></span>
+<div class="shell">
+  <aside class="sidebar" id="sidebar">
+    <a class="side-brand" href="#/">
+      <span class="logo">⭐</span>
+      <span class="brand-text"><b>LỚP 2 MASTERY</b><small>Học ít hơn • Hiểu sâu hơn • Nhớ lâu hơn</small></span>
+    </a>
+    <nav class="side-nav" id="sideNav"></nav>
+    <div class="side-profile">
+      <span class="avatar" id="sideAvatar">👦</span>
+      <span><b id="sideName">Bé Minh</b><small id="sideClass">Lớp 2A</small></span>
+    </div>
+  </aside>
+  <div class="main-col">
+    <header class="topbar">
+      <div class="top-search" id="searchBox">
+        <span class="search-icon">🔍</span>
+        <input id="searchInput" type="search" placeholder="Tìm bài học, kỹ năng, bài tập..." autocomplete="off">
+        <div class="search-results" id="searchResults" hidden></div>
+      </div>
+      <div class="top-right">
+        <span class="pill streak" title="Chuỗi ngày học liên tục">🔥 <b id="streakNum">0</b></span>
+        <span class="pill xp" title="Điểm kinh nghiệm">⭐ <b id="xpNum">0</b> XP</span>
+        <button class="icon-btn" id="rewardBtn" title="Phần thưởng">🎁</button>
+        <button class="icon-btn" id="notifBtn" title="Thông báo">🔔<span class="dot" id="notifDot" hidden></span></button>
+        <div class="top-profile">
+          <span class="avatar" id="topAvatar">👦</span>
+          <span class="tp-text"><b id="topName">Bé Minh</b><small id="topClass">Lớp 2A</small></span>
+        </div>
+      </div>
+    </header>
+    <main id="app" class="app"></main>
+    <footer class="app-footer">
+      <p><b>LỚP 2 MASTERY</b> — dự án học tập: “Học ít hơn – Hiểu sâu hơn – Nhớ lâu hơn – Làm chủ tương lai”.</p>
+      <p class="muted small">Nền tảng dữ liệu từ SGK Toán 2 (Tập 1, 2) và SGK Tiếng Việt 2 (Tập 1, 2) — Bộ Kết nối tri thức với cuộc sống, NXB Giáo dục Việt Nam. Bài tập trong app là bài mới tương đương dạng SGK; nội dung không sao chép nguyên văn sách. Tiến độ học được lưu riêng trên trình duyệt của bạn.</p>
+    </footer>
   </div>
-  <nav class="nav" id="nav"></nav>
-  <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
-</header>
-<main id="app" class="app"></main>
-<footer class="footer">
-  <div class="footer-inner">
-    <p><b>Lớp 2 Mastery</b> — dự án học tập: dataset &amp; product spec từ 4 SGK chương trình mới.</p>
-    <p class="muted">SGK Toán 2 (Tập 1, 2) · SGK Tiếng Việt 2 (Tập 1, 2) — Bộ Kết nối tri thức với cuộc sống, NXB Giáo dục Việt Nam.</p>
-    <p class="muted small">Bài tập trong dataset là bài mới tương đương dạng SGK; nội dung không sao chép nguyên văn sách.</p>
-  </div>
-</footer>
+</div>
+<nav class="bottom-nav" id="bottomNav"></nav>
+<div class="modal" id="modal" hidden>
+  <div class="modal-backdrop" data-close="1"></div>
+  <div class="modal-card" id="modalCard"></div>
+</div>
 <script src="js/app.js"></script>
 <script src="js/views.js"></script>
+<script src="js/learn.js"></script>
 </body>
 </html>
