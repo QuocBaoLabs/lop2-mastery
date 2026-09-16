@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Trả lời câu hỏi 'Hôm nay trẻ nên học gì?' bằng Priority Score 0–100.",
+  "priority_formula": {
+    "raw": "PriorityScore = W1*Importance + W2*Weakness + W3*ForgettingRisk + W4*DependencyWeight + W5*DueForReview",
+    "weights": {"W1_importance": 0.30, "W2_weakness": 0.25, "W3_forgetting_risk": 0.20, "W4_dependency_weight": 0.15, "W5_due_for_review": 0.10},
+    "normalization": "Các thành phần được chuẩn hóa về 0–100 trước khi nhân trọng số; tổng chuẩn hóa thành 0–100.",
+    "components": {
+      "Importance": "importance_score của skill (0–100).",
+      "Weakness": "100 - mastery_score*25 (mastery_score 0–4); sai gần đây cộng thêm penalty.",
+      "ForgettingRisk": "Dựa trên đường cong quên: retention_score ước tính từ số lần ôn thành công và khoảng cách ngày so với last_tested.",
+      "DependencyWeight": "Số skill chưa học đang phụ thuộc trực tiếp vào skill này + hệ số grade3_foundation.",
+      "DueForReview": "100 nếu next_review <= hôm nay, 50 nếu đến hạn trong 2 ngày tới, 0 nếu còn xa."
+    }
+  },
+  "prerequisite_gating": "Skill chỉ được đề xuất học mới khi tất cả prerequisite đạt tối thiểu M3 (hoặc M2 với skill C). Nếu có prerequisite đỏ: đề xuất học lại prerequisite trước, kèm giải thích cho phụ huynh.",
+  "daily_plan_template": {
+    "new_skills": {"min": 1, "max": 2, "note": "Chọn skill mới có PriorityScore cao nhất trong số skill đủ điều kiện prerequisite."},
+    "review_skills": {"min": 1, "max": 3, "note": "Chọn từ lịch spaced repetition đến hạn, ưu tiên CORE và GRADE_3_FOUNDATION."},
+    "mastery_check": {"min": 0, "max": 1, "note": "Chỉ khi có skill vừa hoàn thành luyện tập đạt ngưỡng, hoặc skill CORE đến chu kỳ kiểm tra lại."},
+    "session_length_minutes": {"default": 20, "max": 30, "note": "Không quá tải: tổng ≤ 5 hoạt động/buổi."}
+  },
+  "recommendation_explainability": "Mọi đề xuất phải kèm lý do 1 câu dễ hiểu cho phụ huynh, vd: 'Con đang yếu phần trừ có nhớ và đã 14 ngày chưa ôn — nên ôn hôm nay.'"
+}

@@ -1,0 +1,550 @@
+[
+  {
+    "skill_id": "MATH_WORD_PROBLEM_COMPARE_001",
+    "subject": "MATH",
+    "domain": "Bài toán có lời văn",
+    "subdomain": "Nhiều hơn, ít hơn một số đơn vị",
+    "name": "Bài toán về nhiều hơn, ít hơn một số đơn vị",
+    "description": "Giải bài toán 'nhiều hơn' (cộng), 'ít hơn' (trừ) một số đơn vị; trình bày đủ 3 bước.",
+    "importance_level": "A",
+    "importance_score": 92,
+    "reason_importance": "Dạng lời văn nền tảng; gắn liền nghĩa của phép cộng/trừ, lặp lại đến lớp 5.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_WORD_PROBLEM_ONE_STEP_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math1",
+        "volume": "Tập 1",
+        "lesson": "Bài 13. Bài toán về nhiều hơn, ít hơn một số đơn vị",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa phân biệt được nhiều hơn/ít hơn nên dùng phép gì.",
+      "level_1": "Giải đúng khi được gợi ý từ khóa.",
+      "level_2": "Tự giải được nhưng đôi khi đảo phép tính giữa 2 dạng.",
+      "level_3": "Giải đúng 4/5 bài cả hai dạng, trình bày đủ 3 bước.",
+      "level_4": "Giải đúng, giải thích được 'nhiều hơn thì cộng, ít hơn thì trừ', tự đặt đề."
+    },
+    "mastery_check_rule": "4 bài (2 nhiều hơn + 2 ít hơn); đạt M3 khi đúng ≥ 3/4.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_MEASURE_MASS_001",
+    "subject": "MATH",
+    "domain": "Đo lường",
+    "subdomain": "Khối lượng",
+    "name": "Ki-lô-gam (kg)",
+    "description": "Nhận biết đơn vị kg; đọc cân; so sánh, ước lượng và giải toán có kg.",
+    "importance_level": "B",
+    "importance_score": 80,
+    "reason_importance": "Đơn vị đo thông dụng đời sống; nền cho gam ở lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_NUM_COMPARE_100_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math1",
+        "volume": "Tập 1",
+        "lesson": "Bài 15. Ki-lô-gam",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa biết kg.",
+      "level_1": "Đọc cân khi được chỉ vạch giúp.",
+      "level_2": "Tự đọc cân nhưng đôi khi đọc lệch vạch hoặc so sánh sai.",
+      "level_3": "Đọc cân đúng 4/5 lần, so sánh đúng khối lượng, giải đúng bài toán có kg.",
+      "level_4": "Ước lượng hợp lý khối lượng vật quen thuộc và giải thích được cách đọc cân."
+    },
+    "mastery_check_rule": "5 câu (đọc cân, so sánh, 1 bài lời văn); đạt M3 khi đúng ≥ 4/5.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_MEASURE_CAPACITY_001",
+    "subject": "MATH",
+    "domain": "Đo lường",
+    "subdomain": "Dung tích",
+    "name": "Lít (l)",
+    "description": "Nhận biết đơn vị lít; đọc lượng nước theo vạch; so sánh, cộng trừ và giải toán có lít.",
+    "importance_level": "B",
+    "importance_score": 80,
+    "reason_importance": "Đơn vị đo thông dụng; nền cho mi-li-lít lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_NUM_COMPARE_100_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math1",
+        "volume": "Tập 1",
+        "lesson": "Bài 16. Lít",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa biết lít.",
+      "level_1": "Đọc lượng nước khi được chỉ vạch giúp.",
+      "level_2": "Tự đọc được nhưng còn nhầm vạch hoặc so sánh sai.",
+      "level_3": "Đọc đúng 4/5 lần, so sánh và cộng/trừ số đo lít đúng, giải đúng bài toán có lít.",
+      "level_4": "Ước lượng hợp lý dung tích vật quen thuộc và giải thích cách đọc vạch."
+    },
+    "mastery_check_rule": "5 câu (đọc vạch, so sánh, 1 bài lời văn); đạt M3 khi đúng ≥ 4/5.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_MEASURE_PRACTICE_001",
+    "subject": "MATH",
+    "domain": "Đo lường",
+    "subdomain": "Thực hành đo lường",
+    "name": "Thực hành và trải nghiệm với kg, lít",
+    "description": "Thực hành cân, đo dung tích vật thật; ước lượng rồi kiểm chứng; vận dụng kg và lít trong tình huống thực.",
+    "importance_level": "C",
+    "importance_score": 58,
+    "reason_importance": "Củng cố trực quan hai đơn vị đo; kỹ năng trải nghiệm, không phải kiến thức trọng tâm thi cử.",
+    "grade3_foundation": false,
+    "prerequisites": [
+      "MATH_MEASURE_MASS_001",
+      "MATH_MEASURE_CAPACITY_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math1",
+        "volume": "Tập 1",
+        "lesson": "Bài 17. Thực hành và trải nghiệm với các đơn vị ki-lô-gam, lít",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa thực hành đo được.",
+      "level_1": "Thực hành được khi giáo viên hướng dẫn thao tác.",
+      "level_2": "Tự thao tác được nhưng ước lượng còn xa thực tế.",
+      "level_3": "Ước lượng hợp lý rồi kiểm chứng bằng cân/ca đong trong 2 tình huống thực.",
+      "level_4": "Tổ chức được hoạt động đo và nói rõ cách so sánh kết quả ước lượng – thực tế."
+    },
+    "mastery_check_rule": "Đánh giá bằng 1 hoạt động thực hành (ước lượng – đo – đối chiếu); đạt M3 khi hoàn thành đúng quy trình.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_ADD_CARRY_100_001",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Cộng có nhớ trong phạm vi 100",
+    "name": "Cộng có nhớ: 2 chữ số + 1 chữ số",
+    "description": "Đặt tính và tính phép cộng có nhớ dạng số có hai chữ số cộng số có một chữ số (vd 37 + 5).",
+    "importance_level": "A",
+    "importance_score": 95,
+    "reason_importance": "Bước đầu của cộng có nhớ — một trong những kỹ năng quan trọng nhất lớp 2, nền trực tiếp cho lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_ADD_BRIDGE10_001",
+      "MATH_NUM_PLACE_VALUE_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math1",
+        "volume": "Tập 1",
+        "lesson": "Bài 19. Phép cộng (có nhớ) số có hai chữ số với số có một chữ số",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa hiểu 'nhớ 1'.",
+      "level_1": "Làm đúng khi được hướng dẫn từng bước (đơn vị → nhớ → chục).",
+      "level_2": "Tự làm đúng phần lớn nhưng quên nhớ 1–2 lần/10 câu.",
+      "level_3": "Làm đúng ≥ 8/10 câu không nhắc, cả đặt tính và nhẩm, giải được 1 bài vận dụng.",
+      "level_4": "Làm đúng ổn định, giải thích được vì sao phải nhớ 1, xử lý dạng 3 số hạng có nhớ."
+    },
+    "mastery_check_rule": "10 câu đặt tính + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_ADD_CARRY_100_002",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Cộng có nhớ trong phạm vi 100",
+    "name": "Cộng có nhớ: 2 chữ số + 2 chữ số",
+    "description": "Đặt tính và tính phép cộng có nhớ dạng số có hai chữ số cộng số có hai chữ số (vd 46 + 27).",
+    "importance_level": "A",
+    "importance_score": 95,
+    "reason_importance": "Hoàn thiện kỹ năng cộng có nhớ trong phạm vi 100; nền trực tiếp cho cộng có nhớ phạm vi 1000.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_ADD_CARRY_100_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math1",
+        "volume": "Tập 1",
+        "lesson": "Bài 20. Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa làm được dạng 2 chữ số + 2 chữ số có nhớ.",
+      "level_1": "Làm đúng khi được làm mẫu từng bước.",
+      "level_2": "Tự làm đúng phần lớn nhưng quên nhớ hoặc lệch cột vài lần/10 câu.",
+      "level_3": "Làm đúng ≥ 8/10 câu không nhắc, cả đặt tính và nhẩm, giải được 1 bài vận dụng.",
+      "level_4": "Làm đúng ổn định, giải thích được quy trình nhớ, phát hiện phép đặt sai cột."
+    },
+    "mastery_check_rule": "10 câu đặt tính + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_SUB_BORROW_100_001",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Trừ có nhớ trong phạm vi 100",
+    "name": "Trừ có nhớ: 2 chữ số − 1 chữ số",
+    "description": "Đặt tính và tính phép trừ có nhớ dạng số có hai chữ số trừ số có một chữ số (vd 32 − 5).",
+    "importance_level": "A",
+    "importance_score": 95,
+    "reason_importance": "Bước đầu của trừ có nhớ — kỹ năng khó bậc nhất lớp 2, nền trực tiếp cho lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_SUB_BRIDGE10_001",
+      "MATH_NUM_PLACE_VALUE_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math1",
+        "volume": "Tập 1",
+        "lesson": "Bài 22. Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa hiểu 'mượn 1 chục'.",
+      "level_1": "Làm đúng khi được hướng dẫn từng bước (mượn → trừ → trả).",
+      "level_2": "Tự làm đúng phần lớn nhưng quên mượn 1–2 lần/10 câu.",
+      "level_3": "Làm đúng ≥ 8/10 câu không nhắc, cả đặt tính và nhẩm, giải được 1 bài vận dụng.",
+      "level_4": "Làm đúng ổn định, giải thích được vì sao phải mượn 1 chục = 10 đơn vị, xử lý dạng biến đổi."
+    },
+    "mastery_check_rule": "10 câu đặt tính + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_SUB_BORROW_100_002",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Trừ có nhớ trong phạm vi 100",
+    "name": "Trừ có nhớ: 2 chữ số − 2 chữ số",
+    "description": "Đặt tính và tính phép trừ có nhớ dạng số có hai chữ số trừ số có hai chữ số (vd 52 − 36).",
+    "importance_level": "A",
+    "importance_score": 95,
+    "reason_importance": "Hoàn thiện kỹ năng trừ có nhớ trong phạm vi 100; nền trực tiếp cho trừ có nhớ phạm vi 1000.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_SUB_BORROW_100_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math1",
+        "volume": "Tập 1",
+        "lesson": "Bài 23. Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa làm được dạng 2 chữ số − 2 chữ số có nhớ.",
+      "level_1": "Làm đúng khi được làm mẫu từng bước.",
+      "level_2": "Tự làm đúng phần lớn nhưng quên mượn hoặc lệch cột vài lần/10 câu.",
+      "level_3": "Làm đúng ≥ 8/10 câu không nhắc, cả đặt tính và nhẩm, giải được 1 bài vận dụng.",
+      "level_4": "Làm đúng ổn định, giải thích được quy trình mượn/trả, kiểm tra được kết quả bằng phép cộng."
+    },
+    "mastery_check_rule": "10 câu đặt tính + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_GEO_POINT_LINE_001",
+    "subject": "MATH",
+    "domain": "Hình học",
+    "subdomain": "Điểm, đoạn thẳng",
+    "name": "Điểm, đoạn thẳng",
+    "description": "Nhận biết điểm, đoạn thẳng; gọi tên; đo và vẽ đoạn thẳng có độ dài cho trước.",
+    "importance_level": "B",
+    "importance_score": 76,
+    "reason_importance": "Khái niệm hình học đầu tiên; nền cho chu vi, hình học lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [],
+    "source_refs": [
+      {
+        "book": "math1",
+        "volume": "Tập 1",
+        "lesson": "Bài 25. Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa phân biệt được điểm và đoạn thẳng.",
+      "level_1": "Gọi tên được khi có mẫu.",
+      "level_2": "Tự gọi tên được nhưng vẽ đoạn thẳng chưa chính xác độ dài.",
+      "level_3": "Gọi tên đúng, vẽ đúng đoạn thẳng có độ dài cho trước 4/5 lần (sai số nhỏ).",
+      "level_4": "Vẽ chính xác, giải thích được đoạn thẳng có hai đầu mút, đo đúng bằng thước."
+    },
+    "mastery_check_rule": "5 câu (gọi tên + vẽ/đo); đạt M3 khi đúng ≥ 4/5.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_GEO_LINE_TYPES_001",
+    "subject": "MATH",
+    "domain": "Hình học",
+    "subdomain": "Đường thẳng, đường cong",
+    "name": "Đường thẳng, đường cong, ba điểm thẳng hàng",
+    "description": "Phân biệt đường thẳng và đường cong; nhận biết ba điểm thẳng hàng trong hình vẽ.",
+    "importance_level": "B",
+    "importance_score": 70,
+    "reason_importance": "Vốn hình học nền cho quan hệ thẳng hàng, đường thẳng ở lớp 3–4.",
+    "grade3_foundation": false,
+    "prerequisites": [
+      "MATH_GEO_POINT_LINE_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math1",
+        "volume": "Tập 1",
+        "lesson": "Bài 25. Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa phân biệt được đường thẳng/đường cong.",
+      "level_1": "Phân biệt được khi có mẫu.",
+      "level_2": "Tự phân biệt được nhưng nhận diện ba điểm thẳng hàng còn nhầm.",
+      "level_3": "Phân loại đúng 8/10 đường, nhận biết đúng bộ ba điểm thẳng hàng trong 4/5 hình.",
+      "level_4": "Giải thích được vì sao ba điểm thẳng hàng (cùng nằm trên một đường thẳng)."
+    },
+    "mastery_check_rule": "5 câu; đạt M3 khi đúng ≥ 4/5.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_GEO_POLYLINE_001",
+    "subject": "MATH",
+    "domain": "Hình học",
+    "subdomain": "Đường gấp khúc",
+    "name": "Đường gấp khúc và độ dài đường gấp khúc",
+    "description": "Nhận biết đường gấp khúc, các đoạn thẳng tạo thành; tính độ dài đường gấp khúc bằng tổng các đoạn.",
+    "importance_level": "B",
+    "importance_score": 78,
+    "reason_importance": "Nền trực tiếp cho chu vi hình tam giác/tứ giác lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_GEO_POINT_LINE_001",
+      "MATH_ADD_CARRY_100_002"
+    ],
+    "source_refs": [
+      {
+        "book": "math1",
+        "volume": "Tập 1",
+        "lesson": "Bài 26. Đường gấp khúc. Hình tứ giác",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa nhận biết đường gấp khúc.",
+      "level_1": "Tính được độ dài khi được chỉ từng đoạn.",
+      "level_2": "Tự tính được nhưng thiếu đoạn hoặc cộng nhầm.",
+      "level_3": "Tính đúng độ dài đường gấp khúc 4/5 bài (3–4 đoạn).",
+      "level_4": "Tính đúng, giải thích được 'độ dài đường gấp khúc = tổng các đoạn thẳng thành phần'."
+    },
+    "mastery_check_rule": "5 bài tính độ dài; đạt M3 khi đúng ≥ 4/5.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_GEO_QUAD_001",
+    "subject": "MATH",
+    "domain": "Hình học",
+    "subdomain": "Hình tứ giác",
+    "name": "Hình tứ giác",
+    "description": "Nhận biết hình tứ giác qua 4 đỉnh, 4 cạnh; gọi tên; phân biệt với hình tam giác.",
+    "importance_level": "B",
+    "importance_score": 72,
+    "reason_importance": "Khái niệm hình phẳng nền cho chu vi, diện tích lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_GEO_POINT_LINE_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math1",
+        "volume": "Tập 1",
+        "lesson": "Bài 26. Đường gấp khúc. Hình tứ giác",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa nhận biết hình tứ giác.",
+      "level_1": "Nhận biết được khi có mẫu.",
+      "level_2": "Tự nhận biết được nhưng đếm nhầm hình ghép từ nhiều tứ giác.",
+      "level_3": "Nhận biết và đếm đúng số hình tứ giác trong 4/5 hình ghép đơn giản.",
+      "level_4": "Giải thích được đặc điểm 4 đỉnh 4 cạnh, tìm đúng hình tứ giác trong hình phức tạp."
+    },
+    "mastery_check_rule": "5 câu (nhận biết + đếm hình); đạt M3 khi đúng ≥ 4/5.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_GEO_PRACTICE_001",
+    "subject": "MATH",
+    "domain": "Hình học",
+    "subdomain": "Thực hành hình học",
+    "name": "Gấp, cắt, ghép, xếp hình; vẽ đoạn thẳng",
+    "description": "Thực hành gấp/cắt/ghép/xếp hình theo mẫu; vẽ đoạn thẳng đúng độ dài bằng thước.",
+    "importance_level": "C",
+    "importance_score": 55,
+    "reason_importance": "Rèn trực giác hình học và thao tác tay; bổ trợ, không phải kiến thức thi cốt lõi.",
+    "grade3_foundation": false,
+    "prerequisites": [
+      "MATH_GEO_POINT_LINE_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math1",
+        "volume": "Tập 1",
+        "lesson": "Bài 27. Thực hành gấp, cắt, ghép, xếp hình. Vẽ đoạn thẳng",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa thao tác được.",
+      "level_1": "Thao tác được khi làm mẫu từng bước.",
+      "level_2": "Tự thao tác được nhưng sản phẩm chưa khớp mẫu hoàn toàn.",
+      "level_3": "Hoàn thành 2 sản phẩm gấp/cắt/ghép đúng mẫu và vẽ đúng đoạn thẳng cho trước.",
+      "level_4": "Sáng tạo hình ghép mới và mô tả được cách làm."
+    },
+    "mastery_check_rule": "Đánh giá bằng sản phẩm thực hành; đạt M3 khi hoàn thành đúng 2/2 nhiệm vụ.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_TIME_CLOCK_001",
+    "subject": "MATH",
+    "domain": "Đo lường",
+    "subdomain": "Thời gian",
+    "name": "Xem đồng hồ: giờ, giờ – phút",
+    "description": "Đọc giờ đúng, giờ hơn, giờ – phút trên đồng hồ kim; biết 1 giờ = 60 phút, 1 ngày = 24 giờ.",
+    "importance_level": "A",
+    "importance_score": 86,
+    "reason_importance": "Kỹ năng sống hằng ngày; nền cho phút/giây và tính thời gian lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_NUM_READ_WRITE_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math1",
+        "volume": "Tập 1",
+        "lesson": "Bài 29. Ngày – giờ, giờ – phút",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa đọc được đồng hồ.",
+      "level_1": "Đọc được giờ đúng khi được chỉ kim giúp.",
+      "level_2": "Tự đọc được giờ đúng, giờ hơn; giờ – phút còn nhầm kim.",
+      "level_3": "Đọc đúng 8/10 đồng hồ (giờ đúng, giờ hơn, giờ – phút), nói đúng 1 giờ = 60 phút.",
+      "level_4": "Đọc đúng mọi dạng, quay kim đồng hồ theo giờ cho trước, giải thích cách phân biệt kim giờ/kim phút."
+    },
+    "mastery_check_rule": "6 câu đọc giờ + 2 câu đổi giờ–phút; đạt M3 khi đúng ≥ 7/8.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_TIME_CALENDAR_001",
+    "subject": "MATH",
+    "domain": "Đo lường",
+    "subdomain": "Thời gian",
+    "name": "Ngày – tháng, xem lịch",
+    "description": "Biết 1 tuần = 7 ngày, thứ tự các tháng; đọc lịch: thứ, ngày, tháng; xác định ngày theo lịch.",
+    "importance_level": "B",
+    "importance_score": 80,
+    "reason_importance": "Kỹ năng sống; nền cho năm, thế kỉ lớp 4.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_NUM_READ_WRITE_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math1",
+        "volume": "Tập 1",
+        "lesson": "Bài 30. Ngày – tháng",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa đọc được lịch.",
+      "level_1": "Đọc được lịch khi được chỉ dòng/cột giúp.",
+      "level_2": "Tự đọc được nhưng tìm ngày theo yêu cầu còn chậm/nhầm.",
+      "level_3": "Đọc đúng lịch 4/5 yêu cầu (thứ, ngày, tháng), nói đúng 1 tuần = 7 ngày.",
+      "level_4": "Tìm nhanh ngày trên lịch, tính được 'thứ sáu tuần sau là ngày mấy'."
+    },
+    "mastery_check_rule": "5 câu đọc lịch; đạt M3 khi đúng ≥ 4/5.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_TIME_PRACTICE_001",
+    "subject": "MATH",
+    "domain": "Đo lường",
+    "subdomain": "Thời gian",
+    "name": "Thực hành và trải nghiệm xem đồng hồ, xem lịch",
+    "description": "Vận dụng xem giờ, xem lịch vào tình huống thực tế (thời khóa biểu, sinh nhật, giờ trong ngày).",
+    "importance_level": "C",
+    "importance_score": 55,
+    "reason_importance": "Củng cố vận dụng; kỹ năng trải nghiệm bổ trợ.",
+    "grade3_foundation": false,
+    "prerequisites": [
+      "MATH_TIME_CLOCK_001",
+      "MATH_TIME_CALENDAR_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math1",
+        "volume": "Tập 1",
+        "lesson": "Bài 31. Thực hành và trải nghiệm xem đồng hồ, xem lịch",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa vận dụng được.",
+      "level_1": "Vận dụng được khi có gợi ý.",
+      "level_2": "Tự vận dụng được nhưng trả lời còn thiếu chính xác.",
+      "level_3": "Trả lời đúng 4/5 tình huống thực tế về giờ và lịch.",
+      "level_4": "Tự tạo tình huống dùng đồng hồ/lịch và trả lời đúng."
+    },
+    "mastery_check_rule": "3 tình huống thực tế; đạt M3 khi đúng ≥ 2/3.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_TIME_DAY_HOUR_001",
+    "subject": "MATH",
+    "domain": "Đo lường",
+    "subdomain": "Thời gian",
+    "name": "Ngày – giờ: các buổi trong ngày và 1 ngày = 24 giờ",
+    "description": "Biết các buổi trong ngày (sáng, trưa, chiều, tối, đêm); đổi và so sánh đơn vị ngày – giờ; xác định thời điểm diễn ra hoạt động quen thuộc.",
+    "mastery_definition": {
+      "level_0": "Chưa phân biệt được các buổi trong ngày.",
+      "level_1": "Nêu được tên buổi khi có tranh gợi ý.",
+      "level_2": "Tự nêu được buổi nhưng còn nhầm 1 ngày = mấy giờ.",
+      "level_3": "Xếp đúng hoạt động vào buổi, nói đúng 1 ngày = 24 giờ, đổi đúng ≥ 8/10 bài ngày–giờ.",
+      "level_4": "Giải thích được vì sao 2 giờ chiều còn gọi là 14 giờ; tự lập thời gian biểu theo buổi."
+    },
+    "mastery_check_rule": "6 câu xếp buổi/hoạt động + 4 câu đổi ngày–giờ; đạt M3 khi đúng ≥ 8/10.",
+    "prerequisites": [
+      "MATH_NUM_READ_WRITE_001",
+      "MATH_TIME_CLOCK_001"
+    ],
+    "importance_level": "B",
+    "importance_score": 78,
+    "grade3_foundation": true,
+    "reason_importance": "Nền cho tính toán thời gian và đọc lịch lớp 3; gắn với sinh hoạt hằng ngày.",
+    "fast_track_allowed": true,
+    "source_refs": [
+      {
+        "book": "math1",
+        "lesson": "Bài 29. Ngày – giờ, giờ – phút",
+        "section": "Hoạt động",
+        "volume": "Tập 1"
+      }
+    ]
+  }
+]

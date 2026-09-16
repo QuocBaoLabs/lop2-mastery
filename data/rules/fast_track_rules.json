@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Giảm bài lặp lại không cần thiết khi trẻ đã thực sự thành thạo, nhưng không bao giờ bỏ qua skill chưa đạt mastery.",
+  "global_rules": [
+    {"rule_id": "FT_01", "name": "Đúng đại diện 5 dạng", "condition": "Trẻ làm đúng 1 bài đại diện của 5 dạng bài khác nhau trong cùng skill", "action": "Bỏ qua phần luyện thêm còn lại của skill; chuyển thẳng sang mastery check."},
+    {"rule_id": "FT_02", "name": "Đúng liên tục", "condition": "Đúng liên tục 3 bài cùng dạng (streak ≥ 3)", "action": "Giảm 50% số bài còn lại của dạng đó."},
+    {"rule_id": "FT_03", "name": "Mastery sớm", "condition": "Đạt M4 trong lần mastery check đầu tiên của skill", "action": "Skill được gắn fast_track_allowed và không sinh thêm bài luyện mới."},
+    {"rule_id": "FT_04", "name": "Skill lặp nguyên lý", "condition": "Hai skill dùng cùng một nguyên lý (được khai báo ở trường same_principle_as)", "action": "Nếu skill trước đạt M3, bài luyện skill sau giảm còn 1–2 bài đại diện trước mastery check."},
+    {"rule_id": "FT_05", "name": "Ôn gộp", "condition": "Skill mức D (FAST TRACK) được kiểm tra gộp trong mastery check của skill mẹ", "action": "Không tạo lịch ôn riêng cho skill D."}
+  ],
+  "guards": [
+    "Không fast-track skill nào chưa đạt tối thiểu M3.",
+    "Không fast-track skill CORE (A): vẫn phải kiểm tra lại định kỳ.",
+    "Không fast-track skill GRADE_3_FOUNDATION nếu trẻ đạt qua 'đoán đúng' (cần 1 lần làm lại sau ≥ 3 ngày).",
+    "Nếu trẻ sai khi làm dạng biến thể, hủy fast-track và quay về luyện bình thường."
+  ]
+}

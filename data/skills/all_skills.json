@@ -1,0 +1,4359 @@
+{
+  "schema_version": "1.0",
+  "subjects": [
+    "MATH",
+    "VIE"
+  ],
+  "total": 118,
+  "math_skill_count": 64,
+  "vietnamese_skill_count": 54,
+  "skills": [
+    {
+      "skill_id": "MATH_NUM_PLACE_VALUE_001",
+      "subject": "MATH",
+      "domain": "Số học",
+      "subdomain": "Cấu tạo số trong phạm vi 100",
+      "name": "Cấu tạo số (chục, đơn vị) trong phạm vi 100",
+      "description": "Nhận biết chục và đơn vị; tách số có hai chữ số thành tổng số chục và số đơn vị; xác định giá trị chữ số theo hàng.",
+      "importance_level": "A",
+      "importance_score": 95,
+      "reason_importance": "Nền móng của mọi phép cộng/trừ có nhớ, so sánh số và toàn bộ số học lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 1. Ôn tập các số đến 100",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa phân biệt được chục và đơn vị.",
+        "level_1": "Phân biệt được chục/đơn vị khi có hướng dẫn, que tính, bảng chục-đơn vị.",
+        "level_2": "Tự tách được số thành chục và đơn vị nhưng còn nhầm (vd 53 = 5 chục 3 đơn vị đôi khi viết ngược).",
+        "level_3": "Tách/ghép đúng 8/10 số; nói đúng giá trị chữ số theo hàng; không cần đồ dùng.",
+        "level_4": "Làm đúng ổn định và giải thích được vì sao 53 = 50 + 3; xử lý câu biến đổi (tìm số khi biết số chục, số đơn vị)."
+      },
+      "mastery_check_rule": "5 câu (tách số, ghép số, xác định giá trị chữ số); đạt M3 khi đúng ≥ 4/5 không dùng đồ dùng.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_NUM_READ_WRITE_001",
+      "subject": "MATH",
+      "domain": "Số học",
+      "subdomain": "Đọc, viết số trong phạm vi 100",
+      "name": "Đọc, viết số trong phạm vi 100",
+      "description": "Đọc đúng tên số, viết đúng số và số tròn chục trong phạm vi 100; đếm thêm 1, thêm 10.",
+      "importance_level": "A",
+      "importance_score": 92,
+      "reason_importance": "Tiền đề trực tiếp cho đọc/viết số có ba chữ số và giao tiếp toán học hằng ngày.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 1. Ôn tập các số đến 100",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa đọc/viết được số có hai chữ số.",
+        "level_1": "Đọc/viết được khi có mẫu hoặc bảng số.",
+        "level_2": "Tự đọc/viết được nhưng còn lẫn (vd 14/41, các số có 5 ở hàng đơn vị).",
+        "level_3": "Đọc/viết đúng 9/10 số; đếm xuôi/ngược đúng trong phạm vi 100.",
+        "level_4": "Đọc/viết đúng mọi số, viết được số liền quan hệ +1/+10 nhanh, không nhầm 14/41."
+      },
+      "mastery_check_rule": "5 câu viết số theo lời đọc và ngược lại; đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_NUM_COMPARE_100_001",
+      "subject": "MATH",
+      "domain": "Số học",
+      "subdomain": "So sánh số trong phạm vi 100",
+      "name": "So sánh, sắp thứ tự số trong phạm vi 100",
+      "description": "So sánh hai số theo hàng chục rồi hàng đơn vị; dùng đúng dấu >, <, =; sắp xếp dãy số theo thứ tự.",
+      "importance_level": "A",
+      "importance_score": 88,
+      "reason_importance": "Kỹ năng lặp lại ở mọi chủ đề và mở rộng trực tiếp cho so sánh số có ba chữ số.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 1. Ôn tập các số đến 100",
+          "section": "Luyện tập"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa biết so sánh số có hai chữ số.",
+        "level_1": "So sánh được khi nhắc quy tắc 'so hàng chục trước'.",
+        "level_2": "Tự so sánh được nhưng còn nhầm chiều dấu >, < hoặc so hàng đơn vị trước.",
+        "level_3": "So sánh đúng 9/10 cặp số, điền đúng dấu, sắp xếp đúng 3–4 số.",
+        "level_4": "So sánh nhanh, giải thích được cách so; điền số thích hợp vào chỗ trống dạng so sánh."
+      },
+      "mastery_check_rule": "6 câu (điền dấu, sắp thứ tự, tìm số lớn nhất/bé nhất); đạt M3 khi đúng ≥ 5/6.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_NUM_NUMBER_LINE_001",
+      "subject": "MATH",
+      "domain": "Số học",
+      "subdomain": "Tia số",
+      "name": "Tia số và vị trí số trên tia số",
+      "description": "Nhận biết tia số, xác định vị trí một số trên tia số, điền số còn thiếu theo quy luật trên tia số.",
+      "importance_level": "B",
+      "importance_score": 72,
+      "reason_importance": "Hình dung trực quan về thứ tự số, hỗ trợ so sánh và cộng trừ; nền cho tia số lớn hơn ở lớp 3.",
+      "grade3_foundation": false,
+      "prerequisites": [
+        "MATH_NUM_READ_WRITE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 2. Tia số. Số liền trước, số liền sau",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa biết tia số.",
+        "level_1": "Xác định được vị trí số khi có hướng dẫn đếm vạch.",
+        "level_2": "Tự xác định được vị trí nhưng còn đếm nhầm vạch với số cách đều.",
+        "level_3": "Điền đúng số vào tia số, xác định đúng vị trí 8/10 số.",
+        "level_4": "Điền nhanh dãy số cách đều trên tia số và giải thích quy luật."
+      },
+      "mastery_check_rule": "5 câu (điền số trên tia số, xác định vị trí); đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_NUM_NEIGHBOR_001",
+      "subject": "MATH",
+      "domain": "Số học",
+      "subdomain": "Số liền trước, liền sau",
+      "name": "Số liền trước, số liền sau",
+      "description": "Tìm số liền trước (bớt 1), số liền sau (thêm 1) của một số trong phạm vi 100.",
+      "importance_level": "B",
+      "importance_score": 74,
+      "reason_importance": "Củng cố thứ tự số, dùng nhiều trong đếm và ước lượng.",
+      "grade3_foundation": false,
+      "prerequisites": [
+        "MATH_NUM_NUMBER_LINE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 2. Tia số. Số liền trước, số liền sau",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa tìm được số liền trước/sau.",
+        "level_1": "Tìm được khi đếm cùng giáo viên.",
+        "level_2": "Tự tìm được nhưng nhầm trước/sau ở vài số (nhất là số tròn chục).",
+        "level_3": "Tìm đúng 9/10 số, kể cả quanh số tròn chục.",
+        "level_4": "Tìm nhanh, trả lời được 'số liền trước của 40 là 39 vì 39 + 1 = 40'."
+      },
+      "mastery_check_rule": "5 câu; đạt M3 khi đúng ≥ 4/5 trong đó có ít nhất 1 số tròn chục.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_ADD_COMPONENTS_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Thành phần phép cộng",
+      "name": "Số hạng, tổng",
+      "description": "Gọi đúng tên số hạng, tổng; nhận biết thành phần trong phép cộng; tìm tổng khi biết hai số hạng.",
+      "importance_level": "B",
+      "importance_score": 70,
+      "reason_importance": "Ngôn ngữ toán học nền cho trao đổi về phép tính và giải toán có lời văn.",
+      "grade3_foundation": false,
+      "prerequisites": [
+        "MATH_ADD_NO_CARRY_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 3. Các thành phần của phép cộng, phép trừ",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa biết tên thành phần phép cộng.",
+        "level_1": "Gọi tên được khi nhắc mẫu.",
+        "level_2": "Gọi tên được nhưng đôi khi lẫn số hạng/tổng.",
+        "level_3": "Gọi đúng tên, xác định đúng thành phần trong 4/5 phép tính, tính đúng tổng.",
+        "level_4": "Dùng thuật ngữ đúng khi giải thích; tìm được số hạng còn thiếu dạng đơn giản."
+      },
+      "mastery_check_rule": "5 câu (gọi tên + tính tổng); đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_SUB_COMPONENTS_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Thành phần phép trừ",
+      "name": "Số bị trừ, số trừ, hiệu",
+      "description": "Gọi đúng tên số bị trừ, số trừ, hiệu; nhận biết thành phần trong phép trừ; tính hiệu.",
+      "importance_level": "B",
+      "importance_score": 70,
+      "reason_importance": "Ngôn ngữ toán học chuẩn, nền cho tìm thành phần chưa biết ở lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_SUB_NO_BORROW_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 3. Các thành phần của phép cộng, phép trừ",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa biết tên thành phần phép trừ.",
+        "level_1": "Gọi tên được khi có mẫu.",
+        "level_2": "Gọi tên được nhưng lẫn số bị trừ/số trừ ở vài phép tính.",
+        "level_3": "Gọi đúng tên, xác định đúng thành phần 4/5 phép tính, tính đúng hiệu.",
+        "level_4": "Dùng thuật ngữ đúng khi giải thích; tìm được số trừ/số bị trừ dạng đơn giản."
+      },
+      "mastery_check_rule": "5 câu (gọi tên + tính hiệu); đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_WORD_PROBLEM_DIFF_001",
+      "subject": "MATH",
+      "domain": "Bài toán có lời văn",
+      "subdomain": "Hơn, kém nhau bao nhiêu",
+      "name": "Bài toán hơn, kém nhau bao nhiêu",
+      "description": "Giải bài toán so sánh hơn/kém: xác định số lớn, số bé, dùng phép trừ, viết lời giải và đáp số.",
+      "importance_level": "A",
+      "importance_score": 85,
+      "reason_importance": "Dạng toán có lời văn cốt lõi, lặp lại xuyên suốt chương trình và đời sống.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_SUB_NO_BORROW_100_001",
+        "MATH_NUM_COMPARE_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 4. Hơn, kém nhau bao nhiêu",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa tự đọc hiểu được đề.",
+        "level_1": "Giải được khi được gạch chân dữ kiện và câu hỏi giúp.",
+        "level_2": "Tự giải được nhưng đôi khi viết lời giải chưa khớp phép tính hoặc thiếu đơn vị.",
+        "level_3": "Giải đúng 4/5 bài: đủ 3 bước lời giải – phép tính – đáp số, đúng đơn vị.",
+        "level_4": "Giải đúng, giải thích được vì sao dùng phép trừ, tự đặt đề tương tự."
+      },
+      "mastery_check_rule": "3 bài (2 bài có lời văn + 1 bài trắc nghiệm phép tính); đạt M3 khi đúng ≥ 2/3 và bài lời văn đủ 3 bước.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_ADD_NO_CARRY_100_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Cộng trong phạm vi 100",
+      "name": "Cộng (không nhớ) trong phạm vi 100",
+      "description": "Đặt tính và tính nhẩm phép cộng không nhớ trong phạm vi 100 (cả dạng 2 chữ số + 1 chữ số và 2 chữ số + 2 chữ số).",
+      "importance_level": "A",
+      "importance_score": 90,
+      "reason_importance": "Nền của cộng có nhớ, cộng trong phạm vi 1000 và mọi phép tính sau này.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 5. Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100",
+          "section": "Luyện tập"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa đặt tính được.",
+        "level_1": "Đặt tính và cộng đúng khi được làm mẫu từng bước.",
+        "level_2": "Tự làm đúng phần lớn nhưng đặt tính lệch cột hoặc nhẩm nhầm vài phép.",
+        "level_3": "Làm đúng ≥ 8/10 câu cả đặt tính và nhẩm, không nhắc.",
+        "level_4": "Làm đúng nhanh, giải thích được cách nhẩm (tách chục/đơn vị), làm được câu biến đổi."
+      },
+      "mastery_check_rule": "10 câu trộn đặt tính + nhẩm; đạt M3 khi đúng ≥ 8/10.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_SUB_NO_BORROW_100_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Trừ trong phạm vi 100",
+      "name": "Trừ (không nhớ) trong phạm vi 100",
+      "description": "Đặt tính và tính nhẩm phép trừ không nhớ trong phạm vi 100.",
+      "importance_level": "A",
+      "importance_score": 90,
+      "reason_importance": "Nền của trừ có nhớ, trừ trong phạm vi 1000.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 5. Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100",
+          "section": "Luyện tập"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa đặt tính được.",
+        "level_1": "Trừ đúng khi được hướng dẫn từng bước.",
+        "level_2": "Tự làm đúng phần lớn, còn lệch cột hoặc nhẩm nhầm.",
+        "level_3": "Làm đúng ≥ 8/10 câu cả đặt tính và nhẩm, không nhắc.",
+        "level_4": "Làm đúng nhanh, giải thích cách nhẩm, làm được câu biến đổi."
+      },
+      "mastery_check_rule": "10 câu trộn đặt tính + nhẩm; đạt M3 khi đúng ≥ 8/10.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_ADD_BRIDGE10_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Cộng qua 10 trong phạm vi 20",
+      "name": "Phép cộng (qua 10) trong phạm vi 20",
+      "description": "Cộng hai số trong phạm vi 20 có tổng qua 10 (9 + 2 … 9 + 9, 8 + 3 …) bằng cách tách số (make 10).",
+      "importance_level": "A",
+      "importance_score": 96,
+      "reason_importance": "Kỹ thuật 'tách để được 10' là bản chất của cộng có nhớ mọi phạm vi; là nền lớp 3 tuyệt đối.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_PLACE_VALUE_001",
+        "MATH_ADD_NO_CARRY_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 7. Phép cộng (qua 10) trong phạm vi 20",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa cộng được dạng qua 10.",
+        "level_1": "Cộng đúng khi dùng bảng 10/que tính và có hướng dẫn tách số.",
+        "level_2": "Tự tách số được nhưng còn nhẩm chậm hoặc nhầm vài phép.",
+        "level_3": "Nhẩm đúng ≥ 8/10 phép dạng 9+, 8+, 7+ trong thời gian hợp lý, không dùng đồ dùng.",
+        "level_4": "Nhẩm nhanh, giải thích được '9 + 5 = 9 + 1 + 4', xử lý phép dạng 3 số hạng."
+      },
+      "mastery_check_rule": "10 câu nhẩm dạng qua 10 + 1 câu giải thích cách làm; đạt M3 khi đúng ≥ 8/10 phép tính.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_ADD_FACTS_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Bảng cộng qua 10",
+      "name": "Bảng cộng (qua 10) — tự động hóa",
+      "description": "Thuộc và nhẩm tức thì toàn bộ bảng cộng qua 10 trong phạm vi 20; vận dụng vào tính và giải toán.",
+      "importance_level": "A",
+      "importance_score": 90,
+      "reason_importance": "Tốc độ nhẩm quyết định sự trôi chảy của mọi phép tính có nhớ sau này.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_ADD_BRIDGE10_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 8. Bảng cộng (qua 10)",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa thuộc bảng cộng.",
+        "level_1": "Nhớ được một phần, cần đếm que tính.",
+        "level_2": "Thuộc phần lớn nhưng vài phép còn phải dừng nghĩ.",
+        "level_3": "Nhẩm đúng ≥ 9/10 phép trong ≤ 5 giây/phép, không dùng đồ dùng.",
+        "level_4": "Nhẩm tức thì cả bảng, vận dụng đúng vào bài toán có lời văn và tìm số hạng."
+      },
+      "mastery_check_rule": "10 câu bảng cộng (bấm giờ 5s/câu) + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10 phép.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_WORD_PROBLEM_ONE_STEP_001",
+      "subject": "MATH",
+      "domain": "Bài toán có lời văn",
+      "subdomain": "Thêm, bớt một số đơn vị",
+      "name": "Bài toán về thêm, bớt một số đơn vị",
+      "description": "Đọc đề, xác định dữ kiện và câu hỏi, chọn phép cộng (thêm/gộp) hoặc trừ (bớt), trình bày đủ 3 bước.",
+      "importance_level": "A",
+      "importance_score": 92,
+      "reason_importance": "Kỹ năng đọc hiểu toán + trình bày lời giải; là dạng bài chiếm tỉ trọng lớn nhất trong chương trình.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_ADD_BRIDGE10_001",
+        "MATH_SUB_BRIDGE10_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 9. Bài toán về thêm, bớt một số đơn vị",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa tự đọc hiểu đề.",
+        "level_1": "Giải được khi được tóm tắt đề giúp.",
+        "level_2": "Tự giải được nhưng thỉnh thoảng chọn sai phép tính hoặc thiếu đơn vị.",
+        "level_3": "Giải đúng 4/5 bài, đủ lời giải – phép tính – đáp số, đúng đơn vị.",
+        "level_4": "Giải đúng, giải thích được vì sao chọn phép tính đó, tự đặt đề tương tự."
+      },
+      "mastery_check_rule": "3 bài (thêm, bớt, gộp); đạt M3 khi đúng ≥ 2/3 và trình bày đủ 3 bước.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_SUB_BRIDGE10_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Trừ qua 10 trong phạm vi 20",
+      "name": "Phép trừ (qua 10) trong phạm vi 20",
+      "description": "Trừ dạng 11 − 2 … 18 − 9 bằng cách tách số để trừ về 10 rồi trừ tiếp.",
+      "importance_level": "A",
+      "importance_score": 96,
+      "reason_importance": "Bản chất của trừ có nhớ mọi phạm vi; nền lớp 3 tuyệt đối.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_PLACE_VALUE_001",
+        "MATH_SUB_NO_BORROW_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 11. Phép trừ (qua 10) trong phạm vi 20",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa trừ được dạng qua 10.",
+        "level_1": "Trừ đúng khi dùng bảng 10/que tính có hướng dẫn.",
+        "level_2": "Tự tách số được nhưng còn chậm hoặc nhầm vài phép.",
+        "level_3": "Nhẩm đúng ≥ 8/10 phép không dùng đồ dùng, thời gian hợp lý.",
+        "level_4": "Nhẩm nhanh, giải thích được '12 − 5 = 12 − 2 − 3', xử lý dạng biến đổi."
+      },
+      "mastery_check_rule": "10 câu nhẩm dạng qua 10 + 1 câu giải thích; đạt M3 khi đúng ≥ 8/10.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_SUB_FACTS_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Bảng trừ qua 10",
+      "name": "Bảng trừ (qua 10) — tự động hóa",
+      "description": "Thuộc và nhẩm tức thì toàn bộ bảng trừ qua 10 trong phạm vi 20; vận dụng vào tính và giải toán.",
+      "importance_level": "A",
+      "importance_score": 90,
+      "reason_importance": "Tốc độ nhẩm trừ quyết định sự trôi chảy của mọi phép trừ có nhớ sau này.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_SUB_BRIDGE10_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 12. Bảng trừ (qua 10)",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa thuộc bảng trừ.",
+        "level_1": "Nhớ một phần, cần đếm ngược.",
+        "level_2": "Thuộc phần lớn, vài phép còn dừng nghĩ.",
+        "level_3": "Nhẩm đúng ≥ 9/10 phép trong ≤ 5 giây/phép.",
+        "level_4": "Nhẩm tức thì cả bảng, vận dụng đúng vào bài toán có lời văn."
+      },
+      "mastery_check_rule": "10 câu bảng trừ (bấm giờ 5s/câu) + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_ADD_BRIDGE10_002",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Cộng qua 10 trong phạm vi 20",
+      "name": "Phép cộng (qua 10) trong phạm vi 20 – vận dụng, hoàn thiện phép tính",
+      "description": "Vận dụng cộng qua 10 để hoàn thành phép tính dạng 8 + _ = 15, tìm số hạng còn thiếu và giải tình huống thực tế nhỏ trong phạm vi 20.",
+      "mastery_definition": {
+        "level_0": "Chưa hoàn thiện được phép cộng qua 10.",
+        "level_1": "Điền được số còn thiếu khi có gợi ý tách số.",
+        "level_2": "Tự điền được nhưng còn nhầm ở dạng 7 + _ = 14.",
+        "level_3": "Hoàn thành đúng ≥ 8/10 phép dạng thiếu số hạng/tổng; giải đúng 1 tình huống thực tế.",
+        "level_4": "Tự lập được bài toán nhỏ dùng cộng qua 10 và giải thích cách làm."
+      },
+      "mastery_check_rule": "8 phép hoàn thiện + 2 tình huống nhỏ; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "MATH_ADD_BRIDGE10_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 88,
+      "grade3_foundation": true,
+      "reason_importance": "Củng cố kỹ thuật 'tách để được 10' ở dạng ngược (tìm số còn thiếu) — dạng xuất hiện xuyên suốt lớp 2–3.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "math1",
+          "lesson": "Bài 7. Phép cộng (qua 10) trong phạm vi 20",
+          "section": "Luyện tập",
+          "volume": "Tập 1"
+        }
+      ]
+    },
+    {
+      "skill_id": "MATH_SUB_BRIDGE10_002",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Trừ qua 10 trong phạm vi 20",
+      "name": "Phép trừ (qua 10) trong phạm vi 20 – vận dụng, hoàn thiện phép tính",
+      "description": "Vận dụng trừ qua 10 để hoàn thành phép tính dạng 15 − _ = 7, tìm số bị trừ/số trừ còn thiếu và giải tình huống thực tế nhỏ trong phạm vi 20.",
+      "mastery_definition": {
+        "level_0": "Chưa hoàn thiện được phép trừ qua 10.",
+        "level_1": "Điền được số còn thiếu khi có gợi ý.",
+        "level_2": "Tự điền được nhưng còn nhầm dạng 16 − _ = 9.",
+        "level_3": "Hoàn thành đúng ≥ 8/10 phép dạng thiếu số; giải đúng 1 tình huống thực tế.",
+        "level_4": "Tự lập bài toán nhỏ dùng trừ qua 10 và giải thích cách làm."
+      },
+      "mastery_check_rule": "8 phép hoàn thiện + 2 tình huống nhỏ; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "MATH_SUB_BRIDGE10_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 88,
+      "grade3_foundation": true,
+      "reason_importance": "Dạng ngược của trừ qua 10; nền cho tìm số hạng/số bị trừ ở lớp 3.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "math1",
+          "lesson": "Bài 11. Phép trừ (qua 10) trong phạm vi 20",
+          "section": "Luyện tập",
+          "volume": "Tập 1"
+        }
+      ]
+    },
+    {
+      "skill_id": "MATH_WORD_PROBLEM_COMPARE_001",
+      "subject": "MATH",
+      "domain": "Bài toán có lời văn",
+      "subdomain": "Nhiều hơn, ít hơn một số đơn vị",
+      "name": "Bài toán về nhiều hơn, ít hơn một số đơn vị",
+      "description": "Giải bài toán 'nhiều hơn' (cộng), 'ít hơn' (trừ) một số đơn vị; trình bày đủ 3 bước.",
+      "importance_level": "A",
+      "importance_score": 92,
+      "reason_importance": "Dạng lời văn nền tảng; gắn liền nghĩa của phép cộng/trừ, lặp lại đến lớp 5.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_WORD_PROBLEM_ONE_STEP_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 13. Bài toán về nhiều hơn, ít hơn một số đơn vị",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa phân biệt được nhiều hơn/ít hơn nên dùng phép gì.",
+        "level_1": "Giải đúng khi được gợi ý từ khóa.",
+        "level_2": "Tự giải được nhưng đôi khi đảo phép tính giữa 2 dạng.",
+        "level_3": "Giải đúng 4/5 bài cả hai dạng, trình bày đủ 3 bước.",
+        "level_4": "Giải đúng, giải thích được 'nhiều hơn thì cộng, ít hơn thì trừ', tự đặt đề."
+      },
+      "mastery_check_rule": "4 bài (2 nhiều hơn + 2 ít hơn); đạt M3 khi đúng ≥ 3/4.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_MEASURE_MASS_001",
+      "subject": "MATH",
+      "domain": "Đo lường",
+      "subdomain": "Khối lượng",
+      "name": "Ki-lô-gam (kg)",
+      "description": "Nhận biết đơn vị kg; đọc cân; so sánh, ước lượng và giải toán có kg.",
+      "importance_level": "B",
+      "importance_score": 80,
+      "reason_importance": "Đơn vị đo thông dụng đời sống; nền cho gam ở lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_COMPARE_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 15. Ki-lô-gam",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa biết kg.",
+        "level_1": "Đọc cân khi được chỉ vạch giúp.",
+        "level_2": "Tự đọc cân nhưng đôi khi đọc lệch vạch hoặc so sánh sai.",
+        "level_3": "Đọc cân đúng 4/5 lần, so sánh đúng khối lượng, giải đúng bài toán có kg.",
+        "level_4": "Ước lượng hợp lý khối lượng vật quen thuộc và giải thích được cách đọc cân."
+      },
+      "mastery_check_rule": "5 câu (đọc cân, so sánh, 1 bài lời văn); đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_MEASURE_CAPACITY_001",
+      "subject": "MATH",
+      "domain": "Đo lường",
+      "subdomain": "Dung tích",
+      "name": "Lít (l)",
+      "description": "Nhận biết đơn vị lít; đọc lượng nước theo vạch; so sánh, cộng trừ và giải toán có lít.",
+      "importance_level": "B",
+      "importance_score": 80,
+      "reason_importance": "Đơn vị đo thông dụng; nền cho mi-li-lít lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_COMPARE_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 16. Lít",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa biết lít.",
+        "level_1": "Đọc lượng nước khi được chỉ vạch giúp.",
+        "level_2": "Tự đọc được nhưng còn nhầm vạch hoặc so sánh sai.",
+        "level_3": "Đọc đúng 4/5 lần, so sánh và cộng/trừ số đo lít đúng, giải đúng bài toán có lít.",
+        "level_4": "Ước lượng hợp lý dung tích vật quen thuộc và giải thích cách đọc vạch."
+      },
+      "mastery_check_rule": "5 câu (đọc vạch, so sánh, 1 bài lời văn); đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_MEASURE_PRACTICE_001",
+      "subject": "MATH",
+      "domain": "Đo lường",
+      "subdomain": "Thực hành đo lường",
+      "name": "Thực hành và trải nghiệm với kg, lít",
+      "description": "Thực hành cân, đo dung tích vật thật; ước lượng rồi kiểm chứng; vận dụng kg và lít trong tình huống thực.",
+      "importance_level": "C",
+      "importance_score": 58,
+      "reason_importance": "Củng cố trực quan hai đơn vị đo; kỹ năng trải nghiệm, không phải kiến thức trọng tâm thi cử.",
+      "grade3_foundation": false,
+      "prerequisites": [
+        "MATH_MEASURE_MASS_001",
+        "MATH_MEASURE_CAPACITY_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 17. Thực hành và trải nghiệm với các đơn vị ki-lô-gam, lít",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa thực hành đo được.",
+        "level_1": "Thực hành được khi giáo viên hướng dẫn thao tác.",
+        "level_2": "Tự thao tác được nhưng ước lượng còn xa thực tế.",
+        "level_3": "Ước lượng hợp lý rồi kiểm chứng bằng cân/ca đong trong 2 tình huống thực.",
+        "level_4": "Tổ chức được hoạt động đo và nói rõ cách so sánh kết quả ước lượng – thực tế."
+      },
+      "mastery_check_rule": "Đánh giá bằng 1 hoạt động thực hành (ước lượng – đo – đối chiếu); đạt M3 khi hoàn thành đúng quy trình.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_ADD_CARRY_100_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Cộng có nhớ trong phạm vi 100",
+      "name": "Cộng có nhớ: 2 chữ số + 1 chữ số",
+      "description": "Đặt tính và tính phép cộng có nhớ dạng số có hai chữ số cộng số có một chữ số (vd 37 + 5).",
+      "importance_level": "A",
+      "importance_score": 95,
+      "reason_importance": "Bước đầu của cộng có nhớ — một trong những kỹ năng quan trọng nhất lớp 2, nền trực tiếp cho lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_ADD_BRIDGE10_001",
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 19. Phép cộng (có nhớ) số có hai chữ số với số có một chữ số",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa hiểu 'nhớ 1'.",
+        "level_1": "Làm đúng khi được hướng dẫn từng bước (đơn vị → nhớ → chục).",
+        "level_2": "Tự làm đúng phần lớn nhưng quên nhớ 1–2 lần/10 câu.",
+        "level_3": "Làm đúng ≥ 8/10 câu không nhắc, cả đặt tính và nhẩm, giải được 1 bài vận dụng.",
+        "level_4": "Làm đúng ổn định, giải thích được vì sao phải nhớ 1, xử lý dạng 3 số hạng có nhớ."
+      },
+      "mastery_check_rule": "10 câu đặt tính + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_ADD_CARRY_100_002",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Cộng có nhớ trong phạm vi 100",
+      "name": "Cộng có nhớ: 2 chữ số + 2 chữ số",
+      "description": "Đặt tính và tính phép cộng có nhớ dạng số có hai chữ số cộng số có hai chữ số (vd 46 + 27).",
+      "importance_level": "A",
+      "importance_score": 95,
+      "reason_importance": "Hoàn thiện kỹ năng cộng có nhớ trong phạm vi 100; nền trực tiếp cho cộng có nhớ phạm vi 1000.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_ADD_CARRY_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 20. Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa làm được dạng 2 chữ số + 2 chữ số có nhớ.",
+        "level_1": "Làm đúng khi được làm mẫu từng bước.",
+        "level_2": "Tự làm đúng phần lớn nhưng quên nhớ hoặc lệch cột vài lần/10 câu.",
+        "level_3": "Làm đúng ≥ 8/10 câu không nhắc, cả đặt tính và nhẩm, giải được 1 bài vận dụng.",
+        "level_4": "Làm đúng ổn định, giải thích được quy trình nhớ, phát hiện phép đặt sai cột."
+      },
+      "mastery_check_rule": "10 câu đặt tính + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_SUB_BORROW_100_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Trừ có nhớ trong phạm vi 100",
+      "name": "Trừ có nhớ: 2 chữ số − 1 chữ số",
+      "description": "Đặt tính và tính phép trừ có nhớ dạng số có hai chữ số trừ số có một chữ số (vd 32 − 5).",
+      "importance_level": "A",
+      "importance_score": 95,
+      "reason_importance": "Bước đầu của trừ có nhớ — kỹ năng khó bậc nhất lớp 2, nền trực tiếp cho lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_SUB_BRIDGE10_001",
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 22. Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa hiểu 'mượn 1 chục'.",
+        "level_1": "Làm đúng khi được hướng dẫn từng bước (mượn → trừ → trả).",
+        "level_2": "Tự làm đúng phần lớn nhưng quên mượn 1–2 lần/10 câu.",
+        "level_3": "Làm đúng ≥ 8/10 câu không nhắc, cả đặt tính và nhẩm, giải được 1 bài vận dụng.",
+        "level_4": "Làm đúng ổn định, giải thích được vì sao phải mượn 1 chục = 10 đơn vị, xử lý dạng biến đổi."
+      },
+      "mastery_check_rule": "10 câu đặt tính + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_SUB_BORROW_100_002",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Trừ có nhớ trong phạm vi 100",
+      "name": "Trừ có nhớ: 2 chữ số − 2 chữ số",
+      "description": "Đặt tính và tính phép trừ có nhớ dạng số có hai chữ số trừ số có hai chữ số (vd 52 − 36).",
+      "importance_level": "A",
+      "importance_score": 95,
+      "reason_importance": "Hoàn thiện kỹ năng trừ có nhớ trong phạm vi 100; nền trực tiếp cho trừ có nhớ phạm vi 1000.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_SUB_BORROW_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 23. Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa làm được dạng 2 chữ số − 2 chữ số có nhớ.",
+        "level_1": "Làm đúng khi được làm mẫu từng bước.",
+        "level_2": "Tự làm đúng phần lớn nhưng quên mượn hoặc lệch cột vài lần/10 câu.",
+        "level_3": "Làm đúng ≥ 8/10 câu không nhắc, cả đặt tính và nhẩm, giải được 1 bài vận dụng.",
+        "level_4": "Làm đúng ổn định, giải thích được quy trình mượn/trả, kiểm tra được kết quả bằng phép cộng."
+      },
+      "mastery_check_rule": "10 câu đặt tính + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_GEO_POINT_LINE_001",
+      "subject": "MATH",
+      "domain": "Hình học",
+      "subdomain": "Điểm, đoạn thẳng",
+      "name": "Điểm, đoạn thẳng",
+      "description": "Nhận biết điểm, đoạn thẳng; gọi tên; đo và vẽ đoạn thẳng có độ dài cho trước.",
+      "importance_level": "B",
+      "importance_score": 76,
+      "reason_importance": "Khái niệm hình học đầu tiên; nền cho chu vi, hình học lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 25. Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa phân biệt được điểm và đoạn thẳng.",
+        "level_1": "Gọi tên được khi có mẫu.",
+        "level_2": "Tự gọi tên được nhưng vẽ đoạn thẳng chưa chính xác độ dài.",
+        "level_3": "Gọi tên đúng, vẽ đúng đoạn thẳng có độ dài cho trước 4/5 lần (sai số nhỏ).",
+        "level_4": "Vẽ chính xác, giải thích được đoạn thẳng có hai đầu mút, đo đúng bằng thước."
+      },
+      "mastery_check_rule": "5 câu (gọi tên + vẽ/đo); đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_GEO_LINE_TYPES_001",
+      "subject": "MATH",
+      "domain": "Hình học",
+      "subdomain": "Đường thẳng, đường cong",
+      "name": "Đường thẳng, đường cong, ba điểm thẳng hàng",
+      "description": "Phân biệt đường thẳng và đường cong; nhận biết ba điểm thẳng hàng trong hình vẽ.",
+      "importance_level": "B",
+      "importance_score": 70,
+      "reason_importance": "Vốn hình học nền cho quan hệ thẳng hàng, đường thẳng ở lớp 3–4.",
+      "grade3_foundation": false,
+      "prerequisites": [
+        "MATH_GEO_POINT_LINE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 25. Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa phân biệt được đường thẳng/đường cong.",
+        "level_1": "Phân biệt được khi có mẫu.",
+        "level_2": "Tự phân biệt được nhưng nhận diện ba điểm thẳng hàng còn nhầm.",
+        "level_3": "Phân loại đúng 8/10 đường, nhận biết đúng bộ ba điểm thẳng hàng trong 4/5 hình.",
+        "level_4": "Giải thích được vì sao ba điểm thẳng hàng (cùng nằm trên một đường thẳng)."
+      },
+      "mastery_check_rule": "5 câu; đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_GEO_POLYLINE_001",
+      "subject": "MATH",
+      "domain": "Hình học",
+      "subdomain": "Đường gấp khúc",
+      "name": "Đường gấp khúc và độ dài đường gấp khúc",
+      "description": "Nhận biết đường gấp khúc, các đoạn thẳng tạo thành; tính độ dài đường gấp khúc bằng tổng các đoạn.",
+      "importance_level": "B",
+      "importance_score": 78,
+      "reason_importance": "Nền trực tiếp cho chu vi hình tam giác/tứ giác lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_GEO_POINT_LINE_001",
+        "MATH_ADD_CARRY_100_002"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 26. Đường gấp khúc. Hình tứ giác",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa nhận biết đường gấp khúc.",
+        "level_1": "Tính được độ dài khi được chỉ từng đoạn.",
+        "level_2": "Tự tính được nhưng thiếu đoạn hoặc cộng nhầm.",
+        "level_3": "Tính đúng độ dài đường gấp khúc 4/5 bài (3–4 đoạn).",
+        "level_4": "Tính đúng, giải thích được 'độ dài đường gấp khúc = tổng các đoạn thẳng thành phần'."
+      },
+      "mastery_check_rule": "5 bài tính độ dài; đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_GEO_QUAD_001",
+      "subject": "MATH",
+      "domain": "Hình học",
+      "subdomain": "Hình tứ giác",
+      "name": "Hình tứ giác",
+      "description": "Nhận biết hình tứ giác qua 4 đỉnh, 4 cạnh; gọi tên; phân biệt với hình tam giác.",
+      "importance_level": "B",
+      "importance_score": 72,
+      "reason_importance": "Khái niệm hình phẳng nền cho chu vi, diện tích lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_GEO_POINT_LINE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 26. Đường gấp khúc. Hình tứ giác",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa nhận biết hình tứ giác.",
+        "level_1": "Nhận biết được khi có mẫu.",
+        "level_2": "Tự nhận biết được nhưng đếm nhầm hình ghép từ nhiều tứ giác.",
+        "level_3": "Nhận biết và đếm đúng số hình tứ giác trong 4/5 hình ghép đơn giản.",
+        "level_4": "Giải thích được đặc điểm 4 đỉnh 4 cạnh, tìm đúng hình tứ giác trong hình phức tạp."
+      },
+      "mastery_check_rule": "5 câu (nhận biết + đếm hình); đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_GEO_PRACTICE_001",
+      "subject": "MATH",
+      "domain": "Hình học",
+      "subdomain": "Thực hành hình học",
+      "name": "Gấp, cắt, ghép, xếp hình; vẽ đoạn thẳng",
+      "description": "Thực hành gấp/cắt/ghép/xếp hình theo mẫu; vẽ đoạn thẳng đúng độ dài bằng thước.",
+      "importance_level": "C",
+      "importance_score": 55,
+      "reason_importance": "Rèn trực giác hình học và thao tác tay; bổ trợ, không phải kiến thức thi cốt lõi.",
+      "grade3_foundation": false,
+      "prerequisites": [
+        "MATH_GEO_POINT_LINE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 27. Thực hành gấp, cắt, ghép, xếp hình. Vẽ đoạn thẳng",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa thao tác được.",
+        "level_1": "Thao tác được khi làm mẫu từng bước.",
+        "level_2": "Tự thao tác được nhưng sản phẩm chưa khớp mẫu hoàn toàn.",
+        "level_3": "Hoàn thành 2 sản phẩm gấp/cắt/ghép đúng mẫu và vẽ đúng đoạn thẳng cho trước.",
+        "level_4": "Sáng tạo hình ghép mới và mô tả được cách làm."
+      },
+      "mastery_check_rule": "Đánh giá bằng sản phẩm thực hành; đạt M3 khi hoàn thành đúng 2/2 nhiệm vụ.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_TIME_CLOCK_001",
+      "subject": "MATH",
+      "domain": "Đo lường",
+      "subdomain": "Thời gian",
+      "name": "Xem đồng hồ: giờ, giờ – phút",
+      "description": "Đọc giờ đúng, giờ hơn, giờ – phút trên đồng hồ kim; biết 1 giờ = 60 phút, 1 ngày = 24 giờ.",
+      "importance_level": "A",
+      "importance_score": 86,
+      "reason_importance": "Kỹ năng sống hằng ngày; nền cho phút/giây và tính thời gian lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_READ_WRITE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 29. Ngày – giờ, giờ – phút",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa đọc được đồng hồ.",
+        "level_1": "Đọc được giờ đúng khi được chỉ kim giúp.",
+        "level_2": "Tự đọc được giờ đúng, giờ hơn; giờ – phút còn nhầm kim.",
+        "level_3": "Đọc đúng 8/10 đồng hồ (giờ đúng, giờ hơn, giờ – phút), nói đúng 1 giờ = 60 phút.",
+        "level_4": "Đọc đúng mọi dạng, quay kim đồng hồ theo giờ cho trước, giải thích cách phân biệt kim giờ/kim phút."
+      },
+      "mastery_check_rule": "6 câu đọc giờ + 2 câu đổi giờ–phút; đạt M3 khi đúng ≥ 7/8.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_TIME_CALENDAR_001",
+      "subject": "MATH",
+      "domain": "Đo lường",
+      "subdomain": "Thời gian",
+      "name": "Ngày – tháng, xem lịch",
+      "description": "Biết 1 tuần = 7 ngày, thứ tự các tháng; đọc lịch: thứ, ngày, tháng; xác định ngày theo lịch.",
+      "importance_level": "B",
+      "importance_score": 80,
+      "reason_importance": "Kỹ năng sống; nền cho năm, thế kỉ lớp 4.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_READ_WRITE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 30. Ngày – tháng",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa đọc được lịch.",
+        "level_1": "Đọc được lịch khi được chỉ dòng/cột giúp.",
+        "level_2": "Tự đọc được nhưng tìm ngày theo yêu cầu còn chậm/nhầm.",
+        "level_3": "Đọc đúng lịch 4/5 yêu cầu (thứ, ngày, tháng), nói đúng 1 tuần = 7 ngày.",
+        "level_4": "Tìm nhanh ngày trên lịch, tính được 'thứ sáu tuần sau là ngày mấy'."
+      },
+      "mastery_check_rule": "5 câu đọc lịch; đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_TIME_PRACTICE_001",
+      "subject": "MATH",
+      "domain": "Đo lường",
+      "subdomain": "Thời gian",
+      "name": "Thực hành và trải nghiệm xem đồng hồ, xem lịch",
+      "description": "Vận dụng xem giờ, xem lịch vào tình huống thực tế (thời khóa biểu, sinh nhật, giờ trong ngày).",
+      "importance_level": "C",
+      "importance_score": 55,
+      "reason_importance": "Củng cố vận dụng; kỹ năng trải nghiệm bổ trợ.",
+      "grade3_foundation": false,
+      "prerequisites": [
+        "MATH_TIME_CLOCK_001",
+        "MATH_TIME_CALENDAR_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 31. Thực hành và trải nghiệm xem đồng hồ, xem lịch",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa vận dụng được.",
+        "level_1": "Vận dụng được khi có gợi ý.",
+        "level_2": "Tự vận dụng được nhưng trả lời còn thiếu chính xác.",
+        "level_3": "Trả lời đúng 4/5 tình huống thực tế về giờ và lịch.",
+        "level_4": "Tự tạo tình huống dùng đồng hồ/lịch và trả lời đúng."
+      },
+      "mastery_check_rule": "3 tình huống thực tế; đạt M3 khi đúng ≥ 2/3.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_TIME_DAY_HOUR_001",
+      "subject": "MATH",
+      "domain": "Đo lường",
+      "subdomain": "Thời gian",
+      "name": "Ngày – giờ: các buổi trong ngày và 1 ngày = 24 giờ",
+      "description": "Biết các buổi trong ngày (sáng, trưa, chiều, tối, đêm); đổi và so sánh đơn vị ngày – giờ; xác định thời điểm diễn ra hoạt động quen thuộc.",
+      "mastery_definition": {
+        "level_0": "Chưa phân biệt được các buổi trong ngày.",
+        "level_1": "Nêu được tên buổi khi có tranh gợi ý.",
+        "level_2": "Tự nêu được buổi nhưng còn nhầm 1 ngày = mấy giờ.",
+        "level_3": "Xếp đúng hoạt động vào buổi, nói đúng 1 ngày = 24 giờ, đổi đúng ≥ 8/10 bài ngày–giờ.",
+        "level_4": "Giải thích được vì sao 2 giờ chiều còn gọi là 14 giờ; tự lập thời gian biểu theo buổi."
+      },
+      "mastery_check_rule": "6 câu xếp buổi/hoạt động + 4 câu đổi ngày–giờ; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "MATH_NUM_READ_WRITE_001",
+        "MATH_TIME_CLOCK_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 78,
+      "grade3_foundation": true,
+      "reason_importance": "Nền cho tính toán thời gian và đọc lịch lớp 3; gắn với sinh hoạt hằng ngày.",
+      "fast_track_allowed": true,
+      "source_refs": [
+        {
+          "book": "math1",
+          "lesson": "Bài 29. Ngày – giờ, giờ – phút",
+          "section": "Hoạt động",
+          "volume": "Tập 1"
+        }
+      ]
+    },
+    {
+      "skill_id": "MATH_MULT_CONCEPT_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Phép nhân",
+      "name": "Khái niệm phép nhân",
+      "description": "Hiểu phép nhân là tổng các số hạng bằng nhau; chuyển đổi giữa tổng lặp và phép nhân; viết và đọc phép nhân.",
+      "importance_level": "A",
+      "importance_score": 94,
+      "reason_importance": "Khái niệm gốc của phép nhân — sai ở đây sẽ sai toàn bộ nhân/chia lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_ADD_FACTS_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 37. Phép nhân",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa hiểu phép nhân là gì.",
+        "level_1": "Chuyển được tổng lặp thành phép nhân khi có mẫu.",
+        "level_2": "Tự chuyển được nhưng đôi khi nhầm số lần lặp với giá trị số hạng.",
+        "level_3": "Chuyển đúng 8/10 bài giữa tổng lặp và phép nhân, viết/đọc đúng phép nhân.",
+        "level_4": "Giải thích được 3 × 4 nghĩa là 3 được lấy 4 lần; tự vẽ minh họa phép nhân."
+      },
+      "mastery_check_rule": "8 câu chuyển đổi + 2 câu viết phép nhân theo hình; đạt M3 khi đúng ≥ 8/10.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_MULT_COMPONENTS_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Phép nhân",
+      "name": "Thừa số, tích",
+      "description": "Gọi đúng tên thừa số, tích; nhận biết thành phần trong phép nhân; tính tích từ hai thừa số.",
+      "importance_level": "B",
+      "importance_score": 68,
+      "reason_importance": "Thuật ngữ chuẩn, nền cho tìm thừa số chưa biết lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_MULT_CONCEPT_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 38. Thừa số, tích",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa biết tên thành phần phép nhân.",
+        "level_1": "Gọi tên được khi có mẫu.",
+        "level_2": "Gọi tên được nhưng lẫn thừa số/tích vài lần.",
+        "level_3": "Gọi đúng tên, xác định đúng thành phần 4/5 phép tính, tính đúng tích.",
+        "level_4": "Dùng thuật ngữ đúng khi giải thích; tìm được thừa số còn thiếu dạng đơn giản."
+      },
+      "mastery_check_rule": "5 câu (gọi tên + tính tích); đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_MULT_TABLE_2_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Bảng nhân",
+      "name": "Bảng nhân 2",
+      "description": "Thuộc và vận dụng bảng nhân 2 (2 × 1 … 2 × 10) vào tính và giải toán; nhận biết dãy số cách đều 2.",
+      "importance_level": "A",
+      "importance_score": 92,
+      "reason_importance": "Bảng nhân đầu tiên — mẫu hình để học mọi bảng nhân sau; nền lớp 3 tuyệt đối.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_MULT_CONCEPT_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 39. Bảng nhân 2",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa thuộc bảng nhân 2.",
+        "level_1": "Tính được bằng cách cộng lặp khi có hướng dẫn.",
+        "level_2": "Thuộc phần lớn, vài phép còn phải cộng lặp.",
+        "level_3": "Nhẩm đúng ≥ 9/10 phép trong ≤ 5 giây/phép; giải đúng bài toán vận dụng.",
+        "level_4": "Nhẩm tức thì, điền đúng dãy số cách đều 2, giải thích được 2 × 7 = 7 + 7."
+      },
+      "mastery_check_rule": "10 câu nhẩm bảng nhân 2 + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10 phép.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_MULT_TABLE_5_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Bảng nhân",
+      "name": "Bảng nhân 5",
+      "description": "Thuộc và vận dụng bảng nhân 5 (5 × 1 … 5 × 10); nhận biết dãy số cách đều 5.",
+      "importance_level": "A",
+      "importance_score": 92,
+      "reason_importance": "Bảng nhân trọng tâm lớp 2; nền trực tiếp cho lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_MULT_CONCEPT_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 40. Bảng nhân 5",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa thuộc bảng nhân 5.",
+        "level_1": "Tính được bằng cách cộng lặp khi có hướng dẫn.",
+        "level_2": "Thuộc phần lớn, vài phép còn chậm.",
+        "level_3": "Nhẩm đúng ≥ 9/10 phép trong ≤ 5 giây/phép; giải đúng bài toán vận dụng.",
+        "level_4": "Nhẩm tức thì, điền đúng dãy số cách đều 5, giải thích được 5 × 6 = 6 × 5."
+      },
+      "mastery_check_rule": "10 câu nhẩm bảng nhân 5 + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10 phép.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_DIV_CONCEPT_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Phép chia",
+      "name": "Khái niệm phép chia",
+      "description": "Hiểu phép chia là chia đều thành các phần bằng nhau; viết và đọc phép chia; minh họa bằng hình ảnh.",
+      "importance_level": "A",
+      "importance_score": 94,
+      "reason_importance": "Khái niệm gốc của phép chia — nền cho mọi phép chia lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_MULT_CONCEPT_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 41. Phép chia",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa hiểu phép chia là gì.",
+        "level_1": "Chia đều được bằng đồ vật khi có hướng dẫn.",
+        "level_2": "Tự chia đều được nhưng viết phép chia đôi khi ngược số bị chia/số chia.",
+        "level_3": "Viết và đọc đúng phép chia cho 8/10 tình huống chia đều, giải đúng bài toán chia.",
+        "level_4": "Giải thích được 12 : 3 nghĩa là chia 12 thành 3 phần bằng nhau; tự đặt tình huống chia."
+      },
+      "mastery_check_rule": "8 câu viết phép chia theo hình/tình huống + 1 bài lời văn; đạt M3 khi đúng ≥ 7/9.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_DIV_COMPONENTS_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Phép chia",
+      "name": "Số bị chia, số chia, thương",
+      "description": "Gọi đúng tên số bị chia, số chia, thương; nhận biết thành phần trong phép chia; tính thương.",
+      "importance_level": "B",
+      "importance_score": 68,
+      "reason_importance": "Thuật ngữ chuẩn, nền cho tìm thành phần chưa biết lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_DIV_CONCEPT_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 42. Số bị chia, số chia, thương",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa biết tên thành phần phép chia.",
+        "level_1": "Gọi tên được khi có mẫu.",
+        "level_2": "Gọi tên được nhưng lẫn số bị chia/số chia vài lần.",
+        "level_3": "Gọi đúng tên, xác định đúng thành phần 4/5 phép tính, tính đúng thương.",
+        "level_4": "Dùng thuật ngữ đúng khi giải thích; tìm được số bị chia dạng đơn giản."
+      },
+      "mastery_check_rule": "5 câu (gọi tên + tính thương); đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_DIV_TABLE_2_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Bảng chia",
+      "name": "Bảng chia 2",
+      "description": "Thuộc và vận dụng bảng chia 2 (2 : 2 … 20 : 2); giải toán chia thành phần bằng nhau.",
+      "importance_level": "A",
+      "importance_score": 92,
+      "reason_importance": "Bảng chia đầu tiên; nền lớp 3 tuyệt đối.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_DIV_CONCEPT_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 43. Bảng chia 2",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa thuộc bảng chia 2.",
+        "level_1": "Tính được bằng đồ vật khi có hướng dẫn.",
+        "level_2": "Thuộc phần lớn, vài phép còn chậm.",
+        "level_3": "Nhẩm đúng ≥ 9/10 phép trong ≤ 5 giây/phép; giải đúng bài toán chia.",
+        "level_4": "Nhẩm tức thì, liên hệ được với bảng nhân 2 để kiểm tra kết quả."
+      },
+      "mastery_check_rule": "10 câu nhẩm bảng chia 2 + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10 phép.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_DIV_TABLE_5_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Bảng chia",
+      "name": "Bảng chia 5",
+      "description": "Thuộc và vận dụng bảng chia 5 (5 : 5 … 50 : 5); giải toán chia thành phần bằng nhau.",
+      "importance_level": "A",
+      "importance_score": 92,
+      "reason_importance": "Bảng chia trọng tâm lớp 2; nền lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_DIV_CONCEPT_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 44. Bảng chia 5",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa thuộc bảng chia 5.",
+        "level_1": "Tính được bằng đồ vật khi có hướng dẫn.",
+        "level_2": "Thuộc phần lớn, vài phép còn chậm.",
+        "level_3": "Nhẩm đúng ≥ 9/10 phép trong ≤ 5 giây/phép; giải đúng bài toán chia.",
+        "level_4": "Nhẩm tức thì, liên hệ được với bảng nhân 5 để kiểm tra kết quả."
+      },
+      "mastery_check_rule": "10 câu nhẩm bảng chia 5 + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10 phép.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_MULT_DIV_RELATION_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Quan hệ nhân – chia",
+      "name": "Mối quan hệ giữa phép nhân và phép chia",
+      "description": "Từ một phép nhân viết được hai phép chia tương ứng; dùng phép nhân để kiểm tra phép chia và ngược lại.",
+      "importance_level": "A",
+      "importance_score": 88,
+      "reason_importance": "Cầu nối nhân-chia; nền cho giải toán 'tìm thương bằng cách nhân ngược' ở lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_MULT_TABLE_2_001",
+        "MATH_DIV_TABLE_2_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 45. Luyện tập chung",
+          "section": "Luyện tập"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa thấy liên hệ nhân-chia.",
+        "level_1": "Viết được phép chia từ phép nhân khi có mẫu.",
+        "level_2": "Tự viết được nhưng đôi khi viết ngược.",
+        "level_3": "Từ 1 phép nhân viết đúng 2 phép chia trong 4/5 trường hợp; kiểm tra chia bằng nhân.",
+        "level_4": "Giải thích được vì sao 2 × 6 = 12 thì 12 : 6 = 2; tìm nhanh thương nhờ bảng nhân."
+      },
+      "mastery_check_rule": "8 câu viết phép chia từ phép nhân + 2 câu kiểm tra kết quả; đạt M3 khi đúng ≥ 8/10.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_GEO3D_CYL_SPHERE_001",
+      "subject": "MATH",
+      "domain": "Hình học",
+      "subdomain": "Khối trụ, khối cầu",
+      "name": "Khối trụ, khối cầu",
+      "description": "Nhận biết khối trụ, khối cầu qua hình ảnh và đồ vật thật; phân biệt với hình phẳng.",
+      "importance_level": "B",
+      "importance_score": 70,
+      "reason_importance": "Khái niệm hình khối đầu tiên; nền cho hình học không gian lớp 3–4.",
+      "grade3_foundation": false,
+      "prerequisites": [],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 46. Khối trụ, khối cầu",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa phân biệt được khối trụ/khối cầu.",
+        "level_1": "Phân biệt được khi có mẫu.",
+        "level_2": "Tự phân biệt được nhưng nhầm với vật có dạng gần giống.",
+        "level_3": "Phân loại đúng 8/10 đồ vật theo khối trụ/khối cầu/khối khác.",
+        "level_4": "Nêu được đặc điểm nhận dạng (lăn được, có mặt phẳng/mặt cong) và tìm ví dụ quanh nhà."
+      },
+      "mastery_check_rule": "6 câu phân loại đồ vật; đạt M3 khi đúng ≥ 5/6.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_NUM_PLACE_VALUE_1000_001",
+      "subject": "MATH",
+      "domain": "Số học",
+      "subdomain": "Các số trong phạm vi 1000",
+      "name": "Đơn vị, chục, trăm, nghìn",
+      "description": "Biết 10 đơn vị = 1 chục, 10 chục = 1 trăm, 10 trăm = 1 nghìn; nhận biết giá trị các hàng.",
+      "importance_level": "A",
+      "importance_score": 94,
+      "reason_importance": "Hệ thập phân là nền của mọi số lớn hơn; nền lớp 3 tuyệt đối.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 48. Đơn vị, chục, trăm, nghìn",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa biết quan hệ giữa các hàng.",
+        "level_1": "Trả lời được khi dùng khối lập phương/hình vẽ.",
+        "level_2": "Tự đổi được nhưng đôi khi nhầm 10 trăm = 1 nghìn.",
+        "level_3": "Đổi đúng 8/10 câu (đơn vị↔chục↔trăm↔nghìn), nói đúng quan hệ các hàng.",
+        "level_4": "Giải thích được hệ thập phân; đếm nhanh theo trăm, theo chục, theo nghìn."
+      },
+      "mastery_check_rule": "8 câu đổi hàng + 2 câu giải thích; đạt M3 khi đúng ≥ 8/10.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_NUM_ROUND_100_001",
+      "subject": "MATH",
+      "domain": "Số học",
+      "subdomain": "Các số trong phạm vi 1000",
+      "name": "Các số tròn trăm, tròn chục",
+      "description": "Đọc, viết, đếm các số tròn trăm (100–900), tròn chục (110–990); nhận biết quy luật dãy số.",
+      "importance_level": "B",
+      "importance_score": 80,
+      "reason_importance": "Bước đệm quan trọng trước số có ba chữ số bất kỳ; nền cộng trừ nhẩm phạm vi 1000.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_PLACE_VALUE_1000_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 49. Các số tròn trăm, tròn chục",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa đọc được số tròn trăm/tròn chục.",
+        "level_1": "Đọc/viết được khi có bảng số.",
+        "level_2": "Tự đọc/viết được nhưng còn nhầm giữa tròn trăm và tròn chục.",
+        "level_3": "Đọc/viết đúng 9/10 số; điền đúng dãy số tròn trăm/tròn chục.",
+        "level_4": "Đếm nhanh xuôi/ngược theo trăm và theo chục, giải thích quy luật dãy số."
+      },
+      "mastery_check_rule": "8 câu đọc/viết/điền dãy; đạt M3 khi đúng ≥ 7/8.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_NUM_COMPARE_ROUND_001",
+      "subject": "MATH",
+      "domain": "Số học",
+      "subdomain": "Các số trong phạm vi 1000",
+      "name": "So sánh các số tròn trăm, tròn chục",
+      "description": "So sánh và sắp thứ tự các số tròn trăm, tròn chục trong phạm vi 1000.",
+      "importance_level": "B",
+      "importance_score": 78,
+      "reason_importance": "Bước đệm cho so sánh số có ba chữ số.",
+      "grade3_foundation": false,
+      "prerequisites": [
+        "MATH_NUM_ROUND_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 50. So sánh các số tròn trăm, tròn chục",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa so sánh được.",
+        "level_1": "So sánh được khi nhắc quy tắc.",
+        "level_2": "Tự so sánh được nhưng nhầm chiều dấu vài lần.",
+        "level_3": "So sánh đúng 9/10 cặp số, sắp xếp đúng 3–4 số.",
+        "level_4": "So sánh nhanh, giải thích được cách so theo số trăm rồi số chục."
+      },
+      "mastery_check_rule": "6 câu; đạt M3 khi đúng ≥ 5/6.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_NUM_READ_WRITE_1000_001",
+      "subject": "MATH",
+      "domain": "Số học",
+      "subdomain": "Các số trong phạm vi 1000",
+      "name": "Đọc, viết số có ba chữ số",
+      "description": "Đọc, viết số có ba chữ số (trăm, chục, đơn vị); phân tích số thành tổng các trăm, chục, đơn vị.",
+      "importance_level": "A",
+      "importance_score": 92,
+      "reason_importance": "Kỹ năng số học trung tâm học kì 2 lớp 2; nền tuyệt đối cho lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_PLACE_VALUE_1000_001",
+        "MATH_NUM_ROUND_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 51. Số có ba chữ số",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa đọc/viết được số có ba chữ số.",
+        "level_1": "Đọc/viết được khi có bảng hàng trăm-chục-đơn vị.",
+        "level_2": "Tự đọc/viết được nhưng nhầm số có chữ số 0 ở giữa (vd 305).",
+        "level_3": "Đọc/viết đúng 9/10 số kể cả dạng có 0 ở giữa; phân tích đúng số thành tổng.",
+        "level_4": "Đọc/viết mọi số, giải thích được giá trị từng chữ số, ghép số từ các trăm/chục/đơn vị."
+      },
+      "mastery_check_rule": "10 câu đọc/viết/phân tích; đạt M3 khi đúng ≥ 9/10.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_MULT_FROM_ADD_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Phép nhân",
+      "name": "Viết phép nhân từ hình ảnh nhóm bằng nhau",
+      "description": "Quan sát hình ảnh/nhóm đồ vật bằng nhau để viết đúng phép nhân (thừa số, dấu ×, tích) và ngược lại vẽ/ghép nhóm theo phép nhân.",
+      "mastery_definition": {
+        "level_0": "Chưa viết được phép nhân từ hình ảnh.",
+        "level_1": "Viết được khi có mẫu phép nhân tương tự.",
+        "level_2": "Tự viết được nhưng đôi khi đảo thừa số và số lần lặp.",
+        "level_3": "Viết đúng ≥ 8/10 phép nhân theo hình/nhóm; ghép đúng nhóm theo phép nhân.",
+        "level_4": "Tự tạo tình huống thực tế có nhóm bằng nhau và viết phép nhân tương ứng."
+      },
+      "mastery_check_rule": "10 câu; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "MATH_MULT_CONCEPT_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 86,
+      "grade3_foundation": true,
+      "reason_importance": "Chuyển trực tiếp từ trực quan sang kí hiệu nhân — cầu nối giữa khái niệm và bảng nhân.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "math2",
+          "lesson": "Bài 37. Phép nhân",
+          "section": "Hoạt động",
+          "volume": "Tập 2"
+        }
+      ]
+    },
+    {
+      "skill_id": "MATH_NUM_COMPARE_1000_001",
+      "subject": "MATH",
+      "domain": "Số học",
+      "subdomain": "Các số trong phạm vi 1000",
+      "name": "So sánh các số có ba chữ số",
+      "description": "So sánh số có ba chữ số theo hàng trăm → chục → đơn vị; dùng đúng dấu >, <, =; sắp thứ tự.",
+      "importance_level": "A",
+      "importance_score": 88,
+      "reason_importance": "Mở rộng trực tiếp của so sánh số; nền cho so sánh số lớn lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_COMPARE_ROUND_001",
+        "MATH_NUM_READ_WRITE_1000_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 53. So sánh các số có ba chữ số",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa so sánh được số có ba chữ số.",
+        "level_1": "So sánh được khi nhắc quy tắc hàng trăm → chục → đơn vị.",
+        "level_2": "Tự so sánh được nhưng nhầm chiều dấu hoặc bỏ qua hàng giữa.",
+        "level_3": "So sánh đúng 9/10 cặp số, sắp xếp đúng 3–4 số có ba chữ số.",
+        "level_4": "So sánh nhanh, giải thích được cách so từng hàng, điền số thích hợp vào chỗ trống."
+      },
+      "mastery_check_rule": "6 câu; đạt M3 khi đúng ≥ 5/6.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_MEASURE_LENGTH_001",
+      "subject": "MATH",
+      "domain": "Đo lường",
+      "subdomain": "Độ dài",
+      "name": "Đề-xi-mét, mét",
+      "description": "Nhận biết dm, m; quan hệ 1 m = 10 dm; đổi đơn vị, ước lượng và đo độ dài thực tế.",
+      "importance_level": "A",
+      "importance_score": 86,
+      "reason_importance": "Đơn vị đo độ dài chuẩn; nền cho cm/mm và đổi đơn vị lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_READ_WRITE_1000_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 55. Đề-xi-mét. Mét. Ki-lô-mét",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa biết dm, m.",
+        "level_1": "Đổi được 1 m = 10 dm khi có bảng.",
+        "level_2": "Tự đổi được nhưng nhầm chiều (m→dm nhân/chia).",
+        "level_3": "Đổi đúng 8/10 câu; ước lượng hợp lý độ dài vật quen thuộc (m, dm).",
+        "level_4": "Đo vật thật bằng thước mét, giải thích được vì sao chọn đơn vị m hay dm."
+      },
+      "mastery_check_rule": "8 câu đổi đơn vị + 2 câu ước lượng; đạt M3 khi đúng ≥ 8/10.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_MEASURE_LENGTH_002",
+      "subject": "MATH",
+      "domain": "Đo lường",
+      "subdomain": "Độ dài",
+      "name": "Ki-lô-mét",
+      "description": "Nhận biết km; quan hệ 1 km = 1000 m; dùng km cho quãng đường dài.",
+      "importance_level": "B",
+      "importance_score": 72,
+      "reason_importance": "Đơn vị đo đường dài thông dụng; nền đổi đơn vị lớn lớp 3.",
+      "grade3_foundation": false,
+      "prerequisites": [
+        "MATH_MEASURE_LENGTH_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 55. Đề-xi-mét. Mét. Ki-lô-mét",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa biết km.",
+        "level_1": "Nói được 1 km = 1000 m khi được nhắc.",
+        "level_2": "Đổi được km↔m nhưng vài câu còn nhầm.",
+        "level_3": "Đổi đúng 4/5 câu; chọn đúng đơn vị km/m cho tình huống.",
+        "level_4": "Giải thích được khi nào dùng km; giải đúng bài toán quãng đường."
+      },
+      "mastery_check_rule": "5 câu; đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_MEASURE_LENGTH_PRACTICE_001",
+      "subject": "MATH",
+      "domain": "Đo lường",
+      "subdomain": "Độ dài",
+      "name": "Thực hành và trải nghiệm đo độ dài",
+      "description": "Thực hành đo chiều dài vật bằng thước (m, dm, cm); ước lượng rồi kiểm chứng.",
+      "importance_level": "C",
+      "importance_score": 55,
+      "reason_importance": "Kỹ năng trải nghiệm; củng cố biểu tượng độ dài.",
+      "grade3_foundation": false,
+      "prerequisites": [
+        "MATH_MEASURE_LENGTH_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 57. Thực hành và trải nghiệm đo độ dài",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa đo được bằng thước.",
+        "level_1": "Đo được khi được chỉ vạch giúp.",
+        "level_2": "Tự đo được nhưng đặt thước chưa đúng hoặc đọc lệch.",
+        "level_3": "Đo đúng 2 vật (sai số ≤ 1 cm), ước lượng gần đúng trước khi đo.",
+        "level_4": "Chọn đúng thước, đo chính xác và so sánh kết quả ước lượng – thực tế."
+      },
+      "mastery_check_rule": "1 hoạt động thực hành đo; đạt M3 khi đo đúng 2 vật.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_MONEY_001",
+      "subject": "MATH",
+      "domain": "Đo lường",
+      "subdomain": "Tiền Việt Nam",
+      "name": "Tiền Việt Nam",
+      "description": "Nhận biết các tờ tiền (100đ – 1000đ và các mệnh giá giới thiệu trong sách); đổi tiền, cộng trừ số tiền, giải toán mua bán.",
+      "importance_level": "A",
+      "importance_score": 85,
+      "reason_importance": "Kỹ năng sống thiết thực; nền cho toán tiền lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_COMPARE_1000_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 56. Giới thiệu tiền Việt Nam",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa nhận biết mệnh giá tiền.",
+        "level_1": "Nhận biết được khi có hình mẫu.",
+        "level_2": "Tự nhận biết được nhưng tính tổng tiền còn nhầm.",
+        "level_3": "Tính đúng tổng tiền và trả lời đúng 4/5 tình huống mua bán đơn giản.",
+        "level_4": "Đổi được tiền (vd 1000đ = 2 tờ 500đ), giải đúng bài toán trả tiền/thừa tiền."
+      },
+      "mastery_check_rule": "6 câu (nhận biết, tính tổng, bài mua bán); đạt M3 khi đúng ≥ 5/6.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_ADD_NO_CARRY_1000_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Cộng trừ trong phạm vi 1000",
+      "name": "Cộng (không nhớ) trong phạm vi 1000",
+      "description": "Đặt tính và tính nhẩm phép cộng không nhớ trong phạm vi 1000 (kể cả nhẩm số tròn trăm/tròn chục).",
+      "importance_level": "A",
+      "importance_score": 88,
+      "reason_importance": "Nền trực tiếp cho cộng có nhớ phạm vi 1000 và lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_READ_WRITE_1000_001",
+        "MATH_ADD_NO_CARRY_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 59. Phép cộng (không nhớ) trong phạm vi 1000",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa đặt tính được số có ba chữ số.",
+        "level_1": "Đặt tính và cộng đúng khi có mẫu.",
+        "level_2": "Tự làm đúng phần lớn nhưng lệch cột vài lần.",
+        "level_3": "Làm đúng ≥ 8/10 câu cả đặt tính và nhẩm (tròn trăm/tròn chục).",
+        "level_4": "Nhẩm nhanh dạng 300 + 200, 430 + 120; giải thích được cách nhẩm theo hàng."
+      },
+      "mastery_check_rule": "10 câu; đạt M3 khi đúng ≥ 8/10.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_SUB_NO_BORROW_1000_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Cộng trừ trong phạm vi 1000",
+      "name": "Trừ (không nhớ) trong phạm vi 1000",
+      "description": "Đặt tính và tính nhẩm phép trừ không nhớ trong phạm vi 1000.",
+      "importance_level": "A",
+      "importance_score": 88,
+      "reason_importance": "Nền trực tiếp cho trừ có nhớ phạm vi 1000 và lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_READ_WRITE_1000_001",
+        "MATH_SUB_NO_BORROW_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 60. Phép trừ (không nhớ) trong phạm vi 1000",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa đặt tính được.",
+        "level_1": "Trừ đúng khi có mẫu.",
+        "level_2": "Tự làm đúng phần lớn nhưng lệch cột vài lần.",
+        "level_3": "Làm đúng ≥ 8/10 câu cả đặt tính và nhẩm.",
+        "level_4": "Nhẩm nhanh dạng 700 − 400, 850 − 130; giải thích cách nhẩm theo hàng."
+      },
+      "mastery_check_rule": "10 câu; đạt M3 khi đúng ≥ 8/10.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_ADD_CARRY_1000_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Cộng trừ trong phạm vi 1000",
+      "name": "Cộng (có nhớ) trong phạm vi 1000",
+      "description": "Đặt tính và tính phép cộng có nhớ trong phạm vi 1000 (nhớ từ hàng đơn vị/chục).",
+      "importance_level": "A",
+      "importance_score": 92,
+      "reason_importance": "Tổng hợp mọi kỹ năng cộng lớp 2; nền tuyệt đối cho lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_ADD_NO_CARRY_1000_001",
+        "MATH_ADD_CARRY_100_002"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 61. Phép cộng (có nhớ) trong phạm vi 1000",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa cộng được số có ba chữ số có nhớ.",
+        "level_1": "Làm đúng khi được hướng dẫn từng hàng.",
+        "level_2": "Tự làm đúng phần lớn nhưng quên nhớ ở hàng chục/hàng trăm vài lần.",
+        "level_3": "Làm đúng ≥ 8/10 câu không nhắc, giải được 1 bài vận dụng.",
+        "level_4": "Làm đúng ổn định, giải thích được quy trình nhớ qua từng hàng, kiểm tra bằng phép trừ."
+      },
+      "mastery_check_rule": "10 câu + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_SUB_BORROW_1000_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Cộng trừ trong phạm vi 1000",
+      "name": "Trừ (có nhớ) trong phạm vi 1000",
+      "description": "Đặt tính và tính phép trừ có nhớ trong phạm vi 1000 (mượn ở hàng chục/hàng trăm).",
+      "importance_level": "A",
+      "importance_score": 92,
+      "reason_importance": "Tổng hợp mọi kỹ năng trừ lớp 2; nền tuyệt đối cho lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_SUB_NO_BORROW_1000_001",
+        "MATH_SUB_BORROW_100_002"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 62. Phép trừ (có nhớ) trong phạm vi 1000",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa trừ được số có ba chữ số có nhớ.",
+        "level_1": "Làm đúng khi được hướng dẫn từng hàng.",
+        "level_2": "Tự làm đúng phần lớn nhưng quên mượn/trả ở hàng chục/hàng trăm vài lần.",
+        "level_3": "Làm đúng ≥ 8/10 câu không nhắc, giải được 1 bài vận dụng.",
+        "level_4": "Làm đúng ổn định, giải thích được quy trình mượn qua từng hàng, kiểm tra bằng phép cộng."
+      },
+      "mastery_check_rule": "10 câu + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_STAT_COLLECT_001",
+      "subject": "MATH",
+      "domain": "Thống kê",
+      "subdomain": "Thu thập dữ liệu",
+      "name": "Thu thập số liệu",
+      "description": "Quan sát, thu thập số liệu từ thực tế (đếm số lượng đồ vật, bạn thích…); ghi chép kết quả đơn giản.",
+      "importance_level": "B",
+      "importance_score": 70,
+      "reason_importance": "Khởi đầu tư duy dữ liệu; nền cho thống kê lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_READ_WRITE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 64. Thu thập, phân loại, kiểm đếm số liệu",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa biết thu thập số liệu.",
+        "level_1": "Thu thập được khi được hướng dẫn cách ghi.",
+        "level_2": "Tự thu thập được nhưng ghi chép lộn xộn, dễ bỏ sót.",
+        "level_3": "Thu thập và ghi đúng số liệu cho 4/5 nhiệm vụ đếm/khảo sát nhỏ.",
+        "level_4": "Tổ chức được hoạt động thu thập, trình bày rõ cách ghi để không sót."
+      },
+      "mastery_check_rule": "2 nhiệm vụ thu thập thực tế; đạt M3 khi ghi đúng cả 2.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_STAT_SORT_COUNT_001",
+      "subject": "MATH",
+      "domain": "Thống kê",
+      "subdomain": "Phân loại, kiểm đếm",
+      "name": "Phân loại và kiểm đếm số liệu",
+      "description": "Phân loại đối tượng theo dấu hiệu; kiểm đếm số lượng từng loại bằng vạch/đếm chéo.",
+      "importance_level": "B",
+      "importance_score": 72,
+      "reason_importance": "Kỹ năng xử lý dữ liệu đầu tiên; nền cho bảng số liệu lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_STAT_COLLECT_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 64. Thu thập, phân loại, kiểm đếm số liệu",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa phân loại được.",
+        "level_1": "Phân loại được khi được gợi ý dấu hiệu.",
+        "level_2": "Tự phân loại được nhưng kiểm đếm còn sót.",
+        "level_3": "Phân loại và kiểm đếm đúng 4/5 bài (mỗi loại đếm đúng số lượng).",
+        "level_4": "Tự chọn dấu hiệu phân loại hợp lý và đếm chính xác bằng vạch đếm."
+      },
+      "mastery_check_rule": "4 bài phân loại – kiểm đếm; đạt M3 khi đúng ≥ 3/4.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_STAT_PICTOGRAPH_001",
+      "subject": "MATH",
+      "domain": "Thống kê",
+      "subdomain": "Biểu đồ tranh",
+      "name": "Đọc và lập biểu đồ tranh",
+      "description": "Đọc số liệu từ biểu đồ tranh (mỗi hình = 1 đơn vị); trả lời câu hỏi so sánh; hoàn thiện biểu đồ tranh.",
+      "importance_level": "B",
+      "importance_score": 76,
+      "reason_importance": "Biểu diễn dữ liệu trực quan; nền cho biểu đồ cột lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_STAT_SORT_COUNT_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 65. Biểu đồ tranh",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa đọc được biểu đồ tranh.",
+        "level_1": "Đọc được khi được chỉ từng cột/hình.",
+        "level_2": "Tự đọc được nhưng trả lời câu so sánh còn nhầm.",
+        "level_3": "Đọc đúng 4/5 biểu đồ, trả lời đúng câu hỏi nhiều nhất/ít nhất/hơn nhau.",
+        "level_4": "Lập được biểu đồ tranh từ bảng số liệu và đặt câu hỏi cho biểu đồ."
+      },
+      "mastery_check_rule": "5 câu đọc biểu đồ; đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_PROB_CERTAIN_001",
+      "subject": "MATH",
+      "domain": "Xác suất ban đầu",
+      "subdomain": "Khả năng xảy ra",
+      "name": "Chắc chắn, có thể, không thể",
+      "description": "Phân biệt các sự kiện chắc chắn xảy ra, có thể xảy ra, không thể xảy ra trong tình huống đơn giản.",
+      "importance_level": "B",
+      "importance_score": 74,
+      "reason_importance": "Tư duy xác suất ban đầu; nền cho xác suất lớp 3–4.",
+      "grade3_foundation": true,
+      "prerequisites": [],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 66. Chắc chắn, có thể, không thể",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa phân biệt được các khả năng.",
+        "level_1": "Phân biệt được khi có ví dụ mẫu.",
+        "level_2": "Tự phân biệt được nhưng nhầm 'có thể' với 'chắc chắn' vài lần.",
+        "level_3": "Phân loại đúng 8/10 sự kiện vào chắc chắn/có thể/không thể.",
+        "level_4": "Giải thích được vì sao một sự kiện là không thể/chắc chắn; tự nêu ví dụ."
+      },
+      "mastery_check_rule": "6 câu phân loại; đạt M3 khi đúng ≥ 5/6.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_STAT_PRACTICE_001",
+      "subject": "MATH",
+      "domain": "Thống kê",
+      "subdomain": "Thực hành thống kê",
+      "name": "Thực hành và trải nghiệm thu thập, phân loại, kiểm đếm",
+      "description": "Thực hiện một khảo sát nhỏ trong lớp/gia đình: thu thập → phân loại → kiểm đếm → biểu diễn đơn giản.",
+      "importance_level": "C",
+      "importance_score": 55,
+      "reason_importance": "Kỹ năng trải nghiệm tổng hợp; củng cố chu trình dữ liệu.",
+      "grade3_foundation": false,
+      "prerequisites": [
+        "MATH_STAT_SORT_COUNT_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 67. Thực hành và trải nghiệm thu thập, phân loại, kiểm đếm",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa thực hiện được khảo sát.",
+        "level_1": "Thực hiện được khi có kịch bản mẫu.",
+        "level_2": "Tự thực hiện được nhưng bỏ sót bước hoặc đếm nhầm.",
+        "level_3": "Hoàn thành 1 khảo sát đủ 4 bước: thu thập → phân loại → kiểm đếm → báo cáo số liệu.",
+        "level_4": "Trình bày rõ ràng kết quả khảo sát và nêu nhận xét đơn giản."
+      },
+      "mastery_check_rule": "1 hoạt động khảo sát; đạt M3 khi hoàn thành đủ 4 bước.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_NUM_DECOMPOSE_1000_001",
+      "subject": "MATH",
+      "domain": "Số học",
+      "subdomain": "Các số trong phạm vi 1000",
+      "name": "Viết số có ba chữ số thành tổng các trăm, chục, đơn vị",
+      "description": "Phân tích số có ba chữ số thành tổng trăm + chục + đơn vị (đúng cả dạng có chữ số 0) và ngược lại viết số từ tổng.",
+      "mastery_definition": {
+        "level_0": "Chưa phân tích được số có ba chữ số.",
+        "level_1": "Phân tích được khi có mẫu.",
+        "level_2": "Tự phân tích được nhưng còn sót/viết nhầm ở dạng có chữ số 0.",
+        "level_3": "Viết đúng ≥ 8/10 bài cả hai chiều, kể cả dạng 503 = 500 + 3.",
+        "level_4": "Phân tích và giải thích được giá trị từng chữ số theo hàng; làm bài dạng 993 = 900 + 90 + _."
+      },
+      "mastery_check_rule": "10 câu hai chiều (kể cả dạng có chữ số 0); đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "MATH_NUM_READ_WRITE_1000_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 90,
+      "grade3_foundation": true,
+      "reason_importance": "Bản chất cấu tạo thập phân của số — nền cho so sánh số và cộng/trừ phạm vi 1000, lớp 3.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "math2",
+          "lesson": "Bài 52. Viết số thành tổng các trăm, chục, đơn vị",
+          "section": "Hoạt động",
+          "volume": "Tập 2"
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_WORD_001",
+      "subject": "VIE",
+      "domain": "Đọc",
+      "subdomain": "Đọc thành tiếng",
+      "name": "Đọc đúng từ, tiếng khó trong bài",
+      "description": "Đọc đúng các từ ngữ khó (âm/vần dễ nhầm, từ mới) trong bài đọc lớp 2; phát âm rõ, không đọc lẫn từ.",
+      "mastery_definition": {
+        "level_0": "Chưa đọc đúng phần lớn từ trong bài.",
+        "level_1": "Đọc đúng từ khi được đọc mẫu trước.",
+        "level_2": "Tự đọc được nhưng còn vấp ở vài từ khó.",
+        "level_3": "Đọc đúng 9/10 từ khó của bài mới, phát âm rõ.",
+        "level_4": "Đọc đúng mọi từ, tự nhận ra từ khó và biết cách luyện."
+      },
+      "mastery_check_rule": "Cho đọc 10 từ khó (trong/ngoài bài); đạt M3 khi đọc đúng ≥ 9/10.",
+      "prerequisites": [],
+      "importance_level": "A",
+      "importance_score": 92,
+      "grade3_foundation": true,
+      "reason_importance": "Tiền đề tuyệt đối của mọi kĩ năng đọc hiểu và viết chính tả.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 28
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_FLUENCY_001",
+      "subject": "VIE",
+      "domain": "Đọc",
+      "subdomain": "Đọc thành tiếng",
+      "name": "Đọc trôi chảy, ngắt nghỉ đúng dấu câu",
+      "description": "Đọc câu/đoạn trôi chảy, không đánh vần từng tiếng; ngắt nghỉ đúng dấu chấm, dấu phẩy, dấu chấm hỏi/than.",
+      "mastery_definition": {
+        "level_0": "Đọc còn đánh vần, đứt quãng từng tiếng.",
+        "level_1": "Đọc được câu ngắn khi có mẫu.",
+        "level_2": "Đọc trơn được nhưng ngắt nghỉ còn tùy tiện.",
+        "level_3": "Đọc trơn 1 đoạn 4–5 câu, ngắt nghỉ đúng dấu câu ≥ 90%.",
+        "level_4": "Đọc diễn cảm, tự điều chỉnh tốc độ và giọng theo nội dung."
+      },
+      "mastery_check_rule": "Nghe trẻ đọc 1 đoạn chưa học; đạt M3 khi trôi chảy và ngắt nghỉ đúng ≥ 4/5 dấu câu.",
+      "prerequisites": [
+        "VIE_READ_WORD_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 90,
+      "grade3_foundation": true,
+      "reason_importance": "Cầu nối từ nhận diện chữ sang đọc hiểu; chậm đọc làm hỏng toàn bộ việc học.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 28
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_COMPREHEND_001",
+      "subject": "VIE",
+      "domain": "Đọc",
+      "subdomain": "Đọc hiểu",
+      "name": "Hiểu nghĩa từ trong ngữ cảnh",
+      "description": "Hiểu nghĩa từ mới nhờ ngữ cảnh, giải thích được từ đơn giản, đặt câu với từ đã học.",
+      "mastery_definition": {
+        "level_0": "Không hiểu nghĩa phần lớn từ trong câu.",
+        "level_1": "Giải thích được từ khi có hình ảnh minh họa.",
+        "level_2": "Tự giải thích được từ quen thuộc, từ mới còn cần gợi ý.",
+        "level_3": "Giải thích đúng ≥ 4/5 từ trong ngữ cảnh, đặt câu đúng với 4/5 từ.",
+        "level_4": "Tự suy ra nghĩa từ mới từ văn cảnh và vận dụng linh hoạt."
+      },
+      "mastery_check_rule": "5 từ trong/ngoài bài: giải thích + đặt câu; đạt M3 khi đúng ≥ 4/5 mỗi phần.",
+      "prerequisites": [
+        "VIE_READ_FLUENCY_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 86,
+      "grade3_foundation": true,
+      "reason_importance": "Vốn từ quyết định tốc độ đọc hiểu về sau; hổng từ = hổng hiểu văn bản.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 28
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_INFO_001",
+      "subject": "VIE",
+      "domain": "Đọc",
+      "subdomain": "Đọc hiểu",
+      "name": "Tìm thông tin trực tiếp trong bài",
+      "description": "Tìm và nêu đúng chi tiết nêu rõ trong bài (ai, cái gì, ở đâu, khi nào, vì sao) theo câu hỏi.",
+      "mastery_definition": {
+        "level_0": "Chưa tìm được thông tin dù đã chỉ đoạn chứa đáp án.",
+        "level_1": "Tìm được khi được khoanh vùng đoạn.",
+        "level_2": "Tự tìm được nhưng đôi khi nhầm chi tiết gần giống.",
+        "level_3": "Tìm đúng ≥ 4/5 câu hỏi thông tin trực tiếp ở bài mới.",
+        "level_4": "Tìm nhanh, nêu được câu trong bài chứa đáp án làm bằng chứng."
+      },
+      "mastery_check_rule": "5 câu hỏi thông tin trực tiếp ở bài chưa học; đạt M3 khi đúng ≥ 4/5.",
+      "prerequisites": [
+        "VIE_READ_FLUENCY_001",
+        "VIE_READ_COMPREHEND_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 90,
+      "grade3_foundation": true,
+      "reason_importance": "Dạng đọc hiểu nền tảng, xuất hiện ở mọi bài và mọi môn học.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 28
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_CHARACTER_001",
+      "subject": "VIE",
+      "domain": "Đọc",
+      "subdomain": "Đọc hiểu",
+      "name": "Xác định nhân vật trong truyện",
+      "description": "Kể tên nhân vật xuất hiện trong truyện; phân biệt nhân vật chính/phụ ở mức đơn giản.",
+      "mastery_definition": {
+        "level_0": "Chưa kể được ai trong truyện.",
+        "level_1": "Kể được nhân vật khi xem lại tranh.",
+        "level_2": "Kể được nhân vật chính, còn sót nhân vật phụ.",
+        "level_3": "Kể đúng các nhân vật và chỉ ra nhân vật chính ở ≥ 4/5 truyện.",
+        "level_4": "Nói được vai trò ngắn gọn của từng nhân vật trong truyện."
+      },
+      "mastery_check_rule": "Đọc 1 truyện ngắn mới: kể tên nhân vật + nhân vật chính; đạt M3 khi đúng cả hai.",
+      "prerequisites": [
+        "VIE_READ_INFO_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 74,
+      "grade3_foundation": false,
+      "reason_importance": "Nền cho phân tích nhân vật, cảm xúc và ý nghĩa truyện ở lớp trên.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 28
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 21. Mai An Tiêm",
+          "section": "Đọc",
+          "volume": "Tập 2",
+          "printed_page": 92
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_EVENT_001",
+      "subject": "VIE",
+      "domain": "Đọc",
+      "subdomain": "Đọc hiểu",
+      "name": "Xác định sự việc trong bài",
+      "description": "Nêu được sự việc/tình tiết chính diễn ra trong bài; trả lời 'chuyện gì đã xảy ra'.",
+      "mastery_definition": {
+        "level_0": "Chưa nêu được sự việc nào.",
+        "level_1": "Nêu được 1 sự việc khi có câu gợi ý.",
+        "level_2": "Tự nêu được nhưng còn thiếu sự việc quan trọng.",
+        "level_3": "Nêu đúng ≥ 4/5 sự việc chính ở bài mới.",
+        "level_4": "Phân biệt được sự việc chính và chi tiết phụ."
+      },
+      "mastery_check_rule": "1 bài mới: kể các sự việc chính; đạt M3 khi nêu đúng ≥ 4/5.",
+      "prerequisites": [
+        "VIE_READ_INFO_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 78,
+      "grade3_foundation": true,
+      "reason_importance": "Nền cho tóm tắt, kể lại và viết đoạn kể sự việc.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 8. Cầu thủ dự bị",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 45
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 23. Bóp nát quả cam",
+          "section": "Đọc",
+          "volume": "Tập 2",
+          "printed_page": 100
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_SEQUENCE_001",
+      "subject": "VIE",
+      "domain": "Đọc",
+      "subdomain": "Đọc hiểu",
+      "name": "Sắp xếp sự việc theo trình tự",
+      "description": "Sắp xếp tranh/câu theo đúng trình tự trước–sau của câu chuyện; nhận ra mở đầu, diễn biến, kết thúc ở mức đơn giản.",
+      "mastery_definition": {
+        "level_0": "Chưa sắp xếp được trình tự.",
+        "level_1": "Xếp được khi chỉ còn 2 lựa chọn.",
+        "level_2": "Tự xếp được đoạn ngắn, còn lẫn thứ tự đoạn dài.",
+        "level_3": "Xếp đúng ≥ 4/5 bộ tranh/câu theo trình tự.",
+        "level_4": "Kể lại được trình tự và giải thích vì sao sắp như vậy."
+      },
+      "mastery_check_rule": "Xếp 5 tranh/câu của 1 truyện mới; đạt M3 khi đúng ≥ 4/5.",
+      "prerequisites": [
+        "VIE_READ_EVENT_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 80,
+      "grade3_foundation": true,
+      "reason_importance": "Tư duy trình tự — nền của kể chuyện, tóm tắt và viết đoạn có thứ tự.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 7. Cây xấu hổ",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 44
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 1. Chuyện bốn mùa",
+          "section": "Nói và nghe",
+          "volume": "Tập 2",
+          "printed_page": 11
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_MAINIDEA_001",
+      "subject": "VIE",
+      "domain": "Đọc",
+      "subdomain": "Đọc hiểu",
+      "name": "Nêu ý chính của đoạn, bài",
+      "description": "Nêu được nội dung chính của đoạn/bài bằng 1 câu; chọn được câu nêu đúng ý chính.",
+      "mastery_definition": {
+        "level_0": "Chưa nêu được bài nói về gì.",
+        "level_1": "Nêu được khi chọn giữa 2 câu cho sẵn.",
+        "level_2": "Tự nêu được nhưng còn rườm rà, thiếu trọng tâm.",
+        "level_3": "Nêu đúng ý chính ≥ 4/5 đoạn/bài bằng 1 câu gọn.",
+        "level_4": "Tự đặt được tiêu đề phù hợp cho đoạn văn ngắn."
+      },
+      "mastery_check_rule": "4 đoạn/bài: nêu ý chính 1 câu; đạt M3 khi đúng ≥ 3/4.",
+      "prerequisites": [
+        "VIE_READ_INFO_001",
+        "VIE_READ_SEQUENCE_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 84,
+      "grade3_foundation": true,
+      "reason_importance": "Khả năng 'rút ruột' văn bản — dùng ở mọi môn từ lớp 3.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 4. Làm việc thật là vui",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 31
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 18. Thư viện biết đi",
+          "section": "Đọc",
+          "volume": "Tập 2",
+          "printed_page": 80
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_INFERENCE_001",
+      "subject": "VIE",
+      "domain": "Đọc",
+      "subdomain": "Đọc hiểu",
+      "name": "Suy luận đơn giản từ bài đọc",
+      "description": "Trả lời câu hỏi 'vì sao', 'điều gì sẽ xảy ra' khi đáp án không nêu sẵn mà phải suy ra từ chi tiết trong bài.",
+      "mastery_definition": {
+        "level_0": "Chưa suy luận được, chỉ lặp lại câu trong bài.",
+        "level_1": "Suy luận được khi có gợi ý chi tiết.",
+        "level_2": "Tự suy luận được câu đơn giản, câu phức còn lệch.",
+        "level_3": "Suy luận đúng ≥ 4/5 câu hỏi 'vì sao' ở bài mới.",
+        "level_4": "Nêu được bằng chứng trong bài cho suy luận của mình."
+      },
+      "mastery_check_rule": "5 câu suy luận ở bài mới; đạt M3 khi đúng ≥ 4/5.",
+      "prerequisites": [
+        "VIE_READ_INFO_001",
+        "VIE_READ_COMPREHEND_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 85,
+      "grade3_foundation": true,
+      "reason_importance": "Đọc hiểu bậc cao — quyết định điểm đọc hiểu và học môn khác.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 5. Em có xinh không?",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 35
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 19. Cảm ơn anh hà mã",
+          "section": "Đọc",
+          "volume": "Tập 2",
+          "printed_page": 84
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_EMOTION_001",
+      "subject": "VIE",
+      "domain": "Đọc",
+      "subdomain": "Đọc hiểu",
+      "name": "Hiểu cảm xúc, thái độ nhân vật",
+      "description": "Nhận ra nhân vật vui/buồn/sợ/giận qua lời nói, hành động; nói được vì sao nhân vật có cảm xúc đó.",
+      "mastery_definition": {
+        "level_0": "Chưa nhận ra cảm xúc nhân vật.",
+        "level_1": "Nhận ra cảm xúc qua nét mặt tranh.",
+        "level_2": "Tự nhận ra cảm xúc rõ, cảm xúc kín còn cần gợi ý.",
+        "level_3": "Xác định đúng cảm xúc + lí do ≥ 4/5 tình huống.",
+        "level_4": "Liên hệ được cảm xúc nhân vật với trải nghiệm của mình."
+      },
+      "mastery_check_rule": "5 tình huống trong truyện mới; đạt M3 khi đúng ≥ 4/5.",
+      "prerequisites": [
+        "VIE_READ_INFERENCE_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 75,
+      "grade3_foundation": false,
+      "reason_importance": "Nền của cảm thụ văn học và kĩ năng đồng cảm xã hội.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 29. Cánh cửa nhớ bà",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 134
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 24. Chiếc rễ đa tròn",
+          "section": "Đọc",
+          "volume": "Tập 2",
+          "printed_page": 104
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_POEM_001",
+      "subject": "VIE",
+      "domain": "Đọc",
+      "subdomain": "Đọc hiểu",
+      "name": "Đọc thơ: khổ thơ, nhịp, vần",
+      "description": "Nhận biết khổ thơ, dòng thơ; đọc đúng nhịp; tìm tiếng bắt vần với nhau trong bài thơ.",
+      "mastery_definition": {
+        "level_0": "Chưa phân biệt được khổ thơ/dòng thơ.",
+        "level_1": "Đọc được theo nhịp khi có mẫu.",
+        "level_2": "Tự đọc đúng nhịp phần lớn, nhận vần còn chậm.",
+        "level_3": "Đọc đúng nhịp và tìm đúng tiếng bắt vần ≥ 4/5 bài thơ ngắn.",
+        "level_4": "Đọc diễn cảm bài thơ, nêu được hình ảnh em thích và vì sao."
+      },
+      "mastery_check_rule": "1 bài thơ ngắn mới: đọc + tìm 3 cặp vần; đạt M3 khi đúng ≥ 4/5 yêu cầu.",
+      "prerequisites": [
+        "VIE_READ_FLUENCY_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 70,
+      "grade3_foundation": false,
+      "reason_importance": "Làm quen văn vần; rèn ngữ âm và nhạy cảm ngôn ngữ.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 9. Cô giáo lớp em",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 51
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 11. Cái trống trường em",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 59
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_ANSWER_001",
+      "subject": "VIE",
+      "domain": "Đọc",
+      "subdomain": "Đọc hiểu",
+      "name": "Trả lời câu hỏi đọc hiểu thành câu đủ",
+      "description": "Trả lời câu hỏi về bài đọc bằng câu đầy đủ chủ ngữ – vị ngữ, đúng nội dung hỏi.",
+      "mastery_definition": {
+        "level_0": "Trả lời cụt lủn 1 từ hoặc sai nội dung hỏi.",
+        "level_1": "Trả lời đủ câu khi có mẫu.",
+        "level_2": "Tự trả lời được nhưng có lúc thiếu chủ ngữ.",
+        "level_3": "Trả lời đúng và đủ câu ≥ 4/5 câu hỏi đọc hiểu.",
+        "level_4": "Trả lời gọn, đúng trọng tâm và dẫn được chi tiết trong bài."
+      },
+      "mastery_check_rule": "5 câu hỏi đọc hiểu bài mới (trả lời viết/nói); đạt M3 khi đúng ≥ 4/5 và đủ câu.",
+      "prerequisites": [
+        "VIE_READ_COMPREHEND_001",
+        "VIE_SENTENCE_MAKE_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 87,
+      "grade3_foundation": true,
+      "reason_importance": "Kết hợp đọc hiểu + diễn đạt; dạng chiếm phần lớn bài kiểm tra.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 28
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_DOCUMENT_001",
+      "subject": "VIE",
+      "domain": "Đọc",
+      "subdomain": "Đọc hiểu",
+      "name": "Đọc hiểu văn bản phi truyện",
+      "description": "Đọc hiểu thời khóa biểu, danh sách, thông báo, nội quy: tra đúng thông tin theo hàng/cột và làm theo chỉ dẫn.",
+      "mastery_definition": {
+        "level_0": "Chưa tra được thông tin trong bảng/danh sách.",
+        "level_1": "Tra được khi được chỉ hàng/cột.",
+        "level_2": "Tự tra được nhưng thỉnh thoảng nhầm dòng.",
+        "level_3": "Tra đúng ≥ 4/5 thông tin ở thời khóa biểu/danh sách/nội quy mới.",
+        "level_4": "Tự lập được bảng/danh sách đơn giản theo mẫu."
+      },
+      "mastery_check_rule": "5 câu tra thông tin ở 1 văn bản phi truyện mới; đạt M3 khi đúng ≥ 4/5.",
+      "prerequisites": [
+        "VIE_READ_INFO_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 76,
+      "grade3_foundation": true,
+      "reason_importance": "Kĩ năng đọc tài liệu thực tế, dùng suốt đời và ở mọi môn.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 10. Thời khóa biểu",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 54
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 12. Danh sách học sinh",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 62
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 18. Thư viện biết đi",
+          "section": "Đọc",
+          "volume": "Tập 2",
+          "printed_page": 80
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_WIDE_001",
+      "subject": "VIE",
+      "domain": "Đọc",
+      "subdomain": "Đọc mở rộng",
+      "name": "Đọc mở rộng theo chủ điểm",
+      "description": "Tự đọc thêm sách/bài cùng chủ điểm, ghi phiếu đọc sách đơn giản (tên sách, tác giả, điều thích nhất).",
+      "mastery_definition": {
+        "level_0": "Chưa tự đọc thêm được.",
+        "level_1": "Đọc thêm được khi có người đọc cùng.",
+        "level_2": "Tự đọc thêm được truyện ngắn, phiếu đọc còn sơ sài.",
+        "level_3": "Hoàn thành phiếu đọc sách đủ 3 mục ở 4/5 lần.",
+        "level_4": "Tự chọn sách theo chủ điểm, kể lại được nội dung chính."
+      },
+      "mastery_check_rule": "1 phiếu đọc sách/tháng; đạt M3 khi đủ 3 mục và kể được 1 ý chính.",
+      "prerequisites": [
+        "VIE_READ_FLUENCY_001"
+      ],
+      "importance_level": "D",
+      "importance_score": 52,
+      "grade3_foundation": false,
+      "reason_importance": "Kĩ năng bồi đắp vốn từ; có thể rút gọn khi trẻ đã đọc tốt.",
+      "fast_track_allowed": true,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 15. Cuốn sách của em",
+          "section": "Đọc mở rộng",
+          "volume": "Tập 1",
+          "printed_page": 74
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 18. Thư viện biết đi",
+          "section": "Đọc mở rộng",
+          "volume": "Tập 2",
+          "printed_page": 80
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SPELL_CAPITAL_001",
+      "subject": "VIE",
+      "domain": "Chính tả",
+      "subdomain": "Quy tắc viết hoa",
+      "name": "Viết hoa đầu câu, tên riêng, tên địa lí",
+      "description": "Viết hoa đúng chữ đầu câu, tên người, tên địa lí Việt Nam (địa danh, tên riêng đơn giản).",
+      "mastery_definition": {
+        "level_0": "Chưa viết hoa được theo quy tắc.",
+        "level_1": "Viết hoa đúng khi được nhắc quy tắc.",
+        "level_2": "Tự viết hoa đầu câu đúng, tên riêng còn sót.",
+        "level_3": "Viết hoa đúng ≥ 8/10 trường hợp cả 3 loại.",
+        "level_4": "Tự phát hiện và sửa lỗi viết hoa trong đoạn văn."
+      },
+      "mastery_check_rule": "10 trường hợp (đầu câu, tên người, tên địa lí); đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_READ_WORD_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 88,
+      "grade3_foundation": true,
+      "reason_importance": "Quy tắc chính tả dùng suốt đời; sai viết hoa kéo dài dai dẳng.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 8. Cầu thủ dự bị",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 45
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 16. Khi trang sách mở ra",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 77
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 28. Trò chơi của bố",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 130
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SPELL_CK_001",
+      "subject": "VIE",
+      "domain": "Chính tả",
+      "subdomain": "Âm đầu dễ nhầm",
+      "name": "Phân biệt c/k (cờ)",
+      "description": "Viết đúng c/k trước nguyên âm (k trước e/ê/i); chọn đúng tiếng chứa c/k theo nghĩa.",
+      "mastery_definition": {
+        "level_0": "Chưa phân biệt được c/k.",
+        "level_1": "Đúng khi nhìn quy tắc trước mặt.",
+        "level_2": "Nhớ quy tắc nhưng thỉnh thoảng viết c trước e/ê/i.",
+        "level_3": "Viết đúng ≥ 9/10 tiếng chứa c/k.",
+        "level_4": "Tự phát hiện lỗi c/k trong bài viết của mình và của bạn."
+      },
+      "mastery_check_rule": "10 tiếng/chỗ trống chứa c/k; đạt M3 khi đúng ≥ 9/10.",
+      "prerequisites": [
+        "VIE_READ_WORD_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 73,
+      "grade3_foundation": false,
+      "reason_importance": "Lỗi chính tả kinh điển, lặp lại suốt cấp tiểu học nếu không chốt sớm.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 10. Thời khóa biểu",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 54
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 2. Mùa nước nổi",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 2",
+          "printed_page": 12
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SPELL_GH_001",
+      "subject": "VIE",
+      "domain": "Chính tả",
+      "subdomain": "Âm đầu dễ nhầm",
+      "name": "Phân biệt g/gh, ng/ngh",
+      "description": "Viết đúng g/gh và ng/ngh trước nguyên âm (gh, ngh trước e/ê/i); chọn đúng tiếng theo nghĩa.",
+      "mastery_definition": {
+        "level_0": "Chưa phân biệt được g/gh, ng/ngh.",
+        "level_1": "Đúng khi nhìn quy tắc trước mặt.",
+        "level_2": "Nhớ quy tắc nhưng viết còn lẫn lộn.",
+        "level_3": "Viết đúng ≥ 9/10 tiếng chứa g/gh, ng/ngh.",
+        "level_4": "Tự phát hiện và sửa lỗi trong đoạn văn."
+      },
+      "mastery_check_rule": "10 tiếng/chỗ trống; đạt M3 khi đúng ≥ 9/10.",
+      "prerequisites": [
+        "VIE_READ_WORD_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 73,
+      "grade3_foundation": false,
+      "reason_importance": "Cặp quy tắc chính tả bắt buộc, lỗi phổ biến nhất lớp 2.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 12. Danh sách học sinh",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 62
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 14. Em học vẽ",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 69
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 20. Nhím nâu kết bạn",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 100
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SPELL_SX_001",
+      "subject": "VIE",
+      "domain": "Chính tả",
+      "subdomain": "Âm đầu dễ nhầm",
+      "name": "Phân biệt s/x",
+      "description": "Chọn đúng tiếng chứa s hoặc x theo nghĩa từ trong bài; viết đúng khi nghe – viết.",
+      "mastery_definition": {
+        "level_0": "Chưa phân biệt được s/x.",
+        "level_1": "Đúng khi có từ gợi ý nghĩa.",
+        "level_2": "Tự làm đúng từ quen thuộc, từ ít gặp còn lẫn.",
+        "level_3": "Chọn/viết đúng ≥ 8/10 tiếng chứa s/x.",
+        "level_4": "Tự giải thích nghĩa để chọn đúng s/x ở từ mới."
+      },
+      "mastery_check_rule": "10 tiếng/chỗ trống s/x; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_READ_WORD_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 72,
+      "grade3_foundation": false,
+      "reason_importance": "Lỗi chính tả vùng miền phổ biến, cần luyện có ngữ cảnh nghĩa.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 12. Danh sách học sinh",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 62
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 24. Nặn đồ chơi",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 115
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 4. Tết đến rồi",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 2",
+          "printed_page": 19
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SPELL_CHTR_001",
+      "subject": "VIE",
+      "domain": "Chính tả",
+      "subdomain": "Âm đầu dễ nhầm",
+      "name": "Phân biệt ch/tr",
+      "description": "Chọn đúng tiếng chứa ch hoặc tr theo nghĩa từ; viết đúng khi nghe – viết.",
+      "mastery_definition": {
+        "level_0": "Chưa phân biệt được ch/tr.",
+        "level_1": "Đúng khi có từ gợi ý nghĩa.",
+        "level_2": "Tự làm đúng từ quen thuộc, từ ít gặp còn lẫn.",
+        "level_3": "Chọn/viết đúng ≥ 8/10 tiếng chứa ch/tr.",
+        "level_4": "Tự giải thích nghĩa để chọn đúng ch/tr ở từ mới."
+      },
+      "mastery_check_rule": "10 tiếng/chỗ trống ch/tr; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_READ_WORD_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 72,
+      "grade3_foundation": false,
+      "reason_importance": "Lỗi chính tả vùng miền phổ biến, cần luyện có ngữ cảnh nghĩa.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 10. Thời khóa biểu",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 54
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 22. Tớ là Lê-gô",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 108
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 30. Thương ông",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 137
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SPELL_DGI_001",
+      "subject": "VIE",
+      "domain": "Chính tả",
+      "subdomain": "Âm đầu dễ nhầm",
+      "name": "Phân biệt d/gi (và r)",
+      "description": "Chọn đúng tiếng chứa d, gi (r) theo nghĩa từ; viết đúng khi nghe – viết.",
+      "mastery_definition": {
+        "level_0": "Chưa phân biệt được d/gi.",
+        "level_1": "Đúng khi có từ gợi ý nghĩa.",
+        "level_2": "Tự làm đúng từ quen thuộc, từ ít gặp còn lẫn.",
+        "level_3": "Chọn/viết đúng ≥ 8/10 tiếng chứa d/gi/r.",
+        "level_4": "Tự giải thích nghĩa để chọn đúng d/gi/r ở từ mới."
+      },
+      "mastery_check_rule": "10 tiếng/chỗ trống d/gi/r; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_READ_WORD_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 72,
+      "grade3_foundation": false,
+      "reason_importance": "Lỗi chính tả vùng miền phổ biến, cần luyện có ngữ cảnh nghĩa.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 14. Em học vẽ",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 69
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 24. Nặn đồ chơi",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 115
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 26. Em mang về yêu thương",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 123
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SPELL_LN_001",
+      "subject": "VIE",
+      "domain": "Chính tả",
+      "subdomain": "Âm đầu dễ nhầm",
+      "name": "Phân biệt l/n",
+      "description": "Chọn đúng tiếng chứa l hoặc n theo nghĩa từ; viết đúng khi nghe – viết.",
+      "mastery_definition": {
+        "level_0": "Chưa phân biệt được l/n.",
+        "level_1": "Đúng khi có từ gợi ý nghĩa.",
+        "level_2": "Tự làm đúng từ quen thuộc, từ ít gặp còn lẫn.",
+        "level_3": "Chọn/viết đúng ≥ 8/10 tiếng chứa l/n.",
+        "level_4": "Tự giải thích nghĩa để chọn đúng l/n ở từ mới."
+      },
+      "mastery_check_rule": "10 tiếng/chỗ trống l/n; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_READ_WORD_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 70,
+      "grade3_foundation": false,
+      "reason_importance": "Lỗi chính tả vùng miền phổ biến, cần luyện có ngữ cảnh nghĩa.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 16. Khi trang sách mở ra",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 77
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 28. Trò chơi của bố",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 130
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 8. Lũy tre",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 2",
+          "printed_page": 34
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SPELL_RHYME_001",
+      "subject": "VIE",
+      "domain": "Chính tả",
+      "subdomain": "Vần dễ nhầm",
+      "name": "Phân biệt các vần dễ nhầm",
+      "description": "Viết đúng các vần dễ nhầm đã học trong sách: ac/at, uc/ut, ên/ênh, iu/ưu, iên/iêng, uôn/uông, ao/au, ai/ay, in/inh, iêu/ươu... theo nghĩa từ.",
+      "mastery_definition": {
+        "level_0": "Chưa viết đúng phần lớn vần dễ nhầm.",
+        "level_1": "Đúng khi có từ gợi ý nghĩa.",
+        "level_2": "Tự làm đúng vần quen thuộc, vần ít gặp còn lẫn.",
+        "level_3": "Viết đúng ≥ 8/10 tiếng chứa vần dễ nhầm.",
+        "level_4": "Tự phát hiện lỗi vần trong bài và giải thích nghĩa để chọn đúng."
+      },
+      "mastery_check_rule": "10 tiếng/chỗ trống vần dễ nhầm (nhiều cặp); đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_READ_WORD_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 77,
+      "grade3_foundation": true,
+      "reason_importance": "Bao phủ phần lớn lỗi chính tả vần lớp 2; nền cho viết đúng lớp 3.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 14. Em học vẽ",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 69
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 16. Khi trang sách mở ra",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 77
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 20. Nhím nâu kết bạn",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 100
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SPELL_TONE_001",
+      "subject": "VIE",
+      "domain": "Chính tả",
+      "subdomain": "Dấu thanh",
+      "name": "Đặt đúng dấu thanh (hỏi/ngã)",
+      "description": "Đặt đúng dấu thanh, đặc biệt thanh hỏi/ngã theo nghĩa từ; nhận biết tiếng cùng nghĩa khác thanh.",
+      "mastery_definition": {
+        "level_0": "Chưa đặt đúng phần lớn dấu thanh.",
+        "level_1": "Đúng khi có từ gợi ý nghĩa.",
+        "level_2": "Tự làm đúng từ quen thuộc, từ ít gặp còn lẫn.",
+        "level_3": "Đặt đúng ≥ 8/10 tiếng có thanh hỏi/ngã.",
+        "level_4": "Tự phát hiện lỗi thanh trong đoạn văn."
+      },
+      "mastery_check_rule": "10 tiếng/chỗ trống dấu thanh; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_READ_WORD_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 76,
+      "grade3_foundation": false,
+      "reason_importance": "Thanh hỏi/ngã là lỗi chính tả vùng miền khó sửa; cần chốt bằng nghĩa từ.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 12. Danh sách học sinh",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 62
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SPELL_DICTATION_001",
+      "subject": "VIE",
+      "domain": "Chính tả",
+      "subdomain": "Nghe – viết",
+      "name": "Nghe – viết đúng bài chính tả",
+      "description": "Nghe và viết đúng bài chính tả (đoạn ngắn đã học): đủ chữ, đúng chính tả, trình bày đúng thể thơ/văn xuôi.",
+      "mastery_definition": {
+        "level_0": "Viết sai nhiều, bỏ chữ, trình bày lộn xộn.",
+        "level_1": "Viết đủ chữ khi đọc chậm từng cụm.",
+        "level_2": "Tự viết được, còn 1–2 lỗi chính tả/đoạn.",
+        "level_3": "Nghe – viết đúng ≥ 90% tiếng của đoạn 30–40 chữ, trình bày đúng.",
+        "level_4": "Viết đúng hoàn toàn, tự soát và sửa được lỗi."
+      },
+      "mastery_check_rule": "Nghe – viết đoạn 30–40 chữ (đã học); đạt M3 khi sai ≤ 3 lỗi và trình bày đúng.",
+      "prerequisites": [
+        "VIE_SPELL_CAPITAL_001",
+        "VIE_READ_FLUENCY_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 85,
+      "grade3_foundation": true,
+      "reason_importance": "Tổng hợp mọi quy tắc chính tả; dạng thi/kiểm tra cố định.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 28
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SPELL_ALPHABET_001",
+      "subject": "VIE",
+      "domain": "Chính tả",
+      "subdomain": "Bảng chữ cái",
+      "name": "Bảng chữ cái và thứ tự chữ",
+      "description": "Thuộc thứ tự bảng chữ cái tiếng Việt; xếp từ/tên theo thứ tự chữ cái (chữ đầu).",
+      "mastery_definition": {
+        "level_0": "Chưa thuộc thứ tự bảng chữ cái.",
+        "level_1": "Xếp được khi nhìn bảng chữ cái.",
+        "level_2": "Thuộc bảng nhưng xếp tên còn chậm.",
+        "level_3": "Xếp đúng ≥ 8/10 từ/tên theo chữ đầu.",
+        "level_4": "Xếp nhanh theo chữ thứ hai khi chữ đầu giống nhau."
+      },
+      "mastery_check_rule": "Xếp 10 từ/tên; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_READ_WORD_001"
+      ],
+      "importance_level": "C",
+      "importance_score": 64,
+      "grade3_foundation": false,
+      "reason_importance": "Kĩ năng tra cứu (từ điển, danh sách); dùng lâu dài.",
+      "fast_track_allowed": true,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 4. Làm việc thật là vui",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 31
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_WORD_THING_001",
+      "subject": "VIE",
+      "domain": "Từ và câu",
+      "subdomain": "Từ loại",
+      "name": "Từ chỉ sự vật",
+      "description": "Nhận biết và tìm từ chỉ sự vật (người, con vật, đồ vật, cây cối...) trong câu; phân loại đơn giản.",
+      "mastery_definition": {
+        "level_0": "Chưa nhận ra từ chỉ sự vật.",
+        "level_1": "Tìm được khi có tranh minh họa.",
+        "level_2": "Tự tìm được từ quen thuộc, nhóm ít gặp còn lẫn.",
+        "level_3": "Tìm/đặt đúng ≥ 8/10 từ chỉ sự vật theo nhóm.",
+        "level_4": "Tự đặt câu chứa từ chỉ sự vật và phân loại được nhóm từ."
+      },
+      "mastery_check_rule": "10 yêu cầu tìm/đặt từ chỉ sự vật; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_READ_COMPREHEND_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 80,
+      "grade3_foundation": true,
+      "reason_importance": "Từ loại cơ bản nhất; nền cho mọi kĩ năng từ và câu về sau.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 30. Thương ông",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 137
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_WORD_ACTIVITY_001",
+      "subject": "VIE",
+      "domain": "Từ và câu",
+      "subdomain": "Từ loại",
+      "name": "Từ chỉ hoạt động",
+      "description": "Nhận biết và tìm từ chỉ hoạt động (ăn, học, chạy, viết...) trong câu; đặt câu với từ chỉ hoạt động.",
+      "mastery_definition": {
+        "level_0": "Chưa nhận ra từ chỉ hoạt động.",
+        "level_1": "Tìm được khi có tranh minh họa.",
+        "level_2": "Tự tìm được từ quen thuộc, hoạt động kín còn lẫn.",
+        "level_3": "Tìm/đặt đúng ≥ 8/10 từ chỉ hoạt động.",
+        "level_4": "Tự đặt câu kể việc làm dùng từ chỉ hoạt động phù hợp."
+      },
+      "mastery_check_rule": "10 yêu cầu tìm/đặt từ chỉ hoạt động; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_WORD_THING_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 82,
+      "grade3_foundation": true,
+      "reason_importance": "Nền của câu nêu hoạt động và viết đoạn kể việc.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 4. Làm việc thật là vui",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 31
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 20. Nhím nâu kết bạn",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 100
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_WORD_FEATURE_001",
+      "subject": "VIE",
+      "domain": "Từ và câu",
+      "subdomain": "Từ loại",
+      "name": "Từ chỉ đặc điểm",
+      "description": "Nhận biết và tìm từ chỉ đặc điểm (màu sắc, hình dáng, tính nết...) trong câu; đặt câu với từ chỉ đặc điểm.",
+      "mastery_definition": {
+        "level_0": "Chưa nhận ra từ chỉ đặc điểm.",
+        "level_1": "Tìm được khi có tranh minh họa.",
+        "level_2": "Tự tìm được từ quen thuộc, đặc điểm trừu tượng còn lẫn.",
+        "level_3": "Tìm/đặt đúng ≥ 8/10 từ chỉ đặc điểm.",
+        "level_4": "Tự miêu tả sự vật bằng 2–3 từ chỉ đặc điểm phù hợp."
+      },
+      "mastery_check_rule": "10 yêu cầu tìm/đặt từ chỉ đặc điểm; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_WORD_THING_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 80,
+      "grade3_foundation": true,
+      "reason_importance": "Nền của câu nêu đặc điểm và văn miêu tả.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 6. Một giờ học",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 38
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 12. Danh sách học sinh",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 62
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_WORD_EXPAND_001",
+      "subject": "VIE",
+      "domain": "Từ và câu",
+      "subdomain": "Mở rộng vốn từ",
+      "name": "Mở rộng vốn từ theo chủ điểm",
+      "description": "Tìm thêm từ cùng chủ điểm (gia đình, trường học, thiên nhiên, nghề nghiệp, Bác Hồ...) ngoài từ trong bài.",
+      "mastery_definition": {
+        "level_0": "Chưa tìm thêm được từ cùng chủ điểm.",
+        "level_1": "Tìm được 1–2 từ khi có gợi ý.",
+        "level_2": "Tự tìm được 3–4 từ quen thuộc.",
+        "level_3": "Tìm đúng ≥ 8/10 từ theo yêu cầu chủ điểm.",
+        "level_4": "Phân nhóm được các từ tìm được theo tiêu chí cho trước."
+      },
+      "mastery_check_rule": "Tìm 10 từ theo chủ điểm; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_WORD_THING_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 74,
+      "grade3_foundation": false,
+      "reason_importance": "Vốn từ quyết định chất lượng đọc hiểu và viết đoạn.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 8. Cầu thủ dự bị",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 45
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 14. Em học vẽ",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 69
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 18. Tớ nhớ cậu",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 93
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_WORD_SORT_001",
+      "subject": "VIE",
+      "domain": "Từ và câu",
+      "subdomain": "Mở rộng vốn từ",
+      "name": "Phân loại từ theo nhóm",
+      "description": "Xếp các từ cho sẵn vào đúng nhóm (sự vật/hoạt động/đặc điểm; người/con vật/đồ vật...).",
+      "mastery_definition": {
+        "level_0": "Chưa xếp được từ vào nhóm.",
+        "level_1": "Xếp được nhóm rõ ràng khi có mẫu.",
+        "level_2": "Tự xếp được phần lớn, từ đa nghĩa còn lẫn.",
+        "level_3": "Xếp đúng ≥ 8/10 từ vào nhóm.",
+        "level_4": "Tự nêu được tiêu chí phân loại của nhóm từ."
+      },
+      "mastery_check_rule": "Xếp 10 từ vào 3 nhóm; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_WORD_EXPAND_001"
+      ],
+      "importance_level": "C",
+      "importance_score": 66,
+      "grade3_foundation": false,
+      "reason_importance": "Rèn tư duy phân loại; hỗ trợ học vốn từ có hệ thống.",
+      "fast_track_allowed": true,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 24
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SENTENCE_INTRO_001",
+      "subject": "VIE",
+      "domain": "Từ và câu",
+      "subdomain": "Kiểu câu",
+      "name": "Câu giới thiệu (Ai là gì?)",
+      "description": "Nhận biết và đặt câu giới thiệu theo mẫu 'Ai là gì?' (giới thiệu người, vật, nghề nghiệp, quê quán...).",
+      "mastery_definition": {
+        "level_0": "Chưa nhận ra/đặt được câu giới thiệu.",
+        "level_1": "Đặt được khi có mẫu và từ gợi ý.",
+        "level_2": "Tự đặt được câu đơn giản, đôi khi thiếu 'là'.",
+        "level_3": "Đặt đúng ≥ 8/10 câu giới thiệu theo yêu cầu.",
+        "level_4": "Tự đặt câu giới thiệu đa dạng (người, vật, địa danh) và nhận biết được trong đoạn."
+      },
+      "mastery_check_rule": "Đặt 5 câu + nhận biết 5 câu; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_SENTENCE_MAKE_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 78,
+      "grade3_foundation": true,
+      "reason_importance": "Kiểu câu nền tảng, dùng để viết đoạn giới thiệu.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie2",
+          "lesson": "Bài 26. Trên các miền đất nước",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 2",
+          "printed_page": 113
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SENTENCE_ACTIVITY_001",
+      "subject": "VIE",
+      "domain": "Từ và câu",
+      "subdomain": "Kiểu câu",
+      "name": "Câu nêu hoạt động (Ai làm gì?)",
+      "description": "Nhận biết và đặt câu nêu hoạt động theo mẫu 'Ai làm gì?'.",
+      "mastery_definition": {
+        "level_0": "Chưa nhận ra/đặt được câu nêu hoạt động.",
+        "level_1": "Đặt được khi có mẫu và từ gợi ý.",
+        "level_2": "Tự đặt được câu đơn giản, đôi khi thiếu chủ ngữ.",
+        "level_3": "Đặt đúng ≥ 8/10 câu nêu hoạt động.",
+        "level_4": "Tự đặt đoạn 2–3 câu kể hoạt động nối tiếp nhau."
+      },
+      "mastery_check_rule": "Đặt 5 câu + nhận biết 5 câu; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_SENTENCE_MAKE_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 78,
+      "grade3_foundation": true,
+      "reason_importance": "Kiểu câu của văn kể việc; nền cho viết đoạn kể chuyện.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 8. Cầu thủ dự bị",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 45
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 12. Bờ tre đón khách",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 2",
+          "printed_page": 49
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SENTENCE_FEATURE_001",
+      "subject": "VIE",
+      "domain": "Từ và câu",
+      "subdomain": "Kiểu câu",
+      "name": "Câu nêu đặc điểm (Ai thế nào?)",
+      "description": "Nhận biết và đặt câu nêu đặc điểm theo mẫu 'Ai (cái gì) thế nào?'.",
+      "mastery_definition": {
+        "level_0": "Chưa nhận ra/đặt được câu nêu đặc điểm.",
+        "level_1": "Đặt được khi có mẫu và từ gợi ý.",
+        "level_2": "Tự đặt được câu đơn giản, đôi khi nhầm sang câu hoạt động.",
+        "level_3": "Đặt đúng ≥ 8/10 câu nêu đặc điểm.",
+        "level_4": "Tự miêu tả sự vật bằng 2–3 câu nêu đặc điểm liên tiếp."
+      },
+      "mastery_check_rule": "Đặt 5 câu + nhận biết 5 câu; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_SENTENCE_MAKE_001",
+        "VIE_WORD_FEATURE_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 78,
+      "grade3_foundation": true,
+      "reason_importance": "Kiểu câu của văn miêu tả; nền cho viết đoạn tả vật.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 6. Một giờ học",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 38
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 16. Khi trang sách mở ra",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 77
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 26. Em mang về yêu thương",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 123
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SENTENCE_QUESTION_001",
+      "subject": "VIE",
+      "domain": "Từ và câu",
+      "subdomain": "Kiểu câu",
+      "name": "Câu hỏi và trả lời",
+      "description": "Đặt câu hỏi đúng nội dung cần hỏi; trả lời câu hỏi thành câu đủ; nhận biết câu hỏi trong đoạn.",
+      "mastery_definition": {
+        "level_0": "Chưa đặt được câu hỏi đúng nội dung.",
+        "level_1": "Đặt được khi có mẫu.",
+        "level_2": "Tự đặt được câu hỏi đơn giản, nội dung phức còn lệch.",
+        "level_3": "Đặt/trả lời đúng ≥ 8/10 câu hỏi.",
+        "level_4": "Tự hỏi – đáp thành đoạn hội thoại ngắn lịch sự."
+      },
+      "mastery_check_rule": "Đặt 5 câu hỏi theo gợi ý + trả lời 5 câu; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_SENTENCE_MAKE_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 76,
+      "grade3_foundation": true,
+      "reason_importance": "Công cụ đặt câu hỏi để học; dùng ở mọi môn học.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 18. Tớ nhớ cậu",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 93
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SENTENCE_PUNCT_001",
+      "subject": "VIE",
+      "domain": "Từ và câu",
+      "subdomain": "Dấu câu",
+      "name": "Dấu chấm, chấm hỏi, chấm than, dấu phẩy",
+      "description": "Điền đúng dấu chấm/chấm hỏi/chấm than cuối câu; dùng dấu phẩy ngăn cách các bộ phận liệt kê trong câu.",
+      "mastery_definition": {
+        "level_0": "Chưa chọn đúng dấu câu.",
+        "level_1": "Đúng khi được nhắc ý nghĩa từng dấu.",
+        "level_2": "Tự làm đúng câu rõ nghĩa, câu cảm thán/câu hỏi kín còn lẫn.",
+        "level_3": "Điền đúng ≥ 8/10 dấu câu (cả 4 loại).",
+        "level_4": "Tự sửa được dấu câu sai trong đoạn văn và giải thích."
+      },
+      "mastery_check_rule": "10 chỗ trống dấu câu (4 loại); đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "VIE_SENTENCE_MAKE_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 80,
+      "grade3_foundation": true,
+      "reason_importance": "Dấu câu sai làm hỏng nghĩa câu; lỗi kéo dài nếu không chốt sớm.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 4. Làm việc thật là vui",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 31
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 12. Danh sách học sinh",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 62
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 16. Khi trang sách mở ra",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 77
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SENTENCE_MAKE_001",
+      "subject": "VIE",
+      "domain": "Từ và câu",
+      "subdomain": "Đặt câu",
+      "name": "Đặt câu với từ cho trước",
+      "description": "Đặt câu đầy đủ (đủ bộ phận chính) và đúng nghĩa với từ cho trước; viết hoa đầu câu, dấu câu cuối câu.",
+      "mastery_definition": {
+        "level_0": "Chưa đặt được câu đầy đủ.",
+        "level_1": "Đặt được câu khi có mẫu.",
+        "level_2": "Tự đặt được câu đơn giản, đôi khi thiếu bộ phận chính.",
+        "level_3": "Đặt đúng ≥ 8/10 câu (đủ bộ phận, đúng nghĩa từ).",
+        "level_4": "Đặt được 2–3 câu khác nhau với cùng một từ."
+      },
+      "mastery_check_rule": "Đặt 5 câu với 5 từ; đạt M3 khi đúng ≥ 4/5 (đủ bộ phận, đúng nghĩa).",
+      "prerequisites": [
+        "VIE_WORD_THING_001",
+        "VIE_WORD_ACTIVITY_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 83,
+      "grade3_foundation": true,
+      "reason_importance": "Kĩ năng trung tâm: nối từ vựng với diễn đạt; nền của mọi bài viết.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 4. Làm việc thật là vui",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 31
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 30. Cánh đồng quê em",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 2",
+          "printed_page": 131
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_WRITE_CAPITAL_001",
+      "subject": "VIE",
+      "domain": "Viết",
+      "subdomain": "Chữ viết",
+      "name": "Viết đúng mẫu chữ hoa",
+      "description": "Viết đúng mẫu, đúng cỡ chữ hoa đã học; trình bày sạch, đều; viết được cụm từ ứng dụng chứa chữ hoa.",
+      "mastery_definition": {
+        "level_0": "Chưa viết đúng mẫu chữ hoa.",
+        "level_1": "Viết đúng khi có mẫu điểm đặt bút.",
+        "level_2": "Tự viết được nhưng nét/độ cao chưa đều.",
+        "level_3": "Viết đúng mẫu, đúng cỡ ≥ 8/10 chữ hoa yêu cầu.",
+        "level_4": "Viết đẹp, đều và trình bày sáng tạo cụm từ ứng dụng."
+      },
+      "mastery_check_rule": "Viết 5 chữ hoa + 1 cụm ứng dụng; đạt M3 khi đúng mẫu ≥ 4/5.",
+      "prerequisites": [
+        "VIE_READ_WORD_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 75,
+      "grade3_foundation": true,
+      "reason_importance": "Chữ viết rõ ràng ảnh hưởng mọi bài làm và tốc độ viết.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 28
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_WRITE_ANSWER_001",
+      "subject": "VIE",
+      "domain": "Viết",
+      "subdomain": "Viết câu",
+      "name": "Viết câu trả lời đầy đủ",
+      "description": "Viết câu trả lời đầy đủ, đúng nội dung câu hỏi, có chữ hoa đầu câu và dấu câu cuối câu.",
+      "mastery_definition": {
+        "level_0": "Trả lời cụt 1 từ hoặc sai nội dung hỏi.",
+        "level_1": "Viết được câu đủ khi có mẫu.",
+        "level_2": "Tự viết được, đôi khi thiếu chữ hoa/dấu câu.",
+        "level_3": "Viết đúng và đủ câu ≥ 8/10 câu trả lời.",
+        "level_4": "Viết câu trả lời gọn, đủ ý và tự soát được lỗi."
+      },
+      "mastery_check_rule": "5 câu hỏi (viết đáp án); đạt M3 khi đúng ≥ 4/5 và đủ câu.",
+      "prerequisites": [
+        "VIE_SENTENCE_MAKE_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 80,
+      "grade3_foundation": true,
+      "reason_importance": "Dạng thi cố định và là bước đệm của viết đoạn.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 7. Hạt thóc",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 2",
+          "printed_page": 32
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_WRITE_2_3_SENT_001",
+      "subject": "VIE",
+      "domain": "Viết",
+      "subdomain": "Viết đoạn ngắn",
+      "name": "Viết 2–3 câu theo chủ đề",
+      "description": "Viết 2–3 câu liên tiếp, đúng chủ đề, các câu liên quan nhau; trình bày đúng quy cách.",
+      "mastery_definition": {
+        "level_0": "Chưa viết được 2 câu liên quan.",
+        "level_1": "Viết được khi có câu gợi ý.",
+        "level_2": "Tự viết được nhưng câu còn rời rạc.",
+        "level_3": "Viết đúng chủ đề, liền mạch ≥ 4/5 lần.",
+        "level_4": "Viết gọn, có câu mở đầu/kết thúc tự nhiên."
+      },
+      "mastery_check_rule": "Viết 2–3 câu theo 1 chủ đề quen thuộc; đạt M3 khi đúng chủ đề và liền mạch.",
+      "prerequisites": [
+        "VIE_WRITE_ANSWER_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 82,
+      "grade3_foundation": true,
+      "reason_importance": "Đơn vị nhỏ nhất của văn viết; nền cho mọi dạng đoạn văn.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie2",
+          "lesson": "Bài 10. Khủng long",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 2",
+          "printed_page": 42
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_WRITE_3_5_SENT_001",
+      "subject": "VIE",
+      "domain": "Viết",
+      "subdomain": "Viết đoạn ngắn",
+      "name": "Viết đoạn 3–5 câu",
+      "description": "Viết đoạn 3–5 câu có mở đầu, thân, kết thúc ở mức đơn giản; đúng chủ đề, câu liền mạch.",
+      "mastery_definition": {
+        "level_0": "Chưa viết được đoạn 3 câu liền mạch.",
+        "level_1": "Viết được theo dàn ý câu hỏi gợi ý.",
+        "level_2": "Tự viết được, đôi khi lạc chủ đề ở câu cuối.",
+        "level_3": "Viết đúng chủ đề, đủ 3–5 câu, liền mạch ≥ 4/5 lần.",
+        "level_4": "Viết đoạn có câu mở/kết rõ và dùng được từ chỉ đặc điểm/hoạt động phong phú."
+      },
+      "mastery_check_rule": "Viết đoạn 3–5 câu theo chủ đề; đạt M3 khi đủ độ dài, đúng chủ đề, liền mạch.",
+      "prerequisites": [
+        "VIE_WRITE_2_3_SENT_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 84,
+      "grade3_foundation": true,
+      "reason_importance": "Chuẩn viết đoạn của lớp 2, là yêu cầu viết của lớp 3 trở lên.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie2",
+          "lesson": "Bài 30. Cánh đồng quê em",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 2",
+          "printed_page": 129
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_WRITE_DESCRIBE_001",
+      "subject": "VIE",
+      "domain": "Viết",
+      "subdomain": "Các dạng đoạn",
+      "name": "Viết đoạn miêu tả đồ vật, con vật",
+      "description": "Viết đoạn 3–5 câu tả đồ vật/con vật quen thuộc: tên, đặc điểm nổi bật (màu sắc, hình dáng, hoạt động), tình cảm.",
+      "mastery_definition": {
+        "level_0": "Chưa tả được đặc điểm nào.",
+        "level_1": "Tả được theo câu hỏi gợi ý.",
+        "level_2": "Tự viết được nhưng đặc điểm còn sơ sài.",
+        "level_3": "Viết đoạn đủ 3–5 câu, nêu đúng ≥ 3 đặc điểm thực của vật.",
+        "level_4": "Tả sinh động, sắp xếp đặc điểm hợp lí, câu văn có hình ảnh."
+      },
+      "mastery_check_rule": "Viết đoạn tả 1 đồ vật/con vật; đạt M3 khi đủ 3–5 câu và nêu đúng ≥ 3 đặc điểm.",
+      "prerequisites": [
+        "VIE_WRITE_3_5_SENT_001",
+        "VIE_SENTENCE_FEATURE_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 78,
+      "grade3_foundation": false,
+      "reason_importance": "Dạng miêu tả đầu tiên; nền cho văn tả cảnh/vật lớp 3–5.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 16. Khi trang sách mở ra",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 77
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 24. Nặn đồ chơi",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 115
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 2. Mùa nước nổi",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 2",
+          "printed_page": 12
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_WRITE_INTRO_001",
+      "subject": "VIE",
+      "domain": "Viết",
+      "subdomain": "Các dạng đoạn",
+      "name": "Viết đoạn giới thiệu",
+      "description": "Viết đoạn 3–5 câu giới thiệu bản thân, bạn bè, đồ vật, trường lớp: tên, đặc điểm/hoạt động nổi bật, tình cảm.",
+      "mastery_definition": {
+        "level_0": "Chưa viết được câu giới thiệu đủ ý.",
+        "level_1": "Viết được theo câu hỏi gợi ý.",
+        "level_2": "Tự viết được nhưng thông tin còn thiếu.",
+        "level_3": "Viết đoạn đủ 3–5 câu, giới thiệu đúng và đủ thông tin chính.",
+        "level_4": "Giới thiệu mạch lạc, tự tin, kèm chi tiết riêng thú vị."
+      },
+      "mastery_check_rule": "Viết đoạn giới thiệu (bản thân/vật/trường); đạt M3 khi đủ 3–5 câu, đủ thông tin chính.",
+      "prerequisites": [
+        "VIE_WRITE_3_5_SENT_001",
+        "VIE_SENTENCE_INTRO_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 76,
+      "grade3_foundation": false,
+      "reason_importance": "Kĩ năng giao tiếp viết cơ bản; dùng suốt đời.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 14. Em học vẽ",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 69
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 22. Tớ là Lê-gô",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 108
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_WRITE_NARRATE_001",
+      "subject": "VIE",
+      "domain": "Viết",
+      "subdomain": "Các dạng đoạn",
+      "name": "Viết đoạn kể lại sự việc",
+      "description": "Viết đoạn 3–5 câu kể một sự việc đã làm/chứng kiến: thời gian, ai, việc gì, diễn biến theo trình tự, cảm nghĩ.",
+      "mastery_definition": {
+        "level_0": "Chưa kể được sự việc theo trình tự.",
+        "level_1": "Kể được theo câu hỏi gợi ý.",
+        "level_2": "Tự viết được nhưng trình tự còn lộn xộn.",
+        "level_3": "Viết đoạn đủ 3–5 câu, sự việc đúng trình tự, đủ nhân vật.",
+        "level_4": "Kể sinh động, có cảm xúc, chi tiết chọn lọc."
+      },
+      "mastery_check_rule": "Viết đoạn kể 1 sự việc; đạt M3 khi đủ 3–5 câu và đúng trình tự.",
+      "prerequisites": [
+        "VIE_WRITE_3_5_SENT_001",
+        "VIE_SENTENCE_ACTIVITY_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 81,
+      "grade3_foundation": true,
+      "reason_importance": "Dạng kể chuyện cơ bản; nền cho tập làm văn lớp 3.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 4. Làm việc thật là vui",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 31
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 6. Một giờ học",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 38
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 8. Cầu thủ dự bị",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 45
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_WRITE_NOTE_001",
+      "subject": "VIE",
+      "domain": "Viết",
+      "subdomain": "Các dạng văn bản ngắn",
+      "name": "Viết lời nhắn, lời cảm ơn, lời chúc",
+      "description": "Viết lời nhắn/lời cảm ơn/lời chúc 1–3 câu đúng đối tượng, đủ nội dung (gửi ai, nói gì, người viết).",
+      "mastery_definition": {
+        "level_0": "Chưa viết được lời nhắn đủ ý.",
+        "level_1": "Viết được theo mẫu.",
+        "level_2": "Tự viết được, đôi khi thiếu người nhận/người viết.",
+        "level_3": "Viết đúng đối tượng, đủ nội dung ≥ 4/5 lần.",
+        "level_4": "Viết tự nhiên, đúng tình huống và lịch sự."
+      },
+      "mastery_check_rule": "Viết 2 lời nhắn/cảm ơn/chúc theo tình huống; đạt M3 khi đủ nội dung và đúng đối tượng.",
+      "prerequisites": [
+        "VIE_WRITE_ANSWER_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 72,
+      "grade3_foundation": false,
+      "reason_importance": "Kĩ năng viết giao tiếp thực tế hằng ngày.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 32. Chơi chong chóng",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 144
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 22. Thư gửi bố ngoài đảo",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 2",
+          "printed_page": 95
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_WRITE_CARD_001",
+      "subject": "VIE",
+      "domain": "Viết",
+      "subdomain": "Các dạng văn bản ngắn",
+      "name": "Viết thiệp chúc mừng",
+      "description": "Viết thiệp chúc mừng (sinh nhật, năm mới, ngày lễ): gửi ai, lời chúc phù hợp, người viết; trình bày đúng dạng thiệp.",
+      "mastery_definition": {
+        "level_0": "Chưa viết được thiệp đủ phần.",
+        "level_1": "Viết được theo mẫu thiệp.",
+        "level_2": "Tự viết được, lời chúc còn chung chung.",
+        "level_3": "Viết đủ 3 phần, lời chúc đúng dịp ≥ 4/5 lần.",
+        "level_4": "Viết lời chúc riêng, phù hợp đối tượng và dịp lễ."
+      },
+      "mastery_check_rule": "Viết 1 thiệp theo dịp cho trước; đạt M3 khi đủ 3 phần và đúng dịp.",
+      "prerequisites": [
+        "VIE_WRITE_NOTE_001"
+      ],
+      "importance_level": "C",
+      "importance_score": 66,
+      "grade3_foundation": false,
+      "reason_importance": "Kĩ năng văn hóa – giao tiếp; có thể luyện nhanh khi cần.",
+      "fast_track_allowed": true,
+      "source_refs": [
+        {
+          "book": "vie2",
+          "lesson": "Bài 4. Tết đến rồi",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 2",
+          "printed_page": 19
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_WRITE_SCHEDULE_001",
+      "subject": "VIE",
+      "domain": "Viết",
+      "subdomain": "Các dạng văn bản ngắn",
+      "name": "Viết thời gian biểu",
+      "description": "Đọc thời khóa biểu/thời gian biểu và viết lại/lập được thời gian biểu đơn giản cho một ngày theo mẫu.",
+      "mastery_definition": {
+        "level_0": "Chưa đọc/viết được thời gian biểu.",
+        "level_1": "Làm được khi có mẫu sẵn.",
+        "level_2": "Tự làm được, thỉnh thoảng nhầm cột/giờ.",
+        "level_3": "Đọc và lập đúng thời gian biểu ≥ 4/5 lần.",
+        "level_4": "Tự lập thời gian biểu hợp lí và giải thích được cách sắp xếp."
+      },
+      "mastery_check_rule": "Đọc 5 câu tra cứu + lập 1 thời gian biểu; đạt M3 khi đúng ≥ 4/5.",
+      "prerequisites": [
+        "VIE_READ_DOCUMENT_001"
+      ],
+      "importance_level": "C",
+      "importance_score": 64,
+      "grade3_foundation": false,
+      "reason_importance": "Kĩ năng tự quản thời gian; hỗ trợ nề nếp học tập.",
+      "fast_track_allowed": true,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 10. Thời khóa biểu",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 54
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_WRITE_SORT_001",
+      "subject": "VIE",
+      "domain": "Viết",
+      "subdomain": "Kĩ thuật viết",
+      "name": "Sắp xếp câu thành đoạn",
+      "description": "Sắp xếp các câu cho sẵn thành đoạn văn đúng trình tự, liền mạch về nội dung.",
+      "mastery_definition": {
+        "level_0": "Chưa sắp xếp được câu thành đoạn.",
+        "level_1": "Xếp được đoạn 3 câu khi có câu mở sẵn.",
+        "level_2": "Tự xếp được, đoạn dài còn lẫn thứ tự.",
+        "level_3": "Xếp đúng ≥ 4/5 bộ câu thành đoạn mạch lạc.",
+        "level_4": "Giải thích được vì sao chọn thứ tự đó."
+      },
+      "mastery_check_rule": "Xếp 2 bộ câu (4–5 câu/bộ); đạt M3 khi đúng cả 2 bộ hoặc ≥ 4/5 câu mỗi bộ.",
+      "prerequisites": [
+        "VIE_WRITE_3_5_SENT_001",
+        "VIE_READ_SEQUENCE_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 74,
+      "grade3_foundation": false,
+      "reason_importance": "Rèn bố cục đoạn văn và tư duy trình tự.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie2",
+          "lesson": "Ôn tập giữa học kì 2",
+          "section": "Ôn tập",
+          "volume": "Tập 2",
+          "printed_page": 68
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_WRITE_ORDER_001",
+      "subject": "VIE",
+      "domain": "Viết",
+      "subdomain": "Kĩ thuật viết",
+      "name": "Sắp xếp từ thành câu",
+      "description": "Sắp xếp các từ xáo trộn thành câu đúng ngữ pháp, đúng nghĩa, có chữ hoa và dấu câu.",
+      "mastery_definition": {
+        "level_0": "Chưa xếp được từ thành câu.",
+        "level_1": "Xếp được câu ngắn khi có từ đầu gợi ý.",
+        "level_2": "Tự xếp được câu quen, câu dài còn lẫn trật tự.",
+        "level_3": "Xếp đúng ≥ 8/10 câu.",
+        "level_4": "Xếp nhanh và giải thích được trật tự từ trong câu."
+      },
+      "mastery_check_rule": "Xếp 5 câu xáo trộn; đạt M3 khi đúng ≥ 4/5.",
+      "prerequisites": [
+        "VIE_WRITE_ANSWER_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 74,
+      "grade3_foundation": false,
+      "reason_importance": "Củng cố cấu trúc câu; hỗ trợ viết câu đúng ngữ pháp.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Ôn tập giữa học kì 1",
+          "section": "Ôn tập",
+          "volume": "Tập 1",
+          "printed_page": 82
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SPEAK_OBSERVE_001",
+      "subject": "VIE",
+      "domain": "Nói và nghe",
+      "subdomain": "Nói theo tranh",
+      "name": "Quan sát tranh và nói theo gợi ý",
+      "description": "Quan sát tranh, nói 2–3 câu đúng nội dung tranh theo gợi ý (ai, đang làm gì, ở đâu...).",
+      "mastery_definition": {
+        "level_0": "Chưa nói được nội dung tranh.",
+        "level_1": "Nói được 1 câu khi có câu hỏi gợi ý.",
+        "level_2": "Tự nói được 2 câu, đôi khi lạc chi tiết tranh.",
+        "level_3": "Nói đúng và đủ ý tranh ≥ 4/5 lần (2–3 câu).",
+        "level_4": "Nói liền mạch, thêm nhận xét/cảm nghĩ riêng về tranh."
+      },
+      "mastery_check_rule": "Quan sát 2 tranh, mỗi tranh nói 2–3 câu; đạt M3 khi đúng nội dung cả 2 tranh.",
+      "prerequisites": [
+        "VIE_READ_COMPREHEND_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 72,
+      "grade3_foundation": false,
+      "reason_importance": "Rèn quan sát và diễn đạt miệng; nền của kể chuyện.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 25. Đất nước chúng mình",
+          "section": "Nói và nghe",
+          "volume": "Tập 2",
+          "printed_page": 110
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SPEAK_LISTEN_001",
+      "subject": "VIE",
+      "domain": "Nói và nghe",
+      "subdomain": "Nghe hiểu",
+      "name": "Nghe hiểu và trả lời câu hỏi",
+      "description": "Nghe câu chuyện/hướng dẫn và trả lời đúng câu hỏi về nội dung; nhớ được chi tiết chính.",
+      "mastery_definition": {
+        "level_0": "Chưa trả lời được sau khi nghe.",
+        "level_1": "Trả lời được khi nghe lại lần hai.",
+        "level_2": "Tự trả lời được ý chính, chi tiết phụ còn sót.",
+        "level_3": "Trả lời đúng ≥ 4/5 câu hỏi sau 1 lần nghe.",
+        "level_4": "Nhắc lại được nội dung chính và chi tiết quan trọng sau 1 lần nghe."
+      },
+      "mastery_check_rule": "Nghe 1 truyện ngắn mới, trả lời 5 câu; đạt M3 khi đúng ≥ 4/5.",
+      "prerequisites": [
+        "VIE_READ_COMPREHEND_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 78,
+      "grade3_foundation": true,
+      "reason_importance": "Nghe hiểu quyết định việc học trên lớp ở mọi môn.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 13. Yêu lắm trường ơi!",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 66
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 21. Mai An Tiêm",
+          "section": "Nói và nghe",
+          "volume": "Tập 2",
+          "printed_page": 92
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SPEAK_STORY_001",
+      "subject": "VIE",
+      "domain": "Nói và nghe",
+      "subdomain": "Kể chuyện",
+      "name": "Kể chuyện theo tranh",
+      "description": "Kể lại câu chuyện theo tranh: đúng nhân vật, sự việc chính, nối tiếp được các tranh; giọng kể rõ ràng.",
+      "mastery_definition": {
+        "level_0": "Chưa kể được theo tranh.",
+        "level_1": "Kể được từng tranh rời khi có gợi ý.",
+        "level_2": "Tự kể được nhưng nối tranh còn ngập ngừng.",
+        "level_3": "Kể đủ sự việc chính, đúng thứ tự ≥ 4/5 lần.",
+        "level_4": "Kể liền mạch, diễn cảm, thêm lời thoại nhân vật."
+      },
+      "mastery_check_rule": "Kể 1 truyện theo 4–5 tranh; đạt M3 khi đủ sự việc chính và đúng thứ tự.",
+      "prerequisites": [
+        "VIE_SPEAK_OBSERVE_001",
+        "VIE_READ_SEQUENCE_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 80,
+      "grade3_foundation": true,
+      "reason_importance": "Kể chuyện rèn trình tự, trí nhớ và diễn đạt; nền cho viết kể chuyện.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 28
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 5. Em có xinh không?",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 35
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 7. Cây xấu hổ",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 42
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SPEAK_SEQUENCE_001",
+      "subject": "VIE",
+      "domain": "Nói và nghe",
+      "subdomain": "Kể chuyện",
+      "name": "Kể lại đúng trình tự câu chuyện",
+      "description": "Kể lại câu chuyện đã nghe/đọc đúng thứ tự mở đầu – diễn biến – kết thúc, không bỏ đoạn quan trọng.",
+      "mastery_definition": {
+        "level_0": "Chưa kể lại được theo thứ tự.",
+        "level_1": "Kể lại được đoạn đầu khi có gợi ý.",
+        "level_2": "Tự kể được nhưng còn đảo thứ tự đoạn.",
+        "level_3": "Kể đúng trình tự, không thiếu đoạn chính ≥ 4/5 lần.",
+        "level_4": "Kể lại gọn, đủ ý, biết nhấn chi tiết quan trọng."
+      },
+      "mastery_check_rule": "Kể lại 1 truyện đã nghe 2 lần; đạt M3 khi đúng trình tự và đủ sự việc chính.",
+      "prerequisites": [
+        "VIE_SPEAK_STORY_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 78,
+      "grade3_foundation": false,
+      "reason_importance": "Củng cố tư duy trình tự và trí nhớ làm việc.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 28
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 7. Cây xấu hổ",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 42
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 15. Cuốn sách của em",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 74
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SPEAK_PRESENT_001",
+      "subject": "VIE",
+      "domain": "Nói và nghe",
+      "subdomain": "Trình bày",
+      "name": "Trình bày về chủ đề quen thuộc",
+      "description": "Trình bày 3–5 câu về chủ đề quen thuộc (ngày hè, niềm vui, quê hương...): rõ ý, đủ ý, giọng to rõ.",
+      "mastery_definition": {
+        "level_0": "Chưa trình bày được trước người khác.",
+        "level_1": "Trình bày được 1–2 câu khi có câu hỏi.",
+        "level_2": "Tự nói được nhưng ý còn rời rạc.",
+        "level_3": "Trình bày đủ 3–5 câu, đúng chủ đề, rõ ràng ≥ 4/5 lần.",
+        "level_4": "Trình bày tự tin, mạch lạc, biết nhìn người nghe."
+      },
+      "mastery_check_rule": "Trình bày 3–5 câu về 1 chủ đề quen; đạt M3 khi đủ ý và đúng chủ đề.",
+      "prerequisites": [
+        "VIE_SPEAK_LISTEN_001",
+        "VIE_SENTENCE_MAKE_001"
+      ],
+      "importance_level": "B",
+      "importance_score": 72,
+      "grade3_foundation": false,
+      "reason_importance": "Kĩ năng trình bày trước đám đông, dùng ở mọi môn và suốt đời.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 11. Cái trống trường em",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 59
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 19. Chữ A và những người bạn",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 97
+        }
+      ]
+    },
+    {
+      "skill_id": "VIE_SPEAK_COMMUNICATE_001",
+      "subject": "VIE",
+      "domain": "Nói và nghe",
+      "subdomain": "Giao tiếp",
+      "name": "Giao tiếp lịch sự: chào, cảm ơn, xin lỗi, xin phép",
+      "description": "Sử dụng đúng lời chào, cảm ơn, xin lỗi, xin phép theo tình huống; nói đủ câu, đúng thái độ lịch sự.",
+      "mastery_definition": {
+        "level_0": "Chưa dùng đúng lời chào/cảm ơn theo tình huống.",
+        "level_1": "Dùng được khi có mẫu.",
+        "level_2": "Tự dùng được tình huống quen, tình huống mới còn lúng túng.",
+        "level_3": "Ứng xử đúng lời nói ≥ 4/5 tình huống.",
+        "level_4": "Ứng xử linh hoạt, tự nhiên và giải thích được vì sao chọn lời nói đó."
+      },
+      "mastery_check_rule": "5 tình huống giao tiếp; đạt M3 khi đúng ≥ 4/5.",
+      "prerequisites": [
+        "VIE_SPEAK_LISTEN_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 80,
+      "grade3_foundation": true,
+      "reason_importance": "Kĩ năng xã hội nền tảng; ảnh hưởng quan hệ và việc học nhóm.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "vie2",
+          "lesson": "Bài 17. Những cách chào độc đáo",
+          "section": "Nói và nghe",
+          "volume": "Tập 2",
+          "printed_page": 77
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 19. Cảm ơn anh hà mã",
+          "section": "Nói và nghe",
+          "volume": "Tập 2",
+          "printed_page": 84
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1503 @@
+{
+  "schema_version": "1.0",
+  "subject": "MATH",
+  "subject_label": "Toán",
+  "textbook": "SGK Toán 2 – Bộ Kết nối tri thức với cuộc sống (NXB Giáo dục Việt Nam)",
+  "books": [
+    {
+      "book_id": "math1",
+      "name": "Toán 2 · Tập 1",
+      "pdf_pages": 142,
+      "lessons": "Bài 1–36",
+      "printed_page_offset": "printed = pdf − 1"
+    },
+    {
+      "book_id": "math2",
+      "name": "Toán 2 · Tập 2",
+      "pdf_pages": 142,
+      "lessons": "Bài 37–75",
+      "printed_page_offset": "printed = pdf − 1"
+    }
+  ],
+  "topics": [
+    {
+      "topic_id": "MATH_T1_REVIEW",
+      "name": "Ôn tập và bổ sung",
+      "units": [
+        {
+          "unit_id": "MATH_T1_U1",
+          "name": "Ôn tập các số đến 100",
+          "lessons": [
+            {
+              "lesson_no": 1,
+              "name": "Ôn tập các số đến 100",
+              "skills": [
+                "MATH_NUM_PLACE_VALUE_001",
+                "MATH_NUM_READ_WRITE_001",
+                "MATH_NUM_COMPARE_100_001"
+              ],
+              "pdf_pages": [
+                7,
+                8,
+                9,
+                10
+              ],
+              "printed_pages": [
+                6,
+                7,
+                8,
+                9
+              ]
+            },
+            {
+              "lesson_no": 2,
+              "name": "Tia số. Số liền trước, số liền sau",
+              "skills": [
+                "MATH_NUM_NUMBER_LINE_001",
+                "MATH_NUM_NEIGHBOR_001"
+              ],
+              "pdf_pages": [
+                11,
+                12,
+                13
+              ],
+              "printed_pages": [
+                10,
+                11,
+                12
+              ]
+            },
+            {
+              "lesson_no": 3,
+              "name": "Các thành phần của phép cộng, phép trừ",
+              "skills": [
+                "MATH_ADD_COMPONENTS_001",
+                "MATH_SUB_COMPONENTS_001"
+              ],
+              "pdf_pages": [
+                14,
+                15,
+                16
+              ],
+              "printed_pages": [
+                13,
+                14,
+                15
+              ]
+            },
+            {
+              "lesson_no": 4,
+              "name": "Hơn, kém nhau bao nhiêu",
+              "skills": [
+                "MATH_WORD_PROBLEM_DIFF_001"
+              ],
+              "pdf_pages": [
+                17,
+                18,
+                19
+              ],
+              "printed_pages": [
+                16,
+                17,
+                18
+              ]
+            },
+            {
+              "lesson_no": 5,
+              "name": "Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100",
+              "skills": [
+                "MATH_ADD_NO_CARRY_100_001",
+                "MATH_SUB_NO_BORROW_100_001"
+              ],
+              "pdf_pages": [
+                20,
+                21,
+                22,
+                23
+              ],
+              "printed_pages": [
+                19,
+                20,
+                21,
+                22
+              ]
+            },
+            {
+              "lesson_no": 6,
+              "name": "Luyện tập chung",
+              "skills": [],
+              "pdf_pages": [
+                24,
+                25,
+                26
+              ],
+              "printed_pages": [
+                23,
+                24,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "unit_id": "MATH_T1_U2",
+          "name": "Phép cộng, phép trừ trong phạm vi 20",
+          "lessons": [
+            {
+              "lesson_no": 7,
+              "name": "Phép cộng (qua 10) trong phạm vi 20",
+              "skills": [
+                "MATH_ADD_BRIDGE10_001",
+                "MATH_ADD_BRIDGE10_002"
+              ],
+              "pdf_pages": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "printed_pages": [
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+              ]
+            },
+            {
+              "lesson_no": 8,
+              "name": "Bảng cộng (qua 10)",
+              "skills": [
+                "MATH_ADD_FACTS_001"
+              ],
+              "pdf_pages": [
+                34,
+                35,
+                36
+              ],
+              "printed_pages": [
+                33,
+                34,
+                35
+              ]
+            },
+            {
+              "lesson_no": 9,
+              "name": "Bài toán về thêm, bớt một số đơn vị",
+              "skills": [
+                "MATH_WORD_PROBLEM_ONE_STEP_001"
+              ],
+              "pdf_pages": [
+                37,
+                38
+              ],
+              "printed_pages": [
+                36,
+                37
+              ]
+            },
+            {
+              "lesson_no": 10,
+              "name": "Luyện tập chung",
+              "skills": [],
+              "pdf_pages": [
+                39,
+                40,
+                41
+              ],
+              "printed_pages": [
+                38,
+                39,
+                40
+              ]
+            },
+            {
+              "lesson_no": 11,
+              "name": "Phép trừ (qua 10) trong phạm vi 20",
+              "skills": [
+                "MATH_SUB_BRIDGE10_001",
+                "MATH_SUB_BRIDGE10_002"
+              ],
+              "pdf_pages": [
+                42,
+                43,
+                44,
+                45,
+                46,
+                47
+              ],
+              "printed_pages": [
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ]
+            },
+            {
+              "lesson_no": 12,
+              "name": "Bảng trừ (qua 10)",
+              "skills": [
+                "MATH_SUB_FACTS_001"
+              ],
+              "pdf_pages": [
+                48,
+                49,
+                50
+              ],
+              "printed_pages": [
+                47,
+                48,
+                49
+              ]
+            },
+            {
+              "lesson_no": 13,
+              "name": "Bài toán về nhiều hơn, ít hơn một số đơn vị",
+              "skills": [
+                "MATH_WORD_PROBLEM_COMPARE_001"
+              ],
+              "pdf_pages": [
+                51,
+                52,
+                53
+              ],
+              "printed_pages": [
+                50,
+                51,
+                52
+              ]
+            },
+            {
+              "lesson_no": 14,
+              "name": "Luyện tập chung",
+              "skills": [],
+              "pdf_pages": [
+                54,
+                55,
+                56,
+                57
+              ],
+              "printed_pages": [
+                53,
+                54,
+                55,
+                56
+              ]
+            }
+          ]
+        },
+        {
+          "unit_id": "MATH_T1_U3",
+          "name": "Làm quen với khối lượng, dung tích",
+          "lessons": [
+            {
+              "lesson_no": 15,
+              "name": "Ki-lô-gam",
+              "skills": [
+                "MATH_MEASURE_MASS_001"
+              ],
+              "pdf_pages": [
+                58,
+                59,
+                60,
+                61,
+                62
+              ],
+              "printed_pages": [
+                57,
+                58,
+                59,
+                60,
+                61
+              ]
+            },
+            {
+              "lesson_no": 16,
+              "name": "Lít",
+              "skills": [
+                "MATH_MEASURE_CAPACITY_001"
+              ],
+              "pdf_pages": [
+                63,
+                64,
+                65,
+                66
+              ],
+              "printed_pages": [
+                62,
+                63,
+                64,
+                65
+              ]
+            },
+            {
+              "lesson_no": 17,
+              "name": "Thực hành và trải nghiệm với các đơn vị ki-lô-gam, lít",
+              "skills": [
+                "MATH_MEASURE_MASS_001",
+                "MATH_MEASURE_CAPACITY_001"
+              ],
+              "pdf_pages": [
+                67,
+                68,
+                69,
+                70
+              ],
+              "printed_pages": [
+                66,
+                67,
+                68,
+                69
+              ]
+            },
+            {
+              "lesson_no": 18,
+              "name": "Luyện tập chung",
+              "skills": [],
+              "pdf_pages": [
+                71,
+                72
+              ],
+              "printed_pages": [
+                70,
+                71
+              ]
+            }
+          ]
+        },
+        {
+          "unit_id": "MATH_T1_U4",
+          "name": "Phép cộng, phép trừ (có nhớ) trong phạm vi 100",
+          "lessons": [
+            {
+              "lesson_no": 19,
+              "name": "Phép cộng (có nhớ) số có hai chữ số với số có một chữ số",
+              "skills": [
+                "MATH_ADD_CARRY_100_001"
+              ],
+              "pdf_pages": [
+                73,
+                74,
+                75,
+                76
+              ],
+              "printed_pages": [
+                72,
+                73,
+                74,
+                75
+              ]
+            },
+            {
+              "lesson_no": 20,
+              "name": "Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số",
+              "skills": [
+                "MATH_ADD_CARRY_100_002"
+              ],
+              "pdf_pages": [
+                77,
+                78,
+                79,
+                80
+              ],
+              "printed_pages": [
+                76,
+                77,
+                78,
+                79
+              ]
+            },
+            {
+              "lesson_no": 21,
+              "name": "Luyện tập chung",
+              "skills": [],
+              "pdf_pages": [
+                81,
+                82,
+                83
+              ],
+              "printed_pages": [
+                80,
+                81,
+                82
+              ]
+            },
+            {
+              "lesson_no": 22,
+              "name": "Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số",
+              "skills": [
+                "MATH_SUB_BORROW_100_001"
+              ],
+              "pdf_pages": [
+                84,
+                85,
+                86,
+                87,
+                88,
+                89
+              ],
+              "printed_pages": [
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            },
+            {
+              "lesson_no": 23,
+              "name": "Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số",
+              "skills": [
+                "MATH_SUB_BORROW_100_002"
+              ],
+              "pdf_pages": [
+                90,
+                91,
+                92,
+                93,
+                94,
+                95
+              ],
+              "printed_pages": [
+                89,
+                90,
+                91,
+                92,
+                93,
+                94
+              ]
+            },
+            {
+              "lesson_no": 24,
+              "name": "Luyện tập chung",
+              "skills": [],
+              "pdf_pages": [
+                96,
+                97,
+                98
+              ],
+              "printed_pages": [
+                95,
+                96,
+                97
+              ]
+            }
+          ]
+        },
+        {
+          "unit_id": "MATH_T1_U5",
+          "name": "Làm quen với hình phẳng",
+          "lessons": [
+            {
+              "lesson_no": 25,
+              "name": "Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng",
+              "skills": [
+                "MATH_GEO_POINT_LINE_001",
+                "MATH_GEO_LINE_TYPES_001"
+              ],
+              "pdf_pages": [
+                99,
+                100,
+                101,
+                102
+              ],
+              "printed_pages": [
+                98,
+                99,
+                100,
+                101
+              ]
+            },
+            {
+              "lesson_no": 26,
+              "name": "Đường gấp khúc. Hình tứ giác",
+              "skills": [
+                "MATH_GEO_POLYLINE_001",
+                "MATH_GEO_QUAD_001"
+              ],
+              "pdf_pages": [
+                103,
+                104,
+                105,
+                106
+              ],
+              "printed_pages": [
+                102,
+                103,
+                104,
+                105
+              ]
+            },
+            {
+              "lesson_no": 27,
+              "name": "Thực hành gấp, cắt, ghép, xếp hình. Vẽ đoạn thẳng",
+              "skills": [
+                "MATH_GEO_PRACTICE_001"
+              ],
+              "pdf_pages": [
+                107,
+                108,
+                109,
+                110
+              ],
+              "printed_pages": [
+                106,
+                107,
+                108,
+                109
+              ]
+            },
+            {
+              "lesson_no": 28,
+              "name": "Luyện tập chung",
+              "skills": [],
+              "pdf_pages": [
+                111,
+                112
+              ],
+              "printed_pages": [
+                110,
+                111
+              ]
+            }
+          ]
+        },
+        {
+          "unit_id": "MATH_T1_U6",
+          "name": "Ngày – giờ, giờ – phút, ngày – tháng",
+          "lessons": [
+            {
+              "lesson_no": 29,
+              "name": "Ngày – giờ, giờ – phút",
+              "skills": [
+                "MATH_TIME_CLOCK_001",
+                "MATH_TIME_DAY_HOUR_001"
+              ],
+              "pdf_pages": [
+                113,
+                114,
+                115,
+                116
+              ],
+              "printed_pages": [
+                112,
+                113,
+                114,
+                115
+              ]
+            },
+            {
+              "lesson_no": 30,
+              "name": "Ngày – tháng",
+              "skills": [
+                "MATH_TIME_CALENDAR_001"
+              ],
+              "pdf_pages": [
+                117,
+                118,
+                119
+              ],
+              "printed_pages": [
+                116,
+                117,
+                118
+              ]
+            },
+            {
+              "lesson_no": 31,
+              "name": "Thực hành và trải nghiệm xem đồng hồ, xem lịch",
+              "skills": [
+                "MATH_TIME_PRACTICE_001"
+              ],
+              "pdf_pages": [
+                120,
+                121,
+                122
+              ],
+              "printed_pages": [
+                119,
+                120,
+                121
+              ]
+            },
+            {
+              "lesson_no": 32,
+              "name": "Luyện tập chung",
+              "skills": [],
+              "pdf_pages": [
+                123,
+                124
+              ],
+              "printed_pages": [
+                122,
+                123
+              ]
+            }
+          ]
+        },
+        {
+          "unit_id": "MATH_T1_U7",
+          "name": "Ôn tập học kì 1",
+          "lessons": [
+            {
+              "lesson_no": 33,
+              "name": "Ôn tập phép cộng, phép trừ trong phạm vi 20, 100",
+              "skills": [],
+              "pdf_pages": [
+                125,
+                126,
+                127,
+                128,
+                129
+              ],
+              "printed_pages": [
+                124,
+                125,
+                126,
+                127,
+                128
+              ]
+            },
+            {
+              "lesson_no": 34,
+              "name": "Ôn tập hình phẳng",
+              "skills": [],
+              "pdf_pages": [
+                130,
+                131,
+                132
+              ],
+              "printed_pages": [
+                129,
+                130,
+                131
+              ]
+            },
+            {
+              "lesson_no": 35,
+              "name": "Ôn tập đo lường",
+              "skills": [],
+              "pdf_pages": [
+                133,
+                134,
+                135
+              ],
+              "printed_pages": [
+                132,
+                133,
+                134
+              ]
+            },
+            {
+              "lesson_no": 36,
+              "name": "Ôn tập chung",
+              "skills": [],
+              "pdf_pages": [
+                136,
+                137,
+                138
+              ],
+              "printed_pages": [
+                135,
+                136,
+                137
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "MATH_T2_MULTDIV",
+      "name": "Phép nhân, phép chia",
+      "units": [
+        {
+          "unit_id": "MATH_T2_U1",
+          "name": "Phép nhân",
+          "lessons": [
+            {
+              "lesson_no": 37,
+              "name": "Phép nhân",
+              "skills": [
+                "MATH_MULT_CONCEPT_001",
+                "MATH_MULT_FROM_ADD_001"
+              ],
+              "pdf_pages": [
+                5,
+                6,
+                7
+              ],
+              "printed_pages": [
+                4,
+                5,
+                6
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 38,
+              "name": "Thừa số, tích",
+              "skills": [
+                "MATH_MULT_COMPONENTS_001"
+              ],
+              "pdf_pages": [
+                8,
+                9
+              ],
+              "printed_pages": [
+                7,
+                8
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 39,
+              "name": "Bảng nhân 2",
+              "skills": [
+                "MATH_MULT_TABLE_2_001"
+              ],
+              "pdf_pages": [
+                10,
+                11,
+                12
+              ],
+              "printed_pages": [
+                9,
+                10,
+                11
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 40,
+              "name": "Bảng nhân 5",
+              "skills": [
+                "MATH_MULT_TABLE_5_001"
+              ],
+              "pdf_pages": [
+                13,
+                14,
+                15
+              ],
+              "printed_pages": [
+                12,
+                13,
+                14
+              ],
+              "status": "verify"
+            }
+          ]
+        },
+        {
+          "unit_id": "MATH_T2_U2",
+          "name": "Phép chia",
+          "lessons": [
+            {
+              "lesson_no": 41,
+              "name": "Phép chia",
+              "skills": [
+                "MATH_DIV_CONCEPT_001"
+              ],
+              "pdf_pages": [
+                16,
+                17,
+                18
+              ],
+              "printed_pages": [
+                15,
+                16,
+                17
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 42,
+              "name": "Số bị chia, số chia, thương",
+              "skills": [
+                "MATH_DIV_COMPONENTS_001"
+              ],
+              "pdf_pages": [
+                19,
+                20,
+                21
+              ],
+              "printed_pages": [
+                18,
+                19,
+                20
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 43,
+              "name": "Bảng chia 2",
+              "skills": [
+                "MATH_DIV_TABLE_2_001"
+              ],
+              "pdf_pages": [
+                22,
+                23,
+                24
+              ],
+              "printed_pages": [
+                21,
+                22,
+                23
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 44,
+              "name": "Bảng chia 5",
+              "skills": [
+                "MATH_DIV_TABLE_5_001"
+              ],
+              "pdf_pages": [
+                25,
+                26,
+                27
+              ],
+              "printed_pages": [
+                24,
+                25,
+                26
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 45,
+              "name": "Luyện tập chung",
+              "skills": [
+                "MATH_MULT_DIV_RELATION_001"
+              ],
+              "pdf_pages": [
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34
+              ],
+              "printed_pages": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "status": "verify"
+            }
+          ]
+        },
+        {
+          "unit_id": "MATH_T2_U3",
+          "name": "Làm quen với khối trụ, khối cầu",
+          "lessons": [
+            {
+              "lesson_no": 46,
+              "name": "Khối trụ, khối cầu",
+              "skills": [
+                "MATH_GEO3D_CYL_SPHERE_001"
+              ],
+              "pdf_pages": [
+                35,
+                36,
+                37
+              ],
+              "printed_pages": [
+                34,
+                35,
+                36
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 47,
+              "name": "Luyện tập chung",
+              "skills": [],
+              "pdf_pages": [
+                38,
+                39,
+                40
+              ],
+              "printed_pages": [
+                37,
+                38,
+                39
+              ],
+              "status": "verify"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "MATH_T2_NUM1000",
+      "name": "Các số trong phạm vi 1000",
+      "units": [
+        {
+          "unit_id": "MATH_T2_U4",
+          "name": "Các số trong phạm vi 1000",
+          "lessons": [
+            {
+              "lesson_no": 48,
+              "name": "Đơn vị, chục, trăm, nghìn",
+              "skills": [
+                "MATH_NUM_PLACE_VALUE_1000_001"
+              ],
+              "pdf_pages": [
+                41,
+                42,
+                43
+              ],
+              "printed_pages": [
+                40,
+                41,
+                42
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 49,
+              "name": "Các số tròn trăm, tròn chục",
+              "skills": [
+                "MATH_NUM_ROUND_100_001"
+              ],
+              "pdf_pages": [
+                44,
+                45,
+                46,
+                47
+              ],
+              "printed_pages": [
+                43,
+                44,
+                45,
+                46
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 50,
+              "name": "So sánh các số tròn trăm, tròn chục",
+              "skills": [
+                "MATH_NUM_COMPARE_ROUND_001"
+              ],
+              "pdf_pages": [
+                48,
+                49,
+                50
+              ],
+              "printed_pages": [
+                47,
+                48,
+                49
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 51,
+              "name": "Số có ba chữ số",
+              "skills": [
+                "MATH_NUM_READ_WRITE_1000_001"
+              ],
+              "pdf_pages": [
+                51,
+                52,
+                53,
+                54,
+                55
+              ],
+              "printed_pages": [
+                50,
+                51,
+                52,
+                53,
+                54
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 52,
+              "name": "Viết số thành tổng các trăm, chục, đơn vị",
+              "skills": [
+                "MATH_NUM_DECOMPOSE_1000_001"
+              ],
+              "pdf_pages": [
+                56,
+                57,
+                58
+              ],
+              "printed_pages": [
+                55,
+                56,
+                57
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 53,
+              "name": "So sánh các số có ba chữ số",
+              "skills": [
+                "MATH_NUM_COMPARE_1000_001"
+              ],
+              "pdf_pages": [
+                59,
+                60,
+                61
+              ],
+              "printed_pages": [
+                58,
+                59,
+                60
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 54,
+              "name": "Luyện tập chung",
+              "skills": [],
+              "pdf_pages": [
+                62,
+                63,
+                64,
+                65
+              ],
+              "printed_pages": [
+                61,
+                62,
+                63,
+                64
+              ],
+              "status": "verify"
+            }
+          ]
+        },
+        {
+          "unit_id": "MATH_T2_U5",
+          "name": "Đơn vị đo độ dài, tiền Việt Nam",
+          "lessons": [
+            {
+              "lesson_no": 55,
+              "name": "Đề-xi-mét. Mét. Ki-lô-mét",
+              "skills": [
+                "MATH_MEASURE_LENGTH_001",
+                "MATH_MEASURE_LENGTH_002"
+              ],
+              "pdf_pages": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71
+              ],
+              "printed_pages": [
+                65,
+                66,
+                67,
+                68,
+                69,
+                70
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 56,
+              "name": "Giới thiệu tiền Việt Nam",
+              "skills": [
+                "MATH_MONEY_001"
+              ],
+              "pdf_pages": [
+                72,
+                73
+              ],
+              "printed_pages": [
+                71,
+                72
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 57,
+              "name": "Thực hành và trải nghiệm đo độ dài",
+              "skills": [
+                "MATH_MEASURE_LENGTH_PRACTICE_001"
+              ],
+              "pdf_pages": [
+                74,
+                75
+              ],
+              "printed_pages": [
+                73,
+                74
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 58,
+              "name": "Luyện tập chung",
+              "skills": [],
+              "pdf_pages": [
+                76,
+                77,
+                78,
+                79
+              ],
+              "printed_pages": [
+                75,
+                76,
+                77,
+                78
+              ],
+              "status": "verify"
+            }
+          ]
+        },
+        {
+          "unit_id": "MATH_T2_U6",
+          "name": "Phép cộng, phép trừ trong phạm vi 1000",
+          "lessons": [
+            {
+              "lesson_no": 59,
+              "name": "Phép cộng (không nhớ) trong phạm vi 1000",
+              "skills": [
+                "MATH_ADD_NO_CARRY_1000_001"
+              ],
+              "pdf_pages": [
+                80,
+                81,
+                82,
+                83
+              ],
+              "printed_pages": [
+                79,
+                80,
+                81,
+                82
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 60,
+              "name": "Phép cộng (có nhớ) trong phạm vi 1000",
+              "skills": [
+                "MATH_ADD_CARRY_1000_001"
+              ],
+              "pdf_pages": [
+                84,
+                85,
+                86,
+                87
+              ],
+              "printed_pages": [
+                83,
+                84,
+                85,
+                86
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 61,
+              "name": "Phép trừ (không nhớ) trong phạm vi 1000",
+              "skills": [
+                "MATH_SUB_NO_BORROW_1000_001"
+              ],
+              "pdf_pages": [
+                88,
+                89,
+                90,
+                91
+              ],
+              "printed_pages": [
+                87,
+                88,
+                89,
+                90
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 62,
+              "name": "Phép trừ (có nhớ) trong phạm vi 1000",
+              "skills": [
+                "MATH_SUB_BORROW_1000_001"
+              ],
+              "pdf_pages": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97
+              ],
+              "printed_pages": [
+                91,
+                92,
+                93,
+                94,
+                95,
+                96
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 63,
+              "name": "Luyện tập chung",
+              "skills": [],
+              "pdf_pages": [
+                98,
+                99,
+                100
+              ],
+              "printed_pages": [
+                97,
+                98,
+                99
+              ],
+              "status": "verify"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "MATH_T2_STATS",
+      "name": "Thu thập, phân loại số liệu và khả năng xảy ra",
+      "units": [
+        {
+          "unit_id": "MATH_T2_U7",
+          "name": "Thống kê và xác suất ban đầu",
+          "lessons": [
+            {
+              "lesson_no": 64,
+              "name": "Thu thập, phân loại, kiểm đếm số liệu",
+              "skills": [
+                "MATH_STAT_COLLECT_001",
+                "MATH_STAT_SORT_COUNT_001"
+              ],
+              "pdf_pages": [
+                101,
+                102
+              ],
+              "printed_pages": [
+                100,
+                101
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 65,
+              "name": "Biểu đồ tranh",
+              "skills": [
+                "MATH_STAT_PICTOGRAPH_001"
+              ],
+              "pdf_pages": [
+                103,
+                104,
+                105,
+                106
+              ],
+              "printed_pages": [
+                102,
+                103,
+                104,
+                105
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 66,
+              "name": "Chắc chắn, có thể, không thể",
+              "skills": [
+                "MATH_PROB_CERTAIN_001"
+              ],
+              "pdf_pages": [
+                107,
+                108
+              ],
+              "printed_pages": [
+                106,
+                107
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 67,
+              "name": "Thực hành và trải nghiệm thu thập, phân loại, kiểm đếm",
+              "skills": [
+                "MATH_STAT_PRACTICE_001"
+              ],
+              "pdf_pages": [
+                109,
+                110
+              ],
+              "printed_pages": [
+                108,
+                109
+              ],
+              "status": "verify"
+            }
+          ]
+        },
+        {
+          "unit_id": "MATH_T2_U8",
+          "name": "Ôn tập cuối năm",
+          "lessons": [
+            {
+              "lesson_no": 68,
+              "name": "Ôn tập các số trong phạm vi 1000",
+              "skills": [],
+              "pdf_pages": [
+                111,
+                112,
+                113
+              ],
+              "printed_pages": [
+                110,
+                111,
+                112
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 69,
+              "name": "Ôn tập phép cộng, phép trừ trong phạm vi 100",
+              "skills": [],
+              "pdf_pages": [
+                114,
+                115,
+                116,
+                117
+              ],
+              "printed_pages": [
+                113,
+                114,
+                115,
+                116
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 70,
+              "name": "Ôn tập phép cộng, phép trừ trong phạm vi 1000",
+              "skills": [],
+              "pdf_pages": [
+                118,
+                119,
+                120,
+                121,
+                122
+              ],
+              "printed_pages": [
+                117,
+                118,
+                119,
+                120,
+                121
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 71,
+              "name": "Ôn tập phép nhân, phép chia",
+              "skills": [],
+              "pdf_pages": [
+                123,
+                124,
+                125,
+                126,
+                127
+              ],
+              "printed_pages": [
+                122,
+                123,
+                124,
+                125,
+                126
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 72,
+              "name": "Ôn tập hình học",
+              "skills": [],
+              "pdf_pages": [
+                128,
+                129,
+                130,
+                131
+              ],
+              "printed_pages": [
+                127,
+                128,
+                129,
+                130
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 73,
+              "name": "Ôn tập đo lường",
+              "skills": [],
+              "pdf_pages": [
+                132,
+                133,
+                134
+              ],
+              "printed_pages": [
+                131,
+                132,
+                133
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 74,
+              "name": "Ôn tập kiểm đếm số liệu và lựa chọn khả năng",
+              "skills": [],
+              "pdf_pages": [
+                135,
+                136
+              ],
+              "printed_pages": [
+                134,
+                135
+              ],
+              "status": "verify"
+            },
+            {
+              "lesson_no": 75,
+              "name": "Ôn tập chung",
+              "skills": [],
+              "pdf_pages": [
+                137,
+                138,
+                139
+              ],
+              "printed_pages": [
+                136,
+                137,
+                138
+              ],
+              "status": "verify"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "READY — 75 bài, 2 tập; trang đã đối chiếu OCR từng trang (T1 đã sửa lại toàn bộ sau khi phát hiện lệch ở các bài cuối)"
+}

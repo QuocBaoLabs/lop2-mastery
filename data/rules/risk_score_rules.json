@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Knowledge Risk Score 0–100: đo mức độ rủi ro lỗ hổng kiến thức của từng skill đối với từng học sinh.",
+  "formula": {
+    "raw": "Risk = 40*WeaknessNorm + 25*ImportanceNorm + 20*ForgettingRiskNorm + 10*DependencyNorm + 5*Grade3FoundationFlag",
+    "normalization": "Mọi thành phần chuẩn hóa 0–100; tổng 0–100."
+  },
+  "bands": [
+    {"range": [0, 29], "label": "Ổn", "color": "green", "action": "Không cần can thiệp; duy trì lịch ôn."},
+    {"range": [30, 59], "label": "Theo dõi", "color": "yellow", "action": "Theo dõi; đưa vào ôn nếu đến hạn."},
+    {"range": [60, 79], "label": "Cần củng cố", "color": "orange", "action": "Lên lịch củng cố trong tuần; kiểm tra prerequisite gần nhất."},
+    {"range": [80, 100], "label": "Ưu tiên ngay", "color": "red", "action": "Ưu tiên số 1 trong buổi học tiếp theo; cảnh báo phụ huynh kèm lý do."}
+  ],
+  "triggers": {
+    "high_importance": "Skill mức A luôn có sàn rủi ro tối thiểu 40.",
+    "recent_errors": "Lỗi thuộc skill trong 7 ngày gần nhất cộng 15 điểm tạm thời.",
+    "forgetting": "Quên trong 2 lần ôn liên tiếp nhân đôi thành phần ForgettingRisk.",
+    "blocked_dependents": "Mỗi skill chưa học phụ thuộc trực tiếp cộng 8 điểm (tối đa 24)."
+  },
+  "dashboard_usage": "Dashboard hiển thị danh sách risk cao nhất đầu trang 'Hôm nay nên học gì' và tô màu skill trên Bản đồ kiến thức."
+}

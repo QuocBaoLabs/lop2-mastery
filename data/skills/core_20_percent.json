@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.0",
+  "rule": "Top 20% từng môn (Toán 13/64, Tiếng Việt 11/54) theo importance_score, ưu tiên level A + grade3_foundation; đây là '20% kỹ năng tạo 80% năng lực' của từng môn.",
+  "total": 24,
+  "skills": [
+    {
+      "skill_id": "MATH_ADD_BRIDGE10_001",
+      "subject": "MATH",
+      "name": "Phép cộng (qua 10) trong phạm vi 20",
+      "importance_level": "A",
+      "importance_score": 96,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "MATH_SUB_BRIDGE10_001",
+      "subject": "MATH",
+      "name": "Phép trừ (qua 10) trong phạm vi 20",
+      "importance_level": "A",
+      "importance_score": 96,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "MATH_ADD_CARRY_100_001",
+      "subject": "MATH",
+      "name": "Cộng có nhớ: 2 chữ số + 1 chữ số",
+      "importance_level": "A",
+      "importance_score": 95,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "MATH_ADD_CARRY_100_002",
+      "subject": "MATH",
+      "name": "Cộng có nhớ: 2 chữ số + 2 chữ số",
+      "importance_level": "A",
+      "importance_score": 95,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "MATH_NUM_PLACE_VALUE_001",
+      "subject": "MATH",
+      "name": "Cấu tạo số (chục, đơn vị) trong phạm vi 100",
+      "importance_level": "A",
+      "importance_score": 95,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "MATH_SUB_BORROW_100_001",
+      "subject": "MATH",
+      "name": "Trừ có nhớ: 2 chữ số − 1 chữ số",
+      "importance_level": "A",
+      "importance_score": 95,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "MATH_SUB_BORROW_100_002",
+      "subject": "MATH",
+      "name": "Trừ có nhớ: 2 chữ số − 2 chữ số",
+      "importance_level": "A",
+      "importance_score": 95,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "MATH_DIV_CONCEPT_001",
+      "subject": "MATH",
+      "name": "Khái niệm phép chia",
+      "importance_level": "A",
+      "importance_score": 94,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "MATH_MULT_CONCEPT_001",
+      "subject": "MATH",
+      "name": "Khái niệm phép nhân",
+      "importance_level": "A",
+      "importance_score": 94,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "MATH_NUM_PLACE_VALUE_1000_001",
+      "subject": "MATH",
+      "name": "Đơn vị, chục, trăm, nghìn",
+      "importance_level": "A",
+      "importance_score": 94,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "MATH_ADD_CARRY_1000_001",
+      "subject": "MATH",
+      "name": "Cộng (có nhớ) trong phạm vi 1000",
+      "importance_level": "A",
+      "importance_score": 92,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "MATH_DIV_TABLE_2_001",
+      "subject": "MATH",
+      "name": "Bảng chia 2",
+      "importance_level": "A",
+      "importance_score": 92,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "MATH_DIV_TABLE_5_001",
+      "subject": "MATH",
+      "name": "Bảng chia 5",
+      "importance_level": "A",
+      "importance_score": 92,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "VIE_READ_WORD_001",
+      "subject": "VIE",
+      "name": "Đọc đúng từ, tiếng khó trong bài",
+      "importance_level": "A",
+      "importance_score": 92,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "VIE_READ_FLUENCY_001",
+      "subject": "VIE",
+      "name": "Đọc trôi chảy, ngắt nghỉ đúng dấu câu",
+      "importance_level": "A",
+      "importance_score": 90,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "VIE_READ_INFO_001",
+      "subject": "VIE",
+      "name": "Tìm thông tin trực tiếp trong bài",
+      "importance_level": "A",
+      "importance_score": 90,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "VIE_SPELL_CAPITAL_001",
+      "subject": "VIE",
+      "name": "Viết hoa đầu câu, tên riêng, tên địa lí",
+      "importance_level": "A",
+      "importance_score": 88,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "VIE_READ_ANSWER_001",
+      "subject": "VIE",
+      "name": "Trả lời câu hỏi đọc hiểu thành câu đủ",
+      "importance_level": "A",
+      "importance_score": 87,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "VIE_READ_COMPREHEND_001",
+      "subject": "VIE",
+      "name": "Hiểu nghĩa từ trong ngữ cảnh",
+      "importance_level": "A",
+      "importance_score": 86,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "VIE_READ_INFERENCE_001",
+      "subject": "VIE",
+      "name": "Suy luận đơn giản từ bài đọc",
+      "importance_level": "A",
+      "importance_score": 85,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "VIE_SPELL_DICTATION_001",
+      "subject": "VIE",
+      "name": "Nghe – viết đúng bài chính tả",
+      "importance_level": "A",
+      "importance_score": 85,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "VIE_READ_MAINIDEA_001",
+      "subject": "VIE",
+      "name": "Nêu ý chính của đoạn, bài",
+      "importance_level": "A",
+      "importance_score": 84,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "VIE_WRITE_3_5_SENT_001",
+      "subject": "VIE",
+      "name": "Viết đoạn 3–5 câu",
+      "importance_level": "A",
+      "importance_score": 84,
+      "grade3_foundation": true
+    },
+    {
+      "skill_id": "VIE_SENTENCE_MAKE_001",
+      "subject": "VIE",
+      "name": "Đặt câu với từ cho trước",
+      "importance_level": "A",
+      "importance_score": 83,
+      "grade3_foundation": true
+    }
+  ]
+}
