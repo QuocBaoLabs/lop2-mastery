@@ -1,0 +1,630 @@
+[
+ {
+  "skill_id": "VIE_READ_WORD_001",
+  "subject": "VIE",
+  "domain": "Đọc",
+  "subdomain": "Đọc thành tiếng",
+  "name": "Đọc đúng từ, tiếng khó trong bài",
+  "description": "Đọc đúng các từ ngữ khó (âm/vần dễ nhầm, từ mới) trong bài đọc lớp 2; phát âm rõ, không đọc lẫn từ.",
+  "mastery_definition": {
+   "level_0": "Chưa đọc đúng phần lớn từ trong bài.",
+   "level_1": "Đọc đúng từ khi được đọc mẫu trước.",
+   "level_2": "Tự đọc được nhưng còn vấp ở vài từ khó.",
+   "level_3": "Đọc đúng 9/10 từ khó của bài mới, phát âm rõ.",
+   "level_4": "Đọc đúng mọi từ, tự nhận ra từ khó và biết cách luyện."
+  },
+  "mastery_check_rule": "Cho đọc 10 từ khó (trong/ngoài bài); đạt M3 khi đọc đúng ≥ 9/10.",
+  "prerequisites": [],
+  "importance_level": "A",
+  "importance_score": 92,
+  "grade3_foundation": true,
+  "reason_importance": "Tiền đề tuyệt đối của mọi kĩ năng đọc hiểu và viết chính tả.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_READ_FLUENCY_001",
+  "subject": "VIE",
+  "domain": "Đọc",
+  "subdomain": "Đọc thành tiếng",
+  "name": "Đọc trôi chảy, ngắt nghỉ đúng dấu câu",
+  "description": "Đọc câu/đoạn trôi chảy, không đánh vần từng tiếng; ngắt nghỉ đúng dấu chấm, dấu phẩy, dấu chấm hỏi/than.",
+  "mastery_definition": {
+   "level_0": "Đọc còn đánh vần, đứt quãng từng tiếng.",
+   "level_1": "Đọc được câu ngắn khi có mẫu.",
+   "level_2": "Đọc trơn được nhưng ngắt nghỉ còn tùy tiện.",
+   "level_3": "Đọc trơn 1 đoạn 4–5 câu, ngắt nghỉ đúng dấu câu ≥ 90%.",
+   "level_4": "Đọc diễn cảm, tự điều chỉnh tốc độ và giọng theo nội dung."
+  },
+  "mastery_check_rule": "Nghe trẻ đọc 1 đoạn chưa học; đạt M3 khi trôi chảy và ngắt nghỉ đúng ≥ 4/5 dấu câu.",
+  "prerequisites": [
+   "VIE_READ_WORD_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 90,
+  "grade3_foundation": true,
+  "reason_importance": "Cầu nối từ nhận diện chữ sang đọc hiểu; chậm đọc làm hỏng toàn bộ việc học.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_READ_COMPREHEND_001",
+  "subject": "VIE",
+  "domain": "Đọc",
+  "subdomain": "Đọc hiểu",
+  "name": "Hiểu nghĩa từ trong ngữ cảnh",
+  "description": "Hiểu nghĩa từ mới nhờ ngữ cảnh, giải thích được từ đơn giản, đặt câu với từ đã học.",
+  "mastery_definition": {
+   "level_0": "Không hiểu nghĩa phần lớn từ trong câu.",
+   "level_1": "Giải thích được từ khi có hình ảnh minh họa.",
+   "level_2": "Tự giải thích được từ quen thuộc, từ mới còn cần gợi ý.",
+   "level_3": "Giải thích đúng ≥ 4/5 từ trong ngữ cảnh, đặt câu đúng với 4/5 từ.",
+   "level_4": "Tự suy ra nghĩa từ mới từ văn cảnh và vận dụng linh hoạt."
+  },
+  "mastery_check_rule": "5 từ trong/ngoài bài: giải thích + đặt câu; đạt M3 khi đúng ≥ 4/5 mỗi phần.",
+  "prerequisites": [
+   "VIE_READ_FLUENCY_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 86,
+  "grade3_foundation": true,
+  "reason_importance": "Vốn từ quyết định tốc độ đọc hiểu về sau; hổng từ = hổng hiểu văn bản.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_READ_INFO_001",
+  "subject": "VIE",
+  "domain": "Đọc",
+  "subdomain": "Đọc hiểu",
+  "name": "Tìm thông tin trực tiếp trong bài",
+  "description": "Tìm và nêu đúng chi tiết nêu rõ trong bài (ai, cái gì, ở đâu, khi nào, vì sao) theo câu hỏi.",
+  "mastery_definition": {
+   "level_0": "Chưa tìm được thông tin dù đã chỉ đoạn chứa đáp án.",
+   "level_1": "Tìm được khi được khoanh vùng đoạn.",
+   "level_2": "Tự tìm được nhưng đôi khi nhầm chi tiết gần giống.",
+   "level_3": "Tìm đúng ≥ 4/5 câu hỏi thông tin trực tiếp ở bài mới.",
+   "level_4": "Tìm nhanh, nêu được câu trong bài chứa đáp án làm bằng chứng."
+  },
+  "mastery_check_rule": "5 câu hỏi thông tin trực tiếp ở bài chưa học; đạt M3 khi đúng ≥ 4/5.",
+  "prerequisites": [
+   "VIE_READ_FLUENCY_001",
+   "VIE_READ_COMPREHEND_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 90,
+  "grade3_foundation": true,
+  "reason_importance": "Dạng đọc hiểu nền tảng, xuất hiện ở mọi bài và mọi môn học.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_READ_CHARACTER_001",
+  "subject": "VIE",
+  "domain": "Đọc",
+  "subdomain": "Đọc hiểu",
+  "name": "Xác định nhân vật trong truyện",
+  "description": "Kể tên nhân vật xuất hiện trong truyện; phân biệt nhân vật chính/phụ ở mức đơn giản.",
+  "mastery_definition": {
+   "level_0": "Chưa kể được ai trong truyện.",
+   "level_1": "Kể được nhân vật khi xem lại tranh.",
+   "level_2": "Kể được nhân vật chính, còn sót nhân vật phụ.",
+   "level_3": "Kể đúng các nhân vật và chỉ ra nhân vật chính ở ≥ 4/5 truyện.",
+   "level_4": "Nói được vai trò ngắn gọn của từng nhân vật trong truyện."
+  },
+  "mastery_check_rule": "Đọc 1 truyện ngắn mới: kể tên nhân vật + nhân vật chính; đạt M3 khi đúng cả hai.",
+  "prerequisites": [
+   "VIE_READ_INFO_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 74,
+  "grade3_foundation": false,
+  "reason_importance": "Nền cho phân tích nhân vật, cảm xúc và ý nghĩa truyện ở lớp trên.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_READ_EVENT_001",
+  "subject": "VIE",
+  "domain": "Đọc",
+  "subdomain": "Đọc hiểu",
+  "name": "Xác định sự việc trong bài",
+  "description": "Nêu được sự việc/tình tiết chính diễn ra trong bài; trả lời 'chuyện gì đã xảy ra'.",
+  "mastery_definition": {
+   "level_0": "Chưa nêu được sự việc nào.",
+   "level_1": "Nêu được 1 sự việc khi có câu gợi ý.",
+   "level_2": "Tự nêu được nhưng còn thiếu sự việc quan trọng.",
+   "level_3": "Nêu đúng ≥ 4/5 sự việc chính ở bài mới.",
+   "level_4": "Phân biệt được sự việc chính và chi tiết phụ."
+  },
+  "mastery_check_rule": "1 bài mới: kể các sự việc chính; đạt M3 khi nêu đúng ≥ 4/5.",
+  "prerequisites": [
+   "VIE_READ_INFO_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 78,
+  "grade3_foundation": true,
+  "reason_importance": "Nền cho tóm tắt, kể lại và viết đoạn kể sự việc.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_READ_SEQUENCE_001",
+  "subject": "VIE",
+  "domain": "Đọc",
+  "subdomain": "Đọc hiểu",
+  "name": "Sắp xếp sự việc theo trình tự",
+  "description": "Sắp xếp tranh/câu theo đúng trình tự trước–sau của câu chuyện; nhận ra mở đầu, diễn biến, kết thúc ở mức đơn giản.",
+  "mastery_definition": {
+   "level_0": "Chưa sắp xếp được trình tự.",
+   "level_1": "Xếp được khi chỉ còn 2 lựa chọn.",
+   "level_2": "Tự xếp được đoạn ngắn, còn lẫn thứ tự đoạn dài.",
+   "level_3": "Xếp đúng ≥ 4/5 bộ tranh/câu theo trình tự.",
+   "level_4": "Kể lại được trình tự và giải thích vì sao sắp như vậy."
+  },
+  "mastery_check_rule": "Xếp 5 tranh/câu của 1 truyện mới; đạt M3 khi đúng ≥ 4/5.",
+  "prerequisites": [
+   "VIE_READ_EVENT_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 80,
+  "grade3_foundation": true,
+  "reason_importance": "Tư duy trình tự — nền của kể chuyện, tóm tắt và viết đoạn có thứ tự.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_READ_MAINIDEA_001",
+  "subject": "VIE",
+  "domain": "Đọc",
+  "subdomain": "Đọc hiểu",
+  "name": "Nêu ý chính của đoạn, bài",
+  "description": "Nêu được nội dung chính của đoạn/bài bằng 1 câu; chọn được câu nêu đúng ý chính.",
+  "mastery_definition": {
+   "level_0": "Chưa nêu được bài nói về gì.",
+   "level_1": "Nêu được khi chọn giữa 2 câu cho sẵn.",
+   "level_2": "Tự nêu được nhưng còn rườm rà, thiếu trọng tâm.",
+   "level_3": "Nêu đúng ý chính ≥ 4/5 đoạn/bài bằng 1 câu gọn.",
+   "level_4": "Tự đặt được tiêu đề phù hợp cho đoạn văn ngắn."
+  },
+  "mastery_check_rule": "4 đoạn/bài: nêu ý chính 1 câu; đạt M3 khi đúng ≥ 3/4.",
+  "prerequisites": [
+   "VIE_READ_INFO_001",
+   "VIE_READ_SEQUENCE_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 84,
+  "grade3_foundation": true,
+  "reason_importance": "Khả năng 'rút ruột' văn bản — dùng ở mọi môn từ lớp 3.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_READ_INFERENCE_001",
+  "subject": "VIE",
+  "domain": "Đọc",
+  "subdomain": "Đọc hiểu",
+  "name": "Suy luận đơn giản từ bài đọc",
+  "description": "Trả lời câu hỏi 'vì sao', 'điều gì sẽ xảy ra' khi đáp án không nêu sẵn mà phải suy ra từ chi tiết trong bài.",
+  "mastery_definition": {
+   "level_0": "Chưa suy luận được, chỉ lặp lại câu trong bài.",
+   "level_1": "Suy luận được khi có gợi ý chi tiết.",
+   "level_2": "Tự suy luận được câu đơn giản, câu phức còn lệch.",
+   "level_3": "Suy luận đúng ≥ 4/5 câu hỏi 'vì sao' ở bài mới.",
+   "level_4": "Nêu được bằng chứng trong bài cho suy luận của mình."
+  },
+  "mastery_check_rule": "5 câu suy luận ở bài mới; đạt M3 khi đúng ≥ 4/5.",
+  "prerequisites": [
+   "VIE_READ_INFO_001",
+   "VIE_READ_COMPREHEND_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 85,
+  "grade3_foundation": true,
+  "reason_importance": "Đọc hiểu bậc cao — quyết định điểm đọc hiểu và học môn khác.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_READ_EMOTION_001",
+  "subject": "VIE",
+  "domain": "Đọc",
+  "subdomain": "Đọc hiểu",
+  "name": "Hiểu cảm xúc, thái độ nhân vật",
+  "description": "Nhận ra nhân vật vui/buồn/sợ/giận qua lời nói, hành động; nói được vì sao nhân vật có cảm xúc đó.",
+  "mastery_definition": {
+   "level_0": "Chưa nhận ra cảm xúc nhân vật.",
+   "level_1": "Nhận ra cảm xúc qua nét mặt tranh.",
+   "level_2": "Tự nhận ra cảm xúc rõ, cảm xúc kín còn cần gợi ý.",
+   "level_3": "Xác định đúng cảm xúc + lí do ≥ 4/5 tình huống.",
+   "level_4": "Liên hệ được cảm xúc nhân vật với trải nghiệm của mình."
+  },
+  "mastery_check_rule": "5 tình huống trong truyện mới; đạt M3 khi đúng ≥ 4/5.",
+  "prerequisites": [
+   "VIE_READ_INFERENCE_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 75,
+  "grade3_foundation": false,
+  "reason_importance": "Nền của cảm thụ văn học và kĩ năng đồng cảm xã hội.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_READ_POEM_001",
+  "subject": "VIE",
+  "domain": "Đọc",
+  "subdomain": "Đọc hiểu",
+  "name": "Đọc thơ: khổ thơ, nhịp, vần",
+  "description": "Nhận biết khổ thơ, dòng thơ; đọc đúng nhịp; tìm tiếng bắt vần với nhau trong bài thơ.",
+  "mastery_definition": {
+   "level_0": "Chưa phân biệt được khổ thơ/dòng thơ.",
+   "level_1": "Đọc được theo nhịp khi có mẫu.",
+   "level_2": "Tự đọc đúng nhịp phần lớn, nhận vần còn chậm.",
+   "level_3": "Đọc đúng nhịp và tìm đúng tiếng bắt vần ≥ 4/5 bài thơ ngắn.",
+   "level_4": "Đọc diễn cảm bài thơ, nêu được hình ảnh em thích và vì sao."
+  },
+  "mastery_check_rule": "1 bài thơ ngắn mới: đọc + tìm 3 cặp vần; đạt M3 khi đúng ≥ 4/5 yêu cầu.",
+  "prerequisites": [
+   "VIE_READ_FLUENCY_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 70,
+  "grade3_foundation": false,
+  "reason_importance": "Làm quen văn vần; rèn ngữ âm và nhạy cảm ngôn ngữ.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_READ_ANSWER_001",
+  "subject": "VIE",
+  "domain": "Đọc",
+  "subdomain": "Đọc hiểu",
+  "name": "Trả lời câu hỏi đọc hiểu thành câu đủ",
+  "description": "Trả lời câu hỏi về bài đọc bằng câu đầy đủ chủ ngữ – vị ngữ, đúng nội dung hỏi.",
+  "mastery_definition": {
+   "level_0": "Trả lời cụt lủn 1 từ hoặc sai nội dung hỏi.",
+   "level_1": "Trả lời đủ câu khi có mẫu.",
+   "level_2": "Tự trả lời được nhưng có lúc thiếu chủ ngữ.",
+   "level_3": "Trả lời đúng và đủ câu ≥ 4/5 câu hỏi đọc hiểu.",
+   "level_4": "Trả lời gọn, đúng trọng tâm và dẫn được chi tiết trong bài."
+  },
+  "mastery_check_rule": "5 câu hỏi đọc hiểu bài mới (trả lời viết/nói); đạt M3 khi đúng ≥ 4/5 và đủ câu.",
+  "prerequisites": [
+   "VIE_READ_COMPREHEND_001",
+   "VIE_SENTENCE_MAKE_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 87,
+  "grade3_foundation": true,
+  "reason_importance": "Kết hợp đọc hiểu + diễn đạt; dạng chiếm phần lớn bài kiểm tra.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_READ_DOCUMENT_001",
+  "subject": "VIE",
+  "domain": "Đọc",
+  "subdomain": "Đọc hiểu",
+  "name": "Đọc hiểu văn bản phi truyện",
+  "description": "Đọc hiểu thời khóa biểu, danh sách, thông báo, nội quy: tra đúng thông tin theo hàng/cột và làm theo chỉ dẫn.",
+  "mastery_definition": {
+   "level_0": "Chưa tra được thông tin trong bảng/danh sách.",
+   "level_1": "Tra được khi được chỉ hàng/cột.",
+   "level_2": "Tự tra được nhưng thỉnh thoảng nhầm dòng.",
+   "level_3": "Tra đúng ≥ 4/5 thông tin ở thời khóa biểu/danh sách/nội quy mới.",
+   "level_4": "Tự lập được bảng/danh sách đơn giản theo mẫu."
+  },
+  "mastery_check_rule": "5 câu tra thông tin ở 1 văn bản phi truyện mới; đạt M3 khi đúng ≥ 4/5.",
+  "prerequisites": [
+   "VIE_READ_INFO_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 76,
+  "grade3_foundation": true,
+  "reason_importance": "Kĩ năng đọc tài liệu thực tế, dùng suốt đời và ở mọi môn.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_READ_WIDE_001",
+  "subject": "VIE",
+  "domain": "Đọc",
+  "subdomain": "Đọc mở rộng",
+  "name": "Đọc mở rộng theo chủ điểm",
+  "description": "Tự đọc thêm sách/bài cùng chủ điểm, ghi phiếu đọc sách đơn giản (tên sách, tác giả, điều thích nhất).",
+  "mastery_definition": {
+   "level_0": "Chưa tự đọc thêm được.",
+   "level_1": "Đọc thêm được khi có người đọc cùng.",
+   "level_2": "Tự đọc thêm được truyện ngắn, phiếu đọc còn sơ sài.",
+   "level_3": "Hoàn thành phiếu đọc sách đủ 3 mục ở 4/5 lần.",
+   "level_4": "Tự chọn sách theo chủ điểm, kể lại được nội dung chính."
+  },
+  "mastery_check_rule": "1 phiếu đọc sách/tháng; đạt M3 khi đủ 3 mục và kể được 1 ý chính.",
+  "prerequisites": [
+   "VIE_READ_FLUENCY_001"
+  ],
+  "importance_level": "D",
+  "importance_score": 52,
+  "grade3_foundation": false,
+  "reason_importance": "Kĩ năng bồi đắp vốn từ; có thể rút gọn khi trẻ đã đọc tốt.",
+  "fast_track_allowed": true,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SPELL_CAPITAL_001",
+  "subject": "VIE",
+  "domain": "Chính tả",
+  "subdomain": "Quy tắc viết hoa",
+  "name": "Viết hoa đầu câu, tên riêng, tên địa lí",
+  "description": "Viết hoa đúng chữ đầu câu, tên người, tên địa lí Việt Nam (địa danh, tên riêng đơn giản).",
+  "mastery_definition": {
+   "level_0": "Chưa viết hoa được theo quy tắc.",
+   "level_1": "Viết hoa đúng khi được nhắc quy tắc.",
+   "level_2": "Tự viết hoa đầu câu đúng, tên riêng còn sót.",
+   "level_3": "Viết hoa đúng ≥ 8/10 trường hợp cả 3 loại.",
+   "level_4": "Tự phát hiện và sửa lỗi viết hoa trong đoạn văn."
+  },
+  "mastery_check_rule": "10 trường hợp (đầu câu, tên người, tên địa lí); đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_READ_WORD_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 88,
+  "grade3_foundation": true,
+  "reason_importance": "Quy tắc chính tả dùng suốt đời; sai viết hoa kéo dài dai dẳng.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SPELL_CK_001",
+  "subject": "VIE",
+  "domain": "Chính tả",
+  "subdomain": "Âm đầu dễ nhầm",
+  "name": "Phân biệt c/k (cờ)",
+  "description": "Viết đúng c/k trước nguyên âm (k trước e/ê/i); chọn đúng tiếng chứa c/k theo nghĩa.",
+  "mastery_definition": {
+   "level_0": "Chưa phân biệt được c/k.",
+   "level_1": "Đúng khi nhìn quy tắc trước mặt.",
+   "level_2": "Nhớ quy tắc nhưng thỉnh thoảng viết c trước e/ê/i.",
+   "level_3": "Viết đúng ≥ 9/10 tiếng chứa c/k.",
+   "level_4": "Tự phát hiện lỗi c/k trong bài viết của mình và của bạn."
+  },
+  "mastery_check_rule": "10 tiếng/chỗ trống chứa c/k; đạt M3 khi đúng ≥ 9/10.",
+  "prerequisites": [
+   "VIE_READ_WORD_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 73,
+  "grade3_foundation": false,
+  "reason_importance": "Lỗi chính tả kinh điển, lặp lại suốt cấp tiểu học nếu không chốt sớm.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SPELL_GH_001",
+  "subject": "VIE",
+  "domain": "Chính tả",
+  "subdomain": "Âm đầu dễ nhầm",
+  "name": "Phân biệt g/gh, ng/ngh",
+  "description": "Viết đúng g/gh và ng/ngh trước nguyên âm (gh, ngh trước e/ê/i); chọn đúng tiếng theo nghĩa.",
+  "mastery_definition": {
+   "level_0": "Chưa phân biệt được g/gh, ng/ngh.",
+   "level_1": "Đúng khi nhìn quy tắc trước mặt.",
+   "level_2": "Nhớ quy tắc nhưng viết còn lẫn lộn.",
+   "level_3": "Viết đúng ≥ 9/10 tiếng chứa g/gh, ng/ngh.",
+   "level_4": "Tự phát hiện và sửa lỗi trong đoạn văn."
+  },
+  "mastery_check_rule": "10 tiếng/chỗ trống; đạt M3 khi đúng ≥ 9/10.",
+  "prerequisites": [
+   "VIE_READ_WORD_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 73,
+  "grade3_foundation": false,
+  "reason_importance": "Cặp quy tắc chính tả bắt buộc, lỗi phổ biến nhất lớp 2.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SPELL_SX_001",
+  "subject": "VIE",
+  "domain": "Chính tả",
+  "subdomain": "Âm đầu dễ nhầm",
+  "name": "Phân biệt s/x",
+  "description": "Chọn đúng tiếng chứa s hoặc x theo nghĩa từ trong bài; viết đúng khi nghe – viết.",
+  "mastery_definition": {
+   "level_0": "Chưa phân biệt được s/x.",
+   "level_1": "Đúng khi có từ gợi ý nghĩa.",
+   "level_2": "Tự làm đúng từ quen thuộc, từ ít gặp còn lẫn.",
+   "level_3": "Chọn/viết đúng ≥ 8/10 tiếng chứa s/x.",
+   "level_4": "Tự giải thích nghĩa để chọn đúng s/x ở từ mới."
+  },
+  "mastery_check_rule": "10 tiếng/chỗ trống s/x; đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_READ_WORD_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 72,
+  "grade3_foundation": false,
+  "reason_importance": "Lỗi chính tả vùng miền phổ biến, cần luyện có ngữ cảnh nghĩa.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SPELL_CHTR_001",
+  "subject": "VIE",
+  "domain": "Chính tả",
+  "subdomain": "Âm đầu dễ nhầm",
+  "name": "Phân biệt ch/tr",
+  "description": "Chọn đúng tiếng chứa ch hoặc tr theo nghĩa từ; viết đúng khi nghe – viết.",
+  "mastery_definition": {
+   "level_0": "Chưa phân biệt được ch/tr.",
+   "level_1": "Đúng khi có từ gợi ý nghĩa.",
+   "level_2": "Tự làm đúng từ quen thuộc, từ ít gặp còn lẫn.",
+   "level_3": "Chọn/viết đúng ≥ 8/10 tiếng chứa ch/tr.",
+   "level_4": "Tự giải thích nghĩa để chọn đúng ch/tr ở từ mới."
+  },
+  "mastery_check_rule": "10 tiếng/chỗ trống ch/tr; đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_READ_WORD_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 72,
+  "grade3_foundation": false,
+  "reason_importance": "Lỗi chính tả vùng miền phổ biến, cần luyện có ngữ cảnh nghĩa.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SPELL_DGI_001",
+  "subject": "VIE",
+  "domain": "Chính tả",
+  "subdomain": "Âm đầu dễ nhầm",
+  "name": "Phân biệt d/gi (và r)",
+  "description": "Chọn đúng tiếng chứa d, gi (r) theo nghĩa từ; viết đúng khi nghe – viết.",
+  "mastery_definition": {
+   "level_0": "Chưa phân biệt được d/gi.",
+   "level_1": "Đúng khi có từ gợi ý nghĩa.",
+   "level_2": "Tự làm đúng từ quen thuộc, từ ít gặp còn lẫn.",
+   "level_3": "Chọn/viết đúng ≥ 8/10 tiếng chứa d/gi/r.",
+   "level_4": "Tự giải thích nghĩa để chọn đúng d/gi/r ở từ mới."
+  },
+  "mastery_check_rule": "10 tiếng/chỗ trống d/gi/r; đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_READ_WORD_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 72,
+  "grade3_foundation": false,
+  "reason_importance": "Lỗi chính tả vùng miền phổ biến, cần luyện có ngữ cảnh nghĩa.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SPELL_LN_001",
+  "subject": "VIE",
+  "domain": "Chính tả",
+  "subdomain": "Âm đầu dễ nhầm",
+  "name": "Phân biệt l/n",
+  "description": "Chọn đúng tiếng chứa l hoặc n theo nghĩa từ; viết đúng khi nghe – viết.",
+  "mastery_definition": {
+   "level_0": "Chưa phân biệt được l/n.",
+   "level_1": "Đúng khi có từ gợi ý nghĩa.",
+   "level_2": "Tự làm đúng từ quen thuộc, từ ít gặp còn lẫn.",
+   "level_3": "Chọn/viết đúng ≥ 8/10 tiếng chứa l/n.",
+   "level_4": "Tự giải thích nghĩa để chọn đúng l/n ở từ mới."
+  },
+  "mastery_check_rule": "10 tiếng/chỗ trống l/n; đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_READ_WORD_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 70,
+  "grade3_foundation": false,
+  "reason_importance": "Lỗi chính tả vùng miền phổ biến, cần luyện có ngữ cảnh nghĩa.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SPELL_RHYME_001",
+  "subject": "VIE",
+  "domain": "Chính tả",
+  "subdomain": "Vần dễ nhầm",
+  "name": "Phân biệt các vần dễ nhầm",
+  "description": "Viết đúng các vần dễ nhầm đã học trong sách: ac/at, uc/ut, ên/ênh, iu/ưu, iên/iêng, uôn/uông, ao/au, ai/ay, in/inh, iêu/ươu... theo nghĩa từ.",
+  "mastery_definition": {
+   "level_0": "Chưa viết đúng phần lớn vần dễ nhầm.",
+   "level_1": "Đúng khi có từ gợi ý nghĩa.",
+   "level_2": "Tự làm đúng vần quen thuộc, vần ít gặp còn lẫn.",
+   "level_3": "Viết đúng ≥ 8/10 tiếng chứa vần dễ nhầm.",
+   "level_4": "Tự phát hiện lỗi vần trong bài và giải thích nghĩa để chọn đúng."
+  },
+  "mastery_check_rule": "10 tiếng/chỗ trống vần dễ nhầm (nhiều cặp); đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_READ_WORD_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 77,
+  "grade3_foundation": true,
+  "reason_importance": "Bao phủ phần lớn lỗi chính tả vần lớp 2; nền cho viết đúng lớp 3.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SPELL_TONE_001",
+  "subject": "VIE",
+  "domain": "Chính tả",
+  "subdomain": "Dấu thanh",
+  "name": "Đặt đúng dấu thanh (hỏi/ngã)",
+  "description": "Đặt đúng dấu thanh, đặc biệt thanh hỏi/ngã theo nghĩa từ; nhận biết tiếng cùng nghĩa khác thanh.",
+  "mastery_definition": {
+   "level_0": "Chưa đặt đúng phần lớn dấu thanh.",
+   "level_1": "Đúng khi có từ gợi ý nghĩa.",
+   "level_2": "Tự làm đúng từ quen thuộc, từ ít gặp còn lẫn.",
+   "level_3": "Đặt đúng ≥ 8/10 tiếng có thanh hỏi/ngã.",
+   "level_4": "Tự phát hiện lỗi thanh trong đoạn văn."
+  },
+  "mastery_check_rule": "10 tiếng/chỗ trống dấu thanh; đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_READ_WORD_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 76,
+  "grade3_foundation": false,
+  "reason_importance": "Thanh hỏi/ngã là lỗi chính tả vùng miền khó sửa; cần chốt bằng nghĩa từ.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SPELL_DICTATION_001",
+  "subject": "VIE",
+  "domain": "Chính tả",
+  "subdomain": "Nghe – viết",
+  "name": "Nghe – viết đúng bài chính tả",
+  "description": "Nghe và viết đúng bài chính tả (đoạn ngắn đã học): đủ chữ, đúng chính tả, trình bày đúng thể thơ/văn xuôi.",
+  "mastery_definition": {
+   "level_0": "Viết sai nhiều, bỏ chữ, trình bày lộn xộn.",
+   "level_1": "Viết đủ chữ khi đọc chậm từng cụm.",
+   "level_2": "Tự viết được, còn 1–2 lỗi chính tả/đoạn.",
+   "level_3": "Nghe – viết đúng ≥ 90% tiếng của đoạn 30–40 chữ, trình bày đúng.",
+   "level_4": "Viết đúng hoàn toàn, tự soát và sửa được lỗi."
+  },
+  "mastery_check_rule": "Nghe – viết đoạn 30–40 chữ (đã học); đạt M3 khi sai ≤ 3 lỗi và trình bày đúng.",
+  "prerequisites": [
+   "VIE_SPELL_CAPITAL_001",
+   "VIE_READ_FLUENCY_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 85,
+  "grade3_foundation": true,
+  "reason_importance": "Tổng hợp mọi quy tắc chính tả; dạng thi/kiểm tra cố định.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SPELL_ALPHABET_001",
+  "subject": "VIE",
+  "domain": "Chính tả",
+  "subdomain": "Bảng chữ cái",
+  "name": "Bảng chữ cái và thứ tự chữ",
+  "description": "Thuộc thứ tự bảng chữ cái tiếng Việt; xếp từ/tên theo thứ tự chữ cái (chữ đầu).",
+  "mastery_definition": {
+   "level_0": "Chưa thuộc thứ tự bảng chữ cái.",
+   "level_1": "Xếp được khi nhìn bảng chữ cái.",
+   "level_2": "Thuộc bảng nhưng xếp tên còn chậm.",
+   "level_3": "Xếp đúng ≥ 8/10 từ/tên theo chữ đầu.",
+   "level_4": "Xếp nhanh theo chữ thứ hai khi chữ đầu giống nhau."
+  },
+  "mastery_check_rule": "Xếp 10 từ/tên; đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_READ_WORD_001"
+  ],
+  "importance_level": "C",
+  "importance_score": 64,
+  "grade3_foundation": false,
+  "reason_importance": "Kĩ năng tra cứu (từ điển, danh sách); dùng lâu dài.",
+  "fast_track_allowed": true,
+  "source_refs": []
+ }
+]

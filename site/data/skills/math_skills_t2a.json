@@ -1,0 +1,482 @@
+[
+  {
+    "skill_id": "MATH_MULT_CONCEPT_001",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Phép nhân",
+    "name": "Khái niệm phép nhân",
+    "description": "Hiểu phép nhân là tổng các số hạng bằng nhau; chuyển đổi giữa tổng lặp và phép nhân; viết và đọc phép nhân.",
+    "importance_level": "A",
+    "importance_score": 94,
+    "reason_importance": "Khái niệm gốc của phép nhân — sai ở đây sẽ sai toàn bộ nhân/chia lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_ADD_FACTS_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 37. Phép nhân",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa hiểu phép nhân là gì.",
+      "level_1": "Chuyển được tổng lặp thành phép nhân khi có mẫu.",
+      "level_2": "Tự chuyển được nhưng đôi khi nhầm số lần lặp với giá trị số hạng.",
+      "level_3": "Chuyển đúng 8/10 bài giữa tổng lặp và phép nhân, viết/đọc đúng phép nhân.",
+      "level_4": "Giải thích được 3 × 4 nghĩa là 3 được lấy 4 lần; tự vẽ minh họa phép nhân."
+    },
+    "mastery_check_rule": "8 câu chuyển đổi + 2 câu viết phép nhân theo hình; đạt M3 khi đúng ≥ 8/10.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_MULT_COMPONENTS_001",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Phép nhân",
+    "name": "Thừa số, tích",
+    "description": "Gọi đúng tên thừa số, tích; nhận biết thành phần trong phép nhân; tính tích từ hai thừa số.",
+    "importance_level": "B",
+    "importance_score": 68,
+    "reason_importance": "Thuật ngữ chuẩn, nền cho tìm thừa số chưa biết lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_MULT_CONCEPT_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 38. Thừa số, tích",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa biết tên thành phần phép nhân.",
+      "level_1": "Gọi tên được khi có mẫu.",
+      "level_2": "Gọi tên được nhưng lẫn thừa số/tích vài lần.",
+      "level_3": "Gọi đúng tên, xác định đúng thành phần 4/5 phép tính, tính đúng tích.",
+      "level_4": "Dùng thuật ngữ đúng khi giải thích; tìm được thừa số còn thiếu dạng đơn giản."
+    },
+    "mastery_check_rule": "5 câu (gọi tên + tính tích); đạt M3 khi đúng ≥ 4/5.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_MULT_TABLE_2_001",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Bảng nhân",
+    "name": "Bảng nhân 2",
+    "description": "Thuộc và vận dụng bảng nhân 2 (2 × 1 … 2 × 10) vào tính và giải toán; nhận biết dãy số cách đều 2.",
+    "importance_level": "A",
+    "importance_score": 92,
+    "reason_importance": "Bảng nhân đầu tiên — mẫu hình để học mọi bảng nhân sau; nền lớp 3 tuyệt đối.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_MULT_CONCEPT_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 39. Bảng nhân 2",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa thuộc bảng nhân 2.",
+      "level_1": "Tính được bằng cách cộng lặp khi có hướng dẫn.",
+      "level_2": "Thuộc phần lớn, vài phép còn phải cộng lặp.",
+      "level_3": "Nhẩm đúng ≥ 9/10 phép trong ≤ 5 giây/phép; giải đúng bài toán vận dụng.",
+      "level_4": "Nhẩm tức thì, điền đúng dãy số cách đều 2, giải thích được 2 × 7 = 7 + 7."
+    },
+    "mastery_check_rule": "10 câu nhẩm bảng nhân 2 + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10 phép.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_MULT_TABLE_5_001",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Bảng nhân",
+    "name": "Bảng nhân 5",
+    "description": "Thuộc và vận dụng bảng nhân 5 (5 × 1 … 5 × 10); nhận biết dãy số cách đều 5.",
+    "importance_level": "A",
+    "importance_score": 92,
+    "reason_importance": "Bảng nhân trọng tâm lớp 2; nền trực tiếp cho lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_MULT_CONCEPT_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 40. Bảng nhân 5",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa thuộc bảng nhân 5.",
+      "level_1": "Tính được bằng cách cộng lặp khi có hướng dẫn.",
+      "level_2": "Thuộc phần lớn, vài phép còn chậm.",
+      "level_3": "Nhẩm đúng ≥ 9/10 phép trong ≤ 5 giây/phép; giải đúng bài toán vận dụng.",
+      "level_4": "Nhẩm tức thì, điền đúng dãy số cách đều 5, giải thích được 5 × 6 = 6 × 5."
+    },
+    "mastery_check_rule": "10 câu nhẩm bảng nhân 5 + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10 phép.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_DIV_CONCEPT_001",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Phép chia",
+    "name": "Khái niệm phép chia",
+    "description": "Hiểu phép chia là chia đều thành các phần bằng nhau; viết và đọc phép chia; minh họa bằng hình ảnh.",
+    "importance_level": "A",
+    "importance_score": 94,
+    "reason_importance": "Khái niệm gốc của phép chia — nền cho mọi phép chia lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_MULT_CONCEPT_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 41. Phép chia",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa hiểu phép chia là gì.",
+      "level_1": "Chia đều được bằng đồ vật khi có hướng dẫn.",
+      "level_2": "Tự chia đều được nhưng viết phép chia đôi khi ngược số bị chia/số chia.",
+      "level_3": "Viết và đọc đúng phép chia cho 8/10 tình huống chia đều, giải đúng bài toán chia.",
+      "level_4": "Giải thích được 12 : 3 nghĩa là chia 12 thành 3 phần bằng nhau; tự đặt tình huống chia."
+    },
+    "mastery_check_rule": "8 câu viết phép chia theo hình/tình huống + 1 bài lời văn; đạt M3 khi đúng ≥ 7/9.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_DIV_COMPONENTS_001",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Phép chia",
+    "name": "Số bị chia, số chia, thương",
+    "description": "Gọi đúng tên số bị chia, số chia, thương; nhận biết thành phần trong phép chia; tính thương.",
+    "importance_level": "B",
+    "importance_score": 68,
+    "reason_importance": "Thuật ngữ chuẩn, nền cho tìm thành phần chưa biết lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_DIV_CONCEPT_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 42. Số bị chia, số chia, thương",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa biết tên thành phần phép chia.",
+      "level_1": "Gọi tên được khi có mẫu.",
+      "level_2": "Gọi tên được nhưng lẫn số bị chia/số chia vài lần.",
+      "level_3": "Gọi đúng tên, xác định đúng thành phần 4/5 phép tính, tính đúng thương.",
+      "level_4": "Dùng thuật ngữ đúng khi giải thích; tìm được số bị chia dạng đơn giản."
+    },
+    "mastery_check_rule": "5 câu (gọi tên + tính thương); đạt M3 khi đúng ≥ 4/5.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_DIV_TABLE_2_001",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Bảng chia",
+    "name": "Bảng chia 2",
+    "description": "Thuộc và vận dụng bảng chia 2 (2 : 2 … 20 : 2); giải toán chia thành phần bằng nhau.",
+    "importance_level": "A",
+    "importance_score": 92,
+    "reason_importance": "Bảng chia đầu tiên; nền lớp 3 tuyệt đối.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_DIV_CONCEPT_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 43. Bảng chia 2",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa thuộc bảng chia 2.",
+      "level_1": "Tính được bằng đồ vật khi có hướng dẫn.",
+      "level_2": "Thuộc phần lớn, vài phép còn chậm.",
+      "level_3": "Nhẩm đúng ≥ 9/10 phép trong ≤ 5 giây/phép; giải đúng bài toán chia.",
+      "level_4": "Nhẩm tức thì, liên hệ được với bảng nhân 2 để kiểm tra kết quả."
+    },
+    "mastery_check_rule": "10 câu nhẩm bảng chia 2 + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10 phép.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_DIV_TABLE_5_001",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Bảng chia",
+    "name": "Bảng chia 5",
+    "description": "Thuộc và vận dụng bảng chia 5 (5 : 5 … 50 : 5); giải toán chia thành phần bằng nhau.",
+    "importance_level": "A",
+    "importance_score": 92,
+    "reason_importance": "Bảng chia trọng tâm lớp 2; nền lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_DIV_CONCEPT_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 44. Bảng chia 5",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa thuộc bảng chia 5.",
+      "level_1": "Tính được bằng đồ vật khi có hướng dẫn.",
+      "level_2": "Thuộc phần lớn, vài phép còn chậm.",
+      "level_3": "Nhẩm đúng ≥ 9/10 phép trong ≤ 5 giây/phép; giải đúng bài toán chia.",
+      "level_4": "Nhẩm tức thì, liên hệ được với bảng nhân 5 để kiểm tra kết quả."
+    },
+    "mastery_check_rule": "10 câu nhẩm bảng chia 5 + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10 phép.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_MULT_DIV_RELATION_001",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Quan hệ nhân – chia",
+    "name": "Mối quan hệ giữa phép nhân và phép chia",
+    "description": "Từ một phép nhân viết được hai phép chia tương ứng; dùng phép nhân để kiểm tra phép chia và ngược lại.",
+    "importance_level": "A",
+    "importance_score": 88,
+    "reason_importance": "Cầu nối nhân-chia; nền cho giải toán 'tìm thương bằng cách nhân ngược' ở lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_MULT_TABLE_2_001",
+      "MATH_DIV_TABLE_2_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 45. Luyện tập chung",
+        "section": "Luyện tập"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa thấy liên hệ nhân-chia.",
+      "level_1": "Viết được phép chia từ phép nhân khi có mẫu.",
+      "level_2": "Tự viết được nhưng đôi khi viết ngược.",
+      "level_3": "Từ 1 phép nhân viết đúng 2 phép chia trong 4/5 trường hợp; kiểm tra chia bằng nhân.",
+      "level_4": "Giải thích được vì sao 2 × 6 = 12 thì 12 : 6 = 2; tìm nhanh thương nhờ bảng nhân."
+    },
+    "mastery_check_rule": "8 câu viết phép chia từ phép nhân + 2 câu kiểm tra kết quả; đạt M3 khi đúng ≥ 8/10.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_GEO3D_CYL_SPHERE_001",
+    "subject": "MATH",
+    "domain": "Hình học",
+    "subdomain": "Khối trụ, khối cầu",
+    "name": "Khối trụ, khối cầu",
+    "description": "Nhận biết khối trụ, khối cầu qua hình ảnh và đồ vật thật; phân biệt với hình phẳng.",
+    "importance_level": "B",
+    "importance_score": 70,
+    "reason_importance": "Khái niệm hình khối đầu tiên; nền cho hình học không gian lớp 3–4.",
+    "grade3_foundation": false,
+    "prerequisites": [],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 46. Khối trụ, khối cầu",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa phân biệt được khối trụ/khối cầu.",
+      "level_1": "Phân biệt được khi có mẫu.",
+      "level_2": "Tự phân biệt được nhưng nhầm với vật có dạng gần giống.",
+      "level_3": "Phân loại đúng 8/10 đồ vật theo khối trụ/khối cầu/khối khác.",
+      "level_4": "Nêu được đặc điểm nhận dạng (lăn được, có mặt phẳng/mặt cong) và tìm ví dụ quanh nhà."
+    },
+    "mastery_check_rule": "6 câu phân loại đồ vật; đạt M3 khi đúng ≥ 5/6.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_NUM_PLACE_VALUE_1000_001",
+    "subject": "MATH",
+    "domain": "Số học",
+    "subdomain": "Các số trong phạm vi 1000",
+    "name": "Đơn vị, chục, trăm, nghìn",
+    "description": "Biết 10 đơn vị = 1 chục, 10 chục = 1 trăm, 10 trăm = 1 nghìn; nhận biết giá trị các hàng.",
+    "importance_level": "A",
+    "importance_score": 94,
+    "reason_importance": "Hệ thập phân là nền của mọi số lớn hơn; nền lớp 3 tuyệt đối.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_NUM_PLACE_VALUE_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 48. Đơn vị, chục, trăm, nghìn",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa biết quan hệ giữa các hàng.",
+      "level_1": "Trả lời được khi dùng khối lập phương/hình vẽ.",
+      "level_2": "Tự đổi được nhưng đôi khi nhầm 10 trăm = 1 nghìn.",
+      "level_3": "Đổi đúng 8/10 câu (đơn vị↔chục↔trăm↔nghìn), nói đúng quan hệ các hàng.",
+      "level_4": "Giải thích được hệ thập phân; đếm nhanh theo trăm, theo chục, theo nghìn."
+    },
+    "mastery_check_rule": "8 câu đổi hàng + 2 câu giải thích; đạt M3 khi đúng ≥ 8/10.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_NUM_ROUND_100_001",
+    "subject": "MATH",
+    "domain": "Số học",
+    "subdomain": "Các số trong phạm vi 1000",
+    "name": "Các số tròn trăm, tròn chục",
+    "description": "Đọc, viết, đếm các số tròn trăm (100–900), tròn chục (110–990); nhận biết quy luật dãy số.",
+    "importance_level": "B",
+    "importance_score": 80,
+    "reason_importance": "Bước đệm quan trọng trước số có ba chữ số bất kỳ; nền cộng trừ nhẩm phạm vi 1000.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_NUM_PLACE_VALUE_1000_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 49. Các số tròn trăm, tròn chục",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa đọc được số tròn trăm/tròn chục.",
+      "level_1": "Đọc/viết được khi có bảng số.",
+      "level_2": "Tự đọc/viết được nhưng còn nhầm giữa tròn trăm và tròn chục.",
+      "level_3": "Đọc/viết đúng 9/10 số; điền đúng dãy số tròn trăm/tròn chục.",
+      "level_4": "Đếm nhanh xuôi/ngược theo trăm và theo chục, giải thích quy luật dãy số."
+    },
+    "mastery_check_rule": "8 câu đọc/viết/điền dãy; đạt M3 khi đúng ≥ 7/8.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_NUM_COMPARE_ROUND_001",
+    "subject": "MATH",
+    "domain": "Số học",
+    "subdomain": "Các số trong phạm vi 1000",
+    "name": "So sánh các số tròn trăm, tròn chục",
+    "description": "So sánh và sắp thứ tự các số tròn trăm, tròn chục trong phạm vi 1000.",
+    "importance_level": "B",
+    "importance_score": 78,
+    "reason_importance": "Bước đệm cho so sánh số có ba chữ số.",
+    "grade3_foundation": false,
+    "prerequisites": [
+      "MATH_NUM_ROUND_100_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 50. So sánh các số tròn trăm, tròn chục",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa so sánh được.",
+      "level_1": "So sánh được khi nhắc quy tắc.",
+      "level_2": "Tự so sánh được nhưng nhầm chiều dấu vài lần.",
+      "level_3": "So sánh đúng 9/10 cặp số, sắp xếp đúng 3–4 số.",
+      "level_4": "So sánh nhanh, giải thích được cách so theo số trăm rồi số chục."
+    },
+    "mastery_check_rule": "6 câu; đạt M3 khi đúng ≥ 5/6.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_NUM_READ_WRITE_1000_001",
+    "subject": "MATH",
+    "domain": "Số học",
+    "subdomain": "Các số trong phạm vi 1000",
+    "name": "Đọc, viết số có ba chữ số",
+    "description": "Đọc, viết số có ba chữ số (trăm, chục, đơn vị); phân tích số thành tổng các trăm, chục, đơn vị.",
+    "importance_level": "A",
+    "importance_score": 92,
+    "reason_importance": "Kỹ năng số học trung tâm học kì 2 lớp 2; nền tuyệt đối cho lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_NUM_PLACE_VALUE_1000_001",
+      "MATH_NUM_ROUND_100_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 51. Số có ba chữ số",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa đọc/viết được số có ba chữ số.",
+      "level_1": "Đọc/viết được khi có bảng hàng trăm-chục-đơn vị.",
+      "level_2": "Tự đọc/viết được nhưng nhầm số có chữ số 0 ở giữa (vd 305).",
+      "level_3": "Đọc/viết đúng 9/10 số kể cả dạng có 0 ở giữa; phân tích đúng số thành tổng.",
+      "level_4": "Đọc/viết mọi số, giải thích được giá trị từng chữ số, ghép số từ các trăm/chục/đơn vị."
+    },
+    "mastery_check_rule": "10 câu đọc/viết/phân tích; đạt M3 khi đúng ≥ 9/10.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_MULT_FROM_ADD_001",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Phép nhân",
+    "name": "Viết phép nhân từ hình ảnh nhóm bằng nhau",
+    "description": "Quan sát hình ảnh/nhóm đồ vật bằng nhau để viết đúng phép nhân (thừa số, dấu ×, tích) và ngược lại vẽ/ghép nhóm theo phép nhân.",
+    "mastery_definition": {
+      "level_0": "Chưa viết được phép nhân từ hình ảnh.",
+      "level_1": "Viết được khi có mẫu phép nhân tương tự.",
+      "level_2": "Tự viết được nhưng đôi khi đảo thừa số và số lần lặp.",
+      "level_3": "Viết đúng ≥ 8/10 phép nhân theo hình/nhóm; ghép đúng nhóm theo phép nhân.",
+      "level_4": "Tự tạo tình huống thực tế có nhóm bằng nhau và viết phép nhân tương ứng."
+    },
+    "mastery_check_rule": "10 câu; đạt M3 khi đúng ≥ 8/10.",
+    "prerequisites": [
+      "MATH_MULT_CONCEPT_001"
+    ],
+    "importance_level": "A",
+    "importance_score": 86,
+    "grade3_foundation": true,
+    "reason_importance": "Chuyển trực tiếp từ trực quan sang kí hiệu nhân — cầu nối giữa khái niệm và bảng nhân.",
+    "fast_track_allowed": false,
+    "source_refs": [
+      {
+        "book": "math2",
+        "lesson": "Bài 37. Phép nhân",
+        "section": "Hoạt động",
+        "volume": "Tập 2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1224 @@
+{
+  "schema_version": "1.0",
+  "subject": "MATH",
+  "description": "Dạng bài tập cho từng kỹ năng Toán (SGK_REFERENCE: mô tả dạng, không sao chép nội dung SGK).",
+  "total": 64,
+  "exercise_types": [
+    {
+      "exercise_type_id": "EX_MATH_ADD_BRIDGE10_001_01",
+      "skill_id": "MATH_ADD_BRIDGE10_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Phép cộng (qua 10) trong phạm vi 20",
+      "description": "Cộng qua 10 trong phạm vi 20 bằng cách tách số (9 + 5 = 9 + 1 + 4).",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: cộng dạng 9 + 2 … 9 + 9 bằng cách tách để được 10 (Bài 7, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 7. Phép cộng (qua 10) trong phạm vi 20",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu nhẩm dạng qua 10 + 1 câu giải thích cách làm; đạt M3 khi đúng ≥ 8/10 phép tính."
+    },
+    {
+      "exercise_type_id": "EX_MATH_ADD_BRIDGE10_002_01",
+      "skill_id": "MATH_ADD_BRIDGE10_002",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Phép cộng (qua 10) trong phạm vi 20 – vận dụng, hoàn thiện phép tính",
+      "description": "Hoàn thành phép cộng qua 10 dạng 8 + _ = 15; giải tình huống nhỏ trong phạm vi 20.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: điền số còn thiếu trong phép cộng qua 10 (Bài 7, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "lesson": "Bài 7. Phép cộng (qua 10) trong phạm vi 20",
+          "section": "Luyện tập",
+          "volume": "Tập 1"
+        }
+      ],
+      "mastery_sample_size": 8,
+      "mastery_check_rule": "8 phép hoàn thiện + 2 tình huống nhỏ; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_MATH_ADD_CARRY_1000_001_01",
+      "skill_id": "MATH_ADD_CARRY_1000_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Cộng (có nhớ) trong phạm vi 1000",
+      "description": "Đặt tính cộng có nhớ trong phạm vi 1000 (427 + 246).",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: cộng có nhớ phạm vi 1000 (Bài 60, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 61. Phép cộng (có nhớ) trong phạm vi 1000",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính."
+    },
+    {
+      "exercise_type_id": "EX_MATH_ADD_CARRY_100_001_01",
+      "skill_id": "MATH_ADD_CARRY_100_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Cộng có nhớ: 2 chữ số + 1 chữ số",
+      "description": "Đặt tính cộng có nhớ: số có hai chữ số + số có một chữ số (47 + 8).",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: cộng có nhớ hai chữ số với một chữ số (Bài 19, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 19. Phép cộng (có nhớ) số có hai chữ số với số có một chữ số",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu đặt tính + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính."
+    },
+    {
+      "exercise_type_id": "EX_MATH_ADD_CARRY_100_002_01",
+      "skill_id": "MATH_ADD_CARRY_100_002",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Cộng có nhớ: 2 chữ số + 2 chữ số",
+      "description": "Đặt tính cộng có nhớ: hai số có hai chữ số (38 + 25).",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: cộng có nhớ hai số có hai chữ số (Bài 20, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 20. Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu đặt tính + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính."
+    },
+    {
+      "exercise_type_id": "EX_MATH_ADD_COMPONENTS_001_01",
+      "skill_id": "MATH_ADD_COMPONENTS_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Số hạng, tổng",
+      "description": "Nêu tên thành phần (số hạng, tổng) và tính tổng của phép cộng.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: gọi tên thành phần phép cộng, tính tổng (Bài 3, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 3. Các thành phần của phép cộng, phép trừ",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu (gọi tên + tính tổng); đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_MATH_ADD_FACTS_001_01",
+      "skill_id": "MATH_ADD_FACTS_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Bảng cộng (qua 10) — tự động hóa",
+      "description": "Nhẩm nhanh các phép cộng qua 10 (9+2 … 9+9; 8+3 …).",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: ôn bảng cộng qua 10 (Bài 8, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 8. Bảng cộng (qua 10)",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu bảng cộng (bấm giờ 5s/câu) + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10 phép."
+    },
+    {
+      "exercise_type_id": "EX_MATH_ADD_NO_CARRY_1000_001_01",
+      "skill_id": "MATH_ADD_NO_CARRY_1000_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Cộng (không nhớ) trong phạm vi 1000",
+      "description": "Đặt tính và nhẩm cộng không nhớ trong phạm vi 1000 (462 + 100; 300 + 200).",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: cộng không nhớ phạm vi 1000 (Bài 59, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 59. Phép cộng (không nhớ) trong phạm vi 1000",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_MATH_ADD_NO_CARRY_100_001_01",
+      "skill_id": "MATH_ADD_NO_CARRY_100_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Cộng (không nhớ) trong phạm vi 100",
+      "description": "Đặt tính rồi tính phép cộng không nhớ trong phạm vi 100 (dạng 34 + 25).",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: đặt tính cộng không nhớ phạm vi 100 (Bài 5, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 5. Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100",
+          "section": "Luyện tập"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu trộn đặt tính + nhẩm; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_MATH_DIV_COMPONENTS_001_01",
+      "skill_id": "MATH_DIV_COMPONENTS_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Số bị chia, số chia, thương",
+      "description": "Nêu số bị chia, số chia, thương của phép chia.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: gọi tên số bị chia, số chia, thương (Bài 42, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 42. Số bị chia, số chia, thương",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu (gọi tên + tính thương); đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_MATH_DIV_CONCEPT_001_01",
+      "skill_id": "MATH_DIV_CONCEPT_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Khái niệm phép chia",
+      "description": "Chia đều thành các phần bằng nhau; viết phép chia từ tình huống chia đều.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: chia đều và viết phép chia (Bài 41, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 41. Phép chia",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 8,
+      "mastery_check_rule": "8 câu viết phép chia theo hình/tình huống + 1 bài lời văn; đạt M3 khi đúng ≥ 7/9."
+    },
+    {
+      "exercise_type_id": "EX_MATH_DIV_TABLE_2_001_01",
+      "skill_id": "MATH_DIV_TABLE_2_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Bảng chia 2",
+      "description": "Nhẩm thuộc bảng chia 2; giải toán dùng bảng chia 2.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: nhẩm bảng chia 2, bài toán chia 2 (Bài 43, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 43. Bảng chia 2",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu nhẩm bảng chia 2 + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10 phép."
+    },
+    {
+      "exercise_type_id": "EX_MATH_DIV_TABLE_5_001_01",
+      "skill_id": "MATH_DIV_TABLE_5_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Bảng chia 5",
+      "description": "Nhẩm thuộc bảng chia 5; giải toán dùng bảng chia 5.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: nhẩm bảng chia 5, bài toán chia 5 (Bài 44, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 44. Bảng chia 5",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu nhẩm bảng chia 5 + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10 phép."
+    },
+    {
+      "exercise_type_id": "EX_MATH_GEO3D_CYL_SPHERE_001_01",
+      "skill_id": "MATH_GEO3D_CYL_SPHERE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Khối trụ, khối cầu",
+      "description": "Nhận biết khối trụ, khối cầu qua đồ vật thật.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: đồ vật dạng khối trụ/khối cầu (Bài 46, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 46. Khối trụ, khối cầu",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 6,
+      "mastery_check_rule": "6 câu phân loại đồ vật; đạt M3 khi đúng ≥ 5/6."
+    },
+    {
+      "exercise_type_id": "EX_MATH_GEO_LINE_TYPES_001_01",
+      "skill_id": "MATH_GEO_LINE_TYPES_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Đường thẳng, đường cong, ba điểm thẳng hàng",
+      "description": "Phân biệt đường thẳng, đường cong; kiểm tra ba điểm thẳng hàng.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: nhận dạng đường thẳng/đường cong, ba điểm thẳng hàng (Bài 25, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 25. Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu; đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_MATH_GEO_POINT_LINE_001_01",
+      "skill_id": "MATH_GEO_POINT_LINE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Điểm, đoạn thẳng",
+      "description": "Nhận biết và gọi tên điểm, đoạn thẳng trên hình.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: chỉ ra điểm, đoạn thẳng trên hình (Bài 25, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 25. Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu (gọi tên + vẽ/đo); đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_MATH_GEO_POLYLINE_001_01",
+      "skill_id": "MATH_GEO_POLYLINE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Đường gấp khúc và độ dài đường gấp khúc",
+      "description": "Tính độ dài đường gấp khúc bằng tổng các đoạn thẳng thành phần.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: tính độ dài đường gấp khúc (Bài 26, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 26. Đường gấp khúc. Hình tứ giác",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 bài tính độ dài; đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_MATH_GEO_PRACTICE_001_01",
+      "skill_id": "MATH_GEO_PRACTICE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Gấp, cắt, ghép, xếp hình; vẽ đoạn thẳng",
+      "description": "Gấp, cắt, ghép, xếp hình theo mẫu; vẽ đoạn thẳng có độ dài cho trước.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: thực hành gấp/cắt/ghép, vẽ đoạn thẳng (Bài 27, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 27. Thực hành gấp, cắt, ghép, xếp hình. Vẽ đoạn thẳng",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 3,
+      "mastery_check_rule": "Đánh giá bằng sản phẩm thực hành; đạt M3 khi hoàn thành đúng 2/2 nhiệm vụ."
+    },
+    {
+      "exercise_type_id": "EX_MATH_GEO_QUAD_001_01",
+      "skill_id": "MATH_GEO_QUAD_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Hình tứ giác",
+      "description": "Nhận dạng hình tứ giác, hình chữ nhật trong hình vẽ.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: tìm hình tứ giác trong hình (Bài 26, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 26. Đường gấp khúc. Hình tứ giác",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu (nhận biết + đếm hình); đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_MATH_MEASURE_CAPACITY_001_01",
+      "skill_id": "MATH_MEASURE_CAPACITY_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Lít (l)",
+      "description": "Đọc số đo lít trên ca/đong, so sánh và tính với lít.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: đong nước, so sánh dung tích lít (Bài 16, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 16. Lít",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu (đọc vạch, so sánh, 1 bài lời văn); đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_MATH_MEASURE_LENGTH_001_01",
+      "skill_id": "MATH_MEASURE_LENGTH_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Đề-xi-mét, mét",
+      "description": "Đề-xi-mét, mét: đổi 1 m = 10 dm, ước lượng và so sánh độ dài.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: đề-xi-mét, mét (Bài 55, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 55. Đề-xi-mét. Mét. Ki-lô-mét",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 8,
+      "mastery_check_rule": "8 câu đổi đơn vị + 2 câu ước lượng; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_MATH_MEASURE_LENGTH_002_01",
+      "skill_id": "MATH_MEASURE_LENGTH_002",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Ki-lô-mét",
+      "description": "Ki-lô-mét: 1 km = 1000 m; ước lượng quãng đường.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: ki-lô-mét (Bài 55, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 55. Đề-xi-mét. Mét. Ki-lô-mét",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu; đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_MATH_MEASURE_LENGTH_PRACTICE_001_01",
+      "skill_id": "MATH_MEASURE_LENGTH_PRACTICE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Thực hành và trải nghiệm đo độ dài",
+      "description": "Đo chiều dài vật thật (bàn, sách) bằng thước; ghi kết quả kèm đơn vị.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: thực hành đo độ dài (Bài 57, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 57. Thực hành và trải nghiệm đo độ dài",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 1,
+      "mastery_check_rule": "1 hoạt động thực hành đo; đạt M3 khi đo đúng 2 vật."
+    },
+    {
+      "exercise_type_id": "EX_MATH_MEASURE_MASS_001_01",
+      "skill_id": "MATH_MEASURE_MASS_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Ki-lô-gam (kg)",
+      "description": "Đọc cân (kg), so sánh khối lượng, tính tổng khối lượng đơn giản.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: đọc cân đồng hồ, so sánh ki-lô-gam (Bài 15, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 15. Ki-lô-gam",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu (đọc cân, so sánh, 1 bài lời văn); đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_MATH_MEASURE_PRACTICE_001_01",
+      "skill_id": "MATH_MEASURE_PRACTICE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Thực hành và trải nghiệm với kg, lít",
+      "description": "Thực hành cân, đong với vật thật rồi ghi kết quả.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: thực hành cân, đong theo nhóm (Bài 17, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 17. Thực hành và trải nghiệm với các đơn vị ki-lô-gam, lít",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 1,
+      "mastery_check_rule": "Đánh giá bằng 1 hoạt động thực hành (ước lượng – đo – đối chiếu); đạt M3 khi hoàn thành đúng quy trình."
+    },
+    {
+      "exercise_type_id": "EX_MATH_MONEY_001_01",
+      "skill_id": "MATH_MONEY_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Tiền Việt Nam",
+      "description": "Nhận biết tờ tiền Việt Nam; tính tổng số tiền, chọn đủ tiền mua đồ.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: giới thiệu tiền Việt Nam, bài toán mua bán (Bài 56, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 56. Giới thiệu tiền Việt Nam",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 6,
+      "mastery_check_rule": "6 câu (nhận biết, tính tổng, bài mua bán); đạt M3 khi đúng ≥ 5/6."
+    },
+    {
+      "exercise_type_id": "EX_MATH_MULT_COMPONENTS_001_01",
+      "skill_id": "MATH_MULT_COMPONENTS_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Thừa số, tích",
+      "description": "Nêu thừa số, tích của phép nhân; tính tích.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: gọi tên thừa số, tích (Bài 38, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 38. Thừa số, tích",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu (gọi tên + tính tích); đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_MATH_MULT_CONCEPT_001_01",
+      "skill_id": "MATH_MULT_CONCEPT_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Khái niệm phép nhân",
+      "description": "Chuyển tổng các số hạng bằng nhau thành phép nhân và ngược lại.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: viết tổng lặp thành phép nhân (Bài 37, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 37. Phép nhân",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 8,
+      "mastery_check_rule": "8 câu chuyển đổi + 2 câu viết phép nhân theo hình; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_MATH_MULT_DIV_RELATION_001_01",
+      "skill_id": "MATH_MULT_DIV_RELATION_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Mối quan hệ giữa phép nhân và phép chia",
+      "description": "Từ một phép nhân viết hai phép chia tương ứng và ngược lại.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: quan hệ nhân – chia (Bài 45, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 45. Luyện tập chung",
+          "section": "Luyện tập"
+        }
+      ],
+      "mastery_sample_size": 8,
+      "mastery_check_rule": "8 câu viết phép chia từ phép nhân + 2 câu kiểm tra kết quả; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_MATH_MULT_FROM_ADD_001_01",
+      "skill_id": "MATH_MULT_FROM_ADD_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Viết phép nhân từ hình ảnh nhóm bằng nhau",
+      "description": "Viết phép nhân từ hình ảnh các nhóm bằng nhau; ghép nhóm theo phép nhân.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: viết phép nhân theo hình ảnh nhóm bằng nhau (Bài 37, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "lesson": "Bài 37. Phép nhân",
+          "section": "Hoạt động",
+          "volume": "Tập 2"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_MATH_MULT_TABLE_2_001_01",
+      "skill_id": "MATH_MULT_TABLE_2_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Bảng nhân 2",
+      "description": "Nhẩm thuộc bảng nhân 2 (2 × 1 … 2 × 10); tính và giải toán dùng bảng nhân 2.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: nhẩm bảng nhân 2, bài toán nhân 2 (Bài 39, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 39. Bảng nhân 2",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu nhẩm bảng nhân 2 + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10 phép."
+    },
+    {
+      "exercise_type_id": "EX_MATH_MULT_TABLE_5_001_01",
+      "skill_id": "MATH_MULT_TABLE_5_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Bảng nhân 5",
+      "description": "Nhẩm thuộc bảng nhân 5 (5 × 1 … 5 × 10); tính và giải toán dùng bảng nhân 5.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: nhẩm bảng nhân 5, bài toán nhân 5 (Bài 40, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 40. Bảng nhân 5",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu nhẩm bảng nhân 5 + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10 phép."
+    },
+    {
+      "exercise_type_id": "EX_MATH_NUM_COMPARE_1000_001_01",
+      "skill_id": "MATH_NUM_COMPARE_1000_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: So sánh các số có ba chữ số",
+      "description": "So sánh hai số có ba chữ số; sắp xếp dãy số.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: so sánh số có ba chữ số (Bài 53, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 53. So sánh các số có ba chữ số",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 6,
+      "mastery_check_rule": "6 câu; đạt M3 khi đúng ≥ 5/6."
+    },
+    {
+      "exercise_type_id": "EX_MATH_NUM_COMPARE_100_001_01",
+      "skill_id": "MATH_NUM_COMPARE_100_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: So sánh, sắp thứ tự số trong phạm vi 100",
+      "description": "So sánh hai số trong phạm vi 100; điền dấu >, <, =.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: điền dấu so sánh hai số đến 100 (Bài 1, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 1. Ôn tập các số đến 100",
+          "section": "Luyện tập"
+        }
+      ],
+      "mastery_sample_size": 6,
+      "mastery_check_rule": "6 câu (điền dấu, sắp thứ tự, tìm số lớn nhất/bé nhất); đạt M3 khi đúng ≥ 5/6."
+    },
+    {
+      "exercise_type_id": "EX_MATH_NUM_COMPARE_ROUND_001_01",
+      "skill_id": "MATH_NUM_COMPARE_ROUND_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: So sánh các số tròn trăm, tròn chục",
+      "description": "So sánh các số tròn trăm, tròn chục; sắp xếp theo thứ tự.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: so sánh số tròn trăm/tròn chục (Bài 50, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 50. So sánh các số tròn trăm, tròn chục",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 6,
+      "mastery_check_rule": "6 câu; đạt M3 khi đúng ≥ 5/6."
+    },
+    {
+      "exercise_type_id": "EX_MATH_NUM_DECOMPOSE_1000_001_01",
+      "skill_id": "MATH_NUM_DECOMPOSE_1000_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Viết số có ba chữ số thành tổng các trăm, chục, đơn vị",
+      "description": "Viết số có ba chữ số thành tổng trăm + chục + đơn vị (503 = 500 + 3) và ngược lại.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: viết số thành tổng các trăm, chục, đơn vị (Bài 52, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "lesson": "Bài 52. Viết số thành tổng các trăm, chục, đơn vị",
+          "section": "Hoạt động",
+          "volume": "Tập 2"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu hai chiều (kể cả dạng có chữ số 0); đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_MATH_NUM_NEIGHBOR_001_01",
+      "skill_id": "MATH_NUM_NEIGHBOR_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Số liền trước, số liền sau",
+      "description": "Tìm số liền trước, số liền sau của một số trong phạm vi 100.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: nêu số liền trước/liền sau (Bài 2, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 2. Tia số. Số liền trước, số liền sau",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu; đạt M3 khi đúng ≥ 4/5 trong đó có ít nhất 1 số tròn chục."
+    },
+    {
+      "exercise_type_id": "EX_MATH_NUM_NUMBER_LINE_001_01",
+      "skill_id": "MATH_NUM_NUMBER_LINE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Tia số và vị trí số trên tia số",
+      "description": "Xác định vị trí của số trên tia số; điền số còn thiếu trên tia số.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: điền số trên tia số, tìm số ở vạch cho trước (Bài 2, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 2. Tia số. Số liền trước, số liền sau",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu (điền số trên tia số, xác định vị trí); đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_MATH_NUM_PLACE_VALUE_001_01",
+      "skill_id": "MATH_NUM_PLACE_VALUE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Cấu tạo số (chục, đơn vị) trong phạm vi 100",
+      "description": "Nêu số chục, số đơn vị của số có hai chữ số; điền vào bảng chục–đơn vị.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: nêu số chục, số đơn vị của số cho trước (Bài 1–2, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 1. Ôn tập các số đến 100",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu (tách số, ghép số, xác định giá trị chữ số); đạt M3 khi đúng ≥ 4/5 không dùng đồ dùng."
+    },
+    {
+      "exercise_type_id": "EX_MATH_NUM_PLACE_VALUE_1000_001_01",
+      "skill_id": "MATH_NUM_PLACE_VALUE_1000_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Đơn vị, chục, trăm, nghìn",
+      "description": "Quan hệ đơn vị–chục–trăm–nghìn: 10 đơn vị = 1 chục, 10 chục = 1 trăm, 10 trăm = 1 nghìn.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: đếm theo trăm, nghìn (Bài 48, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 48. Đơn vị, chục, trăm, nghìn",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 8,
+      "mastery_check_rule": "8 câu đổi hàng + 2 câu giải thích; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_MATH_NUM_READ_WRITE_001_01",
+      "skill_id": "MATH_NUM_READ_WRITE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Đọc, viết số trong phạm vi 100",
+      "description": "Viết số theo cách đọc và đọc số theo chữ viết trong phạm vi 100.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: đọc/viết số đến 100 (Bài 1, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 1. Ôn tập các số đến 100",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu viết số theo lời đọc và ngược lại; đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_MATH_NUM_READ_WRITE_1000_001_01",
+      "skill_id": "MATH_NUM_READ_WRITE_1000_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Đọc, viết số có ba chữ số",
+      "description": "Đọc, viết số có ba chữ số; xác định trăm, chục, đơn vị của số.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: đọc/viết số có ba chữ số (Bài 51, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 51. Số có ba chữ số",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu đọc/viết/phân tích; đạt M3 khi đúng ≥ 9/10."
+    },
+    {
+      "exercise_type_id": "EX_MATH_NUM_ROUND_100_001_01",
+      "skill_id": "MATH_NUM_ROUND_100_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Các số tròn trăm, tròn chục",
+      "description": "Đọc, viết các số tròn trăm (100…900) và tròn chục (110, 120…).",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: số tròn trăm, tròn chục (Bài 49, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 49. Các số tròn trăm, tròn chục",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 8,
+      "mastery_check_rule": "8 câu đọc/viết/điền dãy; đạt M3 khi đúng ≥ 7/8."
+    },
+    {
+      "exercise_type_id": "EX_MATH_PROB_CERTAIN_001_01",
+      "skill_id": "MATH_PROB_CERTAIN_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Chắc chắn, có thể, không thể",
+      "description": "Nhận biết sự kiện chắc chắn, có thể, không thể xảy ra.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: chắc chắn, có thể, không thể (Bài 66, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 66. Chắc chắn, có thể, không thể",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 6,
+      "mastery_check_rule": "6 câu phân loại; đạt M3 khi đúng ≥ 5/6."
+    },
+    {
+      "exercise_type_id": "EX_MATH_STAT_COLLECT_001_01",
+      "skill_id": "MATH_STAT_COLLECT_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Thu thập số liệu",
+      "description": "Quan sát tranh/tình huống, thu thập số liệu theo tiêu chí cho trước.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: thu thập số liệu từ tranh (Bài 64, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 64. Thu thập, phân loại, kiểm đếm số liệu",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 2,
+      "mastery_check_rule": "2 nhiệm vụ thu thập thực tế; đạt M3 khi ghi đúng cả 2."
+    },
+    {
+      "exercise_type_id": "EX_MATH_STAT_PICTOGRAPH_001_01",
+      "skill_id": "MATH_STAT_PICTOGRAPH_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Đọc và lập biểu đồ tranh",
+      "description": "Đọc biểu đồ tranh và trả lời câu hỏi về số lượng.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: đọc biểu đồ tranh (Bài 65, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 65. Biểu đồ tranh",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu đọc biểu đồ; đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_MATH_STAT_PRACTICE_001_01",
+      "skill_id": "MATH_STAT_PRACTICE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Thực hành và trải nghiệm thu thập, phân loại, kiểm đếm",
+      "description": "Thực hành thu thập, phân loại, kiểm đếm theo tình huống thật (thời khóa biểu, đồ chơi...).",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: thực hành thu thập, phân loại, kiểm đếm (Bài 67, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 67. Thực hành và trải nghiệm thu thập, phân loại, kiểm đếm",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 1,
+      "mastery_check_rule": "1 hoạt động khảo sát; đạt M3 khi hoàn thành đủ 4 bước."
+    },
+    {
+      "exercise_type_id": "EX_MATH_STAT_SORT_COUNT_001_01",
+      "skill_id": "MATH_STAT_SORT_COUNT_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Phân loại và kiểm đếm số liệu",
+      "description": "Phân loại đối tượng và kiểm đếm bằng bảng đếm/vạch.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: phân loại, kiểm đếm số liệu (Bài 64, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 64. Thu thập, phân loại, kiểm đếm số liệu",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 4,
+      "mastery_check_rule": "4 bài phân loại – kiểm đếm; đạt M3 khi đúng ≥ 3/4."
+    },
+    {
+      "exercise_type_id": "EX_MATH_SUB_BORROW_1000_001_01",
+      "skill_id": "MATH_SUB_BORROW_1000_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Trừ (có nhớ) trong phạm vi 1000",
+      "description": "Đặt tính trừ có nhớ trong phạm vi 1000 (521 − 140).",
+      "difficulty": 3,
+      "sgk_example": "Dạng SGK: trừ có nhớ phạm vi 1000 (Bài 62, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 62. Phép trừ (có nhớ) trong phạm vi 1000",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính."
+    },
+    {
+      "exercise_type_id": "EX_MATH_SUB_BORROW_100_001_01",
+      "skill_id": "MATH_SUB_BORROW_100_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Trừ có nhớ: 2 chữ số − 1 chữ số",
+      "description": "Đặt tính trừ có nhớ: số có hai chữ số − số có một chữ số (52 − 7).",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: trừ có nhớ hai chữ số trừ một chữ số (Bài 22, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 22. Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu đặt tính + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính."
+    },
+    {
+      "exercise_type_id": "EX_MATH_SUB_BORROW_100_002_01",
+      "skill_id": "MATH_SUB_BORROW_100_002",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Trừ có nhớ: 2 chữ số − 2 chữ số",
+      "description": "Đặt tính trừ có nhớ: hai số có hai chữ số (63 − 28).",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: trừ có nhớ hai số có hai chữ số (Bài 23, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 23. Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu đặt tính + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính."
+    },
+    {
+      "exercise_type_id": "EX_MATH_SUB_BRIDGE10_001_01",
+      "skill_id": "MATH_SUB_BRIDGE10_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Phép trừ (qua 10) trong phạm vi 20",
+      "description": "Trừ qua 10 trong phạm vi 20 bằng cách tách số (13 − 5 = 13 − 3 − 2).",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: trừ dạng 11 − 2 … 18 − 9 bằng cách tách để được 10 (Bài 11, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 11. Phép trừ (qua 10) trong phạm vi 20",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu nhẩm dạng qua 10 + 1 câu giải thích; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_MATH_SUB_BRIDGE10_002_01",
+      "skill_id": "MATH_SUB_BRIDGE10_002",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Phép trừ (qua 10) trong phạm vi 20 – vận dụng, hoàn thiện phép tính",
+      "description": "Hoàn thành phép trừ qua 10 dạng 15 − _ = 7; giải tình huống nhỏ trong phạm vi 20.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: điền số còn thiếu trong phép trừ qua 10 (Bài 11, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "lesson": "Bài 11. Phép trừ (qua 10) trong phạm vi 20",
+          "section": "Luyện tập",
+          "volume": "Tập 1"
+        }
+      ],
+      "mastery_sample_size": 8,
+      "mastery_check_rule": "8 phép hoàn thiện + 2 tình huống nhỏ; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_MATH_SUB_COMPONENTS_001_01",
+      "skill_id": "MATH_SUB_COMPONENTS_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Số bị trừ, số trừ, hiệu",
+      "description": "Nêu tên thành phần (số bị trừ, số trừ, hiệu) và tính hiệu của phép trừ.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: gọi tên thành phần phép trừ, tính hiệu (Bài 3, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 3. Các thành phần của phép cộng, phép trừ",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu (gọi tên + tính hiệu); đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_MATH_SUB_FACTS_001_01",
+      "skill_id": "MATH_SUB_FACTS_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Bảng trừ (qua 10) — tự động hóa",
+      "description": "Nhẩm nhanh các phép trừ qua 10 (11−2 … 18−9).",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: ôn bảng trừ qua 10 (Bài 12, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 12. Bảng trừ (qua 10)",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu bảng trừ (bấm giờ 5s/câu) + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10."
+    },
+    {
+      "exercise_type_id": "EX_MATH_SUB_NO_BORROW_1000_001_01",
+      "skill_id": "MATH_SUB_NO_BORROW_1000_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Trừ (không nhớ) trong phạm vi 1000",
+      "description": "Đặt tính và nhẩm trừ không nhớ trong phạm vi 1000 (640 − 240; 500 − 200).",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: trừ không nhớ phạm vi 1000 (Bài 61, Tập 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math2",
+          "volume": "Tập 2",
+          "lesson": "Bài 60. Phép trừ (không nhớ) trong phạm vi 1000",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_MATH_SUB_NO_BORROW_100_001_01",
+      "skill_id": "MATH_SUB_NO_BORROW_100_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Trừ (không nhớ) trong phạm vi 100",
+      "description": "Đặt tính rồi tính phép trừ không nhớ trong phạm vi 100 (dạng 57 − 24).",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: đặt tính trừ không nhớ phạm vi 100 (Bài 5, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 5. Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100",
+          "section": "Luyện tập"
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 câu trộn đặt tính + nhẩm; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_MATH_TIME_CALENDAR_001_01",
+      "skill_id": "MATH_TIME_CALENDAR_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Ngày – tháng, xem lịch",
+      "description": "Đọc lịch: ngày, tháng, thứ; tìm ngày sau/before một ngày cho trước.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: xem lịch, trả lời câu hỏi về ngày–tháng (Bài 30, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 30. Ngày – tháng",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu đọc lịch; đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_MATH_TIME_CLOCK_001_01",
+      "skill_id": "MATH_TIME_CLOCK_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Xem đồng hồ: giờ, giờ – phút",
+      "description": "Đọc giờ đúng, giờ hơn, giờ – phút trên đồng hồ kim; đổi 1 giờ = 60 phút.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: đọc đồng hồ, đổi giờ–phút (Bài 29, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 29. Ngày – giờ, giờ – phút",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 6,
+      "mastery_check_rule": "6 câu đọc giờ + 2 câu đổi giờ–phút; đạt M3 khi đúng ≥ 7/8."
+    },
+    {
+      "exercise_type_id": "EX_MATH_TIME_DAY_HOUR_001_01",
+      "skill_id": "MATH_TIME_DAY_HOUR_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Ngày – giờ: các buổi trong ngày và 1 ngày = 24 giờ",
+      "description": "Xếp hoạt động vào đúng buổi trong ngày; đổi 1 ngày = 24 giờ.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: buổi trong ngày, ngày–giờ (Bài 29, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "lesson": "Bài 29. Ngày – giờ, giờ – phút",
+          "section": "Hoạt động",
+          "volume": "Tập 1"
+        }
+      ],
+      "mastery_sample_size": 6,
+      "mastery_check_rule": "6 câu xếp buổi/hoạt động + 4 câu đổi ngày–giờ; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_MATH_TIME_PRACTICE_001_01",
+      "skill_id": "MATH_TIME_PRACTICE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Thực hành và trải nghiệm xem đồng hồ, xem lịch",
+      "description": "Thực hành xem đồng hồ và xem lịch với tình huống thật.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: thực hành xem đồng hồ, xem lịch (Bài 31, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 31. Thực hành và trải nghiệm xem đồng hồ, xem lịch",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 3,
+      "mastery_check_rule": "3 tình huống thực tế; đạt M3 khi đúng ≥ 2/3."
+    },
+    {
+      "exercise_type_id": "EX_MATH_WORD_PROBLEM_COMPARE_001_01",
+      "skill_id": "MATH_WORD_PROBLEM_COMPARE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Bài toán về nhiều hơn, ít hơn một số đơn vị",
+      "description": "Giải bài toán 'nhiều hơn/ít hơn một số đơn vị': nhiều hơn thì cộng, ít hơn thì trừ.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: bài toán nhiều hơn/ít hơn một số đơn vị (Bài 13, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 13. Bài toán về nhiều hơn, ít hơn một số đơn vị",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 4,
+      "mastery_check_rule": "4 bài (2 nhiều hơn + 2 ít hơn); đạt M3 khi đúng ≥ 3/4."
+    },
+    {
+      "exercise_type_id": "EX_MATH_WORD_PROBLEM_DIFF_001_01",
+      "skill_id": "MATH_WORD_PROBLEM_DIFF_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Bài toán hơn, kém nhau bao nhiêu",
+      "description": "Giải bài toán 'hơn, kém nhau bao nhiêu' bằng phép trừ; trình bày câu lời giải, phép tính, đáp số.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: bài toán hỏi 'hơn/kém bao nhiêu' giải bằng phép trừ (Bài 4, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 4. Hơn, kém nhau bao nhiêu",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 3,
+      "mastery_check_rule": "3 bài (2 bài có lời văn + 1 bài trắc nghiệm phép tính); đạt M3 khi đúng ≥ 2/3 và bài lời văn đủ 3 bước."
+    },
+    {
+      "exercise_type_id": "EX_MATH_WORD_PROBLEM_ONE_STEP_001_01",
+      "skill_id": "MATH_WORD_PROBLEM_ONE_STEP_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Bài toán về thêm, bớt một số đơn vị",
+      "description": "Giải bài toán thêm/bớt một số đơn vị bằng một phép cộng hoặc trừ; trình bày 3 bước.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: bài toán 'thêm…/bớt…' một số đơn vị (Bài 9, Tập 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 9. Bài toán về thêm, bớt một số đơn vị",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_sample_size": 3,
+      "mastery_check_rule": "3 bài (thêm, bớt, gộp); đạt M3 khi đúng ≥ 2/3 và trình bày đủ 3 bước."
+    }
+  ]
+}

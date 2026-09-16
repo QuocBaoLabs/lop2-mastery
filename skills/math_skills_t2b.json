@@ -1,0 +1,485 @@
+[
+  {
+    "skill_id": "MATH_NUM_COMPARE_1000_001",
+    "subject": "MATH",
+    "domain": "Số học",
+    "subdomain": "Các số trong phạm vi 1000",
+    "name": "So sánh các số có ba chữ số",
+    "description": "So sánh số có ba chữ số theo hàng trăm → chục → đơn vị; dùng đúng dấu >, <, =; sắp thứ tự.",
+    "importance_level": "A",
+    "importance_score": 88,
+    "reason_importance": "Mở rộng trực tiếp của so sánh số; nền cho so sánh số lớn lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_NUM_COMPARE_ROUND_001",
+      "MATH_NUM_READ_WRITE_1000_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 53. So sánh các số có ba chữ số",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa so sánh được số có ba chữ số.",
+      "level_1": "So sánh được khi nhắc quy tắc hàng trăm → chục → đơn vị.",
+      "level_2": "Tự so sánh được nhưng nhầm chiều dấu hoặc bỏ qua hàng giữa.",
+      "level_3": "So sánh đúng 9/10 cặp số, sắp xếp đúng 3–4 số có ba chữ số.",
+      "level_4": "So sánh nhanh, giải thích được cách so từng hàng, điền số thích hợp vào chỗ trống."
+    },
+    "mastery_check_rule": "6 câu; đạt M3 khi đúng ≥ 5/6.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_MEASURE_LENGTH_001",
+    "subject": "MATH",
+    "domain": "Đo lường",
+    "subdomain": "Độ dài",
+    "name": "Đề-xi-mét, mét",
+    "description": "Nhận biết dm, m; quan hệ 1 m = 10 dm; đổi đơn vị, ước lượng và đo độ dài thực tế.",
+    "importance_level": "A",
+    "importance_score": 86,
+    "reason_importance": "Đơn vị đo độ dài chuẩn; nền cho cm/mm và đổi đơn vị lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_NUM_READ_WRITE_1000_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 55. Đề-xi-mét. Mét. Ki-lô-mét",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa biết dm, m.",
+      "level_1": "Đổi được 1 m = 10 dm khi có bảng.",
+      "level_2": "Tự đổi được nhưng nhầm chiều (m→dm nhân/chia).",
+      "level_3": "Đổi đúng 8/10 câu; ước lượng hợp lý độ dài vật quen thuộc (m, dm).",
+      "level_4": "Đo vật thật bằng thước mét, giải thích được vì sao chọn đơn vị m hay dm."
+    },
+    "mastery_check_rule": "8 câu đổi đơn vị + 2 câu ước lượng; đạt M3 khi đúng ≥ 8/10.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_MEASURE_LENGTH_002",
+    "subject": "MATH",
+    "domain": "Đo lường",
+    "subdomain": "Độ dài",
+    "name": "Ki-lô-mét",
+    "description": "Nhận biết km; quan hệ 1 km = 1000 m; dùng km cho quãng đường dài.",
+    "importance_level": "B",
+    "importance_score": 72,
+    "reason_importance": "Đơn vị đo đường dài thông dụng; nền đổi đơn vị lớn lớp 3.",
+    "grade3_foundation": false,
+    "prerequisites": [
+      "MATH_MEASURE_LENGTH_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 55. Đề-xi-mét. Mét. Ki-lô-mét",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa biết km.",
+      "level_1": "Nói được 1 km = 1000 m khi được nhắc.",
+      "level_2": "Đổi được km↔m nhưng vài câu còn nhầm.",
+      "level_3": "Đổi đúng 4/5 câu; chọn đúng đơn vị km/m cho tình huống.",
+      "level_4": "Giải thích được khi nào dùng km; giải đúng bài toán quãng đường."
+    },
+    "mastery_check_rule": "5 câu; đạt M3 khi đúng ≥ 4/5.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_MEASURE_LENGTH_PRACTICE_001",
+    "subject": "MATH",
+    "domain": "Đo lường",
+    "subdomain": "Độ dài",
+    "name": "Thực hành và trải nghiệm đo độ dài",
+    "description": "Thực hành đo chiều dài vật bằng thước (m, dm, cm); ước lượng rồi kiểm chứng.",
+    "importance_level": "C",
+    "importance_score": 55,
+    "reason_importance": "Kỹ năng trải nghiệm; củng cố biểu tượng độ dài.",
+    "grade3_foundation": false,
+    "prerequisites": [
+      "MATH_MEASURE_LENGTH_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 57. Thực hành và trải nghiệm đo độ dài",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa đo được bằng thước.",
+      "level_1": "Đo được khi được chỉ vạch giúp.",
+      "level_2": "Tự đo được nhưng đặt thước chưa đúng hoặc đọc lệch.",
+      "level_3": "Đo đúng 2 vật (sai số ≤ 1 cm), ước lượng gần đúng trước khi đo.",
+      "level_4": "Chọn đúng thước, đo chính xác và so sánh kết quả ước lượng – thực tế."
+    },
+    "mastery_check_rule": "1 hoạt động thực hành đo; đạt M3 khi đo đúng 2 vật.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_MONEY_001",
+    "subject": "MATH",
+    "domain": "Đo lường",
+    "subdomain": "Tiền Việt Nam",
+    "name": "Tiền Việt Nam",
+    "description": "Nhận biết các tờ tiền (100đ – 1000đ và các mệnh giá giới thiệu trong sách); đổi tiền, cộng trừ số tiền, giải toán mua bán.",
+    "importance_level": "A",
+    "importance_score": 85,
+    "reason_importance": "Kỹ năng sống thiết thực; nền cho toán tiền lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_NUM_COMPARE_1000_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 56. Giới thiệu tiền Việt Nam",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa nhận biết mệnh giá tiền.",
+      "level_1": "Nhận biết được khi có hình mẫu.",
+      "level_2": "Tự nhận biết được nhưng tính tổng tiền còn nhầm.",
+      "level_3": "Tính đúng tổng tiền và trả lời đúng 4/5 tình huống mua bán đơn giản.",
+      "level_4": "Đổi được tiền (vd 1000đ = 2 tờ 500đ), giải đúng bài toán trả tiền/thừa tiền."
+    },
+    "mastery_check_rule": "6 câu (nhận biết, tính tổng, bài mua bán); đạt M3 khi đúng ≥ 5/6.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_ADD_NO_CARRY_1000_001",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Cộng trừ trong phạm vi 1000",
+    "name": "Cộng (không nhớ) trong phạm vi 1000",
+    "description": "Đặt tính và tính nhẩm phép cộng không nhớ trong phạm vi 1000 (kể cả nhẩm số tròn trăm/tròn chục).",
+    "importance_level": "A",
+    "importance_score": 88,
+    "reason_importance": "Nền trực tiếp cho cộng có nhớ phạm vi 1000 và lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_NUM_READ_WRITE_1000_001",
+      "MATH_ADD_NO_CARRY_100_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 59. Phép cộng (không nhớ) trong phạm vi 1000",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa đặt tính được số có ba chữ số.",
+      "level_1": "Đặt tính và cộng đúng khi có mẫu.",
+      "level_2": "Tự làm đúng phần lớn nhưng lệch cột vài lần.",
+      "level_3": "Làm đúng ≥ 8/10 câu cả đặt tính và nhẩm (tròn trăm/tròn chục).",
+      "level_4": "Nhẩm nhanh dạng 300 + 200, 430 + 120; giải thích được cách nhẩm theo hàng."
+    },
+    "mastery_check_rule": "10 câu; đạt M3 khi đúng ≥ 8/10.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_SUB_NO_BORROW_1000_001",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Cộng trừ trong phạm vi 1000",
+    "name": "Trừ (không nhớ) trong phạm vi 1000",
+    "description": "Đặt tính và tính nhẩm phép trừ không nhớ trong phạm vi 1000.",
+    "importance_level": "A",
+    "importance_score": 88,
+    "reason_importance": "Nền trực tiếp cho trừ có nhớ phạm vi 1000 và lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_NUM_READ_WRITE_1000_001",
+      "MATH_SUB_NO_BORROW_100_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 60. Phép trừ (không nhớ) trong phạm vi 1000",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa đặt tính được.",
+      "level_1": "Trừ đúng khi có mẫu.",
+      "level_2": "Tự làm đúng phần lớn nhưng lệch cột vài lần.",
+      "level_3": "Làm đúng ≥ 8/10 câu cả đặt tính và nhẩm.",
+      "level_4": "Nhẩm nhanh dạng 700 − 400, 850 − 130; giải thích cách nhẩm theo hàng."
+    },
+    "mastery_check_rule": "10 câu; đạt M3 khi đúng ≥ 8/10.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_ADD_CARRY_1000_001",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Cộng trừ trong phạm vi 1000",
+    "name": "Cộng (có nhớ) trong phạm vi 1000",
+    "description": "Đặt tính và tính phép cộng có nhớ trong phạm vi 1000 (nhớ từ hàng đơn vị/chục).",
+    "importance_level": "A",
+    "importance_score": 92,
+    "reason_importance": "Tổng hợp mọi kỹ năng cộng lớp 2; nền tuyệt đối cho lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_ADD_NO_CARRY_1000_001",
+      "MATH_ADD_CARRY_100_002"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 61. Phép cộng (có nhớ) trong phạm vi 1000",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa cộng được số có ba chữ số có nhớ.",
+      "level_1": "Làm đúng khi được hướng dẫn từng hàng.",
+      "level_2": "Tự làm đúng phần lớn nhưng quên nhớ ở hàng chục/hàng trăm vài lần.",
+      "level_3": "Làm đúng ≥ 8/10 câu không nhắc, giải được 1 bài vận dụng.",
+      "level_4": "Làm đúng ổn định, giải thích được quy trình nhớ qua từng hàng, kiểm tra bằng phép trừ."
+    },
+    "mastery_check_rule": "10 câu + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_SUB_BORROW_1000_001",
+    "subject": "MATH",
+    "domain": "Phép tính",
+    "subdomain": "Cộng trừ trong phạm vi 1000",
+    "name": "Trừ (có nhớ) trong phạm vi 1000",
+    "description": "Đặt tính và tính phép trừ có nhớ trong phạm vi 1000 (mượn ở hàng chục/hàng trăm).",
+    "importance_level": "A",
+    "importance_score": 92,
+    "reason_importance": "Tổng hợp mọi kỹ năng trừ lớp 2; nền tuyệt đối cho lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_SUB_NO_BORROW_1000_001",
+      "MATH_SUB_BORROW_100_002"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 62. Phép trừ (có nhớ) trong phạm vi 1000",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa trừ được số có ba chữ số có nhớ.",
+      "level_1": "Làm đúng khi được hướng dẫn từng hàng.",
+      "level_2": "Tự làm đúng phần lớn nhưng quên mượn/trả ở hàng chục/hàng trăm vài lần.",
+      "level_3": "Làm đúng ≥ 8/10 câu không nhắc, giải được 1 bài vận dụng.",
+      "level_4": "Làm đúng ổn định, giải thích được quy trình mượn qua từng hàng, kiểm tra bằng phép cộng."
+    },
+    "mastery_check_rule": "10 câu + 1 bài vận dụng; đạt M3 khi đúng ≥ 8/10 phép tính.",
+    "fast_track_allowed": false
+  },
+  {
+    "skill_id": "MATH_STAT_COLLECT_001",
+    "subject": "MATH",
+    "domain": "Thống kê",
+    "subdomain": "Thu thập dữ liệu",
+    "name": "Thu thập số liệu",
+    "description": "Quan sát, thu thập số liệu từ thực tế (đếm số lượng đồ vật, bạn thích…); ghi chép kết quả đơn giản.",
+    "importance_level": "B",
+    "importance_score": 70,
+    "reason_importance": "Khởi đầu tư duy dữ liệu; nền cho thống kê lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_NUM_READ_WRITE_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 64. Thu thập, phân loại, kiểm đếm số liệu",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa biết thu thập số liệu.",
+      "level_1": "Thu thập được khi được hướng dẫn cách ghi.",
+      "level_2": "Tự thu thập được nhưng ghi chép lộn xộn, dễ bỏ sót.",
+      "level_3": "Thu thập và ghi đúng số liệu cho 4/5 nhiệm vụ đếm/khảo sát nhỏ.",
+      "level_4": "Tổ chức được hoạt động thu thập, trình bày rõ cách ghi để không sót."
+    },
+    "mastery_check_rule": "2 nhiệm vụ thu thập thực tế; đạt M3 khi ghi đúng cả 2.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_STAT_SORT_COUNT_001",
+    "subject": "MATH",
+    "domain": "Thống kê",
+    "subdomain": "Phân loại, kiểm đếm",
+    "name": "Phân loại và kiểm đếm số liệu",
+    "description": "Phân loại đối tượng theo dấu hiệu; kiểm đếm số lượng từng loại bằng vạch/đếm chéo.",
+    "importance_level": "B",
+    "importance_score": 72,
+    "reason_importance": "Kỹ năng xử lý dữ liệu đầu tiên; nền cho bảng số liệu lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_STAT_COLLECT_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 64. Thu thập, phân loại, kiểm đếm số liệu",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa phân loại được.",
+      "level_1": "Phân loại được khi được gợi ý dấu hiệu.",
+      "level_2": "Tự phân loại được nhưng kiểm đếm còn sót.",
+      "level_3": "Phân loại và kiểm đếm đúng 4/5 bài (mỗi loại đếm đúng số lượng).",
+      "level_4": "Tự chọn dấu hiệu phân loại hợp lý và đếm chính xác bằng vạch đếm."
+    },
+    "mastery_check_rule": "4 bài phân loại – kiểm đếm; đạt M3 khi đúng ≥ 3/4.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_STAT_PICTOGRAPH_001",
+    "subject": "MATH",
+    "domain": "Thống kê",
+    "subdomain": "Biểu đồ tranh",
+    "name": "Đọc và lập biểu đồ tranh",
+    "description": "Đọc số liệu từ biểu đồ tranh (mỗi hình = 1 đơn vị); trả lời câu hỏi so sánh; hoàn thiện biểu đồ tranh.",
+    "importance_level": "B",
+    "importance_score": 76,
+    "reason_importance": "Biểu diễn dữ liệu trực quan; nền cho biểu đồ cột lớp 3.",
+    "grade3_foundation": true,
+    "prerequisites": [
+      "MATH_STAT_SORT_COUNT_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 65. Biểu đồ tranh",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa đọc được biểu đồ tranh.",
+      "level_1": "Đọc được khi được chỉ từng cột/hình.",
+      "level_2": "Tự đọc được nhưng trả lời câu so sánh còn nhầm.",
+      "level_3": "Đọc đúng 4/5 biểu đồ, trả lời đúng câu hỏi nhiều nhất/ít nhất/hơn nhau.",
+      "level_4": "Lập được biểu đồ tranh từ bảng số liệu và đặt câu hỏi cho biểu đồ."
+    },
+    "mastery_check_rule": "5 câu đọc biểu đồ; đạt M3 khi đúng ≥ 4/5.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_PROB_CERTAIN_001",
+    "subject": "MATH",
+    "domain": "Xác suất ban đầu",
+    "subdomain": "Khả năng xảy ra",
+    "name": "Chắc chắn, có thể, không thể",
+    "description": "Phân biệt các sự kiện chắc chắn xảy ra, có thể xảy ra, không thể xảy ra trong tình huống đơn giản.",
+    "importance_level": "B",
+    "importance_score": 74,
+    "reason_importance": "Tư duy xác suất ban đầu; nền cho xác suất lớp 3–4.",
+    "grade3_foundation": true,
+    "prerequisites": [],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 66. Chắc chắn, có thể, không thể",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa phân biệt được các khả năng.",
+      "level_1": "Phân biệt được khi có ví dụ mẫu.",
+      "level_2": "Tự phân biệt được nhưng nhầm 'có thể' với 'chắc chắn' vài lần.",
+      "level_3": "Phân loại đúng 8/10 sự kiện vào chắc chắn/có thể/không thể.",
+      "level_4": "Giải thích được vì sao một sự kiện là không thể/chắc chắn; tự nêu ví dụ."
+    },
+    "mastery_check_rule": "6 câu phân loại; đạt M3 khi đúng ≥ 5/6.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_STAT_PRACTICE_001",
+    "subject": "MATH",
+    "domain": "Thống kê",
+    "subdomain": "Thực hành thống kê",
+    "name": "Thực hành và trải nghiệm thu thập, phân loại, kiểm đếm",
+    "description": "Thực hiện một khảo sát nhỏ trong lớp/gia đình: thu thập → phân loại → kiểm đếm → biểu diễn đơn giản.",
+    "importance_level": "C",
+    "importance_score": 55,
+    "reason_importance": "Kỹ năng trải nghiệm tổng hợp; củng cố chu trình dữ liệu.",
+    "grade3_foundation": false,
+    "prerequisites": [
+      "MATH_STAT_SORT_COUNT_001"
+    ],
+    "source_refs": [
+      {
+        "book": "math2",
+        "volume": "Tập 2",
+        "lesson": "Bài 67. Thực hành và trải nghiệm thu thập, phân loại, kiểm đếm",
+        "section": "Hoạt động"
+      }
+    ],
+    "mastery_definition": {
+      "level_0": "Chưa thực hiện được khảo sát.",
+      "level_1": "Thực hiện được khi có kịch bản mẫu.",
+      "level_2": "Tự thực hiện được nhưng bỏ sót bước hoặc đếm nhầm.",
+      "level_3": "Hoàn thành 1 khảo sát đủ 4 bước: thu thập → phân loại → kiểm đếm → báo cáo số liệu.",
+      "level_4": "Trình bày rõ ràng kết quả khảo sát và nêu nhận xét đơn giản."
+    },
+    "mastery_check_rule": "1 hoạt động khảo sát; đạt M3 khi hoàn thành đủ 4 bước.",
+    "fast_track_allowed": true
+  },
+  {
+    "skill_id": "MATH_NUM_DECOMPOSE_1000_001",
+    "subject": "MATH",
+    "domain": "Số học",
+    "subdomain": "Các số trong phạm vi 1000",
+    "name": "Viết số có ba chữ số thành tổng các trăm, chục, đơn vị",
+    "description": "Phân tích số có ba chữ số thành tổng trăm + chục + đơn vị (đúng cả dạng có chữ số 0) và ngược lại viết số từ tổng.",
+    "mastery_definition": {
+      "level_0": "Chưa phân tích được số có ba chữ số.",
+      "level_1": "Phân tích được khi có mẫu.",
+      "level_2": "Tự phân tích được nhưng còn sót/viết nhầm ở dạng có chữ số 0.",
+      "level_3": "Viết đúng ≥ 8/10 bài cả hai chiều, kể cả dạng 503 = 500 + 3.",
+      "level_4": "Phân tích và giải thích được giá trị từng chữ số theo hàng; làm bài dạng 993 = 900 + 90 + _."
+    },
+    "mastery_check_rule": "10 câu hai chiều (kể cả dạng có chữ số 0); đạt M3 khi đúng ≥ 8/10.",
+    "prerequisites": [
+      "MATH_NUM_READ_WRITE_1000_001"
+    ],
+    "importance_level": "A",
+    "importance_score": 90,
+    "grade3_foundation": true,
+    "reason_importance": "Bản chất cấu tạo thập phân của số — nền cho so sánh số và cộng/trừ phạm vi 1000, lớp 3.",
+    "fast_track_allowed": false,
+    "source_refs": [
+      {
+        "book": "math2",
+        "lesson": "Bài 52. Viết số thành tổng các trăm, chục, đơn vị",
+        "section": "Hoạt động",
+        "volume": "Tập 2"
+      }
+    ]
+  }
+]

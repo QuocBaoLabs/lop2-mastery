@@ -1,0 +1,233 @@
+{
+  "schema_version": "1.0",
+  "assessment_id": "DIAG_VIE_G2_001",
+  "type": "diagnostic",
+  "subject": "VIE",
+  "subject_label": "Tiếng Việt",
+  "title": "Bài kiểm tra đầu vào – Tiếng Việt lớp 2",
+  "duration_minutes": 20,
+  "description": "Xác định mức thành thạo các kỹ năng nền (đọc từ, chính tả, từ và câu, đọc hiểu cơ bản) để xếp nhóm xanh/vàng/đỏ.",
+  "scoring": {
+    "per_question": 1,
+    "pass_threshold_percent": 60,
+    "band": {
+      "0_39": "🔴 Chưa biết – bắt đầu từ nhận diện chữ/từ",
+      "40_59": "🔴 Chưa biết – kèm đọc và chính tả",
+      "60_79": "🟡 Chưa chắc – củng cố chính tả, từ và câu",
+      "80_100": "🟢 Thành thạo – chuyển sang đọc hiểu và viết đoạn"
+    }
+  },
+  "note": "AI đề xuất – không phải nội dung nguyên bản SGK",
+  "total_questions": 16,
+  "questions": [
+    {
+      "question_id": "DG_V01",
+      "skill_id": "VIE_READ_WORD_001",
+      "question": "Đọc to, rõ các từ: 'nghỉ ngơi', 'khuỷu tay', 'ngoằn ngoèo', 'lắng nghe', 'xinh xắn'.",
+      "answer": "Đọc đúng 5/5 từ, phát âm rõ.",
+      "difficulty": 1,
+      "error_tags": [
+        "READ_WORD_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_V02",
+      "skill_id": "VIE_SPELL_CK_001",
+      "question": "Điền c hoặc k: _iến _àng",
+      "answer": "kiến càng",
+      "difficulty": 1,
+      "error_tags": [
+        "SPELLING_INITIAL_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_V03",
+      "skill_id": "VIE_SPELL_GH_001",
+      "question": "Điền g hoặc gh: _i nhớ; cái _ế",
+      "answer": "ghi nhớ; cái ghế",
+      "difficulty": 1,
+      "error_tags": [
+        "SPELLING_INITIAL_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_V04",
+      "skill_id": "VIE_SPELL_SX_001",
+      "question": "Chọn s hoặc x: chim _ẻ; _e đạp",
+      "answer": "chim sẻ; xe đạp",
+      "difficulty": 1,
+      "error_tags": [
+        "SPELLING_INITIAL_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_V05",
+      "skill_id": "VIE_SPELL_CHTR_001",
+      "question": "Chọn ch hoặc tr: con _âu; cái _ăn",
+      "answer": "con trâu; cái chăn",
+      "difficulty": 1,
+      "error_tags": [
+        "SPELLING_INITIAL_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_V06",
+      "skill_id": "VIE_SPELL_TONE_001",
+      "question": "Điền dấu thanh đúng: 'mat me'",
+      "answer": "mát mẻ",
+      "difficulty": 1,
+      "error_tags": [
+        "TONE_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_V07",
+      "skill_id": "VIE_SPELL_RHYME_001",
+      "question": "Điền ac hoặc at: con h_; h_ thóc",
+      "answer": "con hạc; hạt thóc",
+      "difficulty": 1,
+      "error_tags": [
+        "SPELLING_RHYME_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_V08",
+      "skill_id": "VIE_SPELL_ALPHABET_001",
+      "question": "Xếp các từ theo thứ tự bảng chữ cái: na, bưởi, cam",
+      "answer": "bưởi, cam, na",
+      "difficulty": 1,
+      "error_tags": [
+        "CARELESS_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_V09",
+      "skill_id": "VIE_WORD_THING_001",
+      "question": "Tìm từ chỉ sự vật trong câu: 'Chú mèo nằm trên ghế.'",
+      "answer": "mèo; ghế",
+      "difficulty": 1,
+      "error_tags": [
+        "VOCAB_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_V10",
+      "skill_id": "VIE_WORD_ACTIVITY_001",
+      "question": "Tìm từ chỉ hoạt động trong câu: 'Bé tưới rau ngoài vườn.'",
+      "answer": "tưới",
+      "difficulty": 1,
+      "error_tags": [
+        "VOCAB_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_V11",
+      "skill_id": "VIE_WORD_FEATURE_001",
+      "question": "Tìm từ chỉ đặc điểm trong câu: 'Quả dưa to và ngọt.'",
+      "answer": "to; ngọt",
+      "difficulty": 1,
+      "error_tags": [
+        "VOCAB_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_V12",
+      "skill_id": "VIE_SENTENCE_PUNCT_001",
+      "question": "Điền dấu câu thích hợp: 'Bạn học bài chưa _'",
+      "answer": "Dấu chấm hỏi (?)",
+      "difficulty": 1,
+      "error_tags": [
+        "PUNCTUATION_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_V13",
+      "skill_id": "VIE_SENTENCE_MAKE_001",
+      "question": "Đặt một câu với từ 'xanh mát'.",
+      "answer": "Câu đủ bộ phận chính, dùng từ 'xanh mát' đúng nghĩa, viết hoa đầu câu, có dấu chấm.",
+      "difficulty": 2,
+      "error_tags": [
+        "SENTENCE_STRUCTURE_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_V14",
+      "skill_id": "VIE_READ_INFO_001",
+      "question": "Đọc: 'Sáng Chủ nhật, bố đưa Na ra công viên gần nhà chơi. Na đạp xe quanh hồ rồi cho cá ăn. Hai bố con về nhà khi trời sắp trưa.' Hỏi: Bố đưa Na đi đâu?",
+      "answer": "Ra công viên gần nhà.",
+      "difficulty": 2,
+      "error_tags": [
+        "COMPREHENSION_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_V15",
+      "skill_id": "VIE_READ_COMPREHEND_001",
+      "question": "Đọc: 'Sáng Chủ nhật, bố đưa Na ra công viên gần nhà chơi. Na đạp xe quanh hồ rồi cho cá ăn. Hai bố con về nhà khi trời sắp trưa.' Hỏi: Na làm gì ở công viên?",
+      "answer": "Na đạp xe quanh hồ rồi cho cá ăn.",
+      "difficulty": 2,
+      "error_tags": [
+        "COMPREHENSION_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_V16",
+      "skill_id": "VIE_WRITE_ANSWER_001",
+      "question": "Em thích mùa nào nhất trong năm? Viết câu trả lời đầy đủ.",
+      "answer": "Câu trả lời đủ chủ ngữ – vị ngữ, nêu đúng một mùa, viết hoa đầu câu, có dấu chấm.",
+      "difficulty": 2,
+      "error_tags": [
+        "WRITING_CONTENT_ERROR",
+        "SENTENCE_STRUCTURE_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    }
+  ]
+}

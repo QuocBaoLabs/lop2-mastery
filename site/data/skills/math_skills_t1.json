@@ -1,0 +1,553 @@
+{
+  "schema_version": "1.0",
+  "subject": "MATH",
+  "description": "Ngân hàng kỹ năng Toán lớp 2, trích từ SGK Toán 2 (Kết nối tri thức) Tập 1 + Tập 2. Mỗi kỹ năng có source_refs truy vết về bài học; trang PDF/trang in được tiêm tự động từ curriculum/math.json.",
+  "skills": [
+    {
+      "skill_id": "MATH_NUM_PLACE_VALUE_001",
+      "subject": "MATH",
+      "domain": "Số học",
+      "subdomain": "Cấu tạo số trong phạm vi 100",
+      "name": "Cấu tạo số (chục, đơn vị) trong phạm vi 100",
+      "description": "Nhận biết chục và đơn vị; tách số có hai chữ số thành tổng số chục và số đơn vị; xác định giá trị chữ số theo hàng.",
+      "importance_level": "A",
+      "importance_score": 95,
+      "reason_importance": "Nền móng của mọi phép cộng/trừ có nhớ, so sánh số và toàn bộ số học lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 1. Ôn tập các số đến 100",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa phân biệt được chục và đơn vị.",
+        "level_1": "Phân biệt được chục/đơn vị khi có hướng dẫn, que tính, bảng chục-đơn vị.",
+        "level_2": "Tự tách được số thành chục và đơn vị nhưng còn nhầm (vd 53 = 5 chục 3 đơn vị đôi khi viết ngược).",
+        "level_3": "Tách/ghép đúng 8/10 số; nói đúng giá trị chữ số theo hàng; không cần đồ dùng.",
+        "level_4": "Làm đúng ổn định và giải thích được vì sao 53 = 50 + 3; xử lý câu biến đổi (tìm số khi biết số chục, số đơn vị)."
+      },
+      "mastery_check_rule": "5 câu (tách số, ghép số, xác định giá trị chữ số); đạt M3 khi đúng ≥ 4/5 không dùng đồ dùng.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_NUM_READ_WRITE_001",
+      "subject": "MATH",
+      "domain": "Số học",
+      "subdomain": "Đọc, viết số trong phạm vi 100",
+      "name": "Đọc, viết số trong phạm vi 100",
+      "description": "Đọc đúng tên số, viết đúng số và số tròn chục trong phạm vi 100; đếm thêm 1, thêm 10.",
+      "importance_level": "A",
+      "importance_score": 92,
+      "reason_importance": "Tiền đề trực tiếp cho đọc/viết số có ba chữ số và giao tiếp toán học hằng ngày.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 1. Ôn tập các số đến 100",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa đọc/viết được số có hai chữ số.",
+        "level_1": "Đọc/viết được khi có mẫu hoặc bảng số.",
+        "level_2": "Tự đọc/viết được nhưng còn lẫn (vd 14/41, các số có 5 ở hàng đơn vị).",
+        "level_3": "Đọc/viết đúng 9/10 số; đếm xuôi/ngược đúng trong phạm vi 100.",
+        "level_4": "Đọc/viết đúng mọi số, viết được số liền quan hệ +1/+10 nhanh, không nhầm 14/41."
+      },
+      "mastery_check_rule": "5 câu viết số theo lời đọc và ngược lại; đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_NUM_COMPARE_100_001",
+      "subject": "MATH",
+      "domain": "Số học",
+      "subdomain": "So sánh số trong phạm vi 100",
+      "name": "So sánh, sắp thứ tự số trong phạm vi 100",
+      "description": "So sánh hai số theo hàng chục rồi hàng đơn vị; dùng đúng dấu >, <, =; sắp xếp dãy số theo thứ tự.",
+      "importance_level": "A",
+      "importance_score": 88,
+      "reason_importance": "Kỹ năng lặp lại ở mọi chủ đề và mở rộng trực tiếp cho so sánh số có ba chữ số.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 1. Ôn tập các số đến 100",
+          "section": "Luyện tập"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa biết so sánh số có hai chữ số.",
+        "level_1": "So sánh được khi nhắc quy tắc 'so hàng chục trước'.",
+        "level_2": "Tự so sánh được nhưng còn nhầm chiều dấu >, < hoặc so hàng đơn vị trước.",
+        "level_3": "So sánh đúng 9/10 cặp số, điền đúng dấu, sắp xếp đúng 3–4 số.",
+        "level_4": "So sánh nhanh, giải thích được cách so; điền số thích hợp vào chỗ trống dạng so sánh."
+      },
+      "mastery_check_rule": "6 câu (điền dấu, sắp thứ tự, tìm số lớn nhất/bé nhất); đạt M3 khi đúng ≥ 5/6.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_NUM_NUMBER_LINE_001",
+      "subject": "MATH",
+      "domain": "Số học",
+      "subdomain": "Tia số",
+      "name": "Tia số và vị trí số trên tia số",
+      "description": "Nhận biết tia số, xác định vị trí một số trên tia số, điền số còn thiếu theo quy luật trên tia số.",
+      "importance_level": "B",
+      "importance_score": 72,
+      "reason_importance": "Hình dung trực quan về thứ tự số, hỗ trợ so sánh và cộng trừ; nền cho tia số lớn hơn ở lớp 3.",
+      "grade3_foundation": false,
+      "prerequisites": [
+        "MATH_NUM_READ_WRITE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 2. Tia số. Số liền trước, số liền sau",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa biết tia số.",
+        "level_1": "Xác định được vị trí số khi có hướng dẫn đếm vạch.",
+        "level_2": "Tự xác định được vị trí nhưng còn đếm nhầm vạch với số cách đều.",
+        "level_3": "Điền đúng số vào tia số, xác định đúng vị trí 8/10 số.",
+        "level_4": "Điền nhanh dãy số cách đều trên tia số và giải thích quy luật."
+      },
+      "mastery_check_rule": "5 câu (điền số trên tia số, xác định vị trí); đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_NUM_NEIGHBOR_001",
+      "subject": "MATH",
+      "domain": "Số học",
+      "subdomain": "Số liền trước, liền sau",
+      "name": "Số liền trước, số liền sau",
+      "description": "Tìm số liền trước (bớt 1), số liền sau (thêm 1) của một số trong phạm vi 100.",
+      "importance_level": "B",
+      "importance_score": 74,
+      "reason_importance": "Củng cố thứ tự số, dùng nhiều trong đếm và ước lượng.",
+      "grade3_foundation": false,
+      "prerequisites": [
+        "MATH_NUM_NUMBER_LINE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 2. Tia số. Số liền trước, số liền sau",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa tìm được số liền trước/sau.",
+        "level_1": "Tìm được khi đếm cùng giáo viên.",
+        "level_2": "Tự tìm được nhưng nhầm trước/sau ở vài số (nhất là số tròn chục).",
+        "level_3": "Tìm đúng 9/10 số, kể cả quanh số tròn chục.",
+        "level_4": "Tìm nhanh, trả lời được 'số liền trước của 40 là 39 vì 39 + 1 = 40'."
+      },
+      "mastery_check_rule": "5 câu; đạt M3 khi đúng ≥ 4/5 trong đó có ít nhất 1 số tròn chục.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_ADD_COMPONENTS_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Thành phần phép cộng",
+      "name": "Số hạng, tổng",
+      "description": "Gọi đúng tên số hạng, tổng; nhận biết thành phần trong phép cộng; tìm tổng khi biết hai số hạng.",
+      "importance_level": "B",
+      "importance_score": 70,
+      "reason_importance": "Ngôn ngữ toán học nền cho trao đổi về phép tính và giải toán có lời văn.",
+      "grade3_foundation": false,
+      "prerequisites": [
+        "MATH_ADD_NO_CARRY_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 3. Các thành phần của phép cộng, phép trừ",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa biết tên thành phần phép cộng.",
+        "level_1": "Gọi tên được khi nhắc mẫu.",
+        "level_2": "Gọi tên được nhưng đôi khi lẫn số hạng/tổng.",
+        "level_3": "Gọi đúng tên, xác định đúng thành phần trong 4/5 phép tính, tính đúng tổng.",
+        "level_4": "Dùng thuật ngữ đúng khi giải thích; tìm được số hạng còn thiếu dạng đơn giản."
+      },
+      "mastery_check_rule": "5 câu (gọi tên + tính tổng); đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_SUB_COMPONENTS_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Thành phần phép trừ",
+      "name": "Số bị trừ, số trừ, hiệu",
+      "description": "Gọi đúng tên số bị trừ, số trừ, hiệu; nhận biết thành phần trong phép trừ; tính hiệu.",
+      "importance_level": "B",
+      "importance_score": 70,
+      "reason_importance": "Ngôn ngữ toán học chuẩn, nền cho tìm thành phần chưa biết ở lớp 3.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_SUB_NO_BORROW_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 3. Các thành phần của phép cộng, phép trừ",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa biết tên thành phần phép trừ.",
+        "level_1": "Gọi tên được khi có mẫu.",
+        "level_2": "Gọi tên được nhưng lẫn số bị trừ/số trừ ở vài phép tính.",
+        "level_3": "Gọi đúng tên, xác định đúng thành phần 4/5 phép tính, tính đúng hiệu.",
+        "level_4": "Dùng thuật ngữ đúng khi giải thích; tìm được số trừ/số bị trừ dạng đơn giản."
+      },
+      "mastery_check_rule": "5 câu (gọi tên + tính hiệu); đạt M3 khi đúng ≥ 4/5.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_WORD_PROBLEM_DIFF_001",
+      "subject": "MATH",
+      "domain": "Bài toán có lời văn",
+      "subdomain": "Hơn, kém nhau bao nhiêu",
+      "name": "Bài toán hơn, kém nhau bao nhiêu",
+      "description": "Giải bài toán so sánh hơn/kém: xác định số lớn, số bé, dùng phép trừ, viết lời giải và đáp số.",
+      "importance_level": "A",
+      "importance_score": 85,
+      "reason_importance": "Dạng toán có lời văn cốt lõi, lặp lại xuyên suốt chương trình và đời sống.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_SUB_NO_BORROW_100_001",
+        "MATH_NUM_COMPARE_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 4. Hơn, kém nhau bao nhiêu",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa tự đọc hiểu được đề.",
+        "level_1": "Giải được khi được gạch chân dữ kiện và câu hỏi giúp.",
+        "level_2": "Tự giải được nhưng đôi khi viết lời giải chưa khớp phép tính hoặc thiếu đơn vị.",
+        "level_3": "Giải đúng 4/5 bài: đủ 3 bước lời giải – phép tính – đáp số, đúng đơn vị.",
+        "level_4": "Giải đúng, giải thích được vì sao dùng phép trừ, tự đặt đề tương tự."
+      },
+      "mastery_check_rule": "3 bài (2 bài có lời văn + 1 bài trắc nghiệm phép tính); đạt M3 khi đúng ≥ 2/3 và bài lời văn đủ 3 bước.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_ADD_NO_CARRY_100_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Cộng trong phạm vi 100",
+      "name": "Cộng (không nhớ) trong phạm vi 100",
+      "description": "Đặt tính và tính nhẩm phép cộng không nhớ trong phạm vi 100 (cả dạng 2 chữ số + 1 chữ số và 2 chữ số + 2 chữ số).",
+      "importance_level": "A",
+      "importance_score": 90,
+      "reason_importance": "Nền của cộng có nhớ, cộng trong phạm vi 1000 và mọi phép tính sau này.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 5. Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100",
+          "section": "Luyện tập"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa đặt tính được.",
+        "level_1": "Đặt tính và cộng đúng khi được làm mẫu từng bước.",
+        "level_2": "Tự làm đúng phần lớn nhưng đặt tính lệch cột hoặc nhẩm nhầm vài phép.",
+        "level_3": "Làm đúng ≥ 8/10 câu cả đặt tính và nhẩm, không nhắc.",
+        "level_4": "Làm đúng nhanh, giải thích được cách nhẩm (tách chục/đơn vị), làm được câu biến đổi."
+      },
+      "mastery_check_rule": "10 câu trộn đặt tính + nhẩm; đạt M3 khi đúng ≥ 8/10.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_SUB_NO_BORROW_100_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Trừ trong phạm vi 100",
+      "name": "Trừ (không nhớ) trong phạm vi 100",
+      "description": "Đặt tính và tính nhẩm phép trừ không nhớ trong phạm vi 100.",
+      "importance_level": "A",
+      "importance_score": 90,
+      "reason_importance": "Nền của trừ có nhớ, trừ trong phạm vi 1000.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 5. Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100",
+          "section": "Luyện tập"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa đặt tính được.",
+        "level_1": "Trừ đúng khi được hướng dẫn từng bước.",
+        "level_2": "Tự làm đúng phần lớn, còn lệch cột hoặc nhẩm nhầm.",
+        "level_3": "Làm đúng ≥ 8/10 câu cả đặt tính và nhẩm, không nhắc.",
+        "level_4": "Làm đúng nhanh, giải thích cách nhẩm, làm được câu biến đổi."
+      },
+      "mastery_check_rule": "10 câu trộn đặt tính + nhẩm; đạt M3 khi đúng ≥ 8/10.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_ADD_BRIDGE10_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Cộng qua 10 trong phạm vi 20",
+      "name": "Phép cộng (qua 10) trong phạm vi 20",
+      "description": "Cộng hai số trong phạm vi 20 có tổng qua 10 (9 + 2 … 9 + 9, 8 + 3 …) bằng cách tách số (make 10).",
+      "importance_level": "A",
+      "importance_score": 96,
+      "reason_importance": "Kỹ thuật 'tách để được 10' là bản chất của cộng có nhớ mọi phạm vi; là nền lớp 3 tuyệt đối.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_PLACE_VALUE_001",
+        "MATH_ADD_NO_CARRY_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 7. Phép cộng (qua 10) trong phạm vi 20",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa cộng được dạng qua 10.",
+        "level_1": "Cộng đúng khi dùng bảng 10/que tính và có hướng dẫn tách số.",
+        "level_2": "Tự tách số được nhưng còn nhẩm chậm hoặc nhầm vài phép.",
+        "level_3": "Nhẩm đúng ≥ 8/10 phép dạng 9+, 8+, 7+ trong thời gian hợp lý, không dùng đồ dùng.",
+        "level_4": "Nhẩm nhanh, giải thích được '9 + 5 = 9 + 1 + 4', xử lý phép dạng 3 số hạng."
+      },
+      "mastery_check_rule": "10 câu nhẩm dạng qua 10 + 1 câu giải thích cách làm; đạt M3 khi đúng ≥ 8/10 phép tính.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_ADD_FACTS_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Bảng cộng qua 10",
+      "name": "Bảng cộng (qua 10) — tự động hóa",
+      "description": "Thuộc và nhẩm tức thì toàn bộ bảng cộng qua 10 trong phạm vi 20; vận dụng vào tính và giải toán.",
+      "importance_level": "A",
+      "importance_score": 90,
+      "reason_importance": "Tốc độ nhẩm quyết định sự trôi chảy của mọi phép tính có nhớ sau này.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_ADD_BRIDGE10_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 8. Bảng cộng (qua 10)",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa thuộc bảng cộng.",
+        "level_1": "Nhớ được một phần, cần đếm que tính.",
+        "level_2": "Thuộc phần lớn nhưng vài phép còn phải dừng nghĩ.",
+        "level_3": "Nhẩm đúng ≥ 9/10 phép trong ≤ 5 giây/phép, không dùng đồ dùng.",
+        "level_4": "Nhẩm tức thì cả bảng, vận dụng đúng vào bài toán có lời văn và tìm số hạng."
+      },
+      "mastery_check_rule": "10 câu bảng cộng (bấm giờ 5s/câu) + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10 phép.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_WORD_PROBLEM_ONE_STEP_001",
+      "subject": "MATH",
+      "domain": "Bài toán có lời văn",
+      "subdomain": "Thêm, bớt một số đơn vị",
+      "name": "Bài toán về thêm, bớt một số đơn vị",
+      "description": "Đọc đề, xác định dữ kiện và câu hỏi, chọn phép cộng (thêm/gộp) hoặc trừ (bớt), trình bày đủ 3 bước.",
+      "importance_level": "A",
+      "importance_score": 92,
+      "reason_importance": "Kỹ năng đọc hiểu toán + trình bày lời giải; là dạng bài chiếm tỉ trọng lớn nhất trong chương trình.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_ADD_BRIDGE10_001",
+        "MATH_SUB_BRIDGE10_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 9. Bài toán về thêm, bớt một số đơn vị",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa tự đọc hiểu đề.",
+        "level_1": "Giải được khi được tóm tắt đề giúp.",
+        "level_2": "Tự giải được nhưng thỉnh thoảng chọn sai phép tính hoặc thiếu đơn vị.",
+        "level_3": "Giải đúng 4/5 bài, đủ lời giải – phép tính – đáp số, đúng đơn vị.",
+        "level_4": "Giải đúng, giải thích được vì sao chọn phép tính đó, tự đặt đề tương tự."
+      },
+      "mastery_check_rule": "3 bài (thêm, bớt, gộp); đạt M3 khi đúng ≥ 2/3 và trình bày đủ 3 bước.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_SUB_BRIDGE10_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Trừ qua 10 trong phạm vi 20",
+      "name": "Phép trừ (qua 10) trong phạm vi 20",
+      "description": "Trừ dạng 11 − 2 … 18 − 9 bằng cách tách số để trừ về 10 rồi trừ tiếp.",
+      "importance_level": "A",
+      "importance_score": 96,
+      "reason_importance": "Bản chất của trừ có nhớ mọi phạm vi; nền lớp 3 tuyệt đối.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_NUM_PLACE_VALUE_001",
+        "MATH_SUB_NO_BORROW_100_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 11. Phép trừ (qua 10) trong phạm vi 20",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa trừ được dạng qua 10.",
+        "level_1": "Trừ đúng khi dùng bảng 10/que tính có hướng dẫn.",
+        "level_2": "Tự tách số được nhưng còn chậm hoặc nhầm vài phép.",
+        "level_3": "Nhẩm đúng ≥ 8/10 phép không dùng đồ dùng, thời gian hợp lý.",
+        "level_4": "Nhẩm nhanh, giải thích được '12 − 5 = 12 − 2 − 3', xử lý dạng biến đổi."
+      },
+      "mastery_check_rule": "10 câu nhẩm dạng qua 10 + 1 câu giải thích; đạt M3 khi đúng ≥ 8/10.",
+      "fast_track_allowed": false
+    },
+    {
+      "skill_id": "MATH_SUB_FACTS_001",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Bảng trừ qua 10",
+      "name": "Bảng trừ (qua 10) — tự động hóa",
+      "description": "Thuộc và nhẩm tức thì toàn bộ bảng trừ qua 10 trong phạm vi 20; vận dụng vào tính và giải toán.",
+      "importance_level": "A",
+      "importance_score": 90,
+      "reason_importance": "Tốc độ nhẩm trừ quyết định sự trôi chảy của mọi phép trừ có nhớ sau này.",
+      "grade3_foundation": true,
+      "prerequisites": [
+        "MATH_SUB_BRIDGE10_001"
+      ],
+      "source_refs": [
+        {
+          "book": "math1",
+          "volume": "Tập 1",
+          "lesson": "Bài 12. Bảng trừ (qua 10)",
+          "section": "Hoạt động"
+        }
+      ],
+      "mastery_definition": {
+        "level_0": "Chưa thuộc bảng trừ.",
+        "level_1": "Nhớ một phần, cần đếm ngược.",
+        "level_2": "Thuộc phần lớn, vài phép còn dừng nghĩ.",
+        "level_3": "Nhẩm đúng ≥ 9/10 phép trong ≤ 5 giây/phép.",
+        "level_4": "Nhẩm tức thì cả bảng, vận dụng đúng vào bài toán có lời văn."
+      },
+      "mastery_check_rule": "10 câu bảng trừ (bấm giờ 5s/câu) + 1 bài vận dụng; đạt M3 khi đúng ≥ 9/10.",
+      "fast_track_allowed": true
+    },
+    {
+      "skill_id": "MATH_ADD_BRIDGE10_002",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Cộng qua 10 trong phạm vi 20",
+      "name": "Phép cộng (qua 10) trong phạm vi 20 – vận dụng, hoàn thiện phép tính",
+      "description": "Vận dụng cộng qua 10 để hoàn thành phép tính dạng 8 + _ = 15, tìm số hạng còn thiếu và giải tình huống thực tế nhỏ trong phạm vi 20.",
+      "mastery_definition": {
+        "level_0": "Chưa hoàn thiện được phép cộng qua 10.",
+        "level_1": "Điền được số còn thiếu khi có gợi ý tách số.",
+        "level_2": "Tự điền được nhưng còn nhầm ở dạng 7 + _ = 14.",
+        "level_3": "Hoàn thành đúng ≥ 8/10 phép dạng thiếu số hạng/tổng; giải đúng 1 tình huống thực tế.",
+        "level_4": "Tự lập được bài toán nhỏ dùng cộng qua 10 và giải thích cách làm."
+      },
+      "mastery_check_rule": "8 phép hoàn thiện + 2 tình huống nhỏ; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "MATH_ADD_BRIDGE10_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 88,
+      "grade3_foundation": true,
+      "reason_importance": "Củng cố kỹ thuật 'tách để được 10' ở dạng ngược (tìm số còn thiếu) — dạng xuất hiện xuyên suốt lớp 2–3.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "math1",
+          "lesson": "Bài 7. Phép cộng (qua 10) trong phạm vi 20",
+          "section": "Luyện tập",
+          "volume": "Tập 1"
+        }
+      ]
+    },
+    {
+      "skill_id": "MATH_SUB_BRIDGE10_002",
+      "subject": "MATH",
+      "domain": "Phép tính",
+      "subdomain": "Trừ qua 10 trong phạm vi 20",
+      "name": "Phép trừ (qua 10) trong phạm vi 20 – vận dụng, hoàn thiện phép tính",
+      "description": "Vận dụng trừ qua 10 để hoàn thành phép tính dạng 15 − _ = 7, tìm số bị trừ/số trừ còn thiếu và giải tình huống thực tế nhỏ trong phạm vi 20.",
+      "mastery_definition": {
+        "level_0": "Chưa hoàn thiện được phép trừ qua 10.",
+        "level_1": "Điền được số còn thiếu khi có gợi ý.",
+        "level_2": "Tự điền được nhưng còn nhầm dạng 16 − _ = 9.",
+        "level_3": "Hoàn thành đúng ≥ 8/10 phép dạng thiếu số; giải đúng 1 tình huống thực tế.",
+        "level_4": "Tự lập bài toán nhỏ dùng trừ qua 10 và giải thích cách làm."
+      },
+      "mastery_check_rule": "8 phép hoàn thiện + 2 tình huống nhỏ; đạt M3 khi đúng ≥ 8/10.",
+      "prerequisites": [
+        "MATH_SUB_BRIDGE10_001"
+      ],
+      "importance_level": "A",
+      "importance_score": 88,
+      "grade3_foundation": true,
+      "reason_importance": "Dạng ngược của trừ qua 10; nền cho tìm số hạng/số bị trừ ở lớp 3.",
+      "fast_track_allowed": false,
+      "source_refs": [
+        {
+          "book": "math1",
+          "lesson": "Bài 11. Phép trừ (qua 10) trong phạm vi 20",
+          "section": "Luyện tập",
+          "volume": "Tập 1"
+        }
+      ]
+    }
+  ]
+}

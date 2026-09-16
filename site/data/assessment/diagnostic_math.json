@@ -1,0 +1,296 @@
+{
+  "schema_version": "1.0",
+  "assessment_id": "DIAG_MATH_G2_001",
+  "type": "diagnostic",
+  "subject": "MATH",
+  "subject_label": "Toán",
+  "title": "Bài kiểm tra đầu vào – Toán lớp 2",
+  "duration_minutes": 20,
+  "description": "Xác định trẻ đã thành thạo (xanh), chưa chắc (vàng), chưa biết (đỏ) ở các kỹ năng đầu chương trình; 2 câu cuối là câu thăm dò kiến thức tập 2 (không tính vào kết luận đầu năm).",
+  "scoring": {
+    "per_question": 1,
+    "pass_threshold_percent": 60,
+    "band": {
+      "0_39": "🔴 Chưa biết – bắt đầu từ kỹ năng nền",
+      "40_59": "🔴 Chưa biết – cần kèm sát",
+      "60_79": "🟡 Chưa chắc – củng cố trước khi đi tiếp",
+      "80_100": "🟢 Thành thạo – kiểm tra thêm bài tập khó"
+    }
+  },
+  "note": "AI đề xuất – không phải nội dung nguyên bản SGK",
+  "total_questions": 20,
+  "questions": [
+    {
+      "question_id": "DG_M01",
+      "skill_id": "MATH_NUM_READ_WRITE_001",
+      "question": "Viết số: bốn mươi lăm.",
+      "answer": "45",
+      "difficulty": 1,
+      "error_tags": [
+        "PLACE_VALUE_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M02",
+      "skill_id": "MATH_NUM_PLACE_VALUE_001",
+      "question": "Số 68 có mấy chục và mấy đơn vị?",
+      "answer": "6 chục 8 đơn vị",
+      "difficulty": 1,
+      "error_tags": [
+        "PLACE_VALUE_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M03",
+      "skill_id": "MATH_NUM_NEIGHBOR_001",
+      "question": "Số liền trước của 40 là số nào?",
+      "answer": "39",
+      "difficulty": 1,
+      "error_tags": [
+        "COMPARISON_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M04",
+      "skill_id": "MATH_NUM_COMPARE_100_001",
+      "question": "Điền dấu >, <, =: 37 _ 73",
+      "answer": "37 < 73",
+      "difficulty": 1,
+      "error_tags": [
+        "COMPARISON_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M05",
+      "skill_id": "MATH_ADD_NO_CARRY_100_001",
+      "question": "Đặt tính rồi tính: 42 + 36",
+      "answer": "78",
+      "difficulty": 1,
+      "error_tags": [
+        "PLACE_VALUE_ERROR",
+        "CALCULATION_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M06",
+      "skill_id": "MATH_SUB_NO_BORROW_100_001",
+      "question": "Đặt tính rồi tính: 85 − 43",
+      "answer": "42",
+      "difficulty": 1,
+      "error_tags": [
+        "PLACE_VALUE_ERROR",
+        "CALCULATION_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M07",
+      "skill_id": "MATH_ADD_BRIDGE10_001",
+      "question": "Tính nhẩm: 9 + 4 = ?",
+      "answer": "13",
+      "difficulty": 1,
+      "error_tags": [
+        "CONCEPT_ERROR",
+        "CALCULATION_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M08",
+      "skill_id": "MATH_ADD_BRIDGE10_002",
+      "question": "Điền số thích hợp: 8 + _ = 15",
+      "answer": "7",
+      "difficulty": 2,
+      "error_tags": [
+        "CONCEPT_ERROR",
+        "CALCULATION_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M09",
+      "skill_id": "MATH_SUB_BRIDGE10_001",
+      "question": "Tính nhẩm: 12 − 5 = ?",
+      "answer": "7",
+      "difficulty": 1,
+      "error_tags": [
+        "CONCEPT_ERROR",
+        "CALCULATION_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M10",
+      "skill_id": "MATH_ADD_FACTS_001",
+      "question": "Tính nhẩm: 7 + 5 = ?",
+      "answer": "12",
+      "difficulty": 1,
+      "error_tags": [
+        "CALCULATION_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M11",
+      "skill_id": "MATH_WORD_PROBLEM_ONE_STEP_001",
+      "question": "An có 8 viên bi, Bình cho An thêm 5 viên bi nữa. Hỏi An có tất cả bao nhiêu viên bi?",
+      "answer": "13 viên bi",
+      "difficulty": 2,
+      "error_tags": [
+        "READ_PROBLEM_ERROR",
+        "WRONG_OPERATION"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M12",
+      "skill_id": "MATH_ADD_CARRY_100_001",
+      "question": "Đặt tính rồi tính: 47 + 8",
+      "answer": "55",
+      "difficulty": 2,
+      "error_tags": [
+        "CARRY_ERROR",
+        "CALCULATION_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M13",
+      "skill_id": "MATH_SUB_BORROW_100_001",
+      "question": "Đặt tính rồi tính: 53 − 6",
+      "answer": "47",
+      "difficulty": 2,
+      "error_tags": [
+        "BORROW_ERROR",
+        "CALCULATION_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M14",
+      "skill_id": "MATH_WORD_PROBLEM_COMPARE_001",
+      "question": "Mai 10 tuổi, Lan ít hơn Mai 3 tuổi. Hỏi Lan bao nhiêu tuổi?",
+      "answer": "7 tuổi",
+      "difficulty": 2,
+      "error_tags": [
+        "READ_PROBLEM_ERROR",
+        "WRONG_OPERATION"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M15",
+      "skill_id": "MATH_MEASURE_MASS_001",
+      "question": "Quả dưa nặng 3 kg, quả bí nặng 2 kg. Cả hai quả nặng bao nhiêu ki-lô-gam?",
+      "answer": "5 kg",
+      "difficulty": 1,
+      "error_tags": [
+        "UNIT_ERROR",
+        "CALCULATION_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M16",
+      "skill_id": "MATH_TIME_CLOCK_001",
+      "question": "Đồng hồ chỉ 8 giờ đúng. Kim phút chỉ vào số nào?",
+      "answer": "Số 12",
+      "difficulty": 1,
+      "error_tags": [
+        "MEASUREMENT_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M17",
+      "skill_id": "MATH_MEASURE_CAPACITY_001",
+      "question": "Tính: 1 lít nước + 2 lít nước = ?",
+      "answer": "3 lít nước",
+      "difficulty": 1,
+      "error_tags": [
+        "UNIT_ERROR",
+        "CALCULATION_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M18",
+      "skill_id": "MATH_MULT_CONCEPT_001",
+      "question": "Viết tổng thành phép nhân: 3 + 3 + 3 = _ × 3",
+      "answer": "3 × 3",
+      "difficulty": 2,
+      "error_tags": [
+        "CONCEPT_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M19",
+      "skill_id": "MATH_NUM_READ_WRITE_1000_001",
+      "question": "Đọc số 205.",
+      "answer": "Hai trăm linh năm",
+      "difficulty": 2,
+      "error_tags": [
+        "PLACE_VALUE_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "DG_M20",
+      "skill_id": "MATH_MULT_TABLE_2_001",
+      "question": "Tính: 2 × 4 = ?",
+      "answer": "8",
+      "difficulty": 1,
+      "error_tags": [
+        "CALCULATION_ERROR",
+        "CONCEPT_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    }
+  ]
+}

@@ -1,0 +1,2596 @@
+{
+ "schema_version": "1.0",
+ "subject": "MATH",
+ "description": "Bản đồ từng trang PDF → bài học cho cả 2 tập Toán. printed_page = pdf_page − 1 (đã xác minh bằng số trang in ở chân trang).",
+ "books": [
+  {
+   "book_id": "math1",
+   "name": "Toán 2 · Tập 1",
+   "pdf_pages": 142,
+   "printed_page_offset": "printed = pdf − 1",
+   "pages": [
+    {
+     "pdf_page": 1,
+     "printed_page": null,
+     "book": "math1",
+     "lesson_no": null,
+     "lesson_name": null,
+     "type": "front_matter",
+     "note": "Bìa, bản quyền, hướng dẫn sử dụng, mục lục",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 2,
+     "printed_page": 1,
+     "book": "math1",
+     "lesson_no": null,
+     "lesson_name": null,
+     "type": "front_matter",
+     "note": "Bìa, bản quyền, hướng dẫn sử dụng, mục lục",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 3,
+     "printed_page": 2,
+     "book": "math1",
+     "lesson_no": null,
+     "lesson_name": null,
+     "type": "front_matter",
+     "note": "Bìa, bản quyền, hướng dẫn sử dụng, mục lục",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 4,
+     "printed_page": 3,
+     "book": "math1",
+     "lesson_no": null,
+     "lesson_name": null,
+     "type": "front_matter",
+     "note": "Bìa, bản quyền, hướng dẫn sử dụng, mục lục",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 5,
+     "printed_page": 4,
+     "book": "math1",
+     "lesson_no": null,
+     "lesson_name": null,
+     "type": "front_matter",
+     "note": "Bìa, bản quyền, hướng dẫn sử dụng, mục lục",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 6,
+     "printed_page": 5,
+     "book": "math1",
+     "lesson_no": null,
+     "lesson_name": null,
+     "type": "front_matter",
+     "note": "Bìa, bản quyền, hướng dẫn sử dụng, mục lục",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 7,
+     "printed_page": 6,
+     "book": "math1",
+     "lesson_no": 1,
+     "lesson_name": "Ôn tập các số đến 100",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 8,
+     "printed_page": 7,
+     "book": "math1",
+     "lesson_no": 1,
+     "lesson_name": "Ôn tập các số đến 100",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 9,
+     "printed_page": 8,
+     "book": "math1",
+     "lesson_no": 1,
+     "lesson_name": "Ôn tập các số đến 100",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 10,
+     "printed_page": 9,
+     "book": "math1",
+     "lesson_no": 1,
+     "lesson_name": "Ôn tập các số đến 100",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 11,
+     "printed_page": 10,
+     "book": "math1",
+     "lesson_no": 2,
+     "lesson_name": "Tia số. Số liền trước, số liền sau",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 12,
+     "printed_page": 11,
+     "book": "math1",
+     "lesson_no": 2,
+     "lesson_name": "Tia số. Số liền trước, số liền sau",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 13,
+     "printed_page": 12,
+     "book": "math1",
+     "lesson_no": 2,
+     "lesson_name": "Tia số. Số liền trước, số liền sau",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 14,
+     "printed_page": 13,
+     "book": "math1",
+     "lesson_no": 3,
+     "lesson_name": "Các thành phần của phép cộng, phép trừ",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 15,
+     "printed_page": 14,
+     "book": "math1",
+     "lesson_no": 3,
+     "lesson_name": "Các thành phần của phép cộng, phép trừ",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 16,
+     "printed_page": 15,
+     "book": "math1",
+     "lesson_no": 3,
+     "lesson_name": "Các thành phần của phép cộng, phép trừ",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 17,
+     "printed_page": 16,
+     "book": "math1",
+     "lesson_no": 4,
+     "lesson_name": "Hơn, kém nhau bao nhiêu",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 18,
+     "printed_page": 17,
+     "book": "math1",
+     "lesson_no": 4,
+     "lesson_name": "Hơn, kém nhau bao nhiêu",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 19,
+     "printed_page": 18,
+     "book": "math1",
+     "lesson_no": 4,
+     "lesson_name": "Hơn, kém nhau bao nhiêu",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 20,
+     "printed_page": 19,
+     "book": "math1",
+     "lesson_no": 5,
+     "lesson_name": "Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 21,
+     "printed_page": 20,
+     "book": "math1",
+     "lesson_no": 5,
+     "lesson_name": "Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 22,
+     "printed_page": 21,
+     "book": "math1",
+     "lesson_no": 5,
+     "lesson_name": "Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 23,
+     "printed_page": 22,
+     "book": "math1",
+     "lesson_no": 5,
+     "lesson_name": "Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 24,
+     "printed_page": 23,
+     "book": "math1",
+     "lesson_no": 6,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 25,
+     "printed_page": 24,
+     "book": "math1",
+     "lesson_no": 6,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 26,
+     "printed_page": 25,
+     "book": "math1",
+     "lesson_no": 6,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 27,
+     "printed_page": 26,
+     "book": "math1",
+     "lesson_no": 7,
+     "lesson_name": "Phép cộng (qua 10) trong phạm vi 20",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 28,
+     "printed_page": 27,
+     "book": "math1",
+     "lesson_no": 7,
+     "lesson_name": "Phép cộng (qua 10) trong phạm vi 20",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 29,
+     "printed_page": 28,
+     "book": "math1",
+     "lesson_no": 7,
+     "lesson_name": "Phép cộng (qua 10) trong phạm vi 20",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 30,
+     "printed_page": 29,
+     "book": "math1",
+     "lesson_no": 7,
+     "lesson_name": "Phép cộng (qua 10) trong phạm vi 20",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 31,
+     "printed_page": 30,
+     "book": "math1",
+     "lesson_no": 7,
+     "lesson_name": "Phép cộng (qua 10) trong phạm vi 20",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 32,
+     "printed_page": 31,
+     "book": "math1",
+     "lesson_no": 7,
+     "lesson_name": "Phép cộng (qua 10) trong phạm vi 20",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 33,
+     "printed_page": 32,
+     "book": "math1",
+     "lesson_no": 7,
+     "lesson_name": "Phép cộng (qua 10) trong phạm vi 20",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 34,
+     "printed_page": 33,
+     "book": "math1",
+     "lesson_no": 8,
+     "lesson_name": "Bảng cộng (qua 10)",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 35,
+     "printed_page": 34,
+     "book": "math1",
+     "lesson_no": 8,
+     "lesson_name": "Bảng cộng (qua 10)",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 36,
+     "printed_page": 35,
+     "book": "math1",
+     "lesson_no": 8,
+     "lesson_name": "Bảng cộng (qua 10)",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 37,
+     "printed_page": 36,
+     "book": "math1",
+     "lesson_no": 9,
+     "lesson_name": "Bài toán về thêm, bớt một số đơn vị",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 38,
+     "printed_page": 37,
+     "book": "math1",
+     "lesson_no": 9,
+     "lesson_name": "Bài toán về thêm, bớt một số đơn vị",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 39,
+     "printed_page": 38,
+     "book": "math1",
+     "lesson_no": 10,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 40,
+     "printed_page": 39,
+     "book": "math1",
+     "lesson_no": 10,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 41,
+     "printed_page": 40,
+     "book": "math1",
+     "lesson_no": 10,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 42,
+     "printed_page": 41,
+     "book": "math1",
+     "lesson_no": 11,
+     "lesson_name": "Phép trừ (qua 10) trong phạm vi 20",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 43,
+     "printed_page": 42,
+     "book": "math1",
+     "lesson_no": 11,
+     "lesson_name": "Phép trừ (qua 10) trong phạm vi 20",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 44,
+     "printed_page": 43,
+     "book": "math1",
+     "lesson_no": 11,
+     "lesson_name": "Phép trừ (qua 10) trong phạm vi 20",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 45,
+     "printed_page": 44,
+     "book": "math1",
+     "lesson_no": 11,
+     "lesson_name": "Phép trừ (qua 10) trong phạm vi 20",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 46,
+     "printed_page": 45,
+     "book": "math1",
+     "lesson_no": 11,
+     "lesson_name": "Phép trừ (qua 10) trong phạm vi 20",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 47,
+     "printed_page": 46,
+     "book": "math1",
+     "lesson_no": 11,
+     "lesson_name": "Phép trừ (qua 10) trong phạm vi 20",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 48,
+     "printed_page": 47,
+     "book": "math1",
+     "lesson_no": 12,
+     "lesson_name": "Bảng trừ (qua 10)",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 49,
+     "printed_page": 48,
+     "book": "math1",
+     "lesson_no": 12,
+     "lesson_name": "Bảng trừ (qua 10)",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 50,
+     "printed_page": 49,
+     "book": "math1",
+     "lesson_no": 12,
+     "lesson_name": "Bảng trừ (qua 10)",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 51,
+     "printed_page": 50,
+     "book": "math1",
+     "lesson_no": 13,
+     "lesson_name": "Bài toán về nhiều hơn, ít hơn một số đơn vị",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 52,
+     "printed_page": 51,
+     "book": "math1",
+     "lesson_no": 13,
+     "lesson_name": "Bài toán về nhiều hơn, ít hơn một số đơn vị",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 53,
+     "printed_page": 52,
+     "book": "math1",
+     "lesson_no": 13,
+     "lesson_name": "Bài toán về nhiều hơn, ít hơn một số đơn vị",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 54,
+     "printed_page": 53,
+     "book": "math1",
+     "lesson_no": 14,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 55,
+     "printed_page": 54,
+     "book": "math1",
+     "lesson_no": 14,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 56,
+     "printed_page": 55,
+     "book": "math1",
+     "lesson_no": 14,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 57,
+     "printed_page": 56,
+     "book": "math1",
+     "lesson_no": 14,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 58,
+     "printed_page": 57,
+     "book": "math1",
+     "lesson_no": 15,
+     "lesson_name": "Ki-lô-gam",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 59,
+     "printed_page": 58,
+     "book": "math1",
+     "lesson_no": 15,
+     "lesson_name": "Ki-lô-gam",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 60,
+     "printed_page": 59,
+     "book": "math1",
+     "lesson_no": 15,
+     "lesson_name": "Ki-lô-gam",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 61,
+     "printed_page": 60,
+     "book": "math1",
+     "lesson_no": 15,
+     "lesson_name": "Ki-lô-gam",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 62,
+     "printed_page": 61,
+     "book": "math1",
+     "lesson_no": 15,
+     "lesson_name": "Ki-lô-gam",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 63,
+     "printed_page": 62,
+     "book": "math1",
+     "lesson_no": 16,
+     "lesson_name": "Lít",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 64,
+     "printed_page": 63,
+     "book": "math1",
+     "lesson_no": 16,
+     "lesson_name": "Lít",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 65,
+     "printed_page": 64,
+     "book": "math1",
+     "lesson_no": 16,
+     "lesson_name": "Lít",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 66,
+     "printed_page": 65,
+     "book": "math1",
+     "lesson_no": 16,
+     "lesson_name": "Lít",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 67,
+     "printed_page": 66,
+     "book": "math1",
+     "lesson_no": 17,
+     "lesson_name": "Thực hành và trải nghiệm với các đơn vị ki-lô-gam, lít",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 68,
+     "printed_page": 67,
+     "book": "math1",
+     "lesson_no": 17,
+     "lesson_name": "Thực hành và trải nghiệm với các đơn vị ki-lô-gam, lít",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 69,
+     "printed_page": 68,
+     "book": "math1",
+     "lesson_no": 17,
+     "lesson_name": "Thực hành và trải nghiệm với các đơn vị ki-lô-gam, lít",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 70,
+     "printed_page": 69,
+     "book": "math1",
+     "lesson_no": 17,
+     "lesson_name": "Thực hành và trải nghiệm với các đơn vị ki-lô-gam, lít",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 71,
+     "printed_page": 70,
+     "book": "math1",
+     "lesson_no": 18,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 72,
+     "printed_page": 71,
+     "book": "math1",
+     "lesson_no": 18,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 73,
+     "printed_page": 72,
+     "book": "math1",
+     "lesson_no": 19,
+     "lesson_name": "Phép cộng (có nhớ) số có hai chữ số với số có một chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 74,
+     "printed_page": 73,
+     "book": "math1",
+     "lesson_no": 19,
+     "lesson_name": "Phép cộng (có nhớ) số có hai chữ số với số có một chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 75,
+     "printed_page": 74,
+     "book": "math1",
+     "lesson_no": 19,
+     "lesson_name": "Phép cộng (có nhớ) số có hai chữ số với số có một chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 76,
+     "printed_page": 75,
+     "book": "math1",
+     "lesson_no": 19,
+     "lesson_name": "Phép cộng (có nhớ) số có hai chữ số với số có một chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 77,
+     "printed_page": 76,
+     "book": "math1",
+     "lesson_no": 20,
+     "lesson_name": "Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 78,
+     "printed_page": 77,
+     "book": "math1",
+     "lesson_no": 20,
+     "lesson_name": "Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 79,
+     "printed_page": 78,
+     "book": "math1",
+     "lesson_no": 20,
+     "lesson_name": "Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 80,
+     "printed_page": 79,
+     "book": "math1",
+     "lesson_no": 20,
+     "lesson_name": "Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 81,
+     "printed_page": 80,
+     "book": "math1",
+     "lesson_no": 21,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 82,
+     "printed_page": 81,
+     "book": "math1",
+     "lesson_no": 21,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 83,
+     "printed_page": 82,
+     "book": "math1",
+     "lesson_no": 21,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 84,
+     "printed_page": 83,
+     "book": "math1",
+     "lesson_no": 22,
+     "lesson_name": "Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 85,
+     "printed_page": 84,
+     "book": "math1",
+     "lesson_no": 22,
+     "lesson_name": "Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 86,
+     "printed_page": 85,
+     "book": "math1",
+     "lesson_no": 22,
+     "lesson_name": "Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 87,
+     "printed_page": 86,
+     "book": "math1",
+     "lesson_no": 22,
+     "lesson_name": "Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 88,
+     "printed_page": 87,
+     "book": "math1",
+     "lesson_no": 22,
+     "lesson_name": "Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 89,
+     "printed_page": 88,
+     "book": "math1",
+     "lesson_no": 22,
+     "lesson_name": "Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 90,
+     "printed_page": 89,
+     "book": "math1",
+     "lesson_no": 23,
+     "lesson_name": "Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 91,
+     "printed_page": 90,
+     "book": "math1",
+     "lesson_no": 23,
+     "lesson_name": "Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 92,
+     "printed_page": 91,
+     "book": "math1",
+     "lesson_no": 23,
+     "lesson_name": "Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 93,
+     "printed_page": 92,
+     "book": "math1",
+     "lesson_no": 23,
+     "lesson_name": "Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 94,
+     "printed_page": 93,
+     "book": "math1",
+     "lesson_no": 23,
+     "lesson_name": "Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 95,
+     "printed_page": 94,
+     "book": "math1",
+     "lesson_no": 23,
+     "lesson_name": "Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 96,
+     "printed_page": 95,
+     "book": "math1",
+     "lesson_no": 24,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 97,
+     "printed_page": 96,
+     "book": "math1",
+     "lesson_no": 24,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 98,
+     "printed_page": 97,
+     "book": "math1",
+     "lesson_no": 24,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 99,
+     "printed_page": 98,
+     "book": "math1",
+     "lesson_no": 25,
+     "lesson_name": "Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 100,
+     "printed_page": 99,
+     "book": "math1",
+     "lesson_no": 25,
+     "lesson_name": "Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 101,
+     "printed_page": 100,
+     "book": "math1",
+     "lesson_no": 25,
+     "lesson_name": "Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 102,
+     "printed_page": 101,
+     "book": "math1",
+     "lesson_no": 25,
+     "lesson_name": "Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 103,
+     "printed_page": 102,
+     "book": "math1",
+     "lesson_no": 26,
+     "lesson_name": "Đường gấp khúc. Hình tứ giác",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 104,
+     "printed_page": 103,
+     "book": "math1",
+     "lesson_no": 26,
+     "lesson_name": "Đường gấp khúc. Hình tứ giác",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 105,
+     "printed_page": 104,
+     "book": "math1",
+     "lesson_no": 26,
+     "lesson_name": "Đường gấp khúc. Hình tứ giác",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 106,
+     "printed_page": 105,
+     "book": "math1",
+     "lesson_no": 26,
+     "lesson_name": "Đường gấp khúc. Hình tứ giác",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 107,
+     "printed_page": 106,
+     "book": "math1",
+     "lesson_no": 27,
+     "lesson_name": "Thực hành gấp, cắt, ghép, xếp hình. Vẽ đoạn thẳng",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 108,
+     "printed_page": 107,
+     "book": "math1",
+     "lesson_no": 27,
+     "lesson_name": "Thực hành gấp, cắt, ghép, xếp hình. Vẽ đoạn thẳng",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 109,
+     "printed_page": 108,
+     "book": "math1",
+     "lesson_no": 27,
+     "lesson_name": "Thực hành gấp, cắt, ghép, xếp hình. Vẽ đoạn thẳng",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 110,
+     "printed_page": 109,
+     "book": "math1",
+     "lesson_no": 27,
+     "lesson_name": "Thực hành gấp, cắt, ghép, xếp hình. Vẽ đoạn thẳng",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 111,
+     "printed_page": 110,
+     "book": "math1",
+     "lesson_no": 28,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 112,
+     "printed_page": 111,
+     "book": "math1",
+     "lesson_no": 28,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 113,
+     "printed_page": 112,
+     "book": "math1",
+     "lesson_no": 29,
+     "lesson_name": "Ngày – giờ, giờ – phút",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 114,
+     "printed_page": 113,
+     "book": "math1",
+     "lesson_no": 29,
+     "lesson_name": "Ngày – giờ, giờ – phút",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 115,
+     "printed_page": 114,
+     "book": "math1",
+     "lesson_no": 29,
+     "lesson_name": "Ngày – giờ, giờ – phút",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 116,
+     "printed_page": 115,
+     "book": "math1",
+     "lesson_no": 29,
+     "lesson_name": "Ngày – giờ, giờ – phút",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 117,
+     "printed_page": 116,
+     "book": "math1",
+     "lesson_no": 30,
+     "lesson_name": "Ngày – tháng",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 118,
+     "printed_page": 117,
+     "book": "math1",
+     "lesson_no": 30,
+     "lesson_name": "Ngày – tháng",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 119,
+     "printed_page": 118,
+     "book": "math1",
+     "lesson_no": 30,
+     "lesson_name": "Ngày – tháng",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 120,
+     "printed_page": 119,
+     "book": "math1",
+     "lesson_no": 31,
+     "lesson_name": "Thực hành và trải nghiệm xem đồng hồ, xem lịch",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 121,
+     "printed_page": 120,
+     "book": "math1",
+     "lesson_no": 31,
+     "lesson_name": "Thực hành và trải nghiệm xem đồng hồ, xem lịch",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 122,
+     "printed_page": 121,
+     "book": "math1",
+     "lesson_no": 31,
+     "lesson_name": "Thực hành và trải nghiệm xem đồng hồ, xem lịch",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 123,
+     "printed_page": 122,
+     "book": "math1",
+     "lesson_no": 32,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 124,
+     "printed_page": 123,
+     "book": "math1",
+     "lesson_no": 32,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 125,
+     "printed_page": 124,
+     "book": "math1",
+     "lesson_no": 33,
+     "lesson_name": "Ôn tập phép cộng, phép trừ trong phạm vi 20, 100",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 126,
+     "printed_page": 125,
+     "book": "math1",
+     "lesson_no": 33,
+     "lesson_name": "Ôn tập phép cộng, phép trừ trong phạm vi 20, 100",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 127,
+     "printed_page": 126,
+     "book": "math1",
+     "lesson_no": 33,
+     "lesson_name": "Ôn tập phép cộng, phép trừ trong phạm vi 20, 100",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 128,
+     "printed_page": 127,
+     "book": "math1",
+     "lesson_no": 33,
+     "lesson_name": "Ôn tập phép cộng, phép trừ trong phạm vi 20, 100",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 129,
+     "printed_page": 128,
+     "book": "math1",
+     "lesson_no": 33,
+     "lesson_name": "Ôn tập phép cộng, phép trừ trong phạm vi 20, 100",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 130,
+     "printed_page": 129,
+     "book": "math1",
+     "lesson_no": 34,
+     "lesson_name": "Ôn tập hình phẳng",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 131,
+     "printed_page": 130,
+     "book": "math1",
+     "lesson_no": 34,
+     "lesson_name": "Ôn tập hình phẳng",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 132,
+     "printed_page": 131,
+     "book": "math1",
+     "lesson_no": 34,
+     "lesson_name": "Ôn tập hình phẳng",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 133,
+     "printed_page": 132,
+     "book": "math1",
+     "lesson_no": 35,
+     "lesson_name": "Ôn tập đo lường",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 134,
+     "printed_page": 133,
+     "book": "math1",
+     "lesson_no": 35,
+     "lesson_name": "Ôn tập đo lường",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 135,
+     "printed_page": 134,
+     "book": "math1",
+     "lesson_no": 35,
+     "lesson_name": "Ôn tập đo lường",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 136,
+     "printed_page": 135,
+     "book": "math1",
+     "lesson_no": 36,
+     "lesson_name": "Ôn tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 137,
+     "printed_page": 136,
+     "book": "math1",
+     "lesson_no": 36,
+     "lesson_name": "Ôn tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 138,
+     "printed_page": 137,
+     "book": "math1",
+     "lesson_no": 36,
+     "lesson_name": "Ôn tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 139,
+     "printed_page": 138,
+     "book": "math1",
+     "lesson_no": null,
+     "lesson_name": null,
+     "type": "back_matter",
+     "note": "Thuật ngữ dùng trong sách, bìa sau",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 140,
+     "printed_page": 139,
+     "book": "math1",
+     "lesson_no": null,
+     "lesson_name": null,
+     "type": "back_matter",
+     "note": "Thuật ngữ dùng trong sách, bìa sau",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 141,
+     "printed_page": 140,
+     "book": "math1",
+     "lesson_no": null,
+     "lesson_name": null,
+     "type": "back_matter",
+     "note": "Thuật ngữ dùng trong sách, bìa sau",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 142,
+     "printed_page": 141,
+     "book": "math1",
+     "lesson_no": null,
+     "lesson_name": null,
+     "type": "back_matter",
+     "note": "",
+     "status": "VERIFIED"
+    }
+   ]
+  },
+  {
+   "book_id": "math2",
+   "name": "Toán 2 · Tập 2",
+   "pdf_pages": 142,
+   "printed_page_offset": "printed = pdf − 1",
+   "pages": [
+    {
+     "pdf_page": 1,
+     "printed_page": null,
+     "book": "math2",
+     "lesson_no": null,
+     "lesson_name": null,
+     "type": "front_matter",
+     "note": "Bìa, bản quyền, hướng dẫn sử dụng, mục lục",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 2,
+     "printed_page": 1,
+     "book": "math2",
+     "lesson_no": null,
+     "lesson_name": null,
+     "type": "front_matter",
+     "note": "Bìa, bản quyền, hướng dẫn sử dụng, mục lục",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 3,
+     "printed_page": 2,
+     "book": "math2",
+     "lesson_no": null,
+     "lesson_name": null,
+     "type": "front_matter",
+     "note": "Bìa, bản quyền, hướng dẫn sử dụng, mục lục",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 4,
+     "printed_page": 3,
+     "book": "math2",
+     "lesson_no": null,
+     "lesson_name": null,
+     "type": "front_matter",
+     "note": "Bìa, bản quyền, hướng dẫn sử dụng, mục lục",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 5,
+     "printed_page": 4,
+     "book": "math2",
+     "lesson_no": 37,
+     "lesson_name": "Phép nhân",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 6,
+     "printed_page": 5,
+     "book": "math2",
+     "lesson_no": 37,
+     "lesson_name": "Phép nhân",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 7,
+     "printed_page": 6,
+     "book": "math2",
+     "lesson_no": 37,
+     "lesson_name": "Phép nhân",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 8,
+     "printed_page": 7,
+     "book": "math2",
+     "lesson_no": 38,
+     "lesson_name": "Thừa số, tích",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 9,
+     "printed_page": 8,
+     "book": "math2",
+     "lesson_no": 38,
+     "lesson_name": "Thừa số, tích",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 10,
+     "printed_page": 9,
+     "book": "math2",
+     "lesson_no": 39,
+     "lesson_name": "Bảng nhân 2",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 11,
+     "printed_page": 10,
+     "book": "math2",
+     "lesson_no": 39,
+     "lesson_name": "Bảng nhân 2",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 12,
+     "printed_page": 11,
+     "book": "math2",
+     "lesson_no": 39,
+     "lesson_name": "Bảng nhân 2",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 13,
+     "printed_page": 12,
+     "book": "math2",
+     "lesson_no": 40,
+     "lesson_name": "Bảng nhân 5",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 14,
+     "printed_page": 13,
+     "book": "math2",
+     "lesson_no": 40,
+     "lesson_name": "Bảng nhân 5",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 15,
+     "printed_page": 14,
+     "book": "math2",
+     "lesson_no": 40,
+     "lesson_name": "Bảng nhân 5",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 16,
+     "printed_page": 15,
+     "book": "math2",
+     "lesson_no": 41,
+     "lesson_name": "Phép chia",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 17,
+     "printed_page": 16,
+     "book": "math2",
+     "lesson_no": 41,
+     "lesson_name": "Phép chia",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 18,
+     "printed_page": 17,
+     "book": "math2",
+     "lesson_no": 41,
+     "lesson_name": "Phép chia",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 19,
+     "printed_page": 18,
+     "book": "math2",
+     "lesson_no": 42,
+     "lesson_name": "Số bị chia, số chia, thương",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 20,
+     "printed_page": 19,
+     "book": "math2",
+     "lesson_no": 42,
+     "lesson_name": "Số bị chia, số chia, thương",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 21,
+     "printed_page": 20,
+     "book": "math2",
+     "lesson_no": 42,
+     "lesson_name": "Số bị chia, số chia, thương",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 22,
+     "printed_page": 21,
+     "book": "math2",
+     "lesson_no": 43,
+     "lesson_name": "Bảng chia 2",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 23,
+     "printed_page": 22,
+     "book": "math2",
+     "lesson_no": 43,
+     "lesson_name": "Bảng chia 2",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 24,
+     "printed_page": 23,
+     "book": "math2",
+     "lesson_no": 43,
+     "lesson_name": "Bảng chia 2",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 25,
+     "printed_page": 24,
+     "book": "math2",
+     "lesson_no": 44,
+     "lesson_name": "Bảng chia 5",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 26,
+     "printed_page": 25,
+     "book": "math2",
+     "lesson_no": 44,
+     "lesson_name": "Bảng chia 5",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 27,
+     "printed_page": 26,
+     "book": "math2",
+     "lesson_no": 44,
+     "lesson_name": "Bảng chia 5",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 28,
+     "printed_page": 27,
+     "book": "math2",
+     "lesson_no": 45,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 29,
+     "printed_page": 28,
+     "book": "math2",
+     "lesson_no": 45,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 30,
+     "printed_page": 29,
+     "book": "math2",
+     "lesson_no": 45,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 31,
+     "printed_page": 30,
+     "book": "math2",
+     "lesson_no": 45,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 32,
+     "printed_page": 31,
+     "book": "math2",
+     "lesson_no": 45,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 33,
+     "printed_page": 32,
+     "book": "math2",
+     "lesson_no": 45,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 34,
+     "printed_page": 33,
+     "book": "math2",
+     "lesson_no": 45,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 35,
+     "printed_page": 34,
+     "book": "math2",
+     "lesson_no": 46,
+     "lesson_name": "Khối trụ, khối cầu",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 36,
+     "printed_page": 35,
+     "book": "math2",
+     "lesson_no": 46,
+     "lesson_name": "Khối trụ, khối cầu",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 37,
+     "printed_page": 36,
+     "book": "math2",
+     "lesson_no": 46,
+     "lesson_name": "Khối trụ, khối cầu",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 38,
+     "printed_page": 37,
+     "book": "math2",
+     "lesson_no": 47,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 39,
+     "printed_page": 38,
+     "book": "math2",
+     "lesson_no": 47,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 40,
+     "printed_page": 39,
+     "book": "math2",
+     "lesson_no": 47,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 41,
+     "printed_page": 40,
+     "book": "math2",
+     "lesson_no": 48,
+     "lesson_name": "Đơn vị, chục, trăm, nghìn",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 42,
+     "printed_page": 41,
+     "book": "math2",
+     "lesson_no": 48,
+     "lesson_name": "Đơn vị, chục, trăm, nghìn",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 43,
+     "printed_page": 42,
+     "book": "math2",
+     "lesson_no": 48,
+     "lesson_name": "Đơn vị, chục, trăm, nghìn",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 44,
+     "printed_page": 43,
+     "book": "math2",
+     "lesson_no": 49,
+     "lesson_name": "Các số tròn trăm, tròn chục",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 45,
+     "printed_page": 44,
+     "book": "math2",
+     "lesson_no": 49,
+     "lesson_name": "Các số tròn trăm, tròn chục",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 46,
+     "printed_page": 45,
+     "book": "math2",
+     "lesson_no": 49,
+     "lesson_name": "Các số tròn trăm, tròn chục",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 47,
+     "printed_page": 46,
+     "book": "math2",
+     "lesson_no": 49,
+     "lesson_name": "Các số tròn trăm, tròn chục",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 48,
+     "printed_page": 47,
+     "book": "math2",
+     "lesson_no": 50,
+     "lesson_name": "So sánh các số tròn trăm, tròn chục",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 49,
+     "printed_page": 48,
+     "book": "math2",
+     "lesson_no": 50,
+     "lesson_name": "So sánh các số tròn trăm, tròn chục",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 50,
+     "printed_page": 49,
+     "book": "math2",
+     "lesson_no": 50,
+     "lesson_name": "So sánh các số tròn trăm, tròn chục",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 51,
+     "printed_page": 50,
+     "book": "math2",
+     "lesson_no": 51,
+     "lesson_name": "Số có ba chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 52,
+     "printed_page": 51,
+     "book": "math2",
+     "lesson_no": 51,
+     "lesson_name": "Số có ba chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 53,
+     "printed_page": 52,
+     "book": "math2",
+     "lesson_no": 51,
+     "lesson_name": "Số có ba chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 54,
+     "printed_page": 53,
+     "book": "math2",
+     "lesson_no": 51,
+     "lesson_name": "Số có ba chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 55,
+     "printed_page": 54,
+     "book": "math2",
+     "lesson_no": 51,
+     "lesson_name": "Số có ba chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 56,
+     "printed_page": 55,
+     "book": "math2",
+     "lesson_no": 52,
+     "lesson_name": "Viết số thành tổng các trăm, chục, đơn vị",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 57,
+     "printed_page": 56,
+     "book": "math2",
+     "lesson_no": 52,
+     "lesson_name": "Viết số thành tổng các trăm, chục, đơn vị",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 58,
+     "printed_page": 57,
+     "book": "math2",
+     "lesson_no": 52,
+     "lesson_name": "Viết số thành tổng các trăm, chục, đơn vị",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 59,
+     "printed_page": 58,
+     "book": "math2",
+     "lesson_no": 53,
+     "lesson_name": "So sánh các số có ba chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 60,
+     "printed_page": 59,
+     "book": "math2",
+     "lesson_no": 53,
+     "lesson_name": "So sánh các số có ba chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 61,
+     "printed_page": 60,
+     "book": "math2",
+     "lesson_no": 53,
+     "lesson_name": "So sánh các số có ba chữ số",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 62,
+     "printed_page": 61,
+     "book": "math2",
+     "lesson_no": 54,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 63,
+     "printed_page": 62,
+     "book": "math2",
+     "lesson_no": 54,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 64,
+     "printed_page": 63,
+     "book": "math2",
+     "lesson_no": 54,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 65,
+     "printed_page": 64,
+     "book": "math2",
+     "lesson_no": 54,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 66,
+     "printed_page": 65,
+     "book": "math2",
+     "lesson_no": 55,
+     "lesson_name": "Đề-xi-mét. Mét. Ki-lô-mét",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 67,
+     "printed_page": 66,
+     "book": "math2",
+     "lesson_no": 55,
+     "lesson_name": "Đề-xi-mét. Mét. Ki-lô-mét",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 68,
+     "printed_page": 67,
+     "book": "math2",
+     "lesson_no": 55,
+     "lesson_name": "Đề-xi-mét. Mét. Ki-lô-mét",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 69,
+     "printed_page": 68,
+     "book": "math2",
+     "lesson_no": 55,
+     "lesson_name": "Đề-xi-mét. Mét. Ki-lô-mét",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 70,
+     "printed_page": 69,
+     "book": "math2",
+     "lesson_no": 55,
+     "lesson_name": "Đề-xi-mét. Mét. Ki-lô-mét",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 71,
+     "printed_page": 70,
+     "book": "math2",
+     "lesson_no": 55,
+     "lesson_name": "Đề-xi-mét. Mét. Ki-lô-mét",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 72,
+     "printed_page": 71,
+     "book": "math2",
+     "lesson_no": 56,
+     "lesson_name": "Giới thiệu tiền Việt Nam",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 73,
+     "printed_page": 72,
+     "book": "math2",
+     "lesson_no": 56,
+     "lesson_name": "Giới thiệu tiền Việt Nam",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 74,
+     "printed_page": 73,
+     "book": "math2",
+     "lesson_no": 57,
+     "lesson_name": "Thực hành và trải nghiệm đo độ dài",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 75,
+     "printed_page": 74,
+     "book": "math2",
+     "lesson_no": 57,
+     "lesson_name": "Thực hành và trải nghiệm đo độ dài",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 76,
+     "printed_page": 75,
+     "book": "math2",
+     "lesson_no": 58,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 77,
+     "printed_page": 76,
+     "book": "math2",
+     "lesson_no": 58,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 78,
+     "printed_page": 77,
+     "book": "math2",
+     "lesson_no": 58,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 79,
+     "printed_page": 78,
+     "book": "math2",
+     "lesson_no": 58,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 80,
+     "printed_page": 79,
+     "book": "math2",
+     "lesson_no": 59,
+     "lesson_name": "Phép cộng (không nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 81,
+     "printed_page": 80,
+     "book": "math2",
+     "lesson_no": 59,
+     "lesson_name": "Phép cộng (không nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 82,
+     "printed_page": 81,
+     "book": "math2",
+     "lesson_no": 59,
+     "lesson_name": "Phép cộng (không nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 83,
+     "printed_page": 82,
+     "book": "math2",
+     "lesson_no": 59,
+     "lesson_name": "Phép cộng (không nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 84,
+     "printed_page": 83,
+     "book": "math2",
+     "lesson_no": 60,
+     "lesson_name": "Phép cộng (có nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 85,
+     "printed_page": 84,
+     "book": "math2",
+     "lesson_no": 60,
+     "lesson_name": "Phép cộng (có nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 86,
+     "printed_page": 85,
+     "book": "math2",
+     "lesson_no": 60,
+     "lesson_name": "Phép cộng (có nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 87,
+     "printed_page": 86,
+     "book": "math2",
+     "lesson_no": 60,
+     "lesson_name": "Phép cộng (có nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 88,
+     "printed_page": 87,
+     "book": "math2",
+     "lesson_no": 61,
+     "lesson_name": "Phép trừ (không nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 89,
+     "printed_page": 88,
+     "book": "math2",
+     "lesson_no": 61,
+     "lesson_name": "Phép trừ (không nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 90,
+     "printed_page": 89,
+     "book": "math2",
+     "lesson_no": 61,
+     "lesson_name": "Phép trừ (không nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 91,
+     "printed_page": 90,
+     "book": "math2",
+     "lesson_no": 61,
+     "lesson_name": "Phép trừ (không nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 92,
+     "printed_page": 91,
+     "book": "math2",
+     "lesson_no": 62,
+     "lesson_name": "Phép trừ (có nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 93,
+     "printed_page": 92,
+     "book": "math2",
+     "lesson_no": 62,
+     "lesson_name": "Phép trừ (có nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 94,
+     "printed_page": 93,
+     "book": "math2",
+     "lesson_no": 62,
+     "lesson_name": "Phép trừ (có nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 95,
+     "printed_page": 94,
+     "book": "math2",
+     "lesson_no": 62,
+     "lesson_name": "Phép trừ (có nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 96,
+     "printed_page": 95,
+     "book": "math2",
+     "lesson_no": 62,
+     "lesson_name": "Phép trừ (có nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 97,
+     "printed_page": 96,
+     "book": "math2",
+     "lesson_no": 62,
+     "lesson_name": "Phép trừ (có nhớ) trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 98,
+     "printed_page": 97,
+     "book": "math2",
+     "lesson_no": 63,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 99,
+     "printed_page": 98,
+     "book": "math2",
+     "lesson_no": 63,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 100,
+     "printed_page": 99,
+     "book": "math2",
+     "lesson_no": 63,
+     "lesson_name": "Luyện tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 101,
+     "printed_page": 100,
+     "book": "math2",
+     "lesson_no": 64,
+     "lesson_name": "Thu thập, phân loại, kiểm đếm số liệu",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 102,
+     "printed_page": 101,
+     "book": "math2",
+     "lesson_no": 64,
+     "lesson_name": "Thu thập, phân loại, kiểm đếm số liệu",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 103,
+     "printed_page": 102,
+     "book": "math2",
+     "lesson_no": 65,
+     "lesson_name": "Biểu đồ tranh",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 104,
+     "printed_page": 103,
+     "book": "math2",
+     "lesson_no": 65,
+     "lesson_name": "Biểu đồ tranh",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 105,
+     "printed_page": 104,
+     "book": "math2",
+     "lesson_no": 65,
+     "lesson_name": "Biểu đồ tranh",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 106,
+     "printed_page": 105,
+     "book": "math2",
+     "lesson_no": 65,
+     "lesson_name": "Biểu đồ tranh",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 107,
+     "printed_page": 106,
+     "book": "math2",
+     "lesson_no": 66,
+     "lesson_name": "Chắc chắn, có thể, không thể",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 108,
+     "printed_page": 107,
+     "book": "math2",
+     "lesson_no": 66,
+     "lesson_name": "Chắc chắn, có thể, không thể",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 109,
+     "printed_page": 108,
+     "book": "math2",
+     "lesson_no": 67,
+     "lesson_name": "Thực hành và trải nghiệm thu thập, phân loại, kiểm đếm",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 110,
+     "printed_page": 109,
+     "book": "math2",
+     "lesson_no": 67,
+     "lesson_name": "Thực hành và trải nghiệm thu thập, phân loại, kiểm đếm",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 111,
+     "printed_page": 110,
+     "book": "math2",
+     "lesson_no": 68,
+     "lesson_name": "Ôn tập các số trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 112,
+     "printed_page": 111,
+     "book": "math2",
+     "lesson_no": 68,
+     "lesson_name": "Ôn tập các số trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 113,
+     "printed_page": 112,
+     "book": "math2",
+     "lesson_no": 68,
+     "lesson_name": "Ôn tập các số trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 114,
+     "printed_page": 113,
+     "book": "math2",
+     "lesson_no": 69,
+     "lesson_name": "Ôn tập phép cộng, phép trừ trong phạm vi 100",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 115,
+     "printed_page": 114,
+     "book": "math2",
+     "lesson_no": 69,
+     "lesson_name": "Ôn tập phép cộng, phép trừ trong phạm vi 100",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 116,
+     "printed_page": 115,
+     "book": "math2",
+     "lesson_no": 69,
+     "lesson_name": "Ôn tập phép cộng, phép trừ trong phạm vi 100",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 117,
+     "printed_page": 116,
+     "book": "math2",
+     "lesson_no": 69,
+     "lesson_name": "Ôn tập phép cộng, phép trừ trong phạm vi 100",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 118,
+     "printed_page": 117,
+     "book": "math2",
+     "lesson_no": 70,
+     "lesson_name": "Ôn tập phép cộng, phép trừ trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 119,
+     "printed_page": 118,
+     "book": "math2",
+     "lesson_no": 70,
+     "lesson_name": "Ôn tập phép cộng, phép trừ trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 120,
+     "printed_page": 119,
+     "book": "math2",
+     "lesson_no": 70,
+     "lesson_name": "Ôn tập phép cộng, phép trừ trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 121,
+     "printed_page": 120,
+     "book": "math2",
+     "lesson_no": 70,
+     "lesson_name": "Ôn tập phép cộng, phép trừ trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 122,
+     "printed_page": 121,
+     "book": "math2",
+     "lesson_no": 70,
+     "lesson_name": "Ôn tập phép cộng, phép trừ trong phạm vi 1000",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 123,
+     "printed_page": 122,
+     "book": "math2",
+     "lesson_no": 71,
+     "lesson_name": "Ôn tập phép nhân, phép chia",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 124,
+     "printed_page": 123,
+     "book": "math2",
+     "lesson_no": 71,
+     "lesson_name": "Ôn tập phép nhân, phép chia",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 125,
+     "printed_page": 124,
+     "book": "math2",
+     "lesson_no": 71,
+     "lesson_name": "Ôn tập phép nhân, phép chia",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 126,
+     "printed_page": 125,
+     "book": "math2",
+     "lesson_no": 71,
+     "lesson_name": "Ôn tập phép nhân, phép chia",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 127,
+     "printed_page": 126,
+     "book": "math2",
+     "lesson_no": 71,
+     "lesson_name": "Ôn tập phép nhân, phép chia",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 128,
+     "printed_page": 127,
+     "book": "math2",
+     "lesson_no": 72,
+     "lesson_name": "Ôn tập hình học",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 129,
+     "printed_page": 128,
+     "book": "math2",
+     "lesson_no": 72,
+     "lesson_name": "Ôn tập hình học",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 130,
+     "printed_page": 129,
+     "book": "math2",
+     "lesson_no": 72,
+     "lesson_name": "Ôn tập hình học",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 131,
+     "printed_page": 130,
+     "book": "math2",
+     "lesson_no": 72,
+     "lesson_name": "Ôn tập hình học",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 132,
+     "printed_page": 131,
+     "book": "math2",
+     "lesson_no": 73,
+     "lesson_name": "Ôn tập đo lường",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 133,
+     "printed_page": 132,
+     "book": "math2",
+     "lesson_no": 73,
+     "lesson_name": "Ôn tập đo lường",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 134,
+     "printed_page": 133,
+     "book": "math2",
+     "lesson_no": 73,
+     "lesson_name": "Ôn tập đo lường",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 135,
+     "printed_page": 134,
+     "book": "math2",
+     "lesson_no": 74,
+     "lesson_name": "Ôn tập kiểm đếm số liệu và lựa chọn khả năng",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 136,
+     "printed_page": 135,
+     "book": "math2",
+     "lesson_no": 74,
+     "lesson_name": "Ôn tập kiểm đếm số liệu và lựa chọn khả năng",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 137,
+     "printed_page": 136,
+     "book": "math2",
+     "lesson_no": 75,
+     "lesson_name": "Ôn tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 138,
+     "printed_page": 137,
+     "book": "math2",
+     "lesson_no": 75,
+     "lesson_name": "Ôn tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 139,
+     "printed_page": 138,
+     "book": "math2",
+     "lesson_no": 75,
+     "lesson_name": "Ôn tập chung",
+     "type": "lesson",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 140,
+     "printed_page": 139,
+     "book": "math2",
+     "lesson_no": null,
+     "lesson_name": null,
+     "type": "back_matter",
+     "note": "Thuật ngữ dùng trong sách, bìa sau",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 141,
+     "printed_page": 140,
+     "book": "math2",
+     "lesson_no": null,
+     "lesson_name": null,
+     "type": "back_matter",
+     "note": "Thuật ngữ dùng trong sách, bìa sau",
+     "status": "VERIFIED"
+    },
+    {
+     "pdf_page": 142,
+     "printed_page": 141,
+     "book": "math2",
+     "lesson_no": null,
+     "lesson_name": null,
+     "type": "back_matter",
+     "note": "Thuật ngữ dùng trong sách, bìa sau",
+     "status": "VERIFIED"
+    }
+   ]
+  }
+ ]
+}

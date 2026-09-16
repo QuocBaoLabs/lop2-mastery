@@ -1,0 +1,7 @@
+_models/
+.venv/
+_tools/ocr_raw/
+_tools/*.png
+site/.DS_Store
+_tools/logs/
+_tools/*.jpg

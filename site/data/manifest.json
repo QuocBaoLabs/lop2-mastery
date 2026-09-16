@@ -1,0 +1,167 @@
+{
+ "files": [
+  {
+   "path": "data/curriculum/math.json",
+   "size": 38796
+  },
+  {
+   "path": "data/curriculum/math_draft_t1.json",
+   "size": 18556
+  },
+  {
+   "path": "data/curriculum/math_draft_t2.json",
+   "size": 20580
+  },
+  {
+   "path": "data/curriculum/vietnamese.json",
+   "size": 73101
+  },
+  {
+   "path": "data/skills/all_skills.json",
+   "size": 195496
+  },
+  {
+   "path": "data/skills/core_20_percent.json",
+   "size": 5981
+  },
+  {
+   "path": "data/skills/math_skills_t1.json",
+   "size": 27699
+  },
+  {
+   "path": "data/skills/math_skills_t1b.json",
+   "size": 26009
+  },
+  {
+   "path": "data/skills/math_skills_t2a.json",
+   "size": 21520
+  },
+  {
+   "path": "data/skills/math_skills_t2b.json",
+   "size": 21903
+  },
+  {
+   "path": "data/skills/prerequisites.json",
+   "size": 26622
+  },
+  {
+   "path": "data/skills/vietnamese_skills.json",
+   "size": 95825
+  },
+  {
+   "path": "data/exercises/generated_practice_examples.json",
+   "size": 28872
+  },
+  {
+   "path": "data/exercises/math_exercise_types.json",
+   "size": 58032
+  },
+  {
+   "path": "data/exercises/vietnamese_exercise_types.json",
+   "size": 65571
+  },
+  {
+   "path": "data/assessment/diagnostic_math.json",
+   "size": 10481
+  },
+  {
+   "path": "data/assessment/diagnostic_vietnamese.json",
+   "size": 9210
+  },
+  {
+   "path": "data/assessment/final_math.json",
+   "size": 12628
+  },
+  {
+   "path": "data/assessment/final_vietnamese.json",
+   "size": 12942
+  },
+  {
+   "path": "data/rules/error_taxonomy.json",
+   "size": 9361
+  },
+  {
+   "path": "data/rules/fast_track_rules.json",
+   "size": 1828
+  },
+  {
+   "path": "data/rules/mastery_rules.json",
+   "size": 2519
+  },
+  {
+   "path": "data/rules/recommendation_rules.json",
+   "size": 2292
+  },
+  {
+   "path": "data/rules/risk_score_rules.json",
+   "size": 1582
+  },
+  {
+   "path": "data/rules/spaced_repetition_rules.json",
+   "size": 1983
+  },
+  {
+   "path": "data/source_map/math_source_map.json",
+   "size": 64402
+  },
+  {
+   "path": "data/source_map/vietnamese_source_map.json",
+   "size": 62722
+  }
+ ],
+ "docs": [
+  {
+   "label": "README — START HERE FOR CODEX",
+   "path": "data/docs/README.md"
+  },
+  {
+   "label": "Tổng quan chương trình",
+   "path": "data/docs/CURRICULUM_OVERVIEW.md"
+  },
+  {
+   "label": "Product Spec",
+   "path": "data/docs/PRODUCT_SPEC.md"
+  },
+  {
+   "label": "Dashboard Spec",
+   "path": "data/docs/DASHBOARD_SPEC.md"
+  },
+  {
+   "label": "Mastery Model",
+   "path": "data/docs/MASTERY_MODEL.md"
+  },
+  {
+   "label": "Spaced Repetition",
+   "path": "data/docs/SPACED_REPETITION.md"
+  },
+  {
+   "label": "Fast Track",
+   "path": "data/docs/FAST_TRACK.md"
+  },
+  {
+   "label": "Phân tích 80/20",
+   "path": "data/docs/80_20_ANALYSIS.md"
+  },
+  {
+   "label": "MUST MASTER",
+   "path": "data/docs/MUST_MASTER.md"
+  },
+  {
+   "label": "Learning Engine",
+   "path": "data/docs/LEARNING_ENGINE.md"
+  },
+  {
+   "label": "Error Model",
+   "path": "data/docs/ERROR_MODEL.md"
+  },
+  {
+   "label": "Database Schema",
+   "path": "data/docs/database_schema.md"
+  },
+  {
+   "label": "Audit Report",
+   "path": "data/docs/AUDIT_REPORT.md"
+  }
+ ],
+ "generated": "build_site.py"
+}

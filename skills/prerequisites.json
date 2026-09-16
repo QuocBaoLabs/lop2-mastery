@@ -1,0 +1,1053 @@
+{
+  "schema_version": "1.0",
+  "description": "Knowledge graph: prerequisite_skill_ids + dependent_skill_ids (đảo ngược tự động).",
+  "total": 118,
+  "skills": [
+    {
+      "skill_id": "MATH_NUM_PLACE_VALUE_001",
+      "prerequisite_skill_ids": [],
+      "dependent_skill_ids": [
+        "MATH_NUM_READ_WRITE_001",
+        "MATH_NUM_COMPARE_100_001",
+        "MATH_ADD_NO_CARRY_100_001",
+        "MATH_SUB_NO_BORROW_100_001",
+        "MATH_ADD_BRIDGE10_001",
+        "MATH_SUB_BRIDGE10_001",
+        "MATH_ADD_CARRY_100_001",
+        "MATH_SUB_BORROW_100_001",
+        "MATH_NUM_PLACE_VALUE_1000_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_NUM_READ_WRITE_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_NUM_NUMBER_LINE_001",
+        "MATH_TIME_CLOCK_001",
+        "MATH_TIME_CALENDAR_001",
+        "MATH_TIME_DAY_HOUR_001",
+        "MATH_STAT_COLLECT_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_NUM_COMPARE_100_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_WORD_PROBLEM_DIFF_001",
+        "MATH_MEASURE_MASS_001",
+        "MATH_MEASURE_CAPACITY_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_NUM_NUMBER_LINE_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_READ_WRITE_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_NUM_NEIGHBOR_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_NUM_NEIGHBOR_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_NUMBER_LINE_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_ADD_COMPONENTS_001",
+      "prerequisite_skill_ids": [
+        "MATH_ADD_NO_CARRY_100_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_SUB_COMPONENTS_001",
+      "prerequisite_skill_ids": [
+        "MATH_SUB_NO_BORROW_100_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_WORD_PROBLEM_DIFF_001",
+      "prerequisite_skill_ids": [
+        "MATH_SUB_NO_BORROW_100_001",
+        "MATH_NUM_COMPARE_100_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_ADD_NO_CARRY_100_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_ADD_COMPONENTS_001",
+        "MATH_ADD_BRIDGE10_001",
+        "MATH_ADD_NO_CARRY_1000_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_SUB_NO_BORROW_100_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_SUB_COMPONENTS_001",
+        "MATH_WORD_PROBLEM_DIFF_001",
+        "MATH_SUB_BRIDGE10_001",
+        "MATH_SUB_NO_BORROW_1000_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_ADD_BRIDGE10_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_PLACE_VALUE_001",
+        "MATH_ADD_NO_CARRY_100_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_ADD_FACTS_001",
+        "MATH_WORD_PROBLEM_ONE_STEP_001",
+        "MATH_ADD_BRIDGE10_002",
+        "MATH_ADD_CARRY_100_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_ADD_FACTS_001",
+      "prerequisite_skill_ids": [
+        "MATH_ADD_BRIDGE10_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_MULT_CONCEPT_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_WORD_PROBLEM_ONE_STEP_001",
+      "prerequisite_skill_ids": [
+        "MATH_ADD_BRIDGE10_001",
+        "MATH_SUB_BRIDGE10_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_WORD_PROBLEM_COMPARE_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_SUB_BRIDGE10_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_PLACE_VALUE_001",
+        "MATH_SUB_NO_BORROW_100_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_WORD_PROBLEM_ONE_STEP_001",
+        "MATH_SUB_FACTS_001",
+        "MATH_SUB_BRIDGE10_002",
+        "MATH_SUB_BORROW_100_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_SUB_FACTS_001",
+      "prerequisite_skill_ids": [
+        "MATH_SUB_BRIDGE10_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_ADD_BRIDGE10_002",
+      "prerequisite_skill_ids": [
+        "MATH_ADD_BRIDGE10_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_SUB_BRIDGE10_002",
+      "prerequisite_skill_ids": [
+        "MATH_SUB_BRIDGE10_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_WORD_PROBLEM_COMPARE_001",
+      "prerequisite_skill_ids": [
+        "MATH_WORD_PROBLEM_ONE_STEP_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_MEASURE_MASS_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_COMPARE_100_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_MEASURE_PRACTICE_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_MEASURE_CAPACITY_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_COMPARE_100_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_MEASURE_PRACTICE_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_MEASURE_PRACTICE_001",
+      "prerequisite_skill_ids": [
+        "MATH_MEASURE_MASS_001",
+        "MATH_MEASURE_CAPACITY_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_ADD_CARRY_100_001",
+      "prerequisite_skill_ids": [
+        "MATH_ADD_BRIDGE10_001",
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_ADD_CARRY_100_002"
+      ]
+    },
+    {
+      "skill_id": "MATH_ADD_CARRY_100_002",
+      "prerequisite_skill_ids": [
+        "MATH_ADD_CARRY_100_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_GEO_POLYLINE_001",
+        "MATH_ADD_CARRY_1000_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_SUB_BORROW_100_001",
+      "prerequisite_skill_ids": [
+        "MATH_SUB_BRIDGE10_001",
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_SUB_BORROW_100_002"
+      ]
+    },
+    {
+      "skill_id": "MATH_SUB_BORROW_100_002",
+      "prerequisite_skill_ids": [
+        "MATH_SUB_BORROW_100_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_SUB_BORROW_1000_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_GEO_POINT_LINE_001",
+      "prerequisite_skill_ids": [],
+      "dependent_skill_ids": [
+        "MATH_GEO_LINE_TYPES_001",
+        "MATH_GEO_POLYLINE_001",
+        "MATH_GEO_QUAD_001",
+        "MATH_GEO_PRACTICE_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_GEO_LINE_TYPES_001",
+      "prerequisite_skill_ids": [
+        "MATH_GEO_POINT_LINE_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_GEO_POLYLINE_001",
+      "prerequisite_skill_ids": [
+        "MATH_GEO_POINT_LINE_001",
+        "MATH_ADD_CARRY_100_002"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_GEO_QUAD_001",
+      "prerequisite_skill_ids": [
+        "MATH_GEO_POINT_LINE_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_GEO_PRACTICE_001",
+      "prerequisite_skill_ids": [
+        "MATH_GEO_POINT_LINE_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_TIME_CLOCK_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_READ_WRITE_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_TIME_PRACTICE_001",
+        "MATH_TIME_DAY_HOUR_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_TIME_CALENDAR_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_READ_WRITE_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_TIME_PRACTICE_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_TIME_PRACTICE_001",
+      "prerequisite_skill_ids": [
+        "MATH_TIME_CLOCK_001",
+        "MATH_TIME_CALENDAR_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_TIME_DAY_HOUR_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_READ_WRITE_001",
+        "MATH_TIME_CLOCK_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_MULT_CONCEPT_001",
+      "prerequisite_skill_ids": [
+        "MATH_ADD_FACTS_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_MULT_COMPONENTS_001",
+        "MATH_MULT_TABLE_2_001",
+        "MATH_MULT_TABLE_5_001",
+        "MATH_DIV_CONCEPT_001",
+        "MATH_MULT_FROM_ADD_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_MULT_COMPONENTS_001",
+      "prerequisite_skill_ids": [
+        "MATH_MULT_CONCEPT_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_MULT_TABLE_2_001",
+      "prerequisite_skill_ids": [
+        "MATH_MULT_CONCEPT_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_MULT_DIV_RELATION_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_MULT_TABLE_5_001",
+      "prerequisite_skill_ids": [
+        "MATH_MULT_CONCEPT_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_DIV_CONCEPT_001",
+      "prerequisite_skill_ids": [
+        "MATH_MULT_CONCEPT_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_DIV_COMPONENTS_001",
+        "MATH_DIV_TABLE_2_001",
+        "MATH_DIV_TABLE_5_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_DIV_COMPONENTS_001",
+      "prerequisite_skill_ids": [
+        "MATH_DIV_CONCEPT_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_DIV_TABLE_2_001",
+      "prerequisite_skill_ids": [
+        "MATH_DIV_CONCEPT_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_MULT_DIV_RELATION_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_DIV_TABLE_5_001",
+      "prerequisite_skill_ids": [
+        "MATH_DIV_CONCEPT_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_MULT_DIV_RELATION_001",
+      "prerequisite_skill_ids": [
+        "MATH_MULT_TABLE_2_001",
+        "MATH_DIV_TABLE_2_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_GEO3D_CYL_SPHERE_001",
+      "prerequisite_skill_ids": [],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_NUM_PLACE_VALUE_1000_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_PLACE_VALUE_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_NUM_ROUND_100_001",
+        "MATH_NUM_READ_WRITE_1000_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_NUM_ROUND_100_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_PLACE_VALUE_1000_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_NUM_COMPARE_ROUND_001",
+        "MATH_NUM_READ_WRITE_1000_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_NUM_COMPARE_ROUND_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_ROUND_100_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_NUM_COMPARE_1000_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_NUM_READ_WRITE_1000_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_PLACE_VALUE_1000_001",
+        "MATH_NUM_ROUND_100_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_NUM_COMPARE_1000_001",
+        "MATH_MEASURE_LENGTH_001",
+        "MATH_ADD_NO_CARRY_1000_001",
+        "MATH_SUB_NO_BORROW_1000_001",
+        "MATH_NUM_DECOMPOSE_1000_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_MULT_FROM_ADD_001",
+      "prerequisite_skill_ids": [
+        "MATH_MULT_CONCEPT_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_NUM_COMPARE_1000_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_COMPARE_ROUND_001",
+        "MATH_NUM_READ_WRITE_1000_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_MONEY_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_MEASURE_LENGTH_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_READ_WRITE_1000_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_MEASURE_LENGTH_002",
+        "MATH_MEASURE_LENGTH_PRACTICE_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_MEASURE_LENGTH_002",
+      "prerequisite_skill_ids": [
+        "MATH_MEASURE_LENGTH_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_MEASURE_LENGTH_PRACTICE_001",
+      "prerequisite_skill_ids": [
+        "MATH_MEASURE_LENGTH_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_MONEY_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_COMPARE_1000_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_ADD_NO_CARRY_1000_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_READ_WRITE_1000_001",
+        "MATH_ADD_NO_CARRY_100_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_ADD_CARRY_1000_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_SUB_NO_BORROW_1000_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_READ_WRITE_1000_001",
+        "MATH_SUB_NO_BORROW_100_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_SUB_BORROW_1000_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_ADD_CARRY_1000_001",
+      "prerequisite_skill_ids": [
+        "MATH_ADD_NO_CARRY_1000_001",
+        "MATH_ADD_CARRY_100_002"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_SUB_BORROW_1000_001",
+      "prerequisite_skill_ids": [
+        "MATH_SUB_NO_BORROW_1000_001",
+        "MATH_SUB_BORROW_100_002"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_STAT_COLLECT_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_READ_WRITE_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_STAT_SORT_COUNT_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_STAT_SORT_COUNT_001",
+      "prerequisite_skill_ids": [
+        "MATH_STAT_COLLECT_001"
+      ],
+      "dependent_skill_ids": [
+        "MATH_STAT_PICTOGRAPH_001",
+        "MATH_STAT_PRACTICE_001"
+      ]
+    },
+    {
+      "skill_id": "MATH_STAT_PICTOGRAPH_001",
+      "prerequisite_skill_ids": [
+        "MATH_STAT_SORT_COUNT_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_PROB_CERTAIN_001",
+      "prerequisite_skill_ids": [],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_STAT_PRACTICE_001",
+      "prerequisite_skill_ids": [
+        "MATH_STAT_SORT_COUNT_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "MATH_NUM_DECOMPOSE_1000_001",
+      "prerequisite_skill_ids": [
+        "MATH_NUM_READ_WRITE_1000_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_READ_WORD_001",
+      "prerequisite_skill_ids": [],
+      "dependent_skill_ids": [
+        "VIE_READ_FLUENCY_001",
+        "VIE_SPELL_CAPITAL_001",
+        "VIE_SPELL_CK_001",
+        "VIE_SPELL_GH_001",
+        "VIE_SPELL_SX_001",
+        "VIE_SPELL_CHTR_001",
+        "VIE_SPELL_DGI_001",
+        "VIE_SPELL_LN_001",
+        "VIE_SPELL_RHYME_001",
+        "VIE_SPELL_TONE_001",
+        "VIE_SPELL_ALPHABET_001",
+        "VIE_WRITE_CAPITAL_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_FLUENCY_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_WORD_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_READ_COMPREHEND_001",
+        "VIE_READ_INFO_001",
+        "VIE_READ_POEM_001",
+        "VIE_READ_WIDE_001",
+        "VIE_SPELL_DICTATION_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_COMPREHEND_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_FLUENCY_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_READ_INFO_001",
+        "VIE_READ_INFERENCE_001",
+        "VIE_READ_ANSWER_001",
+        "VIE_WORD_THING_001",
+        "VIE_SPEAK_OBSERVE_001",
+        "VIE_SPEAK_LISTEN_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_INFO_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_FLUENCY_001",
+        "VIE_READ_COMPREHEND_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_READ_CHARACTER_001",
+        "VIE_READ_EVENT_001",
+        "VIE_READ_MAINIDEA_001",
+        "VIE_READ_INFERENCE_001",
+        "VIE_READ_DOCUMENT_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_CHARACTER_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_INFO_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_READ_EVENT_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_INFO_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_READ_SEQUENCE_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_SEQUENCE_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_EVENT_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_READ_MAINIDEA_001",
+        "VIE_WRITE_SORT_001",
+        "VIE_SPEAK_STORY_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_MAINIDEA_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_INFO_001",
+        "VIE_READ_SEQUENCE_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_READ_INFERENCE_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_INFO_001",
+        "VIE_READ_COMPREHEND_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_READ_EMOTION_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_EMOTION_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_INFERENCE_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_READ_POEM_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_FLUENCY_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_READ_ANSWER_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_COMPREHEND_001",
+        "VIE_SENTENCE_MAKE_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_READ_DOCUMENT_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_INFO_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_WRITE_SCHEDULE_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_READ_WIDE_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_FLUENCY_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_SPELL_CAPITAL_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_WORD_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_SPELL_DICTATION_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_SPELL_CK_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_WORD_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_SPELL_GH_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_WORD_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_SPELL_SX_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_WORD_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_SPELL_CHTR_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_WORD_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_SPELL_DGI_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_WORD_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_SPELL_LN_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_WORD_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_SPELL_RHYME_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_WORD_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_SPELL_TONE_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_WORD_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_SPELL_DICTATION_001",
+      "prerequisite_skill_ids": [
+        "VIE_SPELL_CAPITAL_001",
+        "VIE_READ_FLUENCY_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_SPELL_ALPHABET_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_WORD_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_WORD_THING_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_COMPREHEND_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_WORD_ACTIVITY_001",
+        "VIE_WORD_FEATURE_001",
+        "VIE_WORD_EXPAND_001",
+        "VIE_SENTENCE_MAKE_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_WORD_ACTIVITY_001",
+      "prerequisite_skill_ids": [
+        "VIE_WORD_THING_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_SENTENCE_MAKE_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_WORD_FEATURE_001",
+      "prerequisite_skill_ids": [
+        "VIE_WORD_THING_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_SENTENCE_FEATURE_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_WORD_EXPAND_001",
+      "prerequisite_skill_ids": [
+        "VIE_WORD_THING_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_WORD_SORT_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_WORD_SORT_001",
+      "prerequisite_skill_ids": [
+        "VIE_WORD_EXPAND_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_SENTENCE_INTRO_001",
+      "prerequisite_skill_ids": [
+        "VIE_SENTENCE_MAKE_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_WRITE_INTRO_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_SENTENCE_ACTIVITY_001",
+      "prerequisite_skill_ids": [
+        "VIE_SENTENCE_MAKE_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_WRITE_NARRATE_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_SENTENCE_FEATURE_001",
+      "prerequisite_skill_ids": [
+        "VIE_SENTENCE_MAKE_001",
+        "VIE_WORD_FEATURE_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_WRITE_DESCRIBE_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_SENTENCE_QUESTION_001",
+      "prerequisite_skill_ids": [
+        "VIE_SENTENCE_MAKE_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_SENTENCE_PUNCT_001",
+      "prerequisite_skill_ids": [
+        "VIE_SENTENCE_MAKE_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_SENTENCE_MAKE_001",
+      "prerequisite_skill_ids": [
+        "VIE_WORD_THING_001",
+        "VIE_WORD_ACTIVITY_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_READ_ANSWER_001",
+        "VIE_SENTENCE_INTRO_001",
+        "VIE_SENTENCE_ACTIVITY_001",
+        "VIE_SENTENCE_FEATURE_001",
+        "VIE_SENTENCE_QUESTION_001",
+        "VIE_SENTENCE_PUNCT_001",
+        "VIE_WRITE_ANSWER_001",
+        "VIE_SPEAK_PRESENT_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_WRITE_CAPITAL_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_WORD_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_WRITE_ANSWER_001",
+      "prerequisite_skill_ids": [
+        "VIE_SENTENCE_MAKE_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_WRITE_2_3_SENT_001",
+        "VIE_WRITE_NOTE_001",
+        "VIE_WRITE_ORDER_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_WRITE_2_3_SENT_001",
+      "prerequisite_skill_ids": [
+        "VIE_WRITE_ANSWER_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_WRITE_3_5_SENT_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_WRITE_3_5_SENT_001",
+      "prerequisite_skill_ids": [
+        "VIE_WRITE_2_3_SENT_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_WRITE_DESCRIBE_001",
+        "VIE_WRITE_INTRO_001",
+        "VIE_WRITE_NARRATE_001",
+        "VIE_WRITE_SORT_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_WRITE_DESCRIBE_001",
+      "prerequisite_skill_ids": [
+        "VIE_WRITE_3_5_SENT_001",
+        "VIE_SENTENCE_FEATURE_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_WRITE_INTRO_001",
+      "prerequisite_skill_ids": [
+        "VIE_WRITE_3_5_SENT_001",
+        "VIE_SENTENCE_INTRO_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_WRITE_NARRATE_001",
+      "prerequisite_skill_ids": [
+        "VIE_WRITE_3_5_SENT_001",
+        "VIE_SENTENCE_ACTIVITY_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_WRITE_NOTE_001",
+      "prerequisite_skill_ids": [
+        "VIE_WRITE_ANSWER_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_WRITE_CARD_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_WRITE_CARD_001",
+      "prerequisite_skill_ids": [
+        "VIE_WRITE_NOTE_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_WRITE_SCHEDULE_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_DOCUMENT_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_WRITE_SORT_001",
+      "prerequisite_skill_ids": [
+        "VIE_WRITE_3_5_SENT_001",
+        "VIE_READ_SEQUENCE_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_WRITE_ORDER_001",
+      "prerequisite_skill_ids": [
+        "VIE_WRITE_ANSWER_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_SPEAK_OBSERVE_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_COMPREHEND_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_SPEAK_STORY_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_SPEAK_LISTEN_001",
+      "prerequisite_skill_ids": [
+        "VIE_READ_COMPREHEND_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_SPEAK_PRESENT_001",
+        "VIE_SPEAK_COMMUNICATE_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_SPEAK_STORY_001",
+      "prerequisite_skill_ids": [
+        "VIE_SPEAK_OBSERVE_001",
+        "VIE_READ_SEQUENCE_001"
+      ],
+      "dependent_skill_ids": [
+        "VIE_SPEAK_SEQUENCE_001"
+      ]
+    },
+    {
+      "skill_id": "VIE_SPEAK_SEQUENCE_001",
+      "prerequisite_skill_ids": [
+        "VIE_SPEAK_STORY_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_SPEAK_PRESENT_001",
+      "prerequisite_skill_ids": [
+        "VIE_SPEAK_LISTEN_001",
+        "VIE_SENTENCE_MAKE_001"
+      ],
+      "dependent_skill_ids": []
+    },
+    {
+      "skill_id": "VIE_SPEAK_COMMUNICATE_001",
+      "prerequisite_skill_ids": [
+        "VIE_SPEAK_LISTEN_001"
+      ],
+      "dependent_skill_ids": []
+    }
+  ]
+}

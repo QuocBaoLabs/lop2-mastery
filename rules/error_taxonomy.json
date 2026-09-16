@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "description": "Hệ thống mã lỗi dùng cho phân tích lỗi (Error Engine) của dashboard. Mỗi mã lỗi mô tả một kiểu sai điển hình của học sinh lớp 2 kèm nguyên nhân có thể và hành động khắc phục.",
+  "subjects": {
+    "MATH": {
+      "label": "Toán",
+      "errors": [
+        {"error_id": "CALCULATION_ERROR", "error_name": "Sai kết quả tính", "description": "Phép tính được chọn đúng nhưng kết quả tính sai (cộng/trừ nhẩm nhầm).", "likely_causes": ["Kỹ năng nhẩm chưa tự động hóa", "Mất tập trung khi tính"], "recommended_action": "Luyện ngắn 3–5 phép cùng dạng; dùng que tính/bảng 10 để minh họa."},
+        {"error_id": "PLACE_VALUE_ERROR", "error_name": "Sai hàng đơn vị/chục/trăm", "description": "Đặt tính lệch hàng hoặc hiểu nhầm giá trị chữ số theo vị trí.", "likely_causes": ["Chưa nắm chắc cấu tạo số", "Đặt tính sai cột"], "recommended_action": "Quay lại kỹ năng cấu tạo số; luyện tách số thành chục và đơn vị."},
+        {"error_id": "CARRY_ERROR", "error_name": "Quên nhớ khi cộng", "description": "Cộng hàng đơn vị vượt 10 nhưng quên cộng thêm 1 ở hàng chục.", "likely_causes": ["Chưa hiểu bản chất 'nhớ 1'", "Bỏ qua bước ghi nhớ"], "recommended_action": "Hỏi 'Vì sao phải nhớ 1?'; luyện cộng qua 10 bằng bảng 10."},
+        {"error_id": "BORROW_ERROR", "error_name": "Quên mượn khi trừ", "description": "Trừ hàng đơn vị không đủ nhưng quên mượn 1 chục.", "likely_causes": ["Chưa hiểu bản chất 'mượn 1 chục'", "Nhầm chiều mượn/trả"], "recommended_action": "Minh họa bằng que tính; luyện trừ có nhớ dạng 1 chục = 10 đơn vị."},
+        {"error_id": "READ_PROBLEM_ERROR", "error_name": "Hiểu sai đề bài", "description": "Đọc nhưng không rút đúng dữ kiện hoặc câu hỏi của bài toán có lời văn.", "likely_causes": ["Đọc lướt", "Vốn từ hạn chế"], "recommended_action": "Luyện 3 bước: đọc đề → gạch chân dữ kiện và câu hỏi → nói lại bằng lời của mình."},
+        {"error_id": "WRONG_OPERATION", "error_name": "Chọn sai phép tính", "description": "Bài toán cần cộng lại chọn trừ (hoặc ngược lại).", "likely_causes": ["Chưa liên hệ từ khóa với phép tính", "Đoán phép tính"], "recommended_action": "Phân tích ý nghĩa phép tính: thêm/gộp → cộng; bớt/còn lại → trừ."},
+        {"error_id": "UNIT_ERROR", "error_name": "Sai hoặc thiếu đơn vị", "description": "Ghi thiếu đơn vị (quả, con, cm, kg, l, đồng…) hoặc dùng sai đơn vị.", "likely_causes": ["Không đối chiếu câu hỏi", "Chưa quen viết đáp số đủ đơn vị"], "recommended_action": "Yêu cầu đọc lại câu hỏi trước khi ghi đáp số; kiểm tra danh sách đơn vị đã học."},
+        {"error_id": "LOGIC_ERROR", "error_name": "Sai trình tự giải", "description": "Câu lời giải không khớp phép tính, hoặc bỏ bước trong bài hai phép tính.", "likely_causes": ["Chưa hình dung trình tự bài toán", "Sao chép mẫu máy móc"], "recommended_action": "Kể lại bài toán bằng 3 câu: biết gì → hỏi gì → tính thế nào."},
+        {"error_id": "CARELESS_ERROR", "error_name": "Sai do cẩu thả", "description": "Biết cách làm nhưng chép nhầm số, quên dấu, viết thiếu.", "likely_causes": ["Vội vàng", "Không soát lại bài"], "recommended_action": "Xây thói quen soát bài sau khi làm; giảm áp lực thời gian."},
+        {"error_id": "CONCEPT_ERROR", "error_name": "Sai bản chất khái niệm", "description": "Không hiểu ý nghĩa phép tính/hình/đại lượng dẫn tới sai hệ thống.", "likely_causes": ["Thiếu kiến thức tiên quyết", "Học vẹt quy trình"], "recommended_action": "Dừng tiến độ; quay lại prerequisite; dạy lại bằng vật thật."},
+        {"error_id": "COMPARISON_ERROR", "error_name": "Sai so sánh số", "description": "So sánh hai số sai thứ tự hoặc điền sai dấu >, <, =.", "likely_causes": ["Nhầm chiều dấu", "Chưa so theo hàng từ trái sang phải"], "recommended_action": "Luyện so sánh theo hàng: trăm → chục → đơn vị; dùng tia số."},
+        {"error_id": "MEASUREMENT_ERROR", "error_name": "Sai đo lường", "description": "Đọc sai kết quả đo, đổi sai đơn vị (m/dm/cm, kg, l) hoặc ước lượng sai.", "likely_causes": ["Chưa hình dung độ lớn đơn vị", "Đọc thước sai vạch"], "recommended_action": "Thực hành đo vật thật; luyện đổi 1 m = 10 dm = 100 cm."}
+      ]
+    },
+    "VIETNAMESE": {
+      "label": "Tiếng Việt",
+      "errors": [
+        {"error_id": "READ_WORD_ERROR", "error_name": "Đọc sai từ", "description": "Đánh vần sai hoặc đọc nhầm từ, nhất là từ có âm/vần dễ lẫn.", "likely_causes": ["Chưa thuộc âm/vần", "Đọc đoán"], "recommended_action": "Ôn âm/vần bị sai; đọc chậm, đọc đúng rồi mới đọc nhanh."},
+        {"error_id": "READ_FLUENCY_ERROR", "error_name": "Đọc chưa trôi chảy", "description": "Đọc ngắt quãng, đánh vần từng tiếng, chưa đúng tốc độ lớp 2.", "likely_causes": ["Ít luyện đọc", "Chưa nhận diện nhanh từ"], "recommended_action": "Đọc lặp lại đoạn ngắn 3–5 lần; đọc theo cặp; bấm giờ nhẹ nhàng."},
+        {"error_id": "VOCAB_ERROR", "error_name": "Không hiểu nghĩa từ", "description": "Đọc được chữ nhưng không giải thích được nghĩa từ trong bài.", "likely_causes": ["Vốn từ hạn chế", "Chưa liên hệ ngữ cảnh"], "recommended_action": "Giải nghĩa từ bằng ví dụ/tranh; đặt câu với từ mới."},
+        {"error_id": "COMPREHENSION_ERROR", "error_name": "Không trả lời được câu hỏi đọc hiểu", "description": "Không tìm được thông tin trực tiếp trong bài đọc.", "likely_causes": ["Đọc lướt", "Không biết cách tìm thông tin"], "recommended_action": "Hướng dẫn tìm từ khóa trong câu hỏi rồi dò lại bài đọc."},
+        {"error_id": "INFERENCE_ERROR", "error_name": "Chưa suy luận được", "description": "Trả lời được câu hỏi hiển nhiên nhưng không suy ra được ý ngầm, cảm xúc, thái độ.", "likely_causes": ["Mới ở giai đoạn hiểu bề mặt"], "recommended_action": "Hỏi 'Vì sao con nghĩ vậy?'; luyện nối hành động với cảm xúc nhân vật."},
+        {"error_id": "SPELLING_INITIAL_ERROR", "error_name": "Lẫn âm đầu", "description": "Viết nhầm các cặp âm đầu dễ lẫn: s/x, ch/tr, d/gi/r, l/n…", "likely_causes": ["Phát âm địa phương", "Chưa phân biệt nghĩa"], "recommended_action": "Luyện phân biệt qua nghĩa từ; chép từ đúng; bài tập điền âm đầu."},
+        {"error_id": "SPELLING_RHYME_ERROR", "error_name": "Lẫn vần", "description": "Viết nhầm vần dễ lẫn: ai/ay, âu/âu, iu/ưu, ui/uy…", "likely_causes": ["Phát âm chưa chuẩn", "Ít tiếp xúc mặt chữ"], "recommended_action": "So sánh cặp vần qua từ mẫu; viết chính tả đoạn ngắn chứa vần đó."},
+        {"error_id": "TONE_ERROR", "error_name": "Sai dấu thanh", "description": "Đặt nhầm dấu huyền/sắc/ngã/hỏi/nặng hoặc quên dấu.", "likely_causes": ["Ảnh hưởng phương ngữ", "Chưa nhớ quy tắc đặt dấu"], "recommended_action": "Đọc to để phân biệt thanh; luyện điền dấu vào từ cho sẵn."},
+        {"error_id": "PUNCTUATION_ERROR", "error_name": "Sai dấu câu", "description": "Thiếu dấu chấm/phẩy, viết hoa sai sau dấu chấm.", "likely_causes": ["Chưa nắm quy tắc viết hoa và ngắt câu"], "recommended_action": "Sửa bài viết: chấm câu → viết hoa chữ cái đầu câu → ghi tên riêng."},
+        {"error_id": "SENTENCE_STRUCTURE_ERROR", "error_name": "Sai cấu trúc câu", "description": "Câu thiếu thành phần, sắp xếp từ lộn xộn, không đủ ý.", "likely_causes": ["Chưa nắm mẫu câu", "Nghĩ sao viết vậy"], "recommended_action": "Luyện mẫu câu Ai là gì? / Ai làm gì? / Ai thế nào?; sắp xếp từ thành câu."},
+        {"error_id": "WRITING_SEQUENCE_ERROR", "error_name": "Viết thiếu trình tự", "description": "Đoạn viết không theo thứ tự sự việc, không có mở đầu–diễn biến–kết thúc.", "likely_causes": ["Chưa lập dàn ý nhỏ"], "recommended_action": "Luyện kể lại theo tranh/gợi ý 3 câu; viết nháp dàn ý."},
+        {"error_id": "WRITING_CONTENT_ERROR", "error_name": "Viết lạc đề/thiếu ý", "description": "Viết không đúng yêu cầu đề, thiếu ý chính cần nêu.", "likely_causes": ["Không đọc kỹ đề", "Ít vốn ý tưởng"], "recommended_action": "Gạch chân từ khóa đề; trả lời đủ 3 câu hỏi gợi ý trước khi viết."}
+      ]
+    }
+  }
+}

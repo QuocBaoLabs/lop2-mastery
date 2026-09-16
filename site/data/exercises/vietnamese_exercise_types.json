@@ -1,0 +1,1585 @@
+{
+  "schema_version": "1.0",
+  "subject": "VIE",
+  "description": "Dạng bài tập cho từng kỹ năng Tiếng Việt (SGK_REFERENCE: mô tả dạng, không sao chép nội dung SGK).",
+  "total": 54,
+  "exercise_types": [
+    {
+      "exercise_type_id": "EX_VIE_READ_ANSWER_001_01",
+      "skill_id": "VIE_READ_ANSWER_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Trả lời câu hỏi đọc hiểu thành câu đủ",
+      "description": "Trả lời câu hỏi đọc hiểu bằng câu đầy đủ (viết hoặc nói).",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: trả lời câu hỏi đọc hiểu (mọi bài, phần Đọc). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 28
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu hỏi đọc hiểu bài mới (trả lời viết/nói); đạt M3 khi đúng ≥ 4/5 và đủ câu."
+    },
+    {
+      "exercise_type_id": "EX_VIE_READ_CHARACTER_001_01",
+      "skill_id": "VIE_READ_CHARACTER_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Xác định nhân vật trong truyện",
+      "description": "Kể tên các nhân vật trong truyện và chỉ ra nhân vật chính.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: câu hỏi về nhân vật (Bài 3 T1, Bài 21 T2, phần Đọc). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 28
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 21. Mai An Tiêm",
+          "section": "Đọc",
+          "volume": "Tập 2",
+          "printed_page": 92
+        }
+      ],
+      "mastery_sample_size": 1,
+      "mastery_check_rule": "Đọc 1 truyện ngắn mới: kể tên nhân vật + nhân vật chính; đạt M3 khi đúng cả hai."
+    },
+    {
+      "exercise_type_id": "EX_VIE_READ_COMPREHEND_001_01",
+      "skill_id": "VIE_READ_COMPREHEND_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Hiểu nghĩa từ trong ngữ cảnh",
+      "description": "Giải thích nghĩa từ trong ngữ cảnh và đặt câu với từ đó.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: giải nghĩa từ, đặt câu với từ (mọi bài, phần Đọc). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 28
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 từ trong/ngoài bài: giải thích + đặt câu; đạt M3 khi đúng ≥ 4/5 mỗi phần."
+    },
+    {
+      "exercise_type_id": "EX_VIE_READ_DOCUMENT_001_01",
+      "skill_id": "VIE_READ_DOCUMENT_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Đọc hiểu văn bản phi truyện",
+      "description": "Tra thông tin trong thời khóa biểu/danh sách/nội quy theo hàng, cột.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: đọc thời khóa biểu (Bài 10 T1), danh sách học sinh (Bài 12 T1), nội quy (Bài 18 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 10. Thời khóa biểu",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 54
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 12. Danh sách học sinh",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 62
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 18. Thư viện biết đi",
+          "section": "Đọc",
+          "volume": "Tập 2",
+          "printed_page": 80
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu tra thông tin ở 1 văn bản phi truyện mới; đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_VIE_READ_EMOTION_001_01",
+      "skill_id": "VIE_READ_EMOTION_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Hiểu cảm xúc, thái độ nhân vật",
+      "description": "Nêu cảm xúc của nhân vật và lí do của cảm xúc đó.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: câu hỏi cảm xúc nhân vật (Bài 29 T1, Bài 24 T2, phần Đọc). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 29. Cánh cửa nhớ bà",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 134
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 24. Chiếc rễ đa tròn",
+          "section": "Đọc",
+          "volume": "Tập 2",
+          "printed_page": 104
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 tình huống trong truyện mới; đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_VIE_READ_EVENT_001_01",
+      "skill_id": "VIE_READ_EVENT_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Xác định sự việc trong bài",
+      "description": "Nêu các sự việc chính diễn ra trong bài.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: câu hỏi 'chuyện gì đã xảy ra' (Bài 8 T1, Bài 23 T2, phần Đọc). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 8. Cầu thủ dự bị",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 45
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 23. Bóp nát quả cam",
+          "section": "Đọc",
+          "volume": "Tập 2",
+          "printed_page": 100
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "1 bài mới: kể các sự việc chính; đạt M3 khi nêu đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_VIE_READ_FLUENCY_001_01",
+      "skill_id": "VIE_READ_FLUENCY_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Đọc trôi chảy, ngắt nghỉ đúng dấu câu",
+      "description": "Đọc trơn 1 đoạn 4–5 câu, ngắt nghỉ đúng dấu chấm, dấu phẩy, dấu chấm hỏi.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: luyện đọc đoạn văn/thơ (mọi bài, phần Đọc). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 28
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "Nghe trẻ đọc 1 đoạn chưa học; đạt M3 khi trôi chảy và ngắt nghỉ đúng ≥ 4/5 dấu câu."
+    },
+    {
+      "exercise_type_id": "EX_VIE_READ_INFERENCE_001_01",
+      "skill_id": "VIE_READ_INFERENCE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Suy luận đơn giản từ bài đọc",
+      "description": "Trả lời câu hỏi 'vì sao' phải suy ra từ chi tiết trong bài.",
+      "difficulty": 3,
+      "sgk_example": "Dạng SGK: câu hỏi suy luận 'vì sao' (Bài 5 T1, Bài 19 T2, phần Đọc). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 5. Em có xinh không?",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 35
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 19. Cảm ơn anh hà mã",
+          "section": "Đọc",
+          "volume": "Tập 2",
+          "printed_page": 84
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu suy luận ở bài mới; đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_VIE_READ_INFO_001_01",
+      "skill_id": "VIE_READ_INFO_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Tìm thông tin trực tiếp trong bài",
+      "description": "Trả lời câu hỏi tìm thông tin nêu trực tiếp trong bài (ai, cái gì, ở đâu, khi nào...).",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: câu hỏi đọc hiểu tìm chi tiết (mọi bài, phần Đọc). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 28
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu hỏi thông tin trực tiếp ở bài chưa học; đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_VIE_READ_MAINIDEA_001_01",
+      "skill_id": "VIE_READ_MAINIDEA_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Nêu ý chính của đoạn, bài",
+      "description": "Nêu nội dung chính của đoạn/bài bằng 1 câu; chọn câu nêu đúng ý chính.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: câu hỏi 'bài nói về điều gì' (Bài 4 T1, Bài 18 T2, phần Đọc). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 4. Làm việc thật là vui",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 31
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 18. Thư viện biết đi",
+          "section": "Đọc",
+          "volume": "Tập 2",
+          "printed_page": 80
+        }
+      ],
+      "mastery_sample_size": 4,
+      "mastery_check_rule": "4 đoạn/bài: nêu ý chính 1 câu; đạt M3 khi đúng ≥ 3/4."
+    },
+    {
+      "exercise_type_id": "EX_VIE_READ_POEM_001_01",
+      "skill_id": "VIE_READ_POEM_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Đọc thơ: khổ thơ, nhịp, vần",
+      "description": "Đọc bài thơ đúng nhịp; tìm tiếng bắt vần; nêu hình ảnh em thích.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: đọc thơ, tìm tiếng cùng vần (Bài 2, 9, 11, 17, 27, 29, 30 T1; Bài 6, 8, 9, 13 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 9. Cô giáo lớp em",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 51
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 11. Cái trống trường em",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 59
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "1 bài thơ ngắn mới: đọc + tìm 3 cặp vần; đạt M3 khi đúng ≥ 4/5 yêu cầu."
+    },
+    {
+      "exercise_type_id": "EX_VIE_READ_SEQUENCE_001_01",
+      "skill_id": "VIE_READ_SEQUENCE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Sắp xếp sự việc theo trình tự",
+      "description": "Sắp xếp tranh/câu theo đúng trình tự câu chuyện.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: xếp tranh theo trình tự (Bài 7 T1, Bài 1 T2, phần Nói và nghe). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 7. Cây xấu hổ",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 44
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 1. Chuyện bốn mùa",
+          "section": "Nói và nghe",
+          "volume": "Tập 2",
+          "printed_page": 11
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "Xếp 5 tranh/câu của 1 truyện mới; đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_VIE_READ_WIDE_001_01",
+      "skill_id": "VIE_READ_WIDE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Đọc mở rộng theo chủ điểm",
+      "description": "Tự đọc thêm sách cùng chủ điểm; ghi phiếu đọc sách (tên sách, tác giả, điều thích nhất).",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: Đọc mở rộng + phiếu đọc sách (mọi bài). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 15. Cuốn sách của em",
+          "section": "Đọc mở rộng",
+          "volume": "Tập 1",
+          "printed_page": 74
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 18. Thư viện biết đi",
+          "section": "Đọc mở rộng",
+          "volume": "Tập 2",
+          "printed_page": 80
+        }
+      ],
+      "mastery_sample_size": 1,
+      "mastery_check_rule": "1 phiếu đọc sách/tháng; đạt M3 khi đủ 3 mục và kể được 1 ý chính."
+    },
+    {
+      "exercise_type_id": "EX_VIE_READ_WORD_001_01",
+      "skill_id": "VIE_READ_WORD_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Đọc đúng từ, tiếng khó trong bài",
+      "description": "Đọc to, rõ 10 từ khó (âm/vần dễ nhầm) trong và ngoài bài đọc.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: đọc từ khó trong bài đọc (mọi bài, phần Đọc). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Đọc",
+          "volume": "Tập 1",
+          "printed_page": 28
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "Cho đọc 10 từ khó (trong/ngoài bài); đạt M3 khi đọc đúng ≥ 9/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SENTENCE_ACTIVITY_001_01",
+      "skill_id": "VIE_SENTENCE_ACTIVITY_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Câu nêu hoạt động (Ai làm gì?)",
+      "description": "Đặt câu nêu hoạt động theo mẫu 'Ai làm gì?' và nhận biết trong đoạn.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: câu nêu hoạt động (Bài 8 T1, Bài 12 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 8. Cầu thủ dự bị",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 45
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 12. Bờ tre đón khách",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 2",
+          "printed_page": 49
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "Đặt 5 câu + nhận biết 5 câu; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SENTENCE_FEATURE_001_01",
+      "skill_id": "VIE_SENTENCE_FEATURE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Câu nêu đặc điểm (Ai thế nào?)",
+      "description": "Đặt câu nêu đặc điểm theo mẫu 'Ai thế nào?' và nhận biết trong đoạn.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: câu nêu đặc điểm (Bài 6, 16, 26 T1; Bài 14 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 6. Một giờ học",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 38
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 16. Khi trang sách mở ra",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 77
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 26. Em mang về yêu thương",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 123
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "Đặt 5 câu + nhận biết 5 câu; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SENTENCE_INTRO_001_01",
+      "skill_id": "VIE_SENTENCE_INTRO_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Câu giới thiệu (Ai là gì?)",
+      "description": "Đặt câu giới thiệu theo mẫu 'Ai là gì?' và nhận biết câu giới thiệu.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: câu giới thiệu (Bài 26 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie2",
+          "lesson": "Bài 26. Trên các miền đất nước",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 2",
+          "printed_page": 113
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "Đặt 5 câu + nhận biết 5 câu; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SENTENCE_MAKE_001_01",
+      "skill_id": "VIE_SENTENCE_MAKE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Đặt câu với từ cho trước",
+      "description": "Đặt câu đầy đủ, đúng nghĩa với từ cho trước (viết hoa đầu câu, dấu câu cuối câu).",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: đặt câu với từ (mọi bài, phần Luyện tập). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 4. Làm việc thật là vui",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 31
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 30. Cánh đồng quê em",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 2",
+          "printed_page": 131
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "Đặt 5 câu với 5 từ; đạt M3 khi đúng ≥ 4/5 (đủ bộ phận, đúng nghĩa)."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SENTENCE_PUNCT_001_01",
+      "skill_id": "VIE_SENTENCE_PUNCT_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Dấu chấm, chấm hỏi, chấm than, dấu phẩy",
+      "description": "Điền dấu chấm, chấm hỏi, chấm than cuối câu; dùng dấu phẩy ngăn cách bộ phận liệt kê.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: dấu câu (Bài 4, 16, 18, 24, 28, 32 T1; Bài 10, 17, 20, 28 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 4. Làm việc thật là vui",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 31
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 12. Danh sách học sinh",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 62
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 16. Khi trang sách mở ra",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 77
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 chỗ trống dấu câu (4 loại); đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SENTENCE_QUESTION_001_01",
+      "skill_id": "VIE_SENTENCE_QUESTION_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Câu hỏi và trả lời",
+      "description": "Đặt câu hỏi đúng nội dung và trả lời câu hỏi thành câu đủ.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: câu hỏi – trả lời (Bài 18 T1 và mọi bài đọc hiểu). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 18. Tớ nhớ cậu",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 93
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "Đặt 5 câu hỏi theo gợi ý + trả lời 5 câu; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SPEAK_COMMUNICATE_001_01",
+      "skill_id": "VIE_SPEAK_COMMUNICATE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Giao tiếp lịch sự: chào, cảm ơn, xin lỗi, xin phép",
+      "description": "Nói lời chào, cảm ơn, xin lỗi, xin phép phù hợp tình huống.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: cách chào (Bài 17 T2), cảm ơn (Bài 19 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie2",
+          "lesson": "Bài 17. Những cách chào độc đáo",
+          "section": "Nói và nghe",
+          "volume": "Tập 2",
+          "printed_page": 77
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 19. Cảm ơn anh hà mã",
+          "section": "Nói và nghe",
+          "volume": "Tập 2",
+          "printed_page": 84
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 tình huống giao tiếp; đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SPEAK_LISTEN_001_01",
+      "skill_id": "VIE_SPEAK_LISTEN_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Nghe hiểu và trả lời câu hỏi",
+      "description": "Nghe câu chuyện/hướng dẫn 1 lần rồi trả lời câu hỏi về nội dung.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: nghe kể chuyện và trả lời (mọi bài, phần Nói và nghe). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 13. Yêu lắm trường ơi!",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 66
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 21. Mai An Tiêm",
+          "section": "Nói và nghe",
+          "volume": "Tập 2",
+          "printed_page": 92
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "Nghe 1 truyện ngắn mới, trả lời 5 câu; đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SPEAK_OBSERVE_001_01",
+      "skill_id": "VIE_SPEAK_OBSERVE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Quan sát tranh và nói theo gợi ý",
+      "description": "Quan sát tranh và nói 2–3 câu đúng nội dung tranh theo gợi ý.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: nói theo tranh (Bài 1 T1, Bài 25 T2, phần Nói và nghe). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 25. Đất nước chúng mình",
+          "section": "Nói và nghe",
+          "volume": "Tập 2",
+          "printed_page": 110
+        }
+      ],
+      "mastery_sample_size": 2,
+      "mastery_check_rule": "Quan sát 2 tranh, mỗi tranh nói 2–3 câu; đạt M3 khi đúng nội dung cả 2 tranh."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SPEAK_PRESENT_001_01",
+      "skill_id": "VIE_SPEAK_PRESENT_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Trình bày về chủ đề quen thuộc",
+      "description": "Trình bày 3–5 câu về chủ đề quen thuộc (ngày hè, niềm vui, quê hương...).",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: nói về ngày hè (Bài 1 T1), niềm vui (Bài 19 T1), quê hương (Bài 29 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 11. Cái trống trường em",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 59
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 19. Chữ A và những người bạn",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 97
+        }
+      ],
+      "mastery_sample_size": 1,
+      "mastery_check_rule": "Trình bày 3–5 câu về 1 chủ đề quen; đạt M3 khi đủ ý và đúng chủ đề."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SPEAK_SEQUENCE_001_01",
+      "skill_id": "VIE_SPEAK_SEQUENCE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Kể lại đúng trình tự câu chuyện",
+      "description": "Kể lại câu chuyện đã nghe/đọc đúng trình tự mở đầu – diễn biến – kết thúc.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: kể lại câu chuyện đúng thứ tự (mọi bài, phần Nói và nghe). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 28
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 7. Cây xấu hổ",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 42
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 15. Cuốn sách của em",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 74
+        }
+      ],
+      "mastery_sample_size": 1,
+      "mastery_check_rule": "Kể lại 1 truyện đã nghe 2 lần; đạt M3 khi đúng trình tự và đủ sự việc chính."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SPEAK_STORY_001_01",
+      "skill_id": "VIE_SPEAK_STORY_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Kể chuyện theo tranh",
+      "description": "Kể lại câu chuyện theo tranh đủ nhân vật, sự việc chính, đúng thứ tự.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: kể chuyện theo tranh (mọi bài, phần Nói và nghe). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 28
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 5. Em có xinh không?",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 35
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 7. Cây xấu hổ",
+          "section": "Nói và nghe",
+          "volume": "Tập 1",
+          "printed_page": 42
+        }
+      ],
+      "mastery_sample_size": 1,
+      "mastery_check_rule": "Kể 1 truyện theo 4–5 tranh; đạt M3 khi đủ sự việc chính và đúng thứ tự."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SPELL_ALPHABET_001_01",
+      "skill_id": "VIE_SPELL_ALPHABET_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Bảng chữ cái và thứ tự chữ",
+      "description": "Xếp từ/tên theo thứ tự bảng chữ cái.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: bảng chữ cái (Bài 2, 4, 6 T1); xếp tên theo bảng chữ cái (Bài 12 T1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 4. Làm việc thật là vui",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 31
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "Xếp 10 từ/tên; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SPELL_CAPITAL_001_01",
+      "skill_id": "VIE_SPELL_CAPITAL_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Viết hoa đầu câu, tên riêng, tên địa lí",
+      "description": "Viết hoa đúng đầu câu, tên người, tên địa lí trong câu cho sẵn.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: viết hoa tên người (Bài 8, 16 T1), tên địa lí (Bài 28 T1, Bài 24, 26, 30 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 8. Cầu thủ dự bị",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 45
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 16. Khi trang sách mở ra",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 77
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 28. Trò chơi của bố",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 130
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 trường hợp (đầu câu, tên người, tên địa lí); đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SPELL_CHTR_001_01",
+      "skill_id": "VIE_SPELL_CHTR_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Phân biệt ch/tr",
+      "description": "Chọn tiếng chứa ch hoặc tr theo nghĩa từ.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: phân biệt ch/tr (Bài 10, 22, 30 T1; Bài 2 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 10. Thời khóa biểu",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 54
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 22. Tớ là Lê-gô",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 108
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 30. Thương ông",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 137
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 tiếng/chỗ trống ch/tr; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SPELL_CK_001_01",
+      "skill_id": "VIE_SPELL_CK_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Phân biệt c/k (cờ)",
+      "description": "Điền c/k vào chỗ trống và chọn tiếng đúng theo nghĩa.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: phân biệt c/k (Bài 10 T1, Bài 2 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 10. Thời khóa biểu",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 54
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 2. Mùa nước nổi",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 2",
+          "printed_page": 12
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 tiếng/chỗ trống chứa c/k; đạt M3 khi đúng ≥ 9/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SPELL_DGI_001_01",
+      "skill_id": "VIE_SPELL_DGI_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Phân biệt d/gi (và r)",
+      "description": "Chọn tiếng chứa d/gi (r) theo nghĩa từ.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: phân biệt d/gi (Bài 14, 24, 26 T1; Bài 6, 12, 22 T2), r/d/gi (Bài 14, 26 T1; Bài 6 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 14. Em học vẽ",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 69
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 24. Nặn đồ chơi",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 115
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 26. Em mang về yêu thương",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 123
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 tiếng/chỗ trống d/gi/r; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SPELL_DICTATION_001_01",
+      "skill_id": "VIE_SPELL_DICTATION_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Nghe – viết đúng bài chính tả",
+      "description": "Nghe – viết đoạn 30–40 chữ đã học; tự soát lỗi.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: Nghe – viết (mọi bài, phần Viết). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 28
+        }
+      ],
+      "mastery_sample_size": 1,
+      "mastery_check_rule": "Nghe – viết đoạn 30–40 chữ (đã học); đạt M3 khi sai ≤ 3 lỗi và trình bày đúng."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SPELL_GH_001_01",
+      "skill_id": "VIE_SPELL_GH_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Phân biệt g/gh, ng/ngh",
+      "description": "Điền g/gh, ng/ngh vào chỗ trống và chọn tiếng đúng theo nghĩa.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: phân biệt g/gh (Bài 12, 14, 20, 22 T1; Bài 4, 6 T2), ng/ngh (Bài 14, 22 T1; Bài 6 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 12. Danh sách học sinh",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 62
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 14. Em học vẽ",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 69
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 20. Nhím nâu kết bạn",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 100
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 tiếng/chỗ trống; đạt M3 khi đúng ≥ 9/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SPELL_LN_001_01",
+      "skill_id": "VIE_SPELL_LN_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Phân biệt l/n",
+      "description": "Chọn tiếng chứa l hoặc n theo nghĩa từ.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: phân biệt l/n (Bài 16, 28 T1; Bài 8, 20 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 16. Khi trang sách mở ra",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 77
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 28. Trò chơi của bố",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 130
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 8. Lũy tre",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 2",
+          "printed_page": 34
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 tiếng/chỗ trống l/n; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SPELL_RHYME_001_01",
+      "skill_id": "VIE_SPELL_RHYME_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Phân biệt các vần dễ nhầm",
+      "description": "Điền vần đúng (ac/at, uc/ut, iu/ưu, uôn/uông, ao/au, ai/ay, in/inh...) theo nghĩa từ.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: phân biệt các vần dễ nhầm (mọi bài, phần Viết – Nghe viết). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 14. Em học vẽ",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 69
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 16. Khi trang sách mở ra",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 77
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 20. Nhím nâu kết bạn",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 100
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 tiếng/chỗ trống vần dễ nhầm (nhiều cặp); đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SPELL_SX_001_01",
+      "skill_id": "VIE_SPELL_SX_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Phân biệt s/x",
+      "description": "Chọn tiếng chứa s hoặc x theo nghĩa từ.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: phân biệt s/x (Bài 12, 24 T1; Bài 4, 22 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 12. Danh sách học sinh",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 62
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 24. Nặn đồ chơi",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 115
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 4. Tết đến rồi",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 2",
+          "printed_page": 19
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 tiếng/chỗ trống s/x; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_SPELL_TONE_001_01",
+      "skill_id": "VIE_SPELL_TONE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Đặt đúng dấu thanh (hỏi/ngã)",
+      "description": "Đặt đúng dấu thanh, đặc biệt thanh hỏi/ngã theo nghĩa từ.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: phân biệt dấu hỏi/dấu ngã (Bài 12 T1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 12. Danh sách học sinh",
+          "section": "Viết (Nghe – viết)",
+          "volume": "Tập 1",
+          "printed_page": 62
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 tiếng/chỗ trống dấu thanh; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_WORD_ACTIVITY_001_01",
+      "skill_id": "VIE_WORD_ACTIVITY_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Từ chỉ hoạt động",
+      "description": "Tìm từ chỉ hoạt động trong câu; đặt câu với từ chỉ hoạt động.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: từ chỉ hoạt động (Bài 1, 4, 30 T1...). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 4. Làm việc thật là vui",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 31
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 20. Nhím nâu kết bạn",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 100
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 yêu cầu tìm/đặt từ chỉ hoạt động; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_WORD_EXPAND_001_01",
+      "skill_id": "VIE_WORD_EXPAND_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Mở rộng vốn từ theo chủ điểm",
+      "description": "Tìm thêm từ cùng chủ điểm (gia đình, trường học, thiên nhiên, nghề nghiệp, Bác Hồ...).",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: mở rộng vốn từ theo chủ điểm (mọi bài, phần Luyện tập). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 8. Cầu thủ dự bị",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 45
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 14. Em học vẽ",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 69
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 18. Tớ nhớ cậu",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 93
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "Tìm 10 từ theo chủ điểm; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_WORD_FEATURE_001_01",
+      "skill_id": "VIE_WORD_FEATURE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Từ chỉ đặc điểm",
+      "description": "Tìm từ chỉ đặc điểm trong câu; đặt câu với từ chỉ đặc điểm.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: từ chỉ đặc điểm (Bài 1, 6, 16, 20, 22, 26 T1; Bài 14 T2...). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 6. Một giờ học",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 38
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 12. Danh sách học sinh",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 62
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 yêu cầu tìm/đặt từ chỉ đặc điểm; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_WORD_SORT_001_01",
+      "skill_id": "VIE_WORD_SORT_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Phân loại từ theo nhóm",
+      "description": "Xếp từ cho sẵn vào đúng nhóm (sự vật/hoạt động/đặc điểm...).",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: phân loại từ (Bài 2 T1 và phần Luyện tập các bài). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 24
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "Xếp 10 từ vào 3 nhóm; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_WORD_THING_001_01",
+      "skill_id": "VIE_WORD_THING_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Từ chỉ sự vật",
+      "description": "Tìm từ chỉ sự vật trong câu; đặt câu với từ chỉ sự vật.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: từ chỉ sự vật (Bài 1, 2, 4 T1; Bài 6 T2...). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 30. Thương ông",
+          "section": "Luyện tập (Luyện từ và câu)",
+          "volume": "Tập 1",
+          "printed_page": 137
+        }
+      ],
+      "mastery_sample_size": 10,
+      "mastery_check_rule": "10 yêu cầu tìm/đặt từ chỉ sự vật; đạt M3 khi đúng ≥ 8/10."
+    },
+    {
+      "exercise_type_id": "EX_VIE_WRITE_2_3_SENT_001_01",
+      "skill_id": "VIE_WRITE_2_3_SENT_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Viết 2–3 câu theo chủ đề",
+      "description": "Viết 2–3 câu liên tiếp đúng chủ đề cho trước.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: viết 2–3 câu theo chủ đề (Bài 10 T2 và luyện viết đoạn). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie2",
+          "lesson": "Bài 10. Khủng long",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 2",
+          "printed_page": 42
+        }
+      ],
+      "mastery_sample_size": 1,
+      "mastery_check_rule": "Viết 2–3 câu theo 1 chủ đề quen thuộc; đạt M3 khi đúng chủ đề và liền mạch."
+    },
+    {
+      "exercise_type_id": "EX_VIE_WRITE_3_5_SENT_001_01",
+      "skill_id": "VIE_WRITE_3_5_SENT_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Viết đoạn 3–5 câu",
+      "description": "Viết đoạn 3–5 câu có mở đầu – thân – kết thúc ở mức đơn giản.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: viết đoạn 3–5 câu (Bài 30 T2 và mọi bài viết đoạn). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie2",
+          "lesson": "Bài 30. Cánh đồng quê em",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 2",
+          "printed_page": 129
+        }
+      ],
+      "mastery_sample_size": 1,
+      "mastery_check_rule": "Viết đoạn 3–5 câu theo chủ đề; đạt M3 khi đủ độ dài, đúng chủ đề, liền mạch."
+    },
+    {
+      "exercise_type_id": "EX_VIE_WRITE_ANSWER_001_01",
+      "skill_id": "VIE_WRITE_ANSWER_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Viết câu trả lời đầy đủ",
+      "description": "Viết câu trả lời đầy đủ cho câu hỏi cho trước.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: viết câu trả lời (mọi bài, phần Luyện tập). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 7. Hạt thóc",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 2",
+          "printed_page": 32
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "5 câu hỏi (viết đáp án); đạt M3 khi đúng ≥ 4/5 và đủ câu."
+    },
+    {
+      "exercise_type_id": "EX_VIE_WRITE_CAPITAL_001_01",
+      "skill_id": "VIE_WRITE_CAPITAL_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Viết đúng mẫu chữ hoa",
+      "description": "Viết đúng mẫu, đúng cỡ các chữ hoa đã học và cụm từ ứng dụng.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: Viết: Chữ hoa (mọi bài, phần Viết). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 1. Tôi là học sinh lớp 2",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 21
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 3. Niềm vui của Bi và Bống",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 28
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "Viết 5 chữ hoa + 1 cụm ứng dụng; đạt M3 khi đúng mẫu ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_VIE_WRITE_CARD_001_01",
+      "skill_id": "VIE_WRITE_CARD_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Viết thiệp chúc mừng",
+      "description": "Viết thiệp chúc mừng (sinh nhật, năm mới, ngày lễ) đủ 3 phần.",
+      "difficulty": 1,
+      "sgk_example": "Dạng SGK: viết thiệp chúc Tết (Bài 4 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie2",
+          "lesson": "Bài 4. Tết đến rồi",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 2",
+          "printed_page": 19
+        }
+      ],
+      "mastery_sample_size": 1,
+      "mastery_check_rule": "Viết 1 thiệp theo dịp cho trước; đạt M3 khi đủ 3 phần và đúng dịp."
+    },
+    {
+      "exercise_type_id": "EX_VIE_WRITE_DESCRIBE_001_01",
+      "skill_id": "VIE_WRITE_DESCRIBE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Viết đoạn miêu tả đồ vật, con vật",
+      "description": "Viết đoạn 3–5 câu tả đồ vật/con vật: tên, đặc điểm nổi bật, tình cảm.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: tả đồ vật (Bài 16 T1, Bài 2, 20 T2), tả con vật (Bài 12 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 16. Khi trang sách mở ra",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 77
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 24. Nặn đồ chơi",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 115
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 2. Mùa nước nổi",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 2",
+          "printed_page": 12
+        }
+      ],
+      "mastery_sample_size": 1,
+      "mastery_check_rule": "Viết đoạn tả 1 đồ vật/con vật; đạt M3 khi đủ 3–5 câu và nêu đúng ≥ 3 đặc điểm."
+    },
+    {
+      "exercise_type_id": "EX_VIE_WRITE_INTRO_001_01",
+      "skill_id": "VIE_WRITE_INTRO_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Viết đoạn giới thiệu",
+      "description": "Viết đoạn 3–5 câu giới thiệu bản thân/bạn bè/đồ vật/trường lớp.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: giới thiệu bản thân (Bài 2 T1), đồ vật (Bài 14, 22 T1), đồ chơi (Bài 22 T1), trường (Bài 26 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 2. Ngày hôm qua đâu rồi?",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 24
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 14. Em học vẽ",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 69
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 22. Tớ là Lê-gô",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 108
+        }
+      ],
+      "mastery_sample_size": 1,
+      "mastery_check_rule": "Viết đoạn giới thiệu (bản thân/vật/trường); đạt M3 khi đủ 3–5 câu, đủ thông tin chính."
+    },
+    {
+      "exercise_type_id": "EX_VIE_WRITE_NARRATE_001_01",
+      "skill_id": "VIE_WRITE_NARRATE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Viết đoạn kể lại sự việc",
+      "description": "Viết đoạn 3–5 câu kể việc đã làm/chứng kiến theo trình tự.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: kể việc làm ở nhà (Bài 4, 6 T1), giờ ra chơi (Bài 20 T1), việc người thân làm (Bài 26, 28 T1), sự việc (Bài 24 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 4. Làm việc thật là vui",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 31
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 6. Một giờ học",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 38
+        },
+        {
+          "book": "vie1",
+          "lesson": "Bài 8. Cầu thủ dự bị",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 45
+        }
+      ],
+      "mastery_sample_size": 1,
+      "mastery_check_rule": "Viết đoạn kể 1 sự việc; đạt M3 khi đủ 3–5 câu và đúng trình tự."
+    },
+    {
+      "exercise_type_id": "EX_VIE_WRITE_NOTE_001_01",
+      "skill_id": "VIE_WRITE_NOTE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Viết lời nhắn, lời cảm ơn, lời chúc",
+      "description": "Viết lời nhắn/lời cảm ơn/lời chúc 1–3 câu đúng đối tượng và đủ nội dung.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: viết tin nhắn (Bài 32 T1), lời cảm ơn chú bộ đội hải quân (Bài 22 T2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 32. Chơi chong chóng",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 144
+        },
+        {
+          "book": "vie2",
+          "lesson": "Bài 22. Thư gửi bố ngoài đảo",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 2",
+          "printed_page": 95
+        }
+      ],
+      "mastery_sample_size": 2,
+      "mastery_check_rule": "Viết 2 lời nhắn/cảm ơn/chúc theo tình huống; đạt M3 khi đủ nội dung và đúng đối tượng."
+    },
+    {
+      "exercise_type_id": "EX_VIE_WRITE_ORDER_001_01",
+      "skill_id": "VIE_WRITE_ORDER_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Sắp xếp từ thành câu",
+      "description": "Sắp xếp các từ xáo trộn thành câu đúng ngữ pháp.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: sắp xếp từ thành câu (Ôn tập giữa học kì 1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Ôn tập giữa học kì 1",
+          "section": "Ôn tập",
+          "volume": "Tập 1",
+          "printed_page": 82
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "Xếp 5 câu xáo trộn; đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_VIE_WRITE_SCHEDULE_001_01",
+      "skill_id": "VIE_WRITE_SCHEDULE_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Viết thời gian biểu",
+      "description": "Đọc thời khóa biểu và lập thời gian biểu đơn giản cho một ngày.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: viết thời gian biểu (Bài 10 T1). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie1",
+          "lesson": "Bài 10. Thời khóa biểu",
+          "section": "Luyện tập (Luyện viết đoạn)",
+          "volume": "Tập 1",
+          "printed_page": 54
+        }
+      ],
+      "mastery_sample_size": 5,
+      "mastery_check_rule": "Đọc 5 câu tra cứu + lập 1 thời gian biểu; đạt M3 khi đúng ≥ 4/5."
+    },
+    {
+      "exercise_type_id": "EX_VIE_WRITE_SORT_001_01",
+      "skill_id": "VIE_WRITE_SORT_001",
+      "kind": "SGK_REFERENCE",
+      "name": "Luyện: Sắp xếp câu thành đoạn",
+      "description": "Sắp xếp các câu xáo trộn thành đoạn văn đúng trình tự.",
+      "difficulty": 2,
+      "sgk_example": "Dạng SGK: sắp xếp câu thành đoạn (Ôn tập giữa học kì 2). (mô tả dạng bài để tham chiếu — không sao chép nguyên văn SGK)",
+      "source_refs": [
+        {
+          "book": "vie2",
+          "lesson": "Ôn tập giữa học kì 2",
+          "section": "Ôn tập",
+          "volume": "Tập 2",
+          "printed_page": 68
+        }
+      ],
+      "mastery_sample_size": 2,
+      "mastery_check_rule": "Xếp 2 bộ câu (4–5 câu/bộ); đạt M3 khi đúng cả 2 bộ hoặc ≥ 4/5 câu mỗi bộ."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "scale": [
+    {"level": 0, "name": "Chưa biết", "definition": "Chưa tiếp xúc hoặc chưa làm được dù có hướng dẫn."},
+    {"level": 1, "name": "Biết nhưng cần hướng dẫn", "definition": "Làm được khi có người hướng dẫn hoặc làm mẫu từng bước."},
+    {"level": 2, "name": "Làm độc lập, chưa ổn định", "definition": "Tự làm được nhưng còn sai sót, cần nhắc nhẹ hoặc làm chậm."},
+    {"level": 3, "name": "Thành thạo", "definition": "Làm đúng, ổn định, đúng tốc độ phù hợp, không cần nhắc."},
+    {"level": 4, "name": "Thành thạo và giải thích được", "definition": "Làm đúng ổn định, giải thích được cách làm/bản chất, xử lý được biến thể."}
+  ],
+  "default_mastery_check_rule": {
+    "sample_size": 5,
+    "pass_threshold": 0.8,
+    "min_correct": 4,
+    "no_hint": true,
+    "adaptive": "Nếu đúng cả 5/5 ngay lần đầu, coi như đã đạt và chuyển kiểm tra sang dạng biến thể; nếu sai 2 câu trở lên, quay lại hướng dẫn rồi kiểm tra lại sau 1 buổi."
+  },
+  "promotion_rules": [
+    {"from": 0, "to": 1, "when": "Làm đúng ≥ 60% bài có hướng dẫn trong 1 buổi học."},
+    {"from": 1, "to": 2, "when": "Làm đúng ≥ 80% bài không cần hướng dẫn từng bước (được phép nhắc nhẹ)."},
+    {"from": 2, "to": 3, "when": "Đạt mastery check: đúng ≥ 80% mẫu kiểm tra, không nhắc, trong thời gian hợp lý."},
+    {"from": 3, "to": 4, "when": "Đạt mastery check dạng biến thể + trả lời đúng ≥ 2/3 câu 'Tại sao?'/'Giải thích cách làm'."}
+  ],
+  "demotion_rules": [
+    {"from": 3, "to": 2, "when": "Sai ≥ 30% bài ôn spaced repetition trong 2 lần ôn liên tiếp."},
+    {"from": 2, "to": 1, "when": "Không tự làm được khi không có gợi ý trong 2 buổi liên tiếp."}
+  ],
+  "core_skill_extra_rule": "Kỹ năng CORE phải duy trì kiểm tra định kỳ (review) ngay cả khi đã đạt M4; không được đóng băng vĩnh viễn.",
+  "grade3_foundation_rule": "Kỹ năng GRADE_3_FOUNDATION bắt buộc đạt tối thiểu M3 trước khi coi là hoàn thành chương trình lớp 2.",
+  "per_skill_notes": "Mỗi skill có mastery_definition riêng (level_0..level_4) và mastery_check_rule riêng trong skills/all_skills.json — quy tắc chung ở file này chỉ là mặc định."
+}

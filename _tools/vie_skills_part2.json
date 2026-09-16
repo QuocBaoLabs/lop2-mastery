@@ -1,0 +1,785 @@
+[
+ {
+  "skill_id": "VIE_WORD_THING_001",
+  "subject": "VIE",
+  "domain": "Từ và câu",
+  "subdomain": "Từ loại",
+  "name": "Từ chỉ sự vật",
+  "description": "Nhận biết và tìm từ chỉ sự vật (người, con vật, đồ vật, cây cối...) trong câu; phân loại đơn giản.",
+  "mastery_definition": {
+   "level_0": "Chưa nhận ra từ chỉ sự vật.",
+   "level_1": "Tìm được khi có tranh minh họa.",
+   "level_2": "Tự tìm được từ quen thuộc, nhóm ít gặp còn lẫn.",
+   "level_3": "Tìm/đặt đúng ≥ 8/10 từ chỉ sự vật theo nhóm.",
+   "level_4": "Tự đặt câu chứa từ chỉ sự vật và phân loại được nhóm từ."
+  },
+  "mastery_check_rule": "10 yêu cầu tìm/đặt từ chỉ sự vật; đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_READ_COMPREHEND_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 80,
+  "grade3_foundation": true,
+  "reason_importance": "Từ loại cơ bản nhất; nền cho mọi kĩ năng từ và câu về sau.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WORD_ACTIVITY_001",
+  "subject": "VIE",
+  "domain": "Từ và câu",
+  "subdomain": "Từ loại",
+  "name": "Từ chỉ hoạt động",
+  "description": "Nhận biết và tìm từ chỉ hoạt động (ăn, học, chạy, viết...) trong câu; đặt câu với từ chỉ hoạt động.",
+  "mastery_definition": {
+   "level_0": "Chưa nhận ra từ chỉ hoạt động.",
+   "level_1": "Tìm được khi có tranh minh họa.",
+   "level_2": "Tự tìm được từ quen thuộc, hoạt động kín còn lẫn.",
+   "level_3": "Tìm/đặt đúng ≥ 8/10 từ chỉ hoạt động.",
+   "level_4": "Tự đặt câu kể việc làm dùng từ chỉ hoạt động phù hợp."
+  },
+  "mastery_check_rule": "10 yêu cầu tìm/đặt từ chỉ hoạt động; đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_WORD_THING_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 82,
+  "grade3_foundation": true,
+  "reason_importance": "Nền của câu nêu hoạt động và viết đoạn kể việc.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WORD_FEATURE_001",
+  "subject": "VIE",
+  "domain": "Từ và câu",
+  "subdomain": "Từ loại",
+  "name": "Từ chỉ đặc điểm",
+  "description": "Nhận biết và tìm từ chỉ đặc điểm (màu sắc, hình dáng, tính nết...) trong câu; đặt câu với từ chỉ đặc điểm.",
+  "mastery_definition": {
+   "level_0": "Chưa nhận ra từ chỉ đặc điểm.",
+   "level_1": "Tìm được khi có tranh minh họa.",
+   "level_2": "Tự tìm được từ quen thuộc, đặc điểm trừu tượng còn lẫn.",
+   "level_3": "Tìm/đặt đúng ≥ 8/10 từ chỉ đặc điểm.",
+   "level_4": "Tự miêu tả sự vật bằng 2–3 từ chỉ đặc điểm phù hợp."
+  },
+  "mastery_check_rule": "10 yêu cầu tìm/đặt từ chỉ đặc điểm; đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_WORD_THING_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 80,
+  "grade3_foundation": true,
+  "reason_importance": "Nền của câu nêu đặc điểm và văn miêu tả.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WORD_EXPAND_001",
+  "subject": "VIE",
+  "domain": "Từ và câu",
+  "subdomain": "Mở rộng vốn từ",
+  "name": "Mở rộng vốn từ theo chủ điểm",
+  "description": "Tìm thêm từ cùng chủ điểm (gia đình, trường học, thiên nhiên, nghề nghiệp, Bác Hồ...) ngoài từ trong bài.",
+  "mastery_definition": {
+   "level_0": "Chưa tìm thêm được từ cùng chủ điểm.",
+   "level_1": "Tìm được 1–2 từ khi có gợi ý.",
+   "level_2": "Tự tìm được 3–4 từ quen thuộc.",
+   "level_3": "Tìm đúng ≥ 8/10 từ theo yêu cầu chủ điểm.",
+   "level_4": "Phân nhóm được các từ tìm được theo tiêu chí cho trước."
+  },
+  "mastery_check_rule": "Tìm 10 từ theo chủ điểm; đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_WORD_THING_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 74,
+  "grade3_foundation": false,
+  "reason_importance": "Vốn từ quyết định chất lượng đọc hiểu và viết đoạn.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WORD_SORT_001",
+  "subject": "VIE",
+  "domain": "Từ và câu",
+  "subdomain": "Mở rộng vốn từ",
+  "name": "Phân loại từ theo nhóm",
+  "description": "Xếp các từ cho sẵn vào đúng nhóm (sự vật/hoạt động/đặc điểm; người/con vật/đồ vật...).",
+  "mastery_definition": {
+   "level_0": "Chưa xếp được từ vào nhóm.",
+   "level_1": "Xếp được nhóm rõ ràng khi có mẫu.",
+   "level_2": "Tự xếp được phần lớn, từ đa nghĩa còn lẫn.",
+   "level_3": "Xếp đúng ≥ 8/10 từ vào nhóm.",
+   "level_4": "Tự nêu được tiêu chí phân loại của nhóm từ."
+  },
+  "mastery_check_rule": "Xếp 10 từ vào 3 nhóm; đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_WORD_EXPAND_001"
+  ],
+  "importance_level": "C",
+  "importance_score": 66,
+  "grade3_foundation": false,
+  "reason_importance": "Rèn tư duy phân loại; hỗ trợ học vốn từ có hệ thống.",
+  "fast_track_allowed": true,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WORD_COMPARE_001",
+  "subject": "VIE",
+  "domain": "Từ và câu",
+  "subdomain": "Biện pháp tu từ",
+  "name": "Nhận biết hình ảnh so sánh",
+  "description": "Nhận ra sự vật được so sánh và từ so sánh (như, là...) trong câu; đặt câu có hình ảnh so sánh đơn giản.",
+  "mastery_definition": {
+   "level_0": "Chưa nhận ra hình ảnh so sánh.",
+   "level_1": "Nhận ra khi được gạch chân từ so sánh.",
+   "level_2": "Tự nhận ra so sánh rõ, so sánh ẩn còn cần gợi ý.",
+   "level_3": "Nhận đúng ≥ 4/5 câu có so sánh và đặt đúng 2 câu so sánh.",
+   "level_4": "Tự tạo hình ảnh so sánh phù hợp và giải thích nét giống nhau."
+  },
+  "mastery_check_rule": "5 câu: tìm sự vật so sánh + đặt 2 câu; đạt M3 khi đúng ≥ 4/5 và đặt đúng 2 câu.",
+  "prerequisites": [
+   "VIE_WORD_FEATURE_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 70,
+  "grade3_foundation": false,
+  "reason_importance": "Bước đầu cảm thụ văn học; xuất hiện nhiều ở bài đọc lớp 2–3.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SENTENCE_INTRO_001",
+  "subject": "VIE",
+  "domain": "Từ và câu",
+  "subdomain": "Kiểu câu",
+  "name": "Câu giới thiệu (Ai là gì?)",
+  "description": "Nhận biết và đặt câu giới thiệu theo mẫu 'Ai là gì?' (giới thiệu người, vật, nghề nghiệp, quê quán...).",
+  "mastery_definition": {
+   "level_0": "Chưa nhận ra/đặt được câu giới thiệu.",
+   "level_1": "Đặt được khi có mẫu và từ gợi ý.",
+   "level_2": "Tự đặt được câu đơn giản, đôi khi thiếu 'là'.",
+   "level_3": "Đặt đúng ≥ 8/10 câu giới thiệu theo yêu cầu.",
+   "level_4": "Tự đặt câu giới thiệu đa dạng (người, vật, địa danh) và nhận biết được trong đoạn."
+  },
+  "mastery_check_rule": "Đặt 5 câu + nhận biết 5 câu; đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_SENTENCE_MAKE_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 78,
+  "grade3_foundation": true,
+  "reason_importance": "Kiểu câu nền tảng, dùng để viết đoạn giới thiệu.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SENTENCE_ACTIVITY_001",
+  "subject": "VIE",
+  "domain": "Từ và câu",
+  "subdomain": "Kiểu câu",
+  "name": "Câu nêu hoạt động (Ai làm gì?)",
+  "description": "Nhận biết và đặt câu nêu hoạt động theo mẫu 'Ai làm gì?'.",
+  "mastery_definition": {
+   "level_0": "Chưa nhận ra/đặt được câu nêu hoạt động.",
+   "level_1": "Đặt được khi có mẫu và từ gợi ý.",
+   "level_2": "Tự đặt được câu đơn giản, đôi khi thiếu chủ ngữ.",
+   "level_3": "Đặt đúng ≥ 8/10 câu nêu hoạt động.",
+   "level_4": "Tự đặt đoạn 2–3 câu kể hoạt động nối tiếp nhau."
+  },
+  "mastery_check_rule": "Đặt 5 câu + nhận biết 5 câu; đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_SENTENCE_MAKE_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 78,
+  "grade3_foundation": true,
+  "reason_importance": "Kiểu câu của văn kể việc; nền cho viết đoạn kể chuyện.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SENTENCE_FEATURE_001",
+  "subject": "VIE",
+  "domain": "Từ và câu",
+  "subdomain": "Kiểu câu",
+  "name": "Câu nêu đặc điểm (Ai thế nào?)",
+  "description": "Nhận biết và đặt câu nêu đặc điểm theo mẫu 'Ai (cái gì) thế nào?'.",
+  "mastery_definition": {
+   "level_0": "Chưa nhận ra/đặt được câu nêu đặc điểm.",
+   "level_1": "Đặt được khi có mẫu và từ gợi ý.",
+   "level_2": "Tự đặt được câu đơn giản, đôi khi nhầm sang câu hoạt động.",
+   "level_3": "Đặt đúng ≥ 8/10 câu nêu đặc điểm.",
+   "level_4": "Tự miêu tả sự vật bằng 2–3 câu nêu đặc điểm liên tiếp."
+  },
+  "mastery_check_rule": "Đặt 5 câu + nhận biết 5 câu; đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_SENTENCE_MAKE_001",
+   "VIE_WORD_FEATURE_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 78,
+  "grade3_foundation": true,
+  "reason_importance": "Kiểu câu của văn miêu tả; nền cho viết đoạn tả vật.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SENTENCE_QUESTION_001",
+  "subject": "VIE",
+  "domain": "Từ và câu",
+  "subdomain": "Kiểu câu",
+  "name": "Câu hỏi và trả lời",
+  "description": "Đặt câu hỏi đúng nội dung cần hỏi; trả lời câu hỏi thành câu đủ; nhận biết câu hỏi trong đoạn.",
+  "mastery_definition": {
+   "level_0": "Chưa đặt được câu hỏi đúng nội dung.",
+   "level_1": "Đặt được khi có mẫu.",
+   "level_2": "Tự đặt được câu hỏi đơn giản, nội dung phức còn lệch.",
+   "level_3": "Đặt/trả lời đúng ≥ 8/10 câu hỏi.",
+   "level_4": "Tự hỏi – đáp thành đoạn hội thoại ngắn lịch sự."
+  },
+  "mastery_check_rule": "Đặt 5 câu hỏi theo gợi ý + trả lời 5 câu; đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_SENTENCE_MAKE_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 76,
+  "grade3_foundation": true,
+  "reason_importance": "Công cụ đặt câu hỏi để học; dùng ở mọi môn học.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SENTENCE_PUNCT_001",
+  "subject": "VIE",
+  "domain": "Từ và câu",
+  "subdomain": "Dấu câu",
+  "name": "Dấu chấm, chấm hỏi, chấm than, dấu phẩy",
+  "description": "Điền đúng dấu chấm/chấm hỏi/chấm than cuối câu; dùng dấu phẩy ngăn cách các bộ phận liệt kê trong câu.",
+  "mastery_definition": {
+   "level_0": "Chưa chọn đúng dấu câu.",
+   "level_1": "Đúng khi được nhắc ý nghĩa từng dấu.",
+   "level_2": "Tự làm đúng câu rõ nghĩa, câu cảm thán/câu hỏi kín còn lẫn.",
+   "level_3": "Điền đúng ≥ 8/10 dấu câu (cả 4 loại).",
+   "level_4": "Tự sửa được dấu câu sai trong đoạn văn và giải thích."
+  },
+  "mastery_check_rule": "10 chỗ trống dấu câu (4 loại); đạt M3 khi đúng ≥ 8/10.",
+  "prerequisites": [
+   "VIE_SENTENCE_MAKE_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 80,
+  "grade3_foundation": true,
+  "reason_importance": "Dấu câu sai làm hỏng nghĩa câu; lỗi kéo dài nếu không chốt sớm.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SENTENCE_MAKE_001",
+  "subject": "VIE",
+  "domain": "Từ và câu",
+  "subdomain": "Đặt câu",
+  "name": "Đặt câu với từ cho trước",
+  "description": "Đặt câu đầy đủ (đủ bộ phận chính) và đúng nghĩa với từ cho trước; viết hoa đầu câu, dấu câu cuối câu.",
+  "mastery_definition": {
+   "level_0": "Chưa đặt được câu đầy đủ.",
+   "level_1": "Đặt được câu khi có mẫu.",
+   "level_2": "Tự đặt được câu đơn giản, đôi khi thiếu bộ phận chính.",
+   "level_3": "Đặt đúng ≥ 8/10 câu (đủ bộ phận, đúng nghĩa từ).",
+   "level_4": "Đặt được 2–3 câu khác nhau với cùng một từ."
+  },
+  "mastery_check_rule": "Đặt 5 câu với 5 từ; đạt M3 khi đúng ≥ 4/5 (đủ bộ phận, đúng nghĩa).",
+  "prerequisites": [
+   "VIE_WORD_THING_001",
+   "VIE_WORD_ACTIVITY_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 83,
+  "grade3_foundation": true,
+  "reason_importance": "Kĩ năng trung tâm: nối từ vựng với diễn đạt; nền của mọi bài viết.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WRITE_CAPITAL_001",
+  "subject": "VIE",
+  "domain": "Viết",
+  "subdomain": "Chữ viết",
+  "name": "Viết đúng mẫu chữ hoa",
+  "description": "Viết đúng mẫu, đúng cỡ chữ hoa đã học; trình bày sạch, đều; viết được cụm từ ứng dụng chứa chữ hoa.",
+  "mastery_definition": {
+   "level_0": "Chưa viết đúng mẫu chữ hoa.",
+   "level_1": "Viết đúng khi có mẫu điểm đặt bút.",
+   "level_2": "Tự viết được nhưng nét/độ cao chưa đều.",
+   "level_3": "Viết đúng mẫu, đúng cỡ ≥ 8/10 chữ hoa yêu cầu.",
+   "level_4": "Viết đẹp, đều và trình bày sáng tạo cụm từ ứng dụng."
+  },
+  "mastery_check_rule": "Viết 5 chữ hoa + 1 cụm ứng dụng; đạt M3 khi đúng mẫu ≥ 4/5.",
+  "prerequisites": [
+   "VIE_READ_WORD_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 75,
+  "grade3_foundation": true,
+  "reason_importance": "Chữ viết rõ ràng ảnh hưởng mọi bài làm và tốc độ viết.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WRITE_ANSWER_001",
+  "subject": "VIE",
+  "domain": "Viết",
+  "subdomain": "Viết câu",
+  "name": "Viết câu trả lời đầy đủ",
+  "description": "Viết câu trả lời đầy đủ, đúng nội dung câu hỏi, có chữ hoa đầu câu và dấu câu cuối câu.",
+  "mastery_definition": {
+   "level_0": "Trả lời cụt 1 từ hoặc sai nội dung hỏi.",
+   "level_1": "Viết được câu đủ khi có mẫu.",
+   "level_2": "Tự viết được, đôi khi thiếu chữ hoa/dấu câu.",
+   "level_3": "Viết đúng và đủ câu ≥ 8/10 câu trả lời.",
+   "level_4": "Viết câu trả lời gọn, đủ ý và tự soát được lỗi."
+  },
+  "mastery_check_rule": "5 câu hỏi (viết đáp án); đạt M3 khi đúng ≥ 4/5 và đủ câu.",
+  "prerequisites": [
+   "VIE_SENTENCE_MAKE_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 80,
+  "grade3_foundation": true,
+  "reason_importance": "Dạng thi cố định và là bước đệm của viết đoạn.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WRITE_2_3_SENT_001",
+  "subject": "VIE",
+  "domain": "Viết",
+  "subdomain": "Viết đoạn ngắn",
+  "name": "Viết 2–3 câu theo chủ đề",
+  "description": "Viết 2–3 câu liên tiếp, đúng chủ đề, các câu liên quan nhau; trình bày đúng quy cách.",
+  "mastery_definition": {
+   "level_0": "Chưa viết được 2 câu liên quan.",
+   "level_1": "Viết được khi có câu gợi ý.",
+   "level_2": "Tự viết được nhưng câu còn rời rạc.",
+   "level_3": "Viết đúng chủ đề, liền mạch ≥ 4/5 lần.",
+   "level_4": "Viết gọn, có câu mở đầu/kết thúc tự nhiên."
+  },
+  "mastery_check_rule": "Viết 2–3 câu theo 1 chủ đề quen thuộc; đạt M3 khi đúng chủ đề và liền mạch.",
+  "prerequisites": [
+   "VIE_WRITE_ANSWER_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 82,
+  "grade3_foundation": true,
+  "reason_importance": "Đơn vị nhỏ nhất của văn viết; nền cho mọi dạng đoạn văn.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WRITE_3_5_SENT_001",
+  "subject": "VIE",
+  "domain": "Viết",
+  "subdomain": "Viết đoạn ngắn",
+  "name": "Viết đoạn 3–5 câu",
+  "description": "Viết đoạn 3–5 câu có mở đầu, thân, kết thúc ở mức đơn giản; đúng chủ đề, câu liền mạch.",
+  "mastery_definition": {
+   "level_0": "Chưa viết được đoạn 3 câu liền mạch.",
+   "level_1": "Viết được theo dàn ý câu hỏi gợi ý.",
+   "level_2": "Tự viết được, đôi khi lạc chủ đề ở câu cuối.",
+   "level_3": "Viết đúng chủ đề, đủ 3–5 câu, liền mạch ≥ 4/5 lần.",
+   "level_4": "Viết đoạn có câu mở/kết rõ và dùng được từ chỉ đặc điểm/hoạt động phong phú."
+  },
+  "mastery_check_rule": "Viết đoạn 3–5 câu theo chủ đề; đạt M3 khi đủ độ dài, đúng chủ đề, liền mạch.",
+  "prerequisites": [
+   "VIE_WRITE_2_3_SENT_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 84,
+  "grade3_foundation": true,
+  "reason_importance": "Chuẩn viết đoạn của lớp 2, là yêu cầu viết của lớp 3 trở lên.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WRITE_DESCRIBE_001",
+  "subject": "VIE",
+  "domain": "Viết",
+  "subdomain": "Các dạng đoạn",
+  "name": "Viết đoạn miêu tả đồ vật, con vật",
+  "description": "Viết đoạn 3–5 câu tả đồ vật/con vật quen thuộc: tên, đặc điểm nổi bật (màu sắc, hình dáng, hoạt động), tình cảm.",
+  "mastery_definition": {
+   "level_0": "Chưa tả được đặc điểm nào.",
+   "level_1": "Tả được theo câu hỏi gợi ý.",
+   "level_2": "Tự viết được nhưng đặc điểm còn sơ sài.",
+   "level_3": "Viết đoạn đủ 3–5 câu, nêu đúng ≥ 3 đặc điểm thực của vật.",
+   "level_4": "Tả sinh động, sắp xếp đặc điểm hợp lí, câu văn có hình ảnh."
+  },
+  "mastery_check_rule": "Viết đoạn tả 1 đồ vật/con vật; đạt M3 khi đủ 3–5 câu và nêu đúng ≥ 3 đặc điểm.",
+  "prerequisites": [
+   "VIE_WRITE_3_5_SENT_001",
+   "VIE_SENTENCE_FEATURE_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 78,
+  "grade3_foundation": false,
+  "reason_importance": "Dạng miêu tả đầu tiên; nền cho văn tả cảnh/vật lớp 3–5.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WRITE_INTRO_001",
+  "subject": "VIE",
+  "domain": "Viết",
+  "subdomain": "Các dạng đoạn",
+  "name": "Viết đoạn giới thiệu",
+  "description": "Viết đoạn 3–5 câu giới thiệu bản thân, bạn bè, đồ vật, trường lớp: tên, đặc điểm/hoạt động nổi bật, tình cảm.",
+  "mastery_definition": {
+   "level_0": "Chưa viết được câu giới thiệu đủ ý.",
+   "level_1": "Viết được theo câu hỏi gợi ý.",
+   "level_2": "Tự viết được nhưng thông tin còn thiếu.",
+   "level_3": "Viết đoạn đủ 3–5 câu, giới thiệu đúng và đủ thông tin chính.",
+   "level_4": "Giới thiệu mạch lạc, tự tin, kèm chi tiết riêng thú vị."
+  },
+  "mastery_check_rule": "Viết đoạn giới thiệu (bản thân/vật/trường); đạt M3 khi đủ 3–5 câu, đủ thông tin chính.",
+  "prerequisites": [
+   "VIE_WRITE_3_5_SENT_001",
+   "VIE_SENTENCE_INTRO_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 76,
+  "grade3_foundation": false,
+  "reason_importance": "Kĩ năng giao tiếp viết cơ bản; dùng suốt đời.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WRITE_NARRATE_001",
+  "subject": "VIE",
+  "domain": "Viết",
+  "subdomain": "Các dạng đoạn",
+  "name": "Viết đoạn kể lại sự việc",
+  "description": "Viết đoạn 3–5 câu kể một sự việc đã làm/chứng kiến: thời gian, ai, việc gì, diễn biến theo trình tự, cảm nghĩ.",
+  "mastery_definition": {
+   "level_0": "Chưa kể được sự việc theo trình tự.",
+   "level_1": "Kể được theo câu hỏi gợi ý.",
+   "level_2": "Tự viết được nhưng trình tự còn lộn xộn.",
+   "level_3": "Viết đoạn đủ 3–5 câu, sự việc đúng trình tự, đủ nhân vật.",
+   "level_4": "Kể sinh động, có cảm xúc, chi tiết chọn lọc."
+  },
+  "mastery_check_rule": "Viết đoạn kể 1 sự việc; đạt M3 khi đủ 3–5 câu và đúng trình tự.",
+  "prerequisites": [
+   "VIE_WRITE_3_5_SENT_001",
+   "VIE_SENTENCE_ACTIVITY_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 81,
+  "grade3_foundation": true,
+  "reason_importance": "Dạng kể chuyện cơ bản; nền cho tập làm văn lớp 3.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WRITE_NOTE_001",
+  "subject": "VIE",
+  "domain": "Viết",
+  "subdomain": "Các dạng văn bản ngắn",
+  "name": "Viết lời nhắn, lời cảm ơn, lời chúc",
+  "description": "Viết lời nhắn/lời cảm ơn/lời chúc 1–3 câu đúng đối tượng, đủ nội dung (gửi ai, nói gì, người viết).",
+  "mastery_definition": {
+   "level_0": "Chưa viết được lời nhắn đủ ý.",
+   "level_1": "Viết được theo mẫu.",
+   "level_2": "Tự viết được, đôi khi thiếu người nhận/người viết.",
+   "level_3": "Viết đúng đối tượng, đủ nội dung ≥ 4/5 lần.",
+   "level_4": "Viết tự nhiên, đúng tình huống và lịch sự."
+  },
+  "mastery_check_rule": "Viết 2 lời nhắn/cảm ơn/chúc theo tình huống; đạt M3 khi đủ nội dung và đúng đối tượng.",
+  "prerequisites": [
+   "VIE_WRITE_ANSWER_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 72,
+  "grade3_foundation": false,
+  "reason_importance": "Kĩ năng viết giao tiếp thực tế hằng ngày.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WRITE_CARD_001",
+  "subject": "VIE",
+  "domain": "Viết",
+  "subdomain": "Các dạng văn bản ngắn",
+  "name": "Viết thiệp chúc mừng",
+  "description": "Viết thiệp chúc mừng (sinh nhật, năm mới, ngày lễ): gửi ai, lời chúc phù hợp, người viết; trình bày đúng dạng thiệp.",
+  "mastery_definition": {
+   "level_0": "Chưa viết được thiệp đủ phần.",
+   "level_1": "Viết được theo mẫu thiệp.",
+   "level_2": "Tự viết được, lời chúc còn chung chung.",
+   "level_3": "Viết đủ 3 phần, lời chúc đúng dịp ≥ 4/5 lần.",
+   "level_4": "Viết lời chúc riêng, phù hợp đối tượng và dịp lễ."
+  },
+  "mastery_check_rule": "Viết 1 thiệp theo dịp cho trước; đạt M3 khi đủ 3 phần và đúng dịp.",
+  "prerequisites": [
+   "VIE_WRITE_NOTE_001"
+  ],
+  "importance_level": "C",
+  "importance_score": 66,
+  "grade3_foundation": false,
+  "reason_importance": "Kĩ năng văn hóa – giao tiếp; có thể luyện nhanh khi cần.",
+  "fast_track_allowed": true,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WRITE_SCHEDULE_001",
+  "subject": "VIE",
+  "domain": "Viết",
+  "subdomain": "Các dạng văn bản ngắn",
+  "name": "Viết thời gian biểu",
+  "description": "Đọc thời khóa biểu/thời gian biểu và viết lại/lập được thời gian biểu đơn giản cho một ngày theo mẫu.",
+  "mastery_definition": {
+   "level_0": "Chưa đọc/viết được thời gian biểu.",
+   "level_1": "Làm được khi có mẫu sẵn.",
+   "level_2": "Tự làm được, thỉnh thoảng nhầm cột/giờ.",
+   "level_3": "Đọc và lập đúng thời gian biểu ≥ 4/5 lần.",
+   "level_4": "Tự lập thời gian biểu hợp lí và giải thích được cách sắp xếp."
+  },
+  "mastery_check_rule": "Đọc 5 câu tra cứu + lập 1 thời gian biểu; đạt M3 khi đúng ≥ 4/5.",
+  "prerequisites": [
+   "VIE_READ_DOCUMENT_001"
+  ],
+  "importance_level": "C",
+  "importance_score": 64,
+  "grade3_foundation": false,
+  "reason_importance": "Kĩ năng tự quản thời gian; hỗ trợ nề nếp học tập.",
+  "fast_track_allowed": true,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WRITE_SORT_001",
+  "subject": "VIE",
+  "domain": "Viết",
+  "subdomain": "Kĩ thuật viết",
+  "name": "Sắp xếp câu thành đoạn",
+  "description": "Sắp xếp các câu cho sẵn thành đoạn văn đúng trình tự, liền mạch về nội dung.",
+  "mastery_definition": {
+   "level_0": "Chưa sắp xếp được câu thành đoạn.",
+   "level_1": "Xếp được đoạn 3 câu khi có câu mở sẵn.",
+   "level_2": "Tự xếp được, đoạn dài còn lẫn thứ tự.",
+   "level_3": "Xếp đúng ≥ 4/5 bộ câu thành đoạn mạch lạc.",
+   "level_4": "Giải thích được vì sao chọn thứ tự đó."
+  },
+  "mastery_check_rule": "Xếp 2 bộ câu (4–5 câu/bộ); đạt M3 khi đúng cả 2 bộ hoặc ≥ 4/5 câu mỗi bộ.",
+  "prerequisites": [
+   "VIE_WRITE_3_5_SENT_001",
+   "VIE_READ_SEQUENCE_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 74,
+  "grade3_foundation": false,
+  "reason_importance": "Rèn bố cục đoạn văn và tư duy trình tự.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WRITE_ORDER_001",
+  "subject": "VIE",
+  "domain": "Viết",
+  "subdomain": "Kĩ thuật viết",
+  "name": "Sắp xếp từ thành câu",
+  "description": "Sắp xếp các từ xáo trộn thành câu đúng ngữ pháp, đúng nghĩa, có chữ hoa và dấu câu.",
+  "mastery_definition": {
+   "level_0": "Chưa xếp được từ thành câu.",
+   "level_1": "Xếp được câu ngắn khi có từ đầu gợi ý.",
+   "level_2": "Tự xếp được câu quen, câu dài còn lẫn trật tự.",
+   "level_3": "Xếp đúng ≥ 8/10 câu.",
+   "level_4": "Xếp nhanh và giải thích được trật tự từ trong câu."
+  },
+  "mastery_check_rule": "Xếp 5 câu xáo trộn; đạt M3 khi đúng ≥ 4/5.",
+  "prerequisites": [
+   "VIE_WRITE_ANSWER_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 74,
+  "grade3_foundation": false,
+  "reason_importance": "Củng cố cấu trúc câu; hỗ trợ viết câu đúng ngữ pháp.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_WRITE_LETTER_001",
+  "subject": "VIE",
+  "domain": "Viết",
+  "subdomain": "Các dạng văn bản ngắn",
+  "name": "Viết thư/bưu thiếp ngắn",
+  "description": "Viết thư/bưu thiếp ngắn cho người thân: lời chào hỏi, nội dung chính, lời chúc, kí tên.",
+  "mastery_definition": {
+   "level_0": "Chưa viết được thư đủ phần.",
+   "level_1": "Viết được theo mẫu thư.",
+   "level_2": "Tự viết được, còn thiếu chào hỏi hoặc kí tên.",
+   "level_3": "Viết đủ các phần, đúng người nhận ≥ 4/5 lần.",
+   "level_4": "Viết thư tự nhiên, nội dung riêng phù hợp người nhận."
+  },
+  "mastery_check_rule": "Viết 1 thư/bưu thiếp ngắn; đạt M3 khi đủ phần và đúng đối tượng.",
+  "prerequisites": [
+   "VIE_WRITE_NOTE_001"
+  ],
+  "importance_level": "C",
+  "importance_score": 68,
+  "grade3_foundation": false,
+  "reason_importance": "Hình thức giao tiếp viết truyền thống; xuất hiện ở bài đọc về bưu thiếp.",
+  "fast_track_allowed": true,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SPEAK_OBSERVE_001",
+  "subject": "VIE",
+  "domain": "Nói và nghe",
+  "subdomain": "Nói theo tranh",
+  "name": "Quan sát tranh và nói theo gợi ý",
+  "description": "Quan sát tranh, nói 2–3 câu đúng nội dung tranh theo gợi ý (ai, đang làm gì, ở đâu...).",
+  "mastery_definition": {
+   "level_0": "Chưa nói được nội dung tranh.",
+   "level_1": "Nói được 1 câu khi có câu hỏi gợi ý.",
+   "level_2": "Tự nói được 2 câu, đôi khi lạc chi tiết tranh.",
+   "level_3": "Nói đúng và đủ ý tranh ≥ 4/5 lần (2–3 câu).",
+   "level_4": "Nói liền mạch, thêm nhận xét/cảm nghĩ riêng về tranh."
+  },
+  "mastery_check_rule": "Quan sát 2 tranh, mỗi tranh nói 2–3 câu; đạt M3 khi đúng nội dung cả 2 tranh.",
+  "prerequisites": [
+   "VIE_READ_COMPREHEND_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 72,
+  "grade3_foundation": false,
+  "reason_importance": "Rèn quan sát và diễn đạt miệng; nền của kể chuyện.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SPEAK_LISTEN_001",
+  "subject": "VIE",
+  "domain": "Nói và nghe",
+  "subdomain": "Nghe hiểu",
+  "name": "Nghe hiểu và trả lời câu hỏi",
+  "description": "Nghe câu chuyện/hướng dẫn và trả lời đúng câu hỏi về nội dung; nhớ được chi tiết chính.",
+  "mastery_definition": {
+   "level_0": "Chưa trả lời được sau khi nghe.",
+   "level_1": "Trả lời được khi nghe lại lần hai.",
+   "level_2": "Tự trả lời được ý chính, chi tiết phụ còn sót.",
+   "level_3": "Trả lời đúng ≥ 4/5 câu hỏi sau 1 lần nghe.",
+   "level_4": "Nhắc lại được nội dung chính và chi tiết quan trọng sau 1 lần nghe."
+  },
+  "mastery_check_rule": "Nghe 1 truyện ngắn mới, trả lời 5 câu; đạt M3 khi đúng ≥ 4/5.",
+  "prerequisites": [
+   "VIE_READ_COMPREHEND_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 78,
+  "grade3_foundation": true,
+  "reason_importance": "Nghe hiểu quyết định việc học trên lớp ở mọi môn.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SPEAK_STORY_001",
+  "subject": "VIE",
+  "domain": "Nói và nghe",
+  "subdomain": "Kể chuyện",
+  "name": "Kể chuyện theo tranh",
+  "description": "Kể lại câu chuyện theo tranh: đúng nhân vật, sự việc chính, nối tiếp được các tranh; giọng kể rõ ràng.",
+  "mastery_definition": {
+   "level_0": "Chưa kể được theo tranh.",
+   "level_1": "Kể được từng tranh rời khi có gợi ý.",
+   "level_2": "Tự kể được nhưng nối tranh còn ngập ngừng.",
+   "level_3": "Kể đủ sự việc chính, đúng thứ tự ≥ 4/5 lần.",
+   "level_4": "Kể liền mạch, diễn cảm, thêm lời thoại nhân vật."
+  },
+  "mastery_check_rule": "Kể 1 truyện theo 4–5 tranh; đạt M3 khi đủ sự việc chính và đúng thứ tự.",
+  "prerequisites": [
+   "VIE_SPEAK_OBSERVE_001",
+   "VIE_READ_SEQUENCE_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 80,
+  "grade3_foundation": true,
+  "reason_importance": "Kể chuyện rèn trình tự, trí nhớ và diễn đạt; nền cho viết kể chuyện.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SPEAK_SEQUENCE_001",
+  "subject": "VIE",
+  "domain": "Nói và nghe",
+  "subdomain": "Kể chuyện",
+  "name": "Kể lại đúng trình tự câu chuyện",
+  "description": "Kể lại câu chuyện đã nghe/đọc đúng thứ tự mở đầu – diễn biến – kết thúc, không bỏ đoạn quan trọng.",
+  "mastery_definition": {
+   "level_0": "Chưa kể lại được theo thứ tự.",
+   "level_1": "Kể lại được đoạn đầu khi có gợi ý.",
+   "level_2": "Tự kể được nhưng còn đảo thứ tự đoạn.",
+   "level_3": "Kể đúng trình tự, không thiếu đoạn chính ≥ 4/5 lần.",
+   "level_4": "Kể lại gọn, đủ ý, biết nhấn chi tiết quan trọng."
+  },
+  "mastery_check_rule": "Kể lại 1 truyện đã nghe 2 lần; đạt M3 khi đúng trình tự và đủ sự việc chính.",
+  "prerequisites": [
+   "VIE_SPEAK_STORY_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 78,
+  "grade3_foundation": false,
+  "reason_importance": "Củng cố tư duy trình tự và trí nhớ làm việc.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SPEAK_PRESENT_001",
+  "subject": "VIE",
+  "domain": "Nói và nghe",
+  "subdomain": "Trình bày",
+  "name": "Trình bày về chủ đề quen thuộc",
+  "description": "Trình bày 3–5 câu về chủ đề quen thuộc (ngày hè, niềm vui, quê hương...): rõ ý, đủ ý, giọng to rõ.",
+  "mastery_definition": {
+   "level_0": "Chưa trình bày được trước người khác.",
+   "level_1": "Trình bày được 1–2 câu khi có câu hỏi.",
+   "level_2": "Tự nói được nhưng ý còn rời rạc.",
+   "level_3": "Trình bày đủ 3–5 câu, đúng chủ đề, rõ ràng ≥ 4/5 lần.",
+   "level_4": "Trình bày tự tin, mạch lạc, biết nhìn người nghe."
+  },
+  "mastery_check_rule": "Trình bày 3–5 câu về 1 chủ đề quen; đạt M3 khi đủ ý và đúng chủ đề.",
+  "prerequisites": [
+   "VIE_SPEAK_LISTEN_001",
+   "VIE_SENTENCE_MAKE_001"
+  ],
+  "importance_level": "B",
+  "importance_score": 72,
+  "grade3_foundation": false,
+  "reason_importance": "Kĩ năng trình bày trước đám đông, dùng ở mọi môn và suốt đời.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ },
+ {
+  "skill_id": "VIE_SPEAK_COMMUNICATE_001",
+  "subject": "VIE",
+  "domain": "Nói và nghe",
+  "subdomain": "Giao tiếp",
+  "name": "Giao tiếp lịch sự: chào, cảm ơn, xin lỗi, xin phép",
+  "description": "Sử dụng đúng lời chào, cảm ơn, xin lỗi, xin phép theo tình huống; nói đủ câu, đúng thái độ lịch sự.",
+  "mastery_definition": {
+   "level_0": "Chưa dùng đúng lời chào/cảm ơn theo tình huống.",
+   "level_1": "Dùng được khi có mẫu.",
+   "level_2": "Tự dùng được tình huống quen, tình huống mới còn lúng túng.",
+   "level_3": "Ứng xử đúng lời nói ≥ 4/5 tình huống.",
+   "level_4": "Ứng xử linh hoạt, tự nhiên và giải thích được vì sao chọn lời nói đó."
+  },
+  "mastery_check_rule": "5 tình huống giao tiếp; đạt M3 khi đúng ≥ 4/5.",
+  "prerequisites": [
+   "VIE_SPEAK_LISTEN_001"
+  ],
+  "importance_level": "A",
+  "importance_score": 80,
+  "grade3_foundation": true,
+  "reason_importance": "Kĩ năng xã hội nền tảng; ảnh hưởng quan hệ và việc học nhóm.",
+  "fast_track_allowed": false,
+  "source_refs": []
+ }
+]

@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.0",
+  "assessment_id": "FINAL_VIE_G2_001",
+  "type": "final",
+  "subject": "VIE",
+  "subject_label": "Tiếng Việt",
+  "title": "Bài kiểm tra cuối chương trình – Tiếng Việt lớp 2",
+  "duration_minutes": 40,
+  "description": "Bao phủ các kỹ năng MUST MASTER Tiếng Việt 2 (đọc, chính tả, từ và câu, viết, nói và nghe); dùng để xác nhận đủ điều kiện hoàn thành lớp 2.",
+  "scoring": {
+    "per_question": 1,
+    "pass_threshold_percent": 70,
+    "band": {
+      "0_49": "Cần học lại kỹ năng nền (xem MUST_MASTER.md)",
+      "50_69": "Gần đạt – ôn các kỹ năng sai trước khi thi lại",
+      "70_100": "Đạt – đủ điều kiện chuyển lớp"
+    }
+  },
+  "note": "AI đề xuất – không phải nội dung nguyên bản SGK",
+  "total_questions": 20,
+  "questions": [
+    {
+      "question_id": "FN_V01",
+      "skill_id": "VIE_READ_WORD_001",
+      "question": "Đọc to, rõ các từ: 'ngoằn ngoèo', 'khuỷu tay', 'mùa xuân', 'trong trẻo', 'chăm chỉ'.",
+      "answer": "Đọc đúng 5/5 từ, phát âm rõ.",
+      "difficulty": 1,
+      "error_tags": [
+        "READ_WORD_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V02",
+      "skill_id": "VIE_READ_FLUENCY_001",
+      "question": "Đọc đoạn sau, ngắt nghỉ đúng dấu câu: 'Chiều mát, Hà theo bà ra vườn sau nhà hái rau. Bà chỉ cho Hà từng luống rau xanh. Hà học được cách nhổ củ cải trắng muốt. Hai bà cháu vừa làm vừa trò chuyện rất vui.'",
+      "answer": "Đọc trơn, ngắt nghỉ đúng các dấu chấm, không đánh vần.",
+      "difficulty": 2,
+      "error_tags": [
+        "READ_FLUENCY_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V03",
+      "skill_id": "VIE_READ_INFO_001",
+      "question": "Đọc: 'Chiều mát, Hà theo bà ra vườn sau nhà hái rau. Bà chỉ cho Hà từng luống rau xanh. Hà học được cách nhổ củ cải trắng muốt. Hai bà cháu vừa làm vừa trò chuyện rất vui.' Hỏi: Hà theo bà đi đâu?",
+      "answer": "Ra vườn sau nhà.",
+      "difficulty": 2,
+      "error_tags": [
+        "COMPREHENSION_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V04",
+      "skill_id": "VIE_READ_ANSWER_001",
+      "question": "Đọc: 'Chiều mát, Hà theo bà ra vườn sau nhà hái rau. Bà chỉ cho Hà từng luống rau xanh. Hà học được cách nhổ củ cải trắng muốt. Hai bà cháu vừa làm vừa trò chuyện rất vui.' Hỏi: Hà học được điều gì từ bà?",
+      "answer": "Hà học được cách nhổ củ cải trắng muốt.",
+      "difficulty": 2,
+      "error_tags": [
+        "COMPREHENSION_ERROR",
+        "SENTENCE_STRUCTURE_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V05",
+      "skill_id": "VIE_READ_COMPREHEND_001",
+      "question": "Trong câu 'Hà học được cách nhổ củ cải trắng muốt.', từ 'trắng muốt' chỉ điều gì?",
+      "answer": "Màu trắng sạch, trắng tinh của củ cải.",
+      "difficulty": 2,
+      "error_tags": [
+        "VOCAB_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V06",
+      "skill_id": "VIE_READ_INFERENCE_001",
+      "question": "Đọc: 'Trời nắng to, mẹ đi chợ về xách đầy túi. Bé Mai vội rót cốc nước mát cho mẹ.' Vì sao Mai rót nước cho mẹ?",
+      "answer": "Vì trời nắng, mẹ đi chợ về mệt và khát nước.",
+      "difficulty": 3,
+      "error_tags": [
+        "INFERENCE_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V07",
+      "skill_id": "VIE_READ_MAINIDEA_001",
+      "question": "Đọc: 'Chiều mát, Hà theo bà ra vườn sau nhà hái rau. Bà chỉ cho Hà từng luống rau xanh. Hà học được cách nhổ củ cải trắng muốt. Hai bà cháu vừa làm vừa trò chuyện rất vui.' Đoạn văn nói về việc gì?",
+      "answer": "Chiều mát Hà theo bà ra vườn hái rau và học nhổ củ cải.",
+      "difficulty": 2,
+      "error_tags": [
+        "COMPREHENSION_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V08",
+      "skill_id": "VIE_SPELL_CAPITAL_001",
+      "question": "Viết lại cho đúng: 'bạn hùng sống ở thành phố hà nội.'",
+      "answer": "Bạn Hùng sống ở thành phố Hà Nội.",
+      "difficulty": 1,
+      "error_tags": [
+        "SPELLING_INITIAL_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V09",
+      "skill_id": "VIE_SPELL_DICTATION_001",
+      "question": "Nghe – viết đoạn sau: 'Bé Mai chăm sóc vườn hoa nhỏ trước nhà. Mỗi sáng, bé tưới nước và nhổ cỏ. Hoa nở rực rỡ đón nắng mai.'",
+      "answer": "Viết đủ chữ, trình bày đúng 3 câu; sai ≤ 3 lỗi chính tả.",
+      "difficulty": 2,
+      "error_tags": [
+        "SPELLING_INITIAL_ERROR",
+        "SPELLING_RHYME_ERROR",
+        "TONE_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V10",
+      "skill_id": "VIE_SPELL_RHYME_001",
+      "question": "Điền uôn hoặc uông: con v_; chuồn chu_",
+      "answer": "con vượn; chuồn chuồn",
+      "difficulty": 1,
+      "error_tags": [
+        "SPELLING_RHYME_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V11",
+      "skill_id": "VIE_SPELL_DGI_001",
+      "question": "Chọn d hoặc gi: con _ê; _ữ gìn",
+      "answer": "con dê; giữ gìn",
+      "difficulty": 1,
+      "error_tags": [
+        "SPELLING_INITIAL_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V12",
+      "skill_id": "VIE_WORD_THING_001",
+      "question": "Tìm từ chỉ sự vật trong câu: 'Chú chim đậu trên cành cây.'",
+      "answer": "chim; cành cây",
+      "difficulty": 1,
+      "error_tags": [
+        "VOCAB_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V13",
+      "skill_id": "VIE_WORD_SORT_001",
+      "question": "Xếp các từ vào nhóm: cuốn, hát, ngoan, đọc, vở, hiền.",
+      "answer": "Sự vật: cuốn, vở; Hoạt động: hát, đọc; Đặc điểm: ngoan, hiền",
+      "difficulty": 2,
+      "error_tags": [
+        "VOCAB_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V14",
+      "skill_id": "VIE_SENTENCE_MAKE_001",
+      "question": "Đặt 2 câu, mỗi câu dùng một từ: 'yêu quý', 'chăm sóc'.",
+      "answer": "Hai câu đủ bộ phận chính, dùng từ đúng nghĩa, viết hoa đầu câu, có dấu chấm.",
+      "difficulty": 2,
+      "error_tags": [
+        "SENTENCE_STRUCTURE_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V15",
+      "skill_id": "VIE_SENTENCE_PUNCT_001",
+      "question": "Điền dấu câu: 'Ôi, con bướm đẹp quá _' 'Em đã làm bài xong chưa _'",
+      "answer": "Dấu chấm than (!); dấu chấm hỏi (?)",
+      "difficulty": 1,
+      "error_tags": [
+        "PUNCTUATION_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V16",
+      "skill_id": "VIE_SENTENCE_INTRO_001",
+      "question": "Đặt một câu giới thiệu về ngôi trường của em (theo mẫu 'Ai là gì?').",
+      "answer": "Ví dụ: 'Trường em là Trường Tiểu học Kim Đồng.' (câu giới thiệu có 'là').",
+      "difficulty": 2,
+      "error_tags": [
+        "SENTENCE_STRUCTURE_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V17",
+      "skill_id": "VIE_WRITE_2_3_SENT_001",
+      "question": "Viết 2–3 câu kể về một buổi tối ở nhà em.",
+      "answer": "Đủ 2–3 câu, đúng chủ đề buổi tối, các câu liền mạch.",
+      "difficulty": 2,
+      "error_tags": [
+        "WRITING_CONTENT_ERROR",
+        "WRITING_SEQUENCE_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V18",
+      "skill_id": "VIE_WRITE_3_5_SENT_001",
+      "question": "Viết đoạn 3–5 câu tả một con vật em yêu thích.",
+      "answer": "Đủ 3–5 câu, nêu tên con vật và ít nhất 2 đặc điểm, câu liền mạch.",
+      "difficulty": 3,
+      "error_tags": [
+        "WRITING_CONTENT_ERROR",
+        "WRITING_SEQUENCE_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V19",
+      "skill_id": "VIE_WRITE_NOTE_001",
+      "question": "Viết lời nhắn cho mẹ: em sang nhà bạn chơi, 5 giờ chiều em về.",
+      "answer": "Lời nhắn có người nhận, nội dung rõ (đi đâu, khi nào về), người viết.",
+      "difficulty": 2,
+      "error_tags": [
+        "WRITING_CONTENT_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    },
+    {
+      "question_id": "FN_V20",
+      "skill_id": "VIE_SPEAK_COMMUNICATE_001",
+      "question": "Em vô ý làm rơi bút của bạn. Em sẽ nói gì với bạn?",
+      "answer": "Lời nói có lời xin lỗi phù hợp, giọng lịch sự (ví dụ: 'Mình xin lỗi bạn, mình nhặt lên giúp bạn nhé.').",
+      "difficulty": 1,
+      "error_tags": [
+        "SENTENCE_STRUCTURE_ERROR"
+      ],
+      "scoring_rule": "Đúng hoàn toàn: 1 điểm; sai/sót: 0 điểm.",
+      "is_generated": true,
+      "note": "AI đề xuất – không phải nội dung nguyên bản SGK"
+    }
+  ]
+}
